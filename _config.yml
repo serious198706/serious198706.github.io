@@ -1,5 +1,5 @@
-title:            Notepad
-description:      "Blogging is fun"
+title:            CY's StaCOverFlow
+description:      "Keep low profile, he said, keep low profile."
 logo:             logo.png
 disqus_shortname: hmfaysal
 share:            true
@@ -11,16 +11,16 @@ url:        	  ""
 
 # Owner/author information
 owner:
-  name:           Hossain Mohd Faysal
-  avatar:         hmfaysal.jpg
-  email:          hmfaysal@alum.mit.edu
+  name:           cy198706
+  avatar:         avatar.jpg
+  email:          cy198706@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Awesome Dude, Awesome Life
+  description:    
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        hmfaysal
-  facebook:       hmfaysal
-  github:         hmfaysal      
-  instagram:      hmfaysal
+  twitter:        serious198706
+  facebook:       serious.chen
+  github:         serious198706      
+  instagram:      serious198706
   # For Google Authorship https://plus.google.com/authorship
   google_plus:    https://plus.google.com/u/0/102602916593522619858
 
