@@ -19,14 +19,16 @@ featured: true
 
 起初是写了一个shell脚本来做这件事。
 
-	#!/bin/bash
+{% highlight bash %}
+#!/bin/bash
 
-	cd /home/serious/Workspace/client/
-	count=`git rev-list origin/master --count`
-	result=2.0.$count
-	echo $result
+cd /home/serious/Workspace/client/
+count=`git rev-list origin/master --count`
+result=2.0.$count
+echo $result
 
-	sed -i "s/android:versionName=\"2.0.*\"/android:versionName=\"${result}\"/g" AndroidManifest.xml
+sed -i "s/android:versionName=\"2.0.*\"/android:versionName=\"${result}\"/g" AndroidManifest.xml
+{% endhighlight %}
 
 但是这么一来，打包之前就会多一个步骤。我这么懒的人，怎么能允许这种事情发生？怎么能坐以待毙？
 
@@ -34,11 +36,13 @@ featured: true
 
 在build.xml中，加入这么一段：
 
-	<target name="versioncode">
-    	<exec executable="sh">
-        	<arg value="update_vercode.sh" />
-    	</exec>
-	</target>
+{% highlight xml %}
+<target name="versioncode">
+    <exec executable="sh">
+        <arg value="update_vercode.sh" />
+    </exec>
+</target>
+{% endhighlight %}
 
 搞定。
 
@@ -46,37 +50,39 @@ featured: true
 
 于是找到了下面的解决方案：
 
-
-    <target name="versioncode">
-            <exec executable="sh" outputproperty="v_name">
-                <arg value="-c" />
-                <arg value="git rev-list origin/master --count" />
-            </exec>
-            <echo>Revision (app): ${v_name}</echo>
-            <replaceregexp file="AndroidManifest.xml" match='android:versionName="2.0.*"' replace='android:versionName="2.0.${v_name}"' />
-    </target>
-
+{% highlight xml %}
+<target name="versioncode">
+        <exec executable="sh" outputproperty="v_name">
+            <arg value="-c" />
+            <arg value="git rev-list origin/master --count" />
+        </exec>
+        <echo>Revision (app): ${v_name}</echo>
+        <replaceregexp file="AndroidManifest.xml" match='android:versionName="2.0.*"' replace='android:versionName="2.0.${v_name}"' />
+</target>
+{% endhighlight %}
 
 Ant中执行系统命令时（比如上文的git命令和sh命令），在Windows下和在Linux下的方式是不同的。
 
 - Windows
 
-
-    <target name="help">
-      <exec executable="cmd">
-        <arg value="/c"/>
-        <arg value="ant.bat"/>
-        <arg value="-p"/>
-      </exec>
-    </target>
+{% highlight xml %}
+<target name="help">
+  <exec executable="cmd">
+    <arg value="/c"/>
+    <arg value="ant.bat"/>
+    <arg value="-p"/>
+  </exec>
+</target>
+{% endhighlight %}
 
 - Linux
 
-
-    <target name="help">
-      <exec executable="sh">
-        <arg value="-c"/>
-        <arg value="ant.sh"/>
-        <arg value="-p"/>
-      </exec>
-    </target>
+{% highlight xml %}
+<target name="help">
+  <exec executable="sh">
+    <arg value="-c"/>
+    <arg value="ant.sh"/>
+    <arg value="-p"/>
+  </exec>
+</target>
+{% endhighlight %}
