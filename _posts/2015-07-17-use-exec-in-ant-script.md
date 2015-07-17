@@ -19,16 +19,14 @@ featured: true
 
 起初是写了一个shell脚本来做这件事。
 
-```bash
-#!/bin/bash
+	#!/bin/bash
 
-cd /home/serious/Workspace/client/
-count=`git rev-list origin/master --count`
-result=2.0.$count
-echo $result
+	cd /home/serious/Workspace/client/
+	count=`git rev-list origin/master --count`
+	result=2.0.$count
+	echo $result
 
-sed -i "s/android:versionName=\"2.0.*\"/android:versionName=\"${result}\"/g" AndroidManifest.xml
-```
+	sed -i "s/android:versionName=\"2.0.*\"/android:versionName=\"${result}\"/g" AndroidManifest.xml
 
 但是这么一来，打包之前就会多一个步骤。我这么懒的人，怎么能允许这种事情发生？怎么能坐以待毙？
 
@@ -36,13 +34,12 @@ sed -i "s/android:versionName=\"2.0.*\"/android:versionName=\"${result}\"/g" And
 
 在build.xml中，加入这么一段：
 
-```xml
-<target name="versioncode">
-    <exec executable="sh">
-        <arg value="update_vercode.sh" />
-    </exec>
-</target>
-```
+	<target name="versioncode">
+    	<exec executable="sh">
+        	<arg value="update_vercode.sh" />
+    	</exec>
+	</target>
+
 搞定。
 
 但是，这样还多了个sh文件啊。我作为一个并不是处女座的洁癖，怎么能允许这种事情发生？怎么能坐以待毙？
