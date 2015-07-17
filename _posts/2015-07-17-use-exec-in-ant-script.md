@@ -46,37 +46,37 @@ featured: true
 
 于是找到了下面的解决方案：
 
-```xml
-<target name="versioncode">
-        <exec executable="sh" outputproperty="v_name">
-            <arg value="-c" />
-            <arg value="git rev-list origin/master --count" />
-        </exec>
-        <echo>Revision (app): ${v_name}</echo>
-        <replaceregexp file="AndroidManifest.xml" match='android:versionName="2.0.*"' replace='android:versionName="2.0.${v_name}"' />
-</target>
-```
+
+    <target name="versioncode">
+            <exec executable="sh" outputproperty="v_name">
+                <arg value="-c" />
+                <arg value="git rev-list origin/master --count" />
+            </exec>
+            <echo>Revision (app): ${v_name}</echo>
+            <replaceregexp file="AndroidManifest.xml" match='android:versionName="2.0.*"' replace='android:versionName="2.0.${v_name}"' />
+    </target>
+
 
 Ant中执行系统命令时（比如上文的git命令和sh命令），在Windows下和在Linux下的方式是不同的。
 
 - Windows
-```xml
-<target name="help">
-  <exec executable="cmd">
-    <arg value="/c"/>
-    <arg value="ant.bat"/>
-    <arg value="-p"/>
-  </exec>
-</target>
-```
+
+
+    <target name="help">
+      <exec executable="cmd">
+        <arg value="/c"/>
+        <arg value="ant.bat"/>
+        <arg value="-p"/>
+      </exec>
+    </target>
 
 - Linux
-```xml
-<target name="help">
-  <exec executable="sh">
-    <arg value="-c"/>
-    <arg value="ant.sh"/>
-    <arg value="-p"/>
-  </exec>
-</target>
-```
+
+
+    <target name="help">
+      <exec executable="sh">
+        <arg value="-c"/>
+        <arg value="ant.sh"/>
+        <arg value="-p"/>
+      </exec>
+    </target>
