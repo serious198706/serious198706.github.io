@@ -17,15 +17,12 @@ featured: true
 
 
 <div id="menu"/>
-[总览](#Overview)
-
-[在Linux或OS X上设置SSH使用公钥](#Linux)
-
-[在Windows上使用PuTTY设置SSH使用公钥](#Windows)
+[总览](#Overview)<br/>
+[在Linux或OS X上设置SSH使用公钥](#Linux)<br/>
+[在Windows上使用PuTTY设置SSH使用公钥](#Windows)<br/>
 
 <div id="Overview">
 </div>
-
 
 ###总览
 
@@ -50,15 +47,15 @@ featured: true
 
 1. 使用命令行的SSH创建一对Key，加密算法可以是DSA或者RSA：
 
-* 创建DSA Key，在命令行中输入：
-{% highlight bash %}
-ssh-keygen -t dsa
-{% endhighlight %}
+    创建DSA Key，在命令行中输入：
+    {% highlight bash %}
+    ssh-keygen -t dsa
+    {% endhighlight %}
 
-* 创建RSA Key，在命令行中输入：
-{% highlight bash %}
-ssh-keygen -t rsa
-{% endhighlight %}
+    创建RSA Key，在命令行中输入：
+    {% highlight bash %}
+    ssh-keygen -t rsa
+    {% endhighlight %}
 
 2. 接下来ssh-keygen会提醒你提供一个文件名来储存key文件，同时提供一个密码来保护你的私钥。
 
@@ -162,6 +159,7 @@ ssh-keygen -t rsa
 
 
 [Back to top](#menu)
+
 <div id="Windows">
 </div>
 
