@@ -13,9 +13,9 @@ featured: true
 
 什么是SSH和SSH2？
 
-- SSH(Secure Shell)在你通过网络登录到另一台计算机、远程执行命令或者传输文件时，为你提供一个加密的通道。SSH提供一个强有力的主机对主机、主机对用户的认证，就如同网络上的加密通信一样。
+* SSH(Secure Shell)在你通过网络登录到另一台计算机、远程执行命令或者传输文件时，为你提供一个加密的通道。SSH提供一个强有力的主机对主机、主机对用户的认证，就如同网络上的加密通信一样。
 
-- SSH2是一个更加安全、有效，移植性强的SSH版本，它包含SFTP功能。SFTP与FTP功能相同，但SFTP是加密的。在印弟安那大学，UITS已将其中心系统升级到了SSH2（通常都使用OpenSSH），并且提倡用户都使用SSH2来进行网络加密通讯。
+* SSH2是一个更加安全、有效，移植性强的SSH版本，它包含SFTP功能。SFTP与FTP功能相同，但SFTP是加密的。在印弟安那大学，UITS([University Information Technology Services](https://uits.iu.edu/))已将其中心系统升级到了SSH2（通常都使用OpenSSH），并且提倡用户都使用SSH2来进行网络加密通讯。
 
 Mac OS X 集成了OpenSSH。在Windows下，则需要下载一个第三方的SSH客户端，比如SecureCRT和Putty。
 

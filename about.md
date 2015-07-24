@@ -38,7 +38,7 @@ PS: 家中以前养过金毛，后来送人了，疼啊。
 
 **程序员**
 
-喜欢C、C++、PHP，喜欢Java，不喜欢C#，不喜欢HTML和CSS。虽然我知道PHP跟HTML & CSS是分不开的，但是我还是不喜欢HTML & CSS。
+喜欢C、C++、PHP，不喜欢Java，不喜欢C#，不喜欢HTML和CSS。虽然我知道PHP跟HTML & CSS是分不开的，但是我还是不喜欢HTML & CSS。
 曾经的主攻方向是Linux & C++，MFC。略懂Qt。
 现在的主攻方向是Android & iOS（不是说你不喜欢Java吗？！ (╯°Д°）╯︵ ┻━┻）。
 研究过一段时间的Windows Store App & Windows Phone App
