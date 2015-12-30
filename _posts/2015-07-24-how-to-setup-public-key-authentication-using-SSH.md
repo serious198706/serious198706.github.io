@@ -1,24 +1,27 @@
 ---
 layout: post
 title: "如何设置SSH使用公钥认证登录主机"
-description: 
-headline: 
+description: ""
+headline: ""
 modified: 2015-07-24
 category: development
 tags: [SSH]
 imagefeature: 
-mathjax: 
-chart: 
 comments: true
-featured: true
 ---
 
 如何设置SSH使用公钥认证登录主机
 
 <div id="menu"/>
 [总览](#Overview)
+
+
 [在Linux或OS X上设置SSH使用公钥](#Linux)
+
+
 [在Windows上使用PuTTY设置SSH使用公钥](#Windows)
+
+
 
 <div id="Overview">
 </div>
