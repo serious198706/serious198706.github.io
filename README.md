@@ -1,40 +1,16 @@
-# CleanMagicMedium V.0.0.2
-CleanMagicMedium V.0.0.2 - Jekyll Theme V.0.1.0 
+# Modernist Theme
 
-Fork it, Star it, And Download it!
-CleanMagicMedium V.0.0.2 - A Jekyll Theme. 
+[Demo the Theme](http://orderedlist.github.com/modernist/)
 
-[Demo](https://lucasgatsas.ch) 
+This is the raw HTML and styles that are used for the *modernist* theme on [GitHub Pages](http://pages.github.com/).
 
-[Download](https://github.com/SpaceG/CleanMagicMedium-Jekyll-V.0.2.0) 
+# SCSS
 
-![alt tag](https://spaceg.github.io/img/intro-theme-1.png)
+This project uses SCSS for it's CSS. If you want to contribute, please make your changes to the .scss files in the /sass directory. If you're unfamiliar with SCSS, here's [an excellent article to get you started](http://www.alistapart.com/articles/getting-started-with-sass/). I recommend using [LiveReload](http://livereload.com)
 
-Download it <code> git clone https://github.com/SpaceG/CleanMagicMedium-Jekyll.git</code>
+Syntax highlighting is provided on GitHub Pages by [Pygments](http://pygments.org).
 
-Download it, open it with Terminal and run <code> jekyll serve </code> 
-Have Fun! Please Star it and Fork it! 
-Cheers with Club Mate!
+# License
 
-
-
-
-CleanMagic Theme by Lucas Gatsas Mo. 4. Mai 2015, Switzerland, TimeGrade 03:52:02
-Try  https://github.com/jekyll/jekyll Jekyll a New Blogging System using node.js 
-Notice: Be Sure that your Host provide node.js on Standart Host ( Shared Hosting - Standart WebHost or WebSpace)! you need always a Virtual Server ask your Provider about more Details for http://jekyllrb.com/ and Install node.js on your Host!
-
-[Jekyll](http://jekyllrb.com/) 
-
-[OpenSource Jekyll](https://github.com/jekyll/jekyll) 
-
-
-
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-Copyright © 2013 - 2015. Lucas Gatsas - Softwares
+This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/).
 
