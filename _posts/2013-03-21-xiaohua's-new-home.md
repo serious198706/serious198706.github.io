@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "小花的新家"
 description: 
@@ -6,11 +6,7 @@ headline:
 modified: 2013-03-21
 category: gabby
 tags: [gabby]
-imagefeature: 
-mathjax: 
-chart: 
 comments: true
-featured: true
 ---
 
 下午请了半天假，到社保中心换卡。
@@ -85,4 +81,6 @@ featured: true
 说完，其他几个人叫她了。她全然不顾小花身上的脏兮兮，抱起小花，向我道别。
 
 看着他们的背影，心里突然明白了为什么小花在一开始的时候不怕我了，因为它知道，有这么一帮人，是它的家人。
-<img src="posts/dog.jpg"></img>
+<img src="{{ site.url }}/images/dog.jpg"/>
+
+
