@@ -169,19 +169,19 @@ ssh-keygen -t rsa
 
 *下载完成后都有这些文件：*
 <figure>
-  <img src="{{ site.url }}/images/putty1.jpg" alt="PuTTY">
+  <img src="{{ site.url }}/images/putty1.png" alt="PuTTY">
 </figure>
 
 1. 打开PuTTYgen，如图所示
 <figure>
-  <img src="{{ site.url }}/images/putty2.jpg" alt="PuTTY">
+  <img src="{{ site.url }}/images/putty2.png" alt="PuTTY">
 </figure>
 
 2. 在下方的`Parameters`区域，可以选择`SSH-2 RSA`或者`SSH-2 DSA`加密方式。`Number of bits in a generated key`参数使用默认值就可以。
 
 3. 点击`Generate`，上方会出现一个进度条，并且提示你在空白区域移动鼠标（别移出去了！눈_눈），它就会随机生成一对key。然后公钥就会显示在上方的框里。如图所示。
 <figure>
-  <img src="{{ site.url }}/images/putty3.jpg" alt="PuTTY">
+  <img src="{{ site.url }}/images/putty3.png" alt="PuTTY">
 </figure>
 
 4. 在`Key passphrase`和`Confirm passphrase`输入框中，输入一个密码来保护你的私钥。当然你也可以不输入。
@@ -212,7 +212,7 @@ ssh-keygen -t rsa
 
 12. 打开PuTTY客户端。如图。
 <figure>
-  <img src="{{ site.url }}/images/putty4.jpg" alt="PuTTY">
+  <img src="{{ site.url }}/images/putty4.png" alt="PuTTY">
 </figure>
 
 	* `Session`页面的`Host Name (or IP address)`输入框中，输入远程主机的用户名和地址，例如`serious@cy198706.com`。
@@ -221,7 +221,7 @@ ssh-keygen -t rsa
 
 	* 在左侧列表的`Category`中，找到`Auth`页面（`Connection > SSH > Auth`）。在`Auth`页面的`Authentication methods`区域中，勾选`Attempt authentication using Pageant`。
 <figure>
-  <img src="{{ site.url }}/images/putty5.jpg" alt="PuTTY">
+  <img src="{{ site.url }}/images/putty5.png" alt="PuTTY">
 </figure>
 
 	* 返回`Session`页面，在`Saved Sessions`区域中输入一个名称用来保存这套配置，然后点击保存。
