@@ -34,10 +34,8 @@ image:
     {% endif %}
   </header>
   <div class="entry-content">
-    {{ post.content }}
-	<span class="post-date">{{ post.date | date_to_string }}</span>
-{{ post.content || split:'<!-- more -->' | first }}
-<h7><a href='{{post.url}}' title='阅读全文'>阅读全文</a></h7>
+	{{ post.content || split:'<!-- more -->' | first }}
+	<h6><a href='{{post.url}}' title='阅读全文'>阅读全文</a></h6>
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
 {% endfor %}
