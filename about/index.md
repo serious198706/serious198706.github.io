@@ -1,34 +1,11 @@
 ---
 layout: page
-title: About the Jekyll Theme
+title: 关于我 
 image:
   feature: abstract-5.jpg
   credit: dargadgetz
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 comments: false
-modified: 2014-12-24
+modified: 2016-01-14
 ---
-
-They say three times the charm, so here is another free responsive Jekyll blog theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. 
-
-If you've used any of [my other themes](http://mademistakes.com/work/jekyll-themes/) most of this should be familiar territory...
-
-## What HPSTR brings to the table:
-
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrads in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Modern and minimal design.
-* Sweet animated menu.
-* Background image support.
-* Readable typography to make your words shine.
-* Support for large images to call out your favorite posts.
-* Built-in support for Sass courtesy of Jekyll 2.x.
-* Optional [Disqus](http://disqus.com) comments.
-* Simple and clear permalink structure[^1].
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* Simple [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting]({{ site.url }}/code-highlighting-post/) to make your code examples look snazzy.
-
-<div markdown="0"><a href="{{ site.url }}/theme-setup/" class="btn btn-info">Theme Setup</a> <a href="https://github.com/mmistakes/hpstr-jekyll-theme" class="btn btn-success">Download HPSTR</a></div>
-
-[^1]: Example: *domain.com/category-name/post-title*
+本人兼职: 苦力搬运,装卸,车工,钳工,焊工,水电工,泥瓦工,砸墙,砌墙,筛沙,油漆,通下水道,贴瓷砖,室内装璜,手机游戏开发,网络维护管理,三维建模,照片上色,平面设计,建筑效果图,机械与模具设计,flash动画,硬件设计,单片机开发,嵌入式系统,PLC编程与控制,盗版DVD,四六级替考,私人侦探,出租男女友,婚介,办证,黑枪,黑车,暗杀,洗钱,要债,洗头,搓澡,按摩,刮痧,拔火罐,算命,纹身,绣眉,画指甲,丰胸,割双眼皮,处女膜修复,人工受精,维修核潜艇,回收二手航母,二手航天飞机,大修核反应堆,拆洗导弹发动机更换机油,无人侦察机手动挡改自动,航天飞机保养换三滤,飞碟外太空年检,各型号导弹加装迎宾踏板,高空作业擦洗卫星表面除尘,打蜡及抛光,批发歼10,F22,F35,B2轰炸机,氢弹,原子弹,中子弹,东风全系列巡航导弹.并提供原子对撞机,提供捕捉反物质原子,虫洞修复技术支持.量大从优,团购7折,秒杀5折,根据国家三包规定7天包退,15天包换,一年保修,有正规发票!现在购买即送野生奥特曼或大怪兽任选一只,先到先得,送完即止!

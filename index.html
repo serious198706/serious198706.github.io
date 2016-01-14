@@ -35,7 +35,7 @@ image:
   </header>
   <div class="entry-content">
 	{{ post.content || split:'<!-- more -->' | first }}
-	<h6><a href='{{post.url}}' title='阅读全文'>阅读全文</a></h6>
+  <a href='{{post.url}}' class="btn btn-success">阅读全文</a>
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
 {% endfor %}
