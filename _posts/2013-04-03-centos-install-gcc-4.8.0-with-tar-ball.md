@@ -28,6 +28,8 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</pre
 不支持C++11。<br />
 <br />
 尽管我知道安装GCC的过程是多么的坎坷，但为了折腾。。折腾吧。<br />
+
+<!-- more -->
 <br />
 有的人要问了，你傻啊，为什么不用RPM包安装呢，为什么不用YUM包无脑安装呢。我得说，CentOS的RPM包只编译到4.4.6，YUM的也是。<br />
 所以想用4.8.0，只能用源码编译安装。<br />

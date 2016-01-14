@@ -16,6 +16,8 @@ featured: true
 
 最近出现一个需求，要获取本机的MAC地址，就找了一些资料。
 
+<!-- more -->
+
 ### Windows
 
 在Windows下，有两种方法可以获取MAC地址：

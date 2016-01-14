@@ -19,6 +19,8 @@ featured: true
 
 我们假设你已经会利用Visual Studio添加控件并处理控件事件了。如果还不会，查看第7节。[传送门]("http://cy198706.com/blog/tech/windows-store-apps-developing-7-adding-control-and-handel-events/")
 
+<!-- more -->
+
 ### 添加AppBar-
 
 要向你的应用添加应用栏，请将一个 AppBar 控件指定给 Page 的 TopAppBar 或 BottomAppBar 属性。

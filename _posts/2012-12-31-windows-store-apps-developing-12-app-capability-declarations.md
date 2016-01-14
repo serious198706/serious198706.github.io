@@ -18,6 +18,8 @@ Windows Store App是个权限非常非常低的东西，它运行在一个安全
 例如，如果 Windows Store App需要对用户资源（如“图片库”）或连接的设备（如摄像头）进行编程访问，必须声明相应的capability。
 我们可以使用 Visual Studio 中的清单设计器来声明许可范围。
 
+<!-- more -->
+
 清单设计器其实就在我们工程里的package.appxmanifest中。双击打开package.appxmanifest，然后选中选项卡中的Capbilities，就可以看到所有的权限了：
 
 <img alt="" src="http://images.cy198706.com/Programming/20121227095040.jpg" />

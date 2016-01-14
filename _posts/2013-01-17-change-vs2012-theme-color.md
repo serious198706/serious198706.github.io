@@ -18,6 +18,8 @@ VS2012的默认深色主题的确让整个IDE看起来很有气场，而且深�
 
 但是看久了也会烦啊。虽然说重要的不是IDE看起来怎么样，而是写出来的代码质量怎么样，但一个好的环境也是会让很多有强迫症的攻城狮们在写代码时更有快感。。
 
+<!-- more -->
+
 打开VS2012的“工具（Tools）”->“扩展和更新（Extensions and Updates）”，在左侧的列表中选择“在线（Online）”，并在右侧的搜索框中搜索“Color”或者“Theme Editor”，就能找到如下的一个扩展: 
 
 <img alt="" src="http://i960.photobucket.com/albums/ae85/satanness/Tech/20130117163848_zpsa56dbb62.jpg" />

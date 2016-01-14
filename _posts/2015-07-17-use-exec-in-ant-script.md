@@ -34,6 +34,8 @@ sed -i "s/android:versionName=\"2.0.*\"/android:versionName=\"${result}\"/g" And
 
 于是就翻看了ant的文档，找到解决方案。
 
+<!-- more -->
+
 在build.xml中，加入这么一段：
 
 {% highlight xml %}

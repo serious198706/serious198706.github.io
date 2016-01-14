@@ -17,6 +17,8 @@ featured: true
 
 很多时候，多个页面之间是需要共享同一个AppBar的，一是方便调用，二是节省资源。让我们来看一下如何共享AppBar。
 
+<!-- more -->
+
 新建一个工程，添加两个空白页面，分别命名为Page1和Page2。
  
 我们首先需要一个根页面来承载共享的AppBar，和一个Frame。Frame用于显示各个页面（Page）。让我们就把MainPage当作承载的页面吧。

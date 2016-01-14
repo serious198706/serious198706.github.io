@@ -39,6 +39,8 @@ featured: true
 
 下面看几个运行符。
 
+<!-- more -->
+
 ### 文件比较运算符
 
 [ -e filename ]  如果filename存在,则为真     
