@@ -1,20 +1,23 @@
 ---
-title: "使用GAE+GoAgent科学上网"
 layout: post
+title: "使用GAE+GoAgent科学上网""
 description: ""
 headline: ""
 modified: 2013-02-05
-categories: [折腾]
-tags:[GAE] [Google]
+category: 折腾
+tags: [GAE] [Google]
+imagefeature: dog.jpg
 comments: true
 ---
+
 
 终于要聊到这个话题了吗。。
 
 因为我最近发现，Google老是屏蔽我，我搜索了一个完全不会触及任何底线的词，竟然就把我Ban掉了，导致全公司都上不了Google。。
 
 之前折腾过GAE+GoAgent，也成功过，后来发现没什么大用，因为上班时又不能老挂着GoAgent，毕竟用内网的时候还是居多的。但这次实在是忍不了了，对不起了，伟大的GFW，我要跃过你丫的。  
-<!--more-->
+
+<!-- more -->
 
   
 废话不说，先去创建一个Google的账号，如果你没有账号的话，那还聊什么聊。  
