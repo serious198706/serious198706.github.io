@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "我为什么不用360 &#8211; 谈谈用户隐私"
+title: "我为什么不用360 -- 谈谈用户隐私"
 description: ""
 headline: ""
 modified: 2013-02-27
 category: gabby
 tags: [互联网]
-imagefeature: dog.jpg
 comments: true
 ---
+
 
 ## 开篇
 
