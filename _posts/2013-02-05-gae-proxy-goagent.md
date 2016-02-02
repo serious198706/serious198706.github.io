@@ -3,9 +3,9 @@ layout: post
 title: "使用GAE+GoAgent科学上网"
 description: ""
 headline: ""
-modified: 2013-02-05
-category: 折腾
-tags: [GAE] [Google]
+modified: 2015-12-31
+category: oy-my-stuff
+tags: [GAE]
 imagefeature: dog.jpg
 comments: true
 ---
