@@ -19,7 +19,6 @@ comments: true
 
 <!-- more -->
 
-  
 废话不说，先去创建一个Google的账号，如果你没有账号的话，那还聊什么聊。  
 &nbsp;
 
@@ -106,8 +105,7 @@ GoAgent是个代理，好比就是个web服务器，你通过他浏览https的�
 
 [![][image-16]][20]
 
-<a class="readmore" href="http://pan.baidu.com/share/link?shareid=265965&uk=151049050" target="_blank"><img alt="" src="http://cy198706.com/blog/wp-content/uploads/2013/04/download.png" /></a>  
-&nbsp;
+<a href="http://pan.baidu.com/share/link?shareid=265965&uk=151049050" target="_blank" class="btn btn">下载全套玩意</a>
 
 [1]:	https://appengine.google.com
 [2]:	http://i1352.photobucket.com/albums/q645/cy198706/mess-ups/QQ20130205112538.jpg
