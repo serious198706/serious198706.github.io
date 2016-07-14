@@ -1,12 +1,7 @@
 ---
-id: 1333
-title: 我的2014
+title: 分享图片
 author: 死神的微笑
 layout: post
-guid: http://cy198706.com/blog/?p=1333
-permalink: /gabby/my-2014/
-duoshuo_thread_id:
-  - 1320102247610187847
 categories:
   - 口水
 tags:
