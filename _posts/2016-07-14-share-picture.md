@@ -14,5 +14,5 @@ imagefeature: cover6.jpg
 图侵删。
 
 <div style="text-align: center;">
-   <img alt="" src="http://77fzm2.com1.z0.glb.clouddn.com/2K1A7652.JPG" />
+   <img alt="" src="http://77fzm2.com1.z0.glb.clouddn.com/2K1A7652%20copy.jpg" />
 </div>
