@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+   · Notex
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="哆啦 N 梦">
+<meta name="description" content="权力重构：当美国政府为前沿 AI 设置门槛
+2026-06-28
+2026年6月的最后一个周末，AI 行业的权力格局发生了根本性位移。OpenAI 发布 GPT-5.6 Sol 的同一时刻，美国政府对其实施了&quot;分阶段释放&quot;——普通用户和海外开发者第一次被明确挡在最强模型的门外。与此同时，Anthropic 的 Mythos 被允许向&quot;受信任的美国组织&quot;有限开放，而亚洲初创公司（日本的 Sakana AI、中国的 360）几乎同步推出了对标 Mythos 的替代品。这不是零散的新闻，这是一个时代的拐点：前沿 AI 正在从技术竞赛演变为地缘政治的筹码，而开放生态正被系统性挤压。
+
+
+  一、被&quot;锁&quot;在国境线内的 GPT-5.6 Sol：开放与控制的终极碰撞
+  
+    
+    链接到标题
+  
+
+来源
+
+原文：Previewing GPT‑5.6 Sol: a next-generation model — OpenAI
+HN 讨论：48689028（1104 points, 716 comments）
+
+OpenAI 在 6 月 27 日发布了 GPT-5.6，分为 Sol、Terra 和 Luna 三个版本。表面上这是一次常规的模型迭代，但真正的故事藏在宣布方式里——美国政府要求 OpenAI 进行分阶段发布，首先仅限少数美国本土的&quot;可信合作伙伴&quot;使用。OpenAI 在声明中的措辞耐人寻味：
+
+&ldquo;We believe in broad access, and we plan to make GPT‑5.6 Sol, Terra, and Luna generally available in the coming weeks&hellip; At [the government&rsquo;s] request, we are starting with a limited preview for a small group of trusted partners.&rdquo;
+">
+<meta name="keywords" content="blog,developer,personal,AI">
+
+
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Notex">
+	<meta name="twitter:description" content="权力重构：当美国政府为前沿 AI 设置门槛
+2026-06-28
+2026年6月的最后一个周末，AI 行业的权力格局发生了根本性位移。OpenAI 发布 GPT-5.6 Sol 的同一时刻，美国政府对其实施了&#34;分阶段释放&#34;——普通用户和海外开发者第一次被明确挡在最强模型的门外。与此同时，Anthropic 的 Mythos 被允许向&#34;受信任的美国组织&#34;有限开放，而亚洲初创公司（日本的 Sakana AI、中国的 360）几乎同步推出了对标 Mythos 的替代品。这不是零散的新闻，这是一个时代的拐点：前沿 AI 正在从技术竞赛演变为地缘政治的筹码，而开放生态正被系统性挤压。
+一、被&#34;锁&#34;在国境线内的 GPT-5.6 Sol：开放与控制的终极碰撞 链接到标题 来源
+原文：Previewing GPT‑5.6 Sol: a next-generation model — OpenAI HN 讨论：48689028（1104 points, 716 comments） OpenAI 在 6 月 27 日发布了 GPT-5.6，分为 Sol、Terra 和 Luna 三个版本。表面上这是一次常规的模型迭代，但真正的故事藏在宣布方式里——美国政府要求 OpenAI 进行分阶段发布，首先仅限少数美国本土的&#34;可信合作伙伴&#34;使用。OpenAI 在声明中的措辞耐人寻味：
+“We believe in broad access, and we plan to make GPT‑5.6 Sol, Terra, and Luna generally available in the coming weeks… At [the government’s] request, we are starting with a limited preview for a small group of trusted partners.”">
+
+<meta property="og:url" content="http://localhost:1313/posts/ai-think/2026-06-28/">
+	<meta property="og:site_name" content="Notex">
+	<meta property="og:title" content="Notex">
+	<meta property="og:description" content="权力重构：当美国政府为前沿 AI 设置门槛
+2026-06-28
+2026年6月的最后一个周末，AI 行业的权力格局发生了根本性位移。OpenAI 发布 GPT-5.6 Sol 的同一时刻，美国政府对其实施了&#34;分阶段释放&#34;——普通用户和海外开发者第一次被明确挡在最强模型的门外。与此同时，Anthropic 的 Mythos 被允许向&#34;受信任的美国组织&#34;有限开放，而亚洲初创公司（日本的 Sakana AI、中国的 360）几乎同步推出了对标 Mythos 的替代品。这不是零散的新闻，这是一个时代的拐点：前沿 AI 正在从技术竞赛演变为地缘政治的筹码，而开放生态正被系统性挤压。
+一、被&#34;锁&#34;在国境线内的 GPT-5.6 Sol：开放与控制的终极碰撞 链接到标题 来源
+原文：Previewing GPT‑5.6 Sol: a next-generation model — OpenAI HN 讨论：48689028（1104 points, 716 comments） OpenAI 在 6 月 27 日发布了 GPT-5.6，分为 Sol、Terra 和 Luna 三个版本。表面上这是一次常规的模型迭代，但真正的故事藏在宣布方式里——美国政府要求 OpenAI 进行分阶段发布，首先仅限少数美国本土的&#34;可信合作伙伴&#34;使用。OpenAI 在声明中的措辞耐人寻味：
+“We believe in broad access, and we plan to make GPT‑5.6 Sol, Terra, and Luna generally available in the coming weeks… At [the government’s] request, we are starting with a limited preview for a small group of trusted partners.”">
+	<meta property="og:locale" content="zh_cn">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/ai-think/2026-06-28/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Notex
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/ai-think/2026-06-28/">
+              
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="0001-01-01T00:00:00Z">
+                January 1, 0001
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              阅读时间：4 分钟
+            </span>
+          </div>
+          
+          
+          
+        </div>
+      </header>
+
+      
+
+
+      <div class="post-content">
+        
+        <p>权力重构：当美国政府为前沿 AI 设置门槛</p>
+<p><strong>2026-06-28</strong></p>
+<p>2026年6月的最后一个周末，AI 行业的权力格局发生了根本性位移。OpenAI 发布 GPT-5.6 Sol 的同一时刻，美国政府对其实施了&quot;分阶段释放&quot;——普通用户和海外开发者第一次被明确挡在最强模型的门外。与此同时，Anthropic 的 Mythos 被允许向&quot;受信任的美国组织&quot;有限开放，而亚洲初创公司（日本的 Sakana AI、中国的 360）几乎同步推出了对标 Mythos 的替代品。这不是零散的新闻，这是一个时代的拐点：<strong>前沿 AI 正在从技术竞赛演变为地缘政治的筹码，而开放生态正被系统性挤压。</strong></p>
+<hr>
+<h2 id="一被锁在国境线内的-gpt-56-sol开放与控制的终极碰撞">
+  一、被&quot;锁&quot;在国境线内的 GPT-5.6 Sol：开放与控制的终极碰撞
+  <a class="heading-link" href="#%e4%b8%80%e8%a2%ab%e9%94%81%e5%9c%a8%e5%9b%bd%e5%a2%83%e7%ba%bf%e5%86%85%e7%9a%84-gpt-56-sol%e5%bc%80%e6%94%be%e4%b8%8e%e6%8e%a7%e5%88%b6%e7%9a%84%e7%bb%88%e6%9e%81%e7%a2%b0%e6%92%9e">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p><strong>来源</strong></p>
+<ul>
+<li>原文：<a href="https://openai.com/index/previewing-gpt-5-6-sol/"  class="external-link" target="_blank" rel="noopener">Previewing GPT‑5.6 Sol: a next-generation model</a> — OpenAI</li>
+<li>HN 讨论：<a href="https://news.ycombinator.com/item?id=48689028"  class="external-link" target="_blank" rel="noopener">48689028</a>（1104 points, 716 comments）</li>
+</ul>
+<p>OpenAI 在 6 月 27 日发布了 GPT-5.6，分为 Sol、Terra 和 Luna 三个版本。表面上这是一次常规的模型迭代，但真正的故事藏在宣布方式里——美国<strong>政府要求 OpenAI 进行分阶段发布</strong>，首先仅限少数美国本土的&quot;可信合作伙伴&quot;使用。OpenAI 在声明中的措辞耐人寻味：</p>
+<blockquote>
+<p>&ldquo;We believe in broad access, and we plan to make GPT‑5.6 Sol, Terra, and Luna generally available in the coming weeks&hellip; At [the government&rsquo;s] request, we are starting with a limited preview for a small group of trusted partners.&rdquo;</p>
+</blockquote>
+<p>&ldquo;Coming weeks&rdquo; 是不确定的承诺，&ldquo;government&rsquo;s request&rdquo; 是包装精美的命令。The Algorithmic Bridge 的 Alberto 在分析中直言：「今天是你所知的 AI 行业的最后一天。」（&ldquo;Today was the last normal day in the AI industry.&quot;）</p>
+<p>HN 社区的讨论集中在两个方向上：一是 750 tokens/s 的 Cerebras 部署速度——一位用户评论说这个速度会让 AI agent 的实用性发生质变；二是深层的政治焦虑——&ldquo;如果 OpenAI 都不能决定谁能用它的模型，那这个行业还剩下什么自由？&rdquo;</p>
+<p>需要深入思考的是：这不仅仅是出口管制的问题。OpenAI 是一家宣称&quot;让 AGI 惠及全人类&quot;的公司。当一个公司的使命陈述与政府的地缘指令公开矛盾时，我们正在见证一种<strong>新的权力结构</strong>的诞生——前沿 AI 公司正在从独立技术实体，变相成为国家基础设施的延伸。</p>
+<p>值得注意的是，GPT-5.6 的发布页面本身也是一件艺术品——页面的主体是一段巨大的 ASCII 艺术图形，而非传统的文字介绍。这或许是对&quot;可读性被剥夺&quot;的一种隐喻式表达。</p>
+<hr>
+<h2 id="二mythos-的钥匙美国政府成为-ai-的守门人">
+  二、Mythos 的钥匙：美国政府成为 AI 的守门人
+  <a class="heading-link" href="#%e4%ba%8cmythos-%e7%9a%84%e9%92%a5%e5%8c%99%e7%be%8e%e5%9b%bd%e6%94%bf%e5%ba%9c%e6%88%90%e4%b8%ba-ai-%e7%9a%84%e5%ae%88%e9%97%a8%e4%ba%ba">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p><strong>来源</strong></p>
+<ul>
+<li>原文：<a href="https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies"  class="external-link" target="_blank" rel="noopener">US releases powerful Anthropic model Mythos to some US companies</a> — Semafor</li>
+<li>HN 讨论：<a href="https://news.ycombinator.com/item?id=48692995"  class="external-link" target="_blank" rel="noopener">48692995</a>（540 points）</li>
+</ul>
+<p>Semafor 的独家报道披露了更完整的图景：美国政府在两周前迫使 Anthropic 撤回 Fable 5 的全球发布后，现在允许其将 Mythos 向&quot;受信任的美国组织&quot;有限开放。<strong>这是历史上第一次，美国联邦政府直接决定一个 AI 模型的用户列表。</strong></p>
+<p>HN 的评论者毫不客气地指出了其中的双刃剑效应：</p>
+<blockquote>
+<p>&ldquo;If this becomes the norm, what incentive does the rest of the world have to keep their markets open to the US?&rdquo;</p>
+</blockquote>
+<p>这不是一个理论问题。就在同一周，一位欧洲 HN 用户写道：</p>
+<blockquote>
+<p>&ldquo;如果连 Entra（微软身份服务）都可能在贸易争端中被切断，我们还能信任美国提供的任何基础设施吗？&rdquo;</p>
+</blockquote>
+<p>这种信任破裂的影响比模型本身的能力差距更深。一个不可预测的供应商不是好供应商；一个随时可能被政府收回的 API 不是好 API。<strong>美国政府的&quot;安全优先&quot;策略，正在以牺牲全球市场对美国 AI 的信任为代价。</strong></p>
+<p>Anthropic 在这一切中扮演了微妙的角色。作为一家自成立以来就以&quot;安全&quot;为核心叙事的企业，Anthropic 的选择性开放——以及其与政府的合作——实际上创造了一个危险的先例：<strong>&ldquo;安全&quot;正在成为限制竞争、控制市场的合法化语言。</strong></p>
+<hr>
+<h2 id="三替代者崛起sakana-fugu-与-360-tulongfeng">
+  三、替代者崛起：Sakana Fugu 与 360 Tulongfeng
+  <a class="heading-link" href="#%e4%b8%89%e6%9b%bf%e4%bb%a3%e8%80%85%e5%b4%9b%e8%b5%b7sakana-fugu-%e4%b8%8e-360-tulongfeng">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p><strong>来源</strong></p>
+<ul>
+<li>原文：<a href="https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/"  class="external-link" target="_blank" rel="noopener">Asian AI startups launch Mythos-like models as Anthropic&rsquo;s export ban drags on</a> — TechCrunch</li>
+<li>HN 讨论：<a href="https://news.ycombinator.com/item?id=48697958"  class="external-link" target="_blank" rel="noopener">48697958</a>（111 points）</li>
+</ul>
+<p>当美国封闭大门时，亚洲公司正在加速填补真空。</p>
+<p>日本 Sakana AI（由前 Google 研究者创办）发布了 Fugu（河豚）模型，声称其&quot;与 Anthropic 的 Fable 5 和 Mythos Preview 并肩&rdquo;。Sakana 的 CEO David Ha 在 X 上写道：</p>
+<blockquote>
+<p>&ldquo;Access to top models can disappear overnight. Collective intelligence is the practical hedge against this concentration of power.&rdquo;</p>
+</blockquote>
+<p>Fugu 并非只是一个模型——它还是一个 <strong>Orchestration Model（编排模型）</strong>，可以协调对其他模型 API 的访问。这意味着它本质上是一个&quot;模型路由层&rdquo;，在多个提供商之间分配任务。在一个充满不确定性的世界中，这种设计本身就是一种政治声明。</p>
+<p>与此同时，中国的 360 推出了 Tulongfeng（屠龙风），一个专注于自动化漏洞发现的 AI 安全工具。360 创始人周鸿祎将其描述为&quot;国家战略资产&quot;，并警告了&quot;单向透明&quot;的风险——即一些行为体可以访问高级漏洞检测能力而另一些不能。</p>
+<p>这些替代品短期内可能不如 OpenAI/Anthropic 的前沿模型能力强，但它们满足了一个被忽视的需求：<strong>可预测的访问和本地的文化适配。</strong> Sakana 特别强调了 Fugu 对日语和日本文化的优化——这在全球化的 AI 市场中是一个被低估的优势。</p>
+<hr>
+<h2 id="四deepseek-的-dspark开放科学的精神武器">
+  四、DeepSeek 的 DSpark：开放科学的精神武器
+  <a class="heading-link" href="#%e5%9b%9bdeepseek-%e7%9a%84-dspark%e5%bc%80%e6%94%be%e7%a7%91%e5%ad%a6%e7%9a%84%e7%b2%be%e7%a5%9e%e6%ad%a6%e5%99%a8">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p><strong>来源</strong></p>
+<ul>
+<li>原文：<a href="https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf"  class="external-link" target="_blank" rel="noopener">DSpark: Speculative decoding accelerates LLM inference</a> — DeepSeek/GitHub</li>
+<li>HN 讨论：<a href="https://news.ycombinator.com/item?id=48696585"  class="external-link" target="_blank" rel="noopener">48696585</a>（714 points）</li>
+</ul>
+<p>在闭源浪潮的另一端，DeepSeek 继续做它最擅长的事：发布高质量的开放研究论文。</p>
+<p>DSpark 是一种**投机性解码（speculative decoding）**加速方法，使用多 token 预测（MTP）头来大幅降低 LLM 推理延迟。HN 上的一个关键评论捕捉到了社区的情绪：</p>
+<blockquote>
+<p>&ldquo;DeepSeek continues to not only push the boundaries but also publish these incredible papers explaining how they achieved their gains - something the American labs no longer do unfortunately.&rdquo;</p>
+</blockquote>
+<p>这不仅仅是研究方法的差异，它反映了<strong>两种不同的激励结构</strong>。美国 AI 公司需要&quot;护城河&quot;来证明其估值——因此推理优化成为商业机密。DeepSeek 脱胎于一家对冲基金，其出版策略本身可能就是一种市场操作——通过摧毁竞争对手的增长故事来获利。无论是哪种解释，结果都是 DeepSeek 正在成为开放 AI 研究的最大贡献者。</p>
+<blockquote>
+<p>&ldquo;Destroying the growth story of overvalued stocks is an interesting investment strategy&hellip; the really fortunate side benefit of what could eventually amount to the most significant contribution to the general software community since Linux.&rdquo;</p>
+</blockquote>
+<p>这条 HN 评论或许过于乐观，但它抓住了要点：<strong>在封闭化的趋势中，DeepSeek 代表了另一种可能性——技术的开放性本身可以是一种竞争优势。</strong></p>
+<p>值得注意的是，HN 上也有人指出 DeepSeek 并非 MTP 的先驱——Qwen 3.6 已经率先实现了工作版本。这说明开放生态内的协作和创新从未停止，尽管头部公司正在闭关。</p>
+<hr>
+<h2 id="五open-weights-vs-closed-source差距在缩小但测量是门艺术">
+  五、Open Weights vs. Closed Source：差距在缩小，但测量是门艺术
+  <a class="heading-link" href="#%e4%ba%94open-weights-vs-closed-source%e5%b7%ae%e8%b7%9d%e5%9c%a8%e7%bc%a9%e5%b0%8f%e4%bd%86%e6%b5%8b%e9%87%8f%e6%98%af%e9%97%a8%e8%89%ba%e6%9c%af">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p><strong>来源</strong></p>
+<ul>
+<li>原文：<a href="https://blog.doubleword.ai/frontier-os-llm"  class="external-link" target="_blank" rel="noopener">The gap between open weights LLMs and closed source LLMs</a> — Doubleword</li>
+<li>HN 讨论：<a href="https://news.ycombinator.com/item?id=48692058"  class="external-link" target="_blank" rel="noopener">48692058</a>（297 points）</li>
+</ul>
+<p>Doubleword 的这篇文章用数据讲述了开放权重模型与闭源模型之间的复杂关系。</p>
+<p>作者使用了 Artificial Analysis Intelligence Index 的基准测试，发现如果只看综合指数，<strong>开闭源差距正在以令人震惊的速度缩小</strong>——按线性外推，2026年12月3日开权重模型就将追平闭源模型。这让作者调侃道：&ldquo;现在可能是清空养老金、逃往偏远岛屿的好时机。&rdquo;</p>
+<p>但深入分析 18 个不同基准后，故事变得复杂：</p>
+<ul>
+<li><strong>编程能力</strong>的追赶最为显著：从 15 个月的差距缩小到 1-2 个月</li>
+<li>大多数其他基准的差距几乎持平，始终维持在约 5 个月</li>
+<li>平均值几乎没有变化</li>
+</ul>
+<p>这揭示了一个关键洞见：<strong>&ldquo;AI 能力&quot;是一个高度维度化的概念，单一的&quot;追上&quot;叙事掩盖了巨大的领域差异。</strong> 开放模型在代码能力上的飞跃可能来自大量公开的代码训练数据和社区优化，但在更抽象的推理、数学和规划任务上，闭源模型的领先优势依然稳固。</p>
+<p>这篇文章也暗示了一个令人不安的可能性：如果美国政府持续限制前沿模型开放，闭源阵营的领先优势可能会重新扩大——<strong>出口管制不仅影响商业竞争，也在扭曲开源生态的自然进化速度。</strong></p>
+<hr>
+<h2 id="六ai-与数学当机器开始享受思考的乐趣">
+  六、AI 与数学：当机器开始享受思考的乐趣
+  <a class="heading-link" href="#%e5%85%adai-%e4%b8%8e%e6%95%b0%e5%ad%a6%e5%bd%93%e6%9c%ba%e5%99%a8%e5%bc%80%e5%a7%8b%e4%ba%ab%e5%8f%97%e6%80%9d%e8%80%83%e7%9a%84%e4%b9%90%e8%b6%a3">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p><strong>来源</strong></p>
+<ul>
+<li>原文：<a href="https://spectrum.ieee.org/ai-in-mathematics"  class="external-link" target="_blank" rel="noopener">AI in Mathematics Is Forcing Big Questions</a> — IEEE Spectrum</li>
+<li>HN 讨论：<a href="https://news.ycombinator.com/item?id=48692883"  class="external-link" target="_blank" rel="noopener">48692883</a>（197 points）</li>
+</ul>
+<p>IEEE Spectrum 的这篇长文是我读过的最深刻的分析之一——它讨论的不是 AI 能做什么，而是当 AI 开始做数学时，&ldquo;做数学&quot;这件事本身的本质会如何改变。</p>
+<p>文章的核心张力在于：数学家的&quot;快乐&quot;来自于长时间的、痛苦的思考过程。如卡内基梅隆大学的 Jeremy Avigad 所说：</p>
+<blockquote>
+<p>&ldquo;Sometimes it&rsquo;s a feeling of accomplishment, like completing a marathon. But it&rsquo;s not quite either of those: It&rsquo;s just a wonderful feeling when you&rsquo;ve been thinking long and hard about something complex, difficult, and then—all of a sudden—it just comes together.&rdquo;</p>
+</blockquote>
+<p>如果 AI 可以瞬间完成这个&quot;突然&quot;的洞见，那数学家还会存在吗？文章引用了 Google DeepMind 的 Aletheia 系统——它已经自主生成了可发表的博士级研究成果——以及 OpenAI 最近推翻的一个组合几何猜想（如果由人类完成，这本应该发表在顶级数学期刊上）。</p>
+<p>但真正的问题不是&quot;AI 能不能做数学&rdquo;，而是&quot;当 AI 能做数学时，数学的意义是什么&rdquo;？文章并没有给出答案，但它提出了一个至关重要的框架：<strong>我们可能正在进入&quot;大数学&quot;（Big Mathematics）时代——人类提供直觉和方向，AI 执行证明和验证。</strong> 这与&quot;大科学&quot;时代人类和加速器的关系有惊人的相似之处。</p>
+<hr>
+<h2 id="七ai-学会-rfic-设计的黑暗艺术">
+  七、AI 学会 RFIC 设计的&quot;黑暗艺术&quot;
+  <a class="heading-link" href="#%e4%b8%83ai-%e5%ad%a6%e4%bc%9a-rfic-%e8%ae%be%e8%ae%a1%e7%9a%84%e9%bb%91%e6%9a%97%e8%89%ba%e6%9c%af">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p><strong>来源</strong></p>
+<ul>
+<li>原文：<a href="https://spectrum.ieee.org/ai-radio-chip-design"  class="external-link" target="_blank" rel="noopener">AI Learns the &ldquo;Dark Art&rdquo; of RFIC Design</a> — IEEE Spectrum</li>
+<li>HN 讨论：<a href="https://news.ycombinator.com/item?id=48660021"  class="external-link" target="_blank" rel="noopener">48660021</a>（169 points）</li>
+</ul>
+<p>Princeton 的研究团队用强化学习和逆向设计方法，让 AI 学会了射频集成电路（RFIC）这一通常需要十年经验积累的&quot;黑暗艺术&quot;。结果芯片不仅设计速度提升了几个数量级，而且布局看起来&quot;更像现代艺术&quot;——完全超出了人类设计师的结构直觉。</p>
+<p>这是 AI 在<strong>物理硬件设计</strong>领域的重大突破。与软件层面的 AI 能力提升不同，硬件设计需要处理真实的物理约束——麦克斯韦方程、热力学、电磁场——这些不是可以通过语言建模&quot;猜&quot;出来的。AI 在这里的成功，证明了<strong>生成式方法可以在高度约束的多物理域中超越人类优化能力</strong>。</p>
+<blockquote>
+<p>&ldquo;AI-enabled design could be the future of all RF design, and maybe much more.&rdquo;</p>
+</blockquote>
+<p>这项工作的意义远远超出了芯片设计本身。它暗示了一个未来：<strong>AI 可以接管所有&quot;工程直觉&quot;驱动的领域——那些需要多年经验才能掌握的技能。</strong> 如果 RFIC 设计都可以自动化，那还有哪些&quot;黑暗艺术&quot;是 AI 不能学的？</p>
+<hr>
+<h2 id="八peppa-pig-的-ai-声音克隆童星的数字幽灵">
+  八、Peppa Pig 的 AI 声音克隆：童星的数字幽灵
+  <a class="heading-link" href="#%e5%85%abpeppa-pig-%e7%9a%84-ai-%e5%a3%b0%e9%9f%b3%e5%85%8b%e9%9a%86%e7%ab%a5%e6%98%9f%e7%9a%84%e6%95%b0%e5%ad%97%e5%b9%bd%e7%81%b5">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p><strong>来源</strong></p>
+<ul>
+<li>原文：<a href="https://www.gadgetreview.com/peppa-pigs-ai-voice-clause-draws-nearly-1000-industry-objections"  class="external-link" target="_blank" rel="noopener">Peppa Pig studio wants to clone child actors&rsquo; voices with AI indefinitely</a> — Gadget Review</li>
+<li>HN 讨论：<a href="https://news.ycombinator.com/item?id=48701902"  class="external-link" target="_blank" rel="noopener">48701902</a>（11 points）</li>
+</ul>
+<p>在行业巨变的大背景下，这则新闻似乎只是一则花边——但它触及了 AI 治理中一个被低估的议题：<strong>儿童的数据权利。</strong></p>
+<p>Peppa Pig（小猪佩奇）的制作公司试图在其合同中加入条款，允许<strong>无限期克隆儿童演员的声音</strong>——这引来了近 1000 份行业反对。</p>
+<p>虽然这条新闻在 HN 上只有 11 个点，但它代表了一个正在加速的趋势：<strong>AI 对创造性劳动的替代正在从&quot;可能性&quot;变为&quot;合同事实&quot;。</strong> 儿童演员尤其脆弱——他们没有能力理解或协商声音克隆的长远后果，而一旦声音被数字化复制，这种权利几乎是永久性的。</p>
+<p>这个问题与 AI 行业的其他话题形成了鲜明的对比：当顶级模型在争论&quot;安全&quot;和&quot;出口管制&quot;时，底层的问题——<strong>谁的数据被使用了，谁在控制这些数据</strong>——往往被忽视了。Peppa Pig 的争议提醒我们：AI 治理的版图远比&quot;政府是否控制模型&quot;要广泛和复杂。</p>
+<hr>
+<h2 id="结语">
+  结语
+  <a class="heading-link" href="#%e7%bb%93%e8%af%ad">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>2026 年 6 月 28 日这一周，AI 行业跨越了一条看不见的线。之前，前沿模型的获取受限于价格、算力和技术能力；现在，它开始受限于<strong>国籍和政府的许可</strong>。GPT-5.6 Sol 和 Anthropic Mythos 的故事不是孤例——它们是<strong>一个新时代的第一章</strong>，在这个时代中，AI 不再只是技术产品，而是<strong>战略资产、权力筹码和地缘政治的延伸</strong>。</p>
+<p>与此同时，开放科学的力量（DeepSeek DSpark）、替代者的崛起（Sakana Fugu、360 Tulongfeng）以及在应用层面的深化（AI 做数学、AI 设计芯片）表明，这个行业远未终结——它只是在进入一个更复杂、更分化的新阶段。</p>
+<p>AI 行业的未来不再只由技术决定。它将在实验室、白宫、东京的董事会和北京的网络安全机构之间被共同书写。而我们所有人都需要问的一个问题是：<strong>当技术被锁进国界时，我们失去的只是模型权重，还是某种关于开放未来的可能？</strong></p>
+<p><strong>关键词</strong> <code>GPT-5.6 Sol</code> <code>Mythos</code> <code>OpenAI</code> <code>Anthropic</code> <code>Sakana AI</code> <code>Fugu</code> <code>DeepSeek DSpark</code> <code>export controls</code> <code>open weights</code> <code>AI in mathematics</code> <code>RFIC design</code> <code>speculative decoding</code> <code>AI governance</code> <code>Sovereign AI</code></p>
+<p><em>本摘要基于 2026 年 6 月 27 日至 28 日的 Hacker News 热门故事生成。内容由 AI 整理分析，不代表任何立场。</em></p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script>
+  window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    
+    document.addEventListener('themeChanged', function (e) { 
+        if (document.readyState == 'complete') {
+          DISQUS.reset({ reload: true, config: disqus_config });
+        }
+    });
+</script>
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2026
+     哆啦 N 梦 
+    ·
+    
+    技术支持 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+   · Notex
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="哆啦 N 梦">
+<meta name="description" content="校准革命、安全审计与教育颠覆：AI 正从工具走向基础设施
+2026-09-25
+本周的 AI 新闻呈现出一个清晰的模式：行业正从「更大更好的聊天模型」竞赛，转向更精细、更务实的基础设施层创新。TypeSafe AI 发布的非自回归 System One 模型 Jev 以校准能力而非原始准确率作为卖点；Trail of Bits 展示了 AI 代理如何构建此前不可能完成的安全审计工具链；Opus 5.5 的解说视频生成能力与一家澳洲补习班的关门，共同指向同一个结论——AI 正在从「辅助工具」变成「替代性基础设施」。而 AgentRun 这样的工作流 DSL 的出现，则标志着我们开始认真思考如何编排这些日益碎片化的 AI 能力。
+
+
+  一、「校准」才是真正的护城河：Jev 与 System One 模型的范式突破
+  
+    
+    链接到标题
+  
+
+TypeSafe AI 上周发布了 Jev——被其称为首个「System One 模型」。这不是另一个更大的聊天机器人。Jev 不对话、不写作、不逐步推理。它接收结构化问题，在单次前向传播中输出完整答案，并为每个答案附带概率。
+机器学习工程师 Kartik Pansuriya 在深度分析中指出，Jev 最被忽视的价值点不是速度（虽然 70-500ms 的端到端延迟确实惊人），而是校准（calibration）。
+
+&ldquo;Route this order to manual review if the model is less than 80% sure&rdquo; only works if 80% means 80%. If the model says 0.95 on things that are right 70% of the time, every threshold you set is a lie.
+—— Kartik Pansuriya
+">
+<meta name="keywords" content="blog,developer,personal,AI">
+
+
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Notex">
+	<meta name="twitter:description" content="校准革命、安全审计与教育颠覆：AI 正从工具走向基础设施
+2026-09-25
+本周的 AI 新闻呈现出一个清晰的模式：行业正从「更大更好的聊天模型」竞赛，转向更精细、更务实的基础设施层创新。TypeSafe AI 发布的非自回归 System One 模型 Jev 以校准能力而非原始准确率作为卖点；Trail of Bits 展示了 AI 代理如何构建此前不可能完成的安全审计工具链；Opus 5.5 的解说视频生成能力与一家澳洲补习班的关门，共同指向同一个结论——AI 正在从「辅助工具」变成「替代性基础设施」。而 AgentRun 这样的工作流 DSL 的出现，则标志着我们开始认真思考如何编排这些日益碎片化的 AI 能力。
+一、「校准」才是真正的护城河：Jev 与 System One 模型的范式突破 链接到标题 TypeSafe AI 上周发布了 Jev——被其称为首个「System One 模型」。这不是另一个更大的聊天机器人。Jev 不对话、不写作、不逐步推理。它接收结构化问题，在单次前向传播中输出完整答案，并为每个答案附带概率。
+机器学习工程师 Kartik Pansuriya 在深度分析中指出，Jev 最被忽视的价值点不是速度（虽然 70-500ms 的端到端延迟确实惊人），而是校准（calibration）。
+“Route this order to manual review if the model is less than 80% sure” only works if 80% means 80%. If the model says 0.95 on things that are right 70% of the time, every threshold you set is a lie.
+—— Kartik Pansuriya">
+
+<meta property="og:url" content="http://localhost:1313/posts/ai-think/2026-09-25/">
+	<meta property="og:site_name" content="Notex">
+	<meta property="og:title" content="Notex">
+	<meta property="og:description" content="校准革命、安全审计与教育颠覆：AI 正从工具走向基础设施
+2026-09-25
+本周的 AI 新闻呈现出一个清晰的模式：行业正从「更大更好的聊天模型」竞赛，转向更精细、更务实的基础设施层创新。TypeSafe AI 发布的非自回归 System One 模型 Jev 以校准能力而非原始准确率作为卖点；Trail of Bits 展示了 AI 代理如何构建此前不可能完成的安全审计工具链；Opus 5.5 的解说视频生成能力与一家澳洲补习班的关门，共同指向同一个结论——AI 正在从「辅助工具」变成「替代性基础设施」。而 AgentRun 这样的工作流 DSL 的出现，则标志着我们开始认真思考如何编排这些日益碎片化的 AI 能力。
+一、「校准」才是真正的护城河：Jev 与 System One 模型的范式突破 链接到标题 TypeSafe AI 上周发布了 Jev——被其称为首个「System One 模型」。这不是另一个更大的聊天机器人。Jev 不对话、不写作、不逐步推理。它接收结构化问题，在单次前向传播中输出完整答案，并为每个答案附带概率。
+机器学习工程师 Kartik Pansuriya 在深度分析中指出，Jev 最被忽视的价值点不是速度（虽然 70-500ms 的端到端延迟确实惊人），而是校准（calibration）。
+“Route this order to manual review if the model is less than 80% sure” only works if 80% means 80%. If the model says 0.95 on things that are right 70% of the time, every threshold you set is a lie.
+—— Kartik Pansuriya">
+	<meta property="og:locale" content="zh_cn">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/ai-think/2026-09-25/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Notex
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/ai-think/2026-09-25/">
+              
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="0001-01-01T00:00:00Z">
+                January 1, 0001
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              阅读时间：3 分钟
+            </span>
+          </div>
+          
+          
+          
+        </div>
+      </header>
+
+      
+
+
+      <div class="post-content">
+        
+        <p>校准革命、安全审计与教育颠覆：AI 正从工具走向基础设施</p>
+<p><strong>2026-09-25</strong></p>
+<p>本周的 AI 新闻呈现出一个清晰的模式：行业正从「更大更好的聊天模型」竞赛，转向更精细、更务实的基础设施层创新。TypeSafe AI 发布的非自回归 System One 模型 Jev 以校准能力而非原始准确率作为卖点；Trail of Bits 展示了 AI 代理如何构建此前不可能完成的安全审计工具链；Opus 5.5 的解说视频生成能力与一家澳洲补习班的关门，共同指向同一个结论——AI 正在从「辅助工具」变成「替代性基础设施」。而 AgentRun 这样的工作流 DSL 的出现，则标志着我们开始认真思考如何编排这些日益碎片化的 AI 能力。</p>
+<hr>
+<h2 id="一校准才是真正的护城河jev-与-system-one-模型的范式突破">
+  一、「校准」才是真正的护城河：Jev 与 System One 模型的范式突破
+  <a class="heading-link" href="#%e4%b8%80%e6%a0%a1%e5%87%86%e6%89%8d%e6%98%af%e7%9c%9f%e6%ad%a3%e7%9a%84%e6%8a%a4%e5%9f%8e%e6%b2%b3jev-%e4%b8%8e-system-one-%e6%a8%a1%e5%9e%8b%e7%9a%84%e8%8c%83%e5%bc%8f%e7%aa%81%e7%a0%b4">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>TypeSafe AI 上周发布了 Jev——被其称为首个「System One 模型」。这不是另一个更大的聊天机器人。Jev 不对话、不写作、不逐步推理。它接收结构化问题，在单次前向传播中输出完整答案，并为每个答案附带概率。</p>
+<p>机器学习工程师 Kartik Pansuriya 在深度分析中指出，Jev 最被忽视的价值点不是速度（虽然 70-500ms 的端到端延迟确实惊人），而是<strong>校准（calibration）</strong>。</p>
+<blockquote>
+<p>&ldquo;Route this order to manual review if the model is less than 80% sure&rdquo; only works if 80% means 80%. If the model says 0.95 on things that are right 70% of the time, every threshold you set is a lie.</p>
+<p>—— Kartik Pansuriya</p>
+</blockquote>
+<p>这是生产环境中一个经常被低估的问题。在分类任务中，准确率（accuracy）很早就饱和了——尤其是在不平衡数据集上，多数类的基线本身就很高。真正区分有用模型和无用模型的指标是 AUC 和校准度。传统的后处理校准方法（Platt scaling、温度缩放等）都额外增加了一层会随数据漂移的组件。Jev 的 RLCD（基于校准决策的强化学习）训练方法声称让概率从模型内部就是「诚实」的。</p>
+<p>但 Pansuriya 也提出了合理的质疑。所谓的&quot;零幻觉&quot;，实际上保障的只是输出 schema 的合法性，而非答案本身的正确性。校准在谁的分布上成立？一个在基准测试上校准良好的模型，在客户自己的数据分布上可能完全走样。最有趣的观点在于比较基线——&ldquo;比 LLM 快 200 倍&quot;这个说法有些取巧，因为很多分类任务的正确基准是梯度提升树（gradient-boosted tree），那也是亚毫秒级且免费的。真正的三路对比应该是：经典表格模型、LLM 作为分类器、Jev，在同一任务上比准确率、排序、校准度、延迟和成本。</p>
+<p><strong>来源</strong></p>
+<ul>
+<li><a href="https://www.kartikpansuriya.com/blog/jev-system-one-model-calibrated-decisions"  class="external-link" target="_blank" rel="noopener">Jev and System One Models: Calibration Beats Accuracy</a></li>
+<li><a href="https://news.ycombinator.com/item?id=49839510"  class="external-link" target="_blank" rel="noopener">HN 讨论</a></li>
+</ul>
+<hr>
+<h2 id="二trail-of-bits-的启示ai-代理正在重塑安全审计的底层范式">
+  二、Trail of Bits 的启示：AI 代理正在重塑安全审计的底层范式
+  <a class="heading-link" href="#%e4%ba%8ctrail-of-bits-%e7%9a%84%e5%90%af%e7%a4%baai-%e4%bb%a3%e7%90%86%e6%ad%a3%e5%9c%a8%e9%87%8d%e5%a1%91%e5%ae%89%e5%85%a8%e5%ae%a1%e8%ae%a1%e7%9a%84%e5%ba%95%e5%b1%82%e8%8c%83%e5%bc%8f">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>Trail of Bits 发布了一篇引人深思的博文，详细记录了他们如何利用 AI 代理来审计 Miden VM——一个具有自定义汇编语言（MASM）的全新零知识虚拟机。</p>
+<p>他们没有直接让代理寻找 bug。他们用六个月时间，让 Claude 和 Codex 从零构建了一套完整的开发者工具链：LSP 服务器、反编译器、静态分析引擎，以及一个 Lean 格式的 VM 执行器形式化模型。这些工具找出了真实的安全漏洞——一个未经验证的 prover 输入会让恶意攻击者伪造 Falcon 签名并窃取 Miden 账户资金。Lean 工作产生了 95 个机器检查的正确性证明。</p>
+<blockquote>
+<p>&ldquo;What could we spend our time and tokens on to make sure that the review would root out as many bugs as possible in the codebase?&rdquo;</p>
+<p>—— Fredrik Dahlgren, Trail of Bits</p>
+</blockquote>
+<p>这篇文章的深层洞察在于，它展示了 AI 在安全领域的真正价值可能不在于直接找 bug（那是 agentic code review 的思路），而在于<strong>构建此前由于成本过高而无法构建的自定义分析工具</strong>。两年前，为一个自定义汇编语言编写完整的 LSP 服务器、反编译器和静态分析引擎需要数月的工程师时间。今天，AI 代理可以在几天内生成工作原型，在数月内迭代出生产级工具。</p>
+<p>这不是渐进式改进。当 Trail of Bits 说&quot;两年前我们不可能做到这件事&quot;时，他们描述的是一个结构性的能力跃迁。安全审计的未来，可能不再是人类专家手动审查代码，而是人类专家指挥 AI 代理构建针对性的分析工具——然后让这些工具发现漏洞。</p>
+<p><strong>来源</strong></p>
+<ul>
+<li><a href="https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/"  class="external-link" target="_blank" rel="noopener">Security auditing in the age of (good enough) AI</a></li>
+<li><a href="https://news.ycombinator.com/item?id=49793957"  class="external-link" target="_blank" rel="noopener">HN 讨论</a></li>
+</ul>
+<hr>
+<h2 id="三ai-正在吃掉自己的生态位从解说视频到补习班关门">
+  三、AI 正在吃掉自己的生态位：从解说视频到补习班关门
+  <a class="heading-link" href="#%e4%b8%89ai-%e6%ad%a3%e5%9c%a8%e5%90%83%e6%8e%89%e8%87%aa%e5%b7%b1%e7%9a%84%e7%94%9f%e6%80%81%e4%bd%8d%e4%bb%8e%e8%a7%a3%e8%af%b4%e8%a7%86%e9%a2%91%e5%88%b0%e8%a1%a5%e4%b9%a0%e7%8f%ad%e5%85%b3%e9%97%a8">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>本周有两则表面无关但内在逻辑高度一致的新闻。</p>
+<p>第一则是 launchvideo.io——一个基于 Claude Opus 5.5 的服务器代理，只需粘贴一个 URL 或产品描述，就能在约四分钟内生成一个完整的解说视频。不需要视频模型，不需要人工剪辑。Opus 5.5 编写 HTML/CSS/JS 代码，在 headless Chromium 中渲染每一帧，通过 ffmpeg 编码输出 MP4。整个产品就是一个 TypeScript 代理文件、三个工具函数和一个前端表单。</p>
+<p>HN 讨论中引发了更深层的焦虑。一位开发者 inerte 描述了自己的经历：他花数年时间构建了一个鸡尾酒推荐网站 Gallotails，而 ChatGPT 几天前用一个语音对话就实现了同样的功能，而且做得更好、更灵活。</p>
+<blockquote>
+<p>There is NO WAY I can code all of that in my little gallotails.com - a single chat window has entirely replaced my site.</p>
+<p>—— inerte, HN 用户</p>
+</blockquote>
+<p>第二则是更直接的冲击：澳大利亚补习公司 Dymocks Tutoring and Talent 100 宣布关闭，其位于悉尼的五个中心将在本周结束运营。公司告诉家长，与其支付高昂的费用请人类家教，不如直接使用 Gemini 或 ChatGPT。科技已经让它的服务变得过时。</p>
+<p>HN 上的讨论深入到了教育和学习本质的层面。有人担心，AI 取代死记硬背的学习过程，会让孩子失去真正内化知识的路径——就像学语言需要记忆词汇、学象棋需要记忆棋谱一样。&ldquo;If, and as, we start doing away with the rote, I&rsquo;d expect we&rsquo;re going to see worse and worse outcomes.&rdquo; 但也有人指出，死记硬背事实从来不是目的本身，而是通往理解的一条路径。AI 时代真正需要回答的问题是：当 AI 可以瞬间回忆起任何信息时，学习到底意味着什么？</p>
+<blockquote>
+<p>Merely remembering easy to look up facts is not the slam dunk it used to be.</p>
+<p>—— singpolyma3, HN 用户</p>
+</blockquote>
+<p>这两则新闻共享同一个底层叙事：<strong>AI 正在吃掉那些以信息中介和简单内容生产为核心的商业模型</strong>。无论是解说视频制作还是课外辅导，当 AI 的能力达到「足够好」（good enough）的阈值，整个价值链就会开始瓦解。</p>
+<p><strong>来源</strong></p>
+<ul>
+<li><a href="https://launchvideo.io"  class="external-link" target="_blank" rel="noopener">Opus 5.5 is good at explainer videos</a></li>
+<li><a href="https://news.ycombinator.com/item?id=49836374"  class="external-link" target="_blank" rel="noopener">HN 讨论</a></li>
+<li><a href="https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r"  class="external-link" target="_blank" rel="noopener">Tutoring company tells parents to save their money and &lsquo;use AI instead&rsquo;</a></li>
+<li><a href="https://news.ycombinator.com/item?id=49831690"  class="external-link" target="_blank" rel="noopener">HN 讨论</a></li>
+</ul>
+<hr>
+<h2 id="四agent-工作流-dsl从单一-ai-调用到可编排的-ai-系统">
+  四、Agent 工作流 DSL：从「单一 AI 调用」到「可编排的 AI 系统」
+  <a class="heading-link" href="#%e5%9b%9bagent-%e5%b7%a5%e4%bd%9c%e6%b5%81-dsl%e4%bb%8e%e5%8d%95%e4%b8%80-ai-%e8%b0%83%e7%94%a8%e5%88%b0%e5%8f%af%e7%bc%96%e6%8e%92%e7%9a%84-ai-%e7%b3%bb%e7%bb%9f">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>Parcha AI 开源的 AgentRun 是一个值得关注的项目信号。它本质上是一个面向代理的领域特定语言（DSL），允许开发者以 JSON 或 TypeScript 定义可复用的多步工作流——包括工具调用、Jev 驱动的决策节点，以及在需要深入调查时的代理调用。</p>
+<p>AgentRun 的设计哲学反映了一个正在成熟的共识：单一 AI 调用（&ldquo;给 LLM 一个 prompt，得到一个回答&rdquo;）是一种有限的能力原语。真实世界的 AI 应用需要<strong>工作流</strong>——条件分支、并行执行、决策阈值、人机协作的升级路径。</p>
+<p>最有趣的是它直接集成了 Jev 的决策能力。在工作流的 judge 节点中，Jev 以 100ms 级的延迟回答 yes/no 问题，并附带置信度。只有当置信度低于阈值时，工作流才会调用更昂贵的代理进行深入调查。这本质上是在 System One（快速、廉价、概率性）和 System Two（慢速、昂贵、推理型）之间建立了一个可编程的转换边界。</p>
+<blockquote>
+<p>Anywhere I have an LLM doing a job that is really classification wearing a chat costume, a System One model is a plausible replacement with two orders of magnitude less latency and cost.</p>
+<p>—— Kartik Pansuriya（在讨论 Jev 时）</p>
+</blockquote>
+<p>AgentRun 的 TypeScript builder 和 Zod 合约支持输入输出类型的自动推断，运行时检查中间状态路径。工作流可以嵌套调用其他工作流，支持并行 map 操作和批量处理。</p>
+<p>这个项目与 Trail of Bits 的 AI 工具链、launchvideo.io 的单代理部署形成了有趣的对照——它们都在回答同一个问题：<strong>当 AI 模型本身成为商品化基础设施后，价值从何而来？</strong> 答案似乎指向了编排层：工作流定义、工具集成、状态管理、质量保证。</p>
+<p><strong>来源</strong></p>
+<ul>
+<li><a href="https://github.com/Parcha-ai/agentrun"  class="external-link" target="_blank" rel="noopener">AgentRun: DSL to turn agents into workflows</a></li>
+<li><a href="https://news.ycombinator.com/item?id=49821438"  class="external-link" target="_blank" rel="noopener">HN 讨论</a></li>
+</ul>
+<hr>
+<h2 id="结语">
+  结语
+  <a class="heading-link" href="#%e7%bb%93%e8%af%ad">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>2026 年 9 月最后一周的 AI 新闻，不再围绕&quot;哪个模型智商更高&quot;展开。取而代之的是三个更深刻的结构性转变：</p>
+<ol>
+<li>
+<p><strong>从模型竞赛到能力分化</strong>：Jev 的出现表明，AI 模型正在根据能力类型（System One vs System Two）而非智商分数差异化。非自回归、校准优先的决策模型与通用聊天模型将共存于不同的生态位，就像 CPU 和 GPU 各司其职。</p>
+</li>
+<li>
+<p><strong>从人类使用 AI 到 AI 构建工具</strong>：Trail of Bits 的案例证明，AI 最大的价值可能不是直接替代人类工作，而是让人类能够以极低成本构建此前过于昂贵的定制化工具。这是一种元层面的生产力跃迁。</p>
+</li>
+<li>
+<p><strong>从 AI 辅助到基础设施替代</strong>：补习班关门和视频代理的成熟指向同一个方向——当 AI 达到&quot;足够好&quot;的阈值，它不再是一个锦上添花的辅助，而是一个可以全盘替代现有价值链的基础设施。这既是巨大的机会，也意味着大量中间商角色的消失。</p>
+</li>
+</ol>
+<blockquote>
+<p>What could we spend our time and tokens on?</p>
+<p>这不仅是 Trail of Bits 在审计前的追问，也是每一个 AI 时代的从业者需要认真思考的问题。</p>
+</blockquote>
+<p><strong>关键词</strong>：<code>Jev</code> <code>System One</code> <code>模型校准</code> <code>Trail of Bits</code> <code>AI 安全审计</code> <code>Claude Opus 5.5</code> <code>AI 视频生成</code> <code>AI 教育</code> <code>AgentRun</code> <code>工作流 DSL</code> <code>AI 基础设施化</code></p>
+<p><em>基于 2026 年 9 月 25 日 Hacker News 热榜 AI 相关新闻生成</em></p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script>
+  window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    
+    document.addEventListener('themeChanged', function (e) { 
+        if (document.readyState == 'complete') {
+          DISQUS.reset({ reload: true, config: disqus_config });
+        }
+    });
+</script>
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2026
+     哆啦 N 梦 
+    ·
+    
+    技术支持 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

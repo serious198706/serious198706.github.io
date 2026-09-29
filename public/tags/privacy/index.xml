@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Privacy on Notex</title>
+		<link>http://localhost:1313/tags/privacy/</link>
+		<description>Recent content in Privacy on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 21 Sep 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Agent Infra Goes Open Source, Privacy Storm at OpenAI</title>
+				<link>http://localhost:1313/posts/ai-think/2026-09-21/</link>
+				<pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-09-21/</guid>
+				<description>&lt;h1 id=&#34;当谷歌把-agent-基础设施开源openai-被曝用广告像素追踪用户&#34;&gt;&#xA;  当谷歌把 Agent 基础设施开源，OpenAI 被曝用广告像素追踪用户&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e5%bd%93%e8%b0%b7%e6%ad%8c%e6%8a%8a-agent-%e5%9f%ba%e7%a1%80%e8%ae%be%e6%96%bd%e5%bc%80%e6%ba%90openai-%e8%a2%ab%e6%9b%9d%e7%94%a8%e5%b9%bf%e5%91%8a%e5%83%8f%e7%b4%a0%e8%bf%bd%e8%b8%aa%e7%94%a8%e6%88%b7&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-09-21&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日 AI 新闻呈现出两条清晰的脉络：一边是基础设施的开放与去中心化浪潮（Google 开源 Agent 编排系统、Pirate Face 将模型转化为永久种子），另一边是信任与伦理的深层裂痕——OpenAI 被曝通过跨站广告像素追踪 ChatGPT 用户，与此同时一篇「AI 酷爱饮料戒断者」的反思文章在 HN 引发热议。当平台能力越来越强，谁在监控谁、谁拥有主权的问题，正在从技术圈下沉为公众议题。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-google-开源-ax为-agent-时代构建的原生编排系统&#34;&gt;&#xA;  ⚡ Google 开源 AX：为 Agent 时代构建的原生编排系统&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-google-%e5%bc%80%e6%ba%90-ax%e4%b8%ba-agent-%e6%97%b6%e4%bb%a3%e6%9e%84%e5%bb%ba%e7%9a%84%e5%8e%9f%e7%94%9f%e7%bc%96%e6%8e%92%e7%b3%bb%e7%bb%9f&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Google 今日低调开源了 &lt;strong&gt;AX（Agent Open Orchestrator）&lt;/strong&gt;，一个从 DeepMind 的 Agent 运行时研究诞生、专为 Agent 工作负载设计的声明式控制平面。AX 建立在 Agent Substrate 之上，提供四大原语：&lt;strong&gt;Task&lt;/strong&gt;（沙箱化隔离执行）、&lt;strong&gt;Workspace&lt;/strong&gt;（Git 仓库 + MCP 服务器 + 技能自动编排）、&lt;strong&gt;Gateway&lt;/strong&gt;（网络策略与凭据注入）、&lt;strong&gt;Model&lt;/strong&gt;（模型配置与密钥管理）。&lt;/p&gt;&#xA;&lt;p&gt;其核心洞察在于：Agent 不是微服务，也不是批处理作业——它们是&lt;strong&gt;有状态、突发性、长生命周期的 Actor&lt;/strong&gt;，密集计算一分钟，然后在等待模型响应或人工审批时闲置数十分钟。传统编排器在此场景下成本失控，而 AX 通过亚秒级挂起/恢复实现了极高的集群密度。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Agents are a new kind of workload. They accumulate state, need strict isolation, call out to model APIs and tool servers, and can burn money in a loop if nobody is watching.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+	</channel>
+</rss>

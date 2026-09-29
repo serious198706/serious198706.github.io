@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+   · Notex
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="哆啦 N 梦">
+<meta name="description" content="泡沫、玄铁与智能的暗流
+2026-07-07
+今日的 AI 新闻图景清晰揭示了一个分野：一面是资本市场对 AI 泡沫的恐慌情绪达到新高度，另一面是技术本身在静默中完成着深刻的自我进化。从 Anthropic 揭示大模型内部涌现的&quot;全局工作空间&quot;，到 AMD 以 4000 美元将旗舰级 AI 推理塞进开发者桌面，再到 Ramp 用 2.1 万家企业数据证明 AI 采纳者实际上在扩招——喧嚣与深度并存的一天，值得逐层拆解。
+
+
+  一、泡沫叙事：狼真的来了，还只是狼的影子？
+  
+    
+    链接到标题
+  
+
+
+&ldquo;Oracle 本月已跌超 40%，国际清算银行（BIS）认为 AI 可能摧毁经济，而我们的水壶正煮着这一切的闲话。&rdquo;
+— The Register
+
+今天最具话题性的几篇文章共享同一个母题：AI 泡沫何时破裂？
+The Register 以标志性的英式讽刺勾勒出此刻市场情绪的转折点：Oracle 这家被认为对 AI 泡沫敞口最大的超大规模云商，一个月内市值蒸发超过 40%。国际清算银行在 6 月底发布的报告罕见地发出警告，认为 AI 泡沫可能已濒临破裂边缘，并有拖垮全球经济的风险。Apollo 首席经济学家 Torsten Slok 也在 Fortune 上表示，AI 市场的&quot;痛苦重定价&quot;完全有可能发生。
+然而，最引人深思的分析来自 Martin Alderson 的 《GLM 5.2 and the Coming AI Margin Collapse》。他提出了一个被主流叙事严重低估的经济学论点：训练成本只是固定的一次性支出，真正的结构性挑战在推理侧。
+
+&ldquo;当 Anthropic/OpenAI 对推理收取 25 美元/百万 token 时，我的餐巾纸计算表明，这相比机架成本大概有 90% 的毛利率。前沿实验室的整个商业模式是：花大笔钱训练模型，然后用利润率极高的推理服务摊薄成本。&rdquo;
+">
+<meta name="keywords" content="blog,developer,personal,AI">
+
+
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Notex">
+	<meta name="twitter:description" content="泡沫、玄铁与智能的暗流
+2026-07-07
+今日的 AI 新闻图景清晰揭示了一个分野：一面是资本市场对 AI 泡沫的恐慌情绪达到新高度，另一面是技术本身在静默中完成着深刻的自我进化。从 Anthropic 揭示大模型内部涌现的&#34;全局工作空间&#34;，到 AMD 以 4000 美元将旗舰级 AI 推理塞进开发者桌面，再到 Ramp 用 2.1 万家企业数据证明 AI 采纳者实际上在扩招——喧嚣与深度并存的一天，值得逐层拆解。
+一、泡沫叙事：狼真的来了，还只是狼的影子？ 链接到标题 “Oracle 本月已跌超 40%，国际清算银行（BIS）认为 AI 可能摧毁经济，而我们的水壶正煮着这一切的闲话。” — The Register
+今天最具话题性的几篇文章共享同一个母题：AI 泡沫何时破裂？
+The Register 以标志性的英式讽刺勾勒出此刻市场情绪的转折点：Oracle 这家被认为对 AI 泡沫敞口最大的超大规模云商，一个月内市值蒸发超过 40%。国际清算银行在 6 月底发布的报告罕见地发出警告，认为 AI 泡沫可能已濒临破裂边缘，并有拖垮全球经济的风险。Apollo 首席经济学家 Torsten Slok 也在 Fortune 上表示，AI 市场的&#34;痛苦重定价&#34;完全有可能发生。
+然而，最引人深思的分析来自 Martin Alderson 的 《GLM 5.2 and the Coming AI Margin Collapse》。他提出了一个被主流叙事严重低估的经济学论点：训练成本只是固定的一次性支出，真正的结构性挑战在推理侧。
+“当 Anthropic/OpenAI 对推理收取 25 美元/百万 token 时，我的餐巾纸计算表明，这相比机架成本大概有 90% 的毛利率。前沿实验室的整个商业模式是：花大笔钱训练模型，然后用利润率极高的推理服务摊薄成本。”">
+
+<meta property="og:url" content="http://localhost:1313/posts/ai-think/2026-07-07/">
+	<meta property="og:site_name" content="Notex">
+	<meta property="og:title" content="Notex">
+	<meta property="og:description" content="泡沫、玄铁与智能的暗流
+2026-07-07
+今日的 AI 新闻图景清晰揭示了一个分野：一面是资本市场对 AI 泡沫的恐慌情绪达到新高度，另一面是技术本身在静默中完成着深刻的自我进化。从 Anthropic 揭示大模型内部涌现的&#34;全局工作空间&#34;，到 AMD 以 4000 美元将旗舰级 AI 推理塞进开发者桌面，再到 Ramp 用 2.1 万家企业数据证明 AI 采纳者实际上在扩招——喧嚣与深度并存的一天，值得逐层拆解。
+一、泡沫叙事：狼真的来了，还只是狼的影子？ 链接到标题 “Oracle 本月已跌超 40%，国际清算银行（BIS）认为 AI 可能摧毁经济，而我们的水壶正煮着这一切的闲话。” — The Register
+今天最具话题性的几篇文章共享同一个母题：AI 泡沫何时破裂？
+The Register 以标志性的英式讽刺勾勒出此刻市场情绪的转折点：Oracle 这家被认为对 AI 泡沫敞口最大的超大规模云商，一个月内市值蒸发超过 40%。国际清算银行在 6 月底发布的报告罕见地发出警告，认为 AI 泡沫可能已濒临破裂边缘，并有拖垮全球经济的风险。Apollo 首席经济学家 Torsten Slok 也在 Fortune 上表示，AI 市场的&#34;痛苦重定价&#34;完全有可能发生。
+然而，最引人深思的分析来自 Martin Alderson 的 《GLM 5.2 and the Coming AI Margin Collapse》。他提出了一个被主流叙事严重低估的经济学论点：训练成本只是固定的一次性支出，真正的结构性挑战在推理侧。
+“当 Anthropic/OpenAI 对推理收取 25 美元/百万 token 时，我的餐巾纸计算表明，这相比机架成本大概有 90% 的毛利率。前沿实验室的整个商业模式是：花大笔钱训练模型，然后用利润率极高的推理服务摊薄成本。”">
+	<meta property="og:locale" content="zh_cn">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/ai-think/2026-07-07/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Notex
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/ai-think/2026-07-07/">
+              
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="0001-01-01T00:00:00Z">
+                January 1, 0001
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              阅读时间：3 分钟
+            </span>
+          </div>
+          
+          
+          
+        </div>
+      </header>
+
+      
+
+
+      <div class="post-content">
+        
+        <p>泡沫、玄铁与智能的暗流</p>
+<p><strong>2026-07-07</strong></p>
+<p>今日的 AI 新闻图景清晰揭示了一个分野：一面是资本市场对 AI 泡沫的恐慌情绪达到新高度，另一面是技术本身在静默中完成着深刻的自我进化。从 Anthropic 揭示大模型内部涌现的&quot;全局工作空间&quot;，到 AMD 以 4000 美元将旗舰级 AI 推理塞进开发者桌面，再到 Ramp 用 2.1 万家企业数据证明 AI 采纳者实际上在扩招——喧嚣与深度并存的一天，值得逐层拆解。</p>
+<hr>
+<h2 id="一泡沫叙事狼真的来了还只是狼的影子">
+  一、泡沫叙事：狼真的来了，还只是狼的影子？
+  <a class="heading-link" href="#%e4%b8%80%e6%b3%a1%e6%b2%ab%e5%8f%99%e4%ba%8b%e7%8b%bc%e7%9c%9f%e7%9a%84%e6%9d%a5%e4%ba%86%e8%bf%98%e5%8f%aa%e6%98%af%e7%8b%bc%e7%9a%84%e5%bd%b1%e5%ad%90">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<blockquote>
+<p>&ldquo;Oracle 本月已跌超 40%，国际清算银行（BIS）认为 AI 可能摧毁经济，而我们的水壶正煮着这一切的闲话。&rdquo;
+— The Register</p>
+</blockquote>
+<p>今天最具话题性的几篇文章共享同一个母题：<strong>AI 泡沫何时破裂？</strong></p>
+<p><strong>The Register</strong> 以标志性的英式讽刺勾勒出此刻市场情绪的转折点：Oracle 这家被认为对 AI 泡沫敞口最大的超大规模云商，一个月内市值蒸发超过 40%。国际清算银行在 6 月底发布的报告罕见地发出警告，认为 AI 泡沫可能已濒临破裂边缘，并有拖垮全球经济的风险。Apollo 首席经济学家 Torsten Slok 也在 Fortune 上表示，AI 市场的&quot;痛苦重定价&quot;完全有可能发生。</p>
+<p>然而，最引人深思的分析来自 Martin Alderson 的 <strong>《GLM 5.2 and the Coming AI Margin Collapse》</strong>。他提出了一个被主流叙事严重低估的经济学论点：<strong>训练成本只是固定的一次性支出，真正的结构性挑战在推理侧。</strong></p>
+<blockquote>
+<p>&ldquo;当 Anthropic/OpenAI 对推理收取 25 美元/百万 token 时，我的餐巾纸计算表明，这相比机架成本大概有 90% 的毛利率。前沿实验室的整个商业模式是：花大笔钱训练模型，然后用利润率极高的推理服务摊薄成本。&rdquo;</p>
+</blockquote>
+<p>Alderson 认为，GLM 5.2 的发布才是真正的&quot;DeepSeek 时刻&quot;——不是因为训练成本低，而是因为它的 MoE 架构实现了 32 个专家中仅激活 2 个，将推理成本直接压到了最激进竞品（GPT-5、Claude 4）的约 1/10。如果这成为新常态，整个前沿实验室的利润率结构都将被重写。</p>
+<blockquote>
+<p>思考：泡沫叙事往往混淆了&quot;技术泡沫&quot;和&quot;市场定价泡沫&quot;。技术本身并未泡沫化——Anthropic 的全局工作空间、AMD 的本地推理硬件都是真实且深刻的进步。泡沫的是资本市场对未来现金流的过早定价。</p>
+</blockquote>
+<p><strong>来源</strong></p>
+<ul>
+<li><a href="https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/"  class="external-link" target="_blank" rel="noopener">GLM 5.2 and the coming AI margin collapse</a> | <a href="https://news.ycombinator.com/item?id=48809877"  class="external-link" target="_blank" rel="noopener">HN 讨论</a></li>
+<li><a href="https://www.theregister.com/ai-and-ml/2026/07/06/even-banks-and-hyperscalers-are-now-sounding-the-alarm-about-the-ai-bubble/5266123"  class="external-link" target="_blank" rel="noopener">Even banks and hyperscalers are now sounding the alarm about the AI bubble</a> | <a href="https://news.ycombinator.com/item?id=48810702"  class="external-link" target="_blank" rel="noopener">HN 讨论</a></li>
+<li><a href="https://fortune.com/2026/07/06/ai-productivity-gains-bubble-painful-repricing-markets-torsten-slok/"  class="external-link" target="_blank" rel="noopener">Apollo economist says a &lsquo;painful repricing&rsquo; of AI markets is possible</a> | <a href="https://news.ycombinator.com/item?id=48810522"  class="external-link" target="_blank" rel="noopener">HN 讨论</a></li>
+<li><a href="https://www.apollo.com/wealth/insights-news/insights/daily-spark/ai-the-roi-runway-could-be-long-outside-the-tech-sector"  class="external-link" target="_blank" rel="noopener">AI: The ROI Runway Could Be Long Outside the Tech Sector</a> | <a href="https://news.ycombinator.com/item?id=48810533"  class="external-link" target="_blank" rel="noopener">HN 讨论</a></li>
+</ul>
+<hr>
+<h2 id="二anthropic-的暗物质大模型中涌现的全局工作空间">
+  二、Anthropic 的暗物质：大模型中涌现的&quot;全局工作空间&quot;
+  <a class="heading-link" href="#%e4%ba%8canthropic-%e7%9a%84%e6%9a%97%e7%89%a9%e8%b4%a8%e5%a4%a7%e6%a8%a1%e5%9e%8b%e4%b8%ad%e6%b6%8c%e7%8e%b0%e7%9a%84%e5%85%a8%e5%b1%80%e5%b7%a5%e4%bd%9c%e7%a9%ba%e9%97%b4">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>在一篇同时发布在 Anthropic 研究博客和 Transformer Circuits 上的重磅论文中，Anthropic 的研究者报告了一个引人入胜的发现：<strong>像 Claude 这样的现代语言模型，在其内部神经活动中涌现出了一小撮特殊的表征，它们扮演着类似认知科学中&quot;全局工作空间&quot;的角色。</strong></p>
+<p>研究者将之称为 <strong>J-space</strong>（以 Jacobian 命名）。每个 J-space 模式与一个特定的词相关联，但它的激活并不意味着模型正在输出这个词——而是意味着这个词&quot;在它的脑海中&quot;。这与链式思维（chain-of-thought）不同：后者是模型写给自己看的文本，而 J-space 是<strong>在模型的内部神经激活中静默运作的</strong>，无需写下来即可&quot;思考&quot;一个概念。</p>
+<blockquote>
+<p>&ldquo;J-space 并非由我们设计或编程，而是在 Claude 的训练过程中自行涌现的。&rdquo;</p>
+</blockquote>
+<p>这一发现的深刻之处在于：它暗示了在 Transformer 架构的深层，计算正在经历一种类似于人类认知中&quot;意识访问&quot;的分化——一部分处理是自动化的、不可见的，而另一部分则具有特殊的全局属性，可以被描述、控制并用于有意识的推理。论文本身发表在 transformer-circuits.pub，提供了可复现的技术细节。</p>
+<blockquote>
+<p>思考：这可能是 Transformer 可解释性领域中最接近&quot;意识的神经关联物&quot;的发现之一。如果未来我们能定向操控模型的 J-space——不是调整权重，而是直接干预这些&quot;全局表征&quot;——那可能打开一条超越 prompt engineering 的全新控制路径。比自动驾驶更深远，比 RLHF 更基础。</p>
+</blockquote>
+<p><strong>来源</strong></p>
+<ul>
+<li><a href="https://www.anthropic.com/research/global-workspace"  class="external-link" target="_blank" rel="noopener">A global workspace in language models</a> | <a href="https://news.ycombinator.com/item?id=48808002"  class="external-link" target="_blank" rel="noopener">HN 讨论</a></li>
+<li><a href="https://transformer-circuits.pub/2026/workspace/index.html"  class="external-link" target="_blank" rel="noopener">Verbalizable Representations Form a Global Workspace in Language Models</a> | <a href="https://news.ycombinator.com/item?id=48809598"  class="external-link" target="_blank" rel="noopener">HN 讨论</a></li>
+</ul>
+<hr>
+<h2 id="三本地推理的拐点amd-ryzen-ai-halo-与-7mb-浏览器模型">
+  三、本地推理的拐点：AMD Ryzen AI Halo 与 7MB 浏览器模型
+  <a class="heading-link" href="#%e4%b8%89%e6%9c%ac%e5%9c%b0%e6%8e%a8%e7%90%86%e7%9a%84%e6%8b%90%e7%82%b9amd-ryzen-ai-halo-%e4%b8%8e-7mb-%e6%b5%8f%e8%a7%88%e5%99%a8%e6%a8%a1%e5%9e%8b">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>今天两条硬件/部署层的新闻指向同一个趋势：<strong>AI 推理正在从云端下沉到本地，且速度比大多数人预期的更快。</strong></p>
+<p><strong>AMD Ryzen AI Halo</strong> 是今天 HN 上评分第二高的 AI 文章（264 分）。LTT Labs 和 The Register 分别从不同角度报道：这是一款售价 4000 美元的 AI 开发者套件，将旗舰级的 AI 推理能力——128 TOPS 的 NPU——直接交到桌面开发者手中。The Register 的标题一语双关：&ldquo;让本地 AI 看起来很容易，但 4000 美元的价格并不便宜&rdquo;。</p>
+<p>与此同时，<strong>Ternlight</strong> 展示了一条截然不同的路径：一个仅 7MB 的嵌入模型，通过 WASM 在浏览器中运行，无需 GPU、无需 API 调用，单次嵌入仅需 ~5 毫秒。它作为一个 npm 包交付，没有模型下载步骤，没有服务器。</p>
+<blockquote>
+<p>这两条路径的共同隐喻是：<strong>效率正在替代规模成为新的竞争维度。</strong> AMD 走的是&quot;给你足够算力，让大模型在本地跑&quot;的 brute-force 路线；Ternlight 走的是&quot;模型足够小，任何设备都能跑&quot;的 elegance 路线。两者都在挑战&quot;AI 必须上云&quot;的默认假设。</p>
+</blockquote>
+<p><strong>来源</strong></p>
+<ul>
+<li><a href="https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo"  class="external-link" target="_blank" rel="noopener">AMD Ryzen AI Halo – $4k AI Dev Kit</a> | <a href="https://news.ycombinator.com/item?id=48805624"  class="external-link" target="_blank" rel="noopener">HN 讨论</a></li>
+<li><a href="https://www.theregister.com/ai-and-ml/2026/07/06/amds-ryzen-ai-halo-makes-local-ai-look-easy-but-at-4k-easy-doesnt-come-cheap/5266711"  class="external-link" target="_blank" rel="noopener">AMD&rsquo;s Ryzen AI Halo makes local AI look easy, but it doesn&rsquo;t come cheap</a> | <a href="https://news.ycombinator.com/item?id=48810374"  class="external-link" target="_blank" rel="noopener">HN 讨论</a></li>
+<li><a href="https://ternlight-demo.vercel.app/"  class="external-link" target="_blank" rel="noopener">Ternlight – 7 MB embedding model that runs in browser (WASM)</a> | <a href="https://news.ycombinator.com/item?id=48811644"  class="external-link" target="_blank" rel="noopener">HN 讨论</a></li>
+</ul>
+<hr>
+<h2 id="四agent-的-reality-check从-zuckerberg-到-officecli-到实用主义">
+  四、Agent 的 Reality Check：从 Zuckerberg 到 OfficeCLI 到实用主义
+  <a class="heading-link" href="#%e5%9b%9bagent-%e7%9a%84-reality-check%e4%bb%8e-zuckerberg-%e5%88%b0-officecli-%e5%88%b0%e5%ae%9e%e7%94%a8%e4%b8%bb%e4%b9%89">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>Meta 的扎克伯格在 Reuters 采访中直言：<strong>&ldquo;AI agent 的开发进展慢于预期。&rdquo;</strong> 这句话来自最积极地押注 AI 社交 agent 的公司 CEO，分量不言而喻。它呼应了本周另一篇高赞 HN 文章（The Hitchhiker&rsquo;s Guide to Agentic AI）所隐含的前提——构建自主 AI 系统仍然是一项需要理解管道中每一层的全方位工程。</p>
+<p>然而，实用主义的力量也在同一天得到展现。<strong>OfficeCLI</strong> 是一个为 AI agent 量身打造的、可读写 Word/Excel/PowerPoint 文件的命令行工具——免费、开源、单二进制文件，无需安装 Office。它的理念简单到近乎粗暴：与其等待 agent 学会理解 Office 文件格式，不如提供一个 agent 能直接调用的接口。</p>
+<blockquote>
+<p>OfficeCLI 与 Anthropic 的 J-space 研究构成了今天的另一个意外对位：一个在最底层探索智能的本质，一个在最上层解决实用主义的接入问题。两者都是&quot;让 AI 更好地与世界互动&quot;的努力——一个对内，一个对外。</p>
+</blockquote>
+<p><strong>The Hitchhiker&rsquo;s Guide to Agentic AI</strong>（arXiv 综述）从第一原则到生产部署全面覆盖了 agent 系统的构建：LLM 基座、对齐与推理（RLHF/PPO/DPO/GRPO）、RAG 与 Agentic RAG、记忆系统（上下文/外部/情景/语义）、agent 设计模式分类法、MCP 协议、A2A 通信、多 agent 架构。这是一份站在 2026 年中时间节点的行业知识图谱。</p>
+<p><strong>来源</strong></p>
+<ul>
+<li><a href="https://www.reuters.com/business/zuckerberg-says-ai-agent-development-going-slower-than-expected-2026-07-02/"  class="external-link" target="_blank" rel="noopener">Zuckerberg says AI agent development going slower than expected</a> | <a href="https://news.ycombinator.com/item?id=48767058"  class="external-link" target="_blank" rel="noopener">HN 讨论</a></li>
+<li><a href="https://github.com/iOfficeAI/OfficeCLI"  class="external-link" target="_blank" rel="noopener">OfficeCLI: Office suite for AI agents</a> | <a href="https://news.ycombinator.com/item?id=48807225"  class="external-link" target="_blank" rel="noopener">HN 讨论</a></li>
+<li><a href="https://arxiv.org/abs/2606.24937"  class="external-link" target="_blank" rel="noopener">The Hitchhiker&rsquo;s Guide to Agentic AI</a> | <a href="https://news.ycombinator.com/item?id=48802156"  class="external-link" target="_blank" rel="noopener">HN 讨论</a></li>
+</ul>
+<hr>
+<h2 id="五经济学悖论ai-采纳导致扩招不是裁员">
+  五、经济学悖论：AI 采纳导致扩招，不是裁员
+  <a class="heading-link" href="#%e4%ba%94%e7%bb%8f%e6%b5%8e%e5%ad%a6%e6%82%96%e8%ae%baai-%e9%87%87%e7%ba%b3%e5%af%bc%e8%87%b4%e6%89%a9%e6%8b%9b%e4%b8%8d%e6%98%af%e8%a3%81%e5%91%98">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>Ramp 经济学实验室今天发表了一篇使用 21,000 家美国企业级支出数据 + Revelio Labs 劳动力数据的实证论文，得出了一个与直觉相反的结论：<strong>大力采纳 AI 的企业，在 AI 落地后的两年内，整体员工数增长了 10.2%，入门级岗位增长 12%。</strong></p>
+<p>这个发现的微妙之处在于，它完全由&quot;高强度采纳者&quot;驱动——那些在 AI 上投入最大的公司才是扩招的源头。低强度采纳者没有统计显著的变化。这意味着 AI 不是像蒸汽机那样&quot;替换所有岗位&quot;，而是像电力那样&quot;重新定义哪些岗位需要人&quot;。</p>
+<blockquote>
+<p>这印证了经济学家 Acemoglu 和 Restrepo 的&quot;so-so automation&quot;理论：真正创造价值的不是自动化本身，而是自动化与人类增强的协同。那些将 AI 用于增强（augmentation）而非替代（substitution）的企业，业务增长创造的新岗位比 AI 消灭的多。</p>
+</blockquote>
+<p><strong>来源</strong></p>
+<ul>
+<li><a href="https://ramp.com/data/heavy-ai-adopters-hire-more"  class="external-link" target="_blank" rel="noopener">Companies hire more after AI adoption</a> | <a href="https://news.ycombinator.com/item?id=48808498"  class="external-link" target="_blank" rel="noopener">HN 讨论</a></li>
+<li><a href="https://arxiv.org/abs/2605.20049"  class="external-link" target="_blank" rel="noopener">Does code cleanliness affect coding agents?</a> | <a href="https://news.ycombinator.com/item?id=48798815"  class="external-link" target="_blank" rel="noopener">HN 讨论</a></li>
+</ul>
+<hr>
+<h2 id="六地缘政治暗线ai-域名根本不是你的">
+  六、地缘政治暗线：.ai 域名根本不是你的
+  <a class="heading-link" href="#%e5%85%ad%e5%9c%b0%e7%bc%98%e6%94%bf%e6%b2%bb%e6%9a%97%e7%ba%bfai-%e5%9f%9f%e5%90%8d%e6%a0%b9%e6%9c%ac%e4%b8%8d%e6%98%af%e4%bd%a0%e7%9a%84">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>在一篇深刻的技术地缘政治分析中，webhosting.today 提醒行业：<strong>.ai 和 .io 这样的国别顶级域（ccTLD）不是数字资产，而是租赁自不稳定政治实体的租约。</strong></p>
+<blockquote>
+<p>&ldquo;RFC 1591 明确规定顶级域的管理者是&rsquo;受托人&rsquo;，并称关于域的&rsquo;权利&rsquo;和&rsquo;所有权&rsquo;的关切是&rsquo;不恰当的&rsquo;。你并不拥有一个国别域名。你租用的是对某个你无法控制的领土的外交和政治地位的持续依赖。&rdquo;</p>
+</blockquote>
+<p>.ia 域名的命运与 Anguilla（安圭拉，英国海外领土）绑定——一个仅有 1.5 万人口的小岛。虽然目前稳定的，但历史上有过太多先例：.su（苏联）在苏联解体后成为僵尸域名；.io（英属印度洋领地）因领土争议而面临去留问题。你的 AI 创业公司的域名，实际上只依赖于一个小岛的 DNS 管理者的善意。</p>
+<p><strong>来源</strong></p>
+<ul>
+<li><a href="https://webhosting.today/2026/07/02/you-dont-own-your-io-or-ai-you-rent-a-countrys-politics/"  class="external-link" target="_blank" rel="noopener">You Don&rsquo;t Own Your .io or .ai. You Rent a Country&rsquo;s Politics</a> | <a href="https://news.ycombinator.com/item?id=48805715"  class="external-link" target="_blank" rel="noopener">HN 讨论</a></li>
+</ul>
+<hr>
+<h2 id="七快速扫描今日值得关注的其它信号">
+  七、快速扫描：今日值得关注的其它信号
+  <a class="heading-link" href="#%e4%b8%83%e5%bf%ab%e9%80%9f%e6%89%ab%e6%8f%8f%e4%bb%8a%e6%97%a5%e5%80%bc%e5%be%97%e5%85%b3%e6%b3%a8%e7%9a%84%e5%85%b6%e5%ae%83%e4%bf%a1%e5%8f%b7">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<table>
+	<thead>
+			<tr>
+					<th>项目</th>
+					<th>要点</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Pulpie</strong></td>
+					<td>用于清理网页数据性能最优的 Pareto 模型，开源发布</td>
+			</tr>
+			<tr>
+					<td><strong>Otari</strong></td>
+					<td>Mozilla 开源 LLM 控制面板，Agent 时代的 MLOps 工具</td>
+			</tr>
+			<tr>
+					<td><strong>TabFM 独立评测</strong></td>
+					<td>Google 表格基础模型的第三方评估出炉，结论值得关注</td>
+			</tr>
+			<tr>
+					<td><strong>太空机器人救援</strong></td>
+					<td>NASA 发射机器人挽救正在坠落的 Swift 望远镜——AI+太空的双重浪漫</td>
+			</tr>
+			<tr>
+					<td><strong>水足迹地图</strong></td>
+					<td>开发者绘制了 30 个主要 AI/云数据中心的用水量地图</td>
+			</tr>
+			<tr>
+					<td><strong>xAI → SpaceXAI</strong></td>
+					<td>xAI 完成品牌重塑为 SpaceXAI，新 Logo 已上线</td>
+			</tr>
+			<tr>
+					<td><strong>Not Everything Should Cost a Token</strong></td>
+					<td>关于&quot;确定性 AI&quot;的案例：不是所有操作都值得消耗 token</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>来源</strong></p>
+<ul>
+<li><a href="https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cleaning-the-web/"  class="external-link" target="_blank" rel="noopener">Pulpie – Models for Cleaning the Web</a> | <a href="https://news.ycombinator.com/item?id=48806575"  class="external-link" target="_blank" rel="noopener">HN 讨论</a></li>
+<li><a href="https://github.com/mozilla-ai/otari"  class="external-link" target="_blank" rel="noopener">Otari: open-source LLM control plane</a> | <a href="https://news.ycombinator.com/item?id=48810528"  class="external-link" target="_blank" rel="noopener">HN 讨论</a></li>
+<li><a href="https://yashrajpandey.com/writing/breaking-google-tabfm/"  class="external-link" target="_blank" rel="noopener">TabFM independent evaluation</a> | <a href="https://news.ycombinator.com/item?id=48805514"  class="external-link" target="_blank" rel="noopener">HN 讨论</a></li>
+<li><a href="https://www.thirstymachines.com/"  class="external-link" target="_blank" rel="noopener">I mapped water use across 30 AI/cloud data centers</a> | <a href="https://news.ycombinator.com/item?id=48809253"  class="external-link" target="_blank" rel="noopener">HN 讨论</a></li>
+</ul>
+<hr>
+<h2 id="结语泡沫之下结构在变化">
+  结语：泡沫之下，结构在变化
+  <a class="heading-link" href="#%e7%bb%93%e8%af%ad%e6%b3%a1%e6%b2%ab%e4%b9%8b%e4%b8%8b%e7%bb%93%e6%9e%84%e5%9c%a8%e5%8f%98%e5%8c%96">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>今天的新闻合集读起来像是两份不同文件的穿插：一份是财经媒体的&quot;AI 泡沫即将破裂&quot;警告，另一份是技术社区的&quot;我们正在取得真正的进步&quot;报告。这两者并不矛盾——资本市场对 AI 的定价可能确实超前了，尤其是在推理成本即将因 GLM 5.2 这样的架构创新而骤降的情况下。但与此同时，从 Anthropic 的 J-space 到 AMD 的生产级本地推理，从 OfficeCLI 的务实工具到 Ramp 的实证经济学，AI 产业的结构性基础正在变得更加坚实、更加多样化、也更加真实。</p>
+<p><strong>此刻坐在风暴眼上的人，既不应被恐慌吞噬，也不应被狂热蒙蔽。</strong></p>
+<p><code>AI泡沫</code> <code>GLM5.2</code> <code>推理成本</code> <code>Anthropic</code> <code>全局工作空间</code> <code>AMD Ryzen AI Halo</code> <code>本地推理</code> <code>AI Agent</code> <code>OfficeCLI</code> <code>Ramp</code> <code>AI就业</code> <code>Ternlight</code> <code>.ai域名</code> <code>Zuckerberg</code> <code>J-space</code> <code>Transformer Circuits</code> <code>Agentic AI</code> <code>边际利润</code> <code>水足迹</code> <code>TabFM</code></p>
+<hr>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script>
+  window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    
+    document.addEventListener('themeChanged', function (e) { 
+        if (document.readyState == 'complete') {
+          DISQUS.reset({ reload: true, config: disqus_config });
+        }
+    });
+</script>
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2026
+     哆啦 N 梦 
+    ·
+    
+    技术支持 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

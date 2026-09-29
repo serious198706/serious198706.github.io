@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Claude on Notex</title>
+		<link>http://localhost:1313/tags/claude/</link>
+		<description>Recent content in Claude on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 23 Sep 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/claude/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>模型战争白热化：GPT-6 Sol &amp; Luna 与 Claude Opus 5.5 同日发布</title>
+				<link>http://localhost:1313/posts/ai-think/2026-09-23/</link>
+				<pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-09-23/</guid>
+				<description>&lt;p&gt;模型战争白热化：GPT-6 Sol &amp;amp; Luna 与 Claude Opus 5.5 同日发布&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-09-23&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日 AI 领域发生了核弹级的一天：OpenAI 和 Anthropic 几乎同时发布了各自的最新旗舰模型 —— GPT-6 Sol &amp;amp; Luna 与 Claude Opus 5.5。与此同时，关于 OpenAI Navier-Stokes 证明的争议进一步发酵，Nathan Lambert 向国会提交的开源模型格局报告揭示了美国在开放模型竞赛中的结构性劣势，而 Pentagon 将伊朗导弹袭击事件部分归因于 AI 的过度依赖 —— 这些事件共同勾勒出一幅 AI 行业加速分裂的图景。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一双雄对峙gpt-6-solluna-vs-claude-opus-55-同日炸场&#34;&gt;&#xA;  一、双雄对峙：GPT-6 Sol/Luna vs. Claude Opus 5.5 同日炸场&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80%e5%8f%8c%e9%9b%84%e5%af%b9%e5%b3%99gpt-6-solluna-vs-claude-opus-55-%e5%90%8c%e6%97%a5%e7%82%b8%e5%9c%ba&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;今天无疑是 2026 年模型发布史上最具火药味的一天。OpenAI 发布了 GPT-6 家族双子星 &lt;strong&gt;GPT-6 Sol 和 GPT-6 Luna&lt;/strong&gt;，而 Anthropic 则在同一时间窗口推出了 &lt;strong&gt;Claude Opus 5.5&lt;/strong&gt;。虽然两家的发布各有侧重，但其战略意图异常清晰：OpenAI 走的是多模型专业化路线（Sol 主攻推理与代码，Luna 侧重创造力与对话），Anthropic 则瞄准了性价比和安全性的平衡点。&lt;/p&gt;&#xA;&lt;p&gt;Anthropic 的官方博客提供了大量细节：Opus 5.5 在 Terminal-Bench 4.0 上达到 66.4%（xhigh effort），FrontierCode v1.1 达到 54.4%，GPT-6 Astra 在这两项上的成绩分别为 57.9% 和 53.3%。更有冲击力的是成本数据：Opus 5.5 缓存读取仅 $0.20/百万 token（比 Opus 5 低 60%），输入 $4/百万 token，输出 $20/百万 token，均比 Opus 5 降低约 20%。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>量化革命、代码争议与文化反思</title>
+				<link>http://localhost:1313/posts/ai-think/2026-06-06/</link>
+				<pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-06-06/</guid>
+				<description>&lt;p&gt;量化革命、代码争议与文化反思&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-06-06&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日 AI 领域呈现出三条清晰的脉络：Google 发布 Gemma 4 QAT 模型，将边缘设备推理推向新高度；一场围绕 Claude 是否破坏了 rsync 代码库的激烈争论，在严谨的数据分析下被证伪；而 Anthropic 开源了自动化漏洞发现框架，与 Microsoft Scout 的&amp;quot;成瘾性设计&amp;quot;争议一道，引发了关于 AI 信任与依赖的深层讨论。学术界则贡献了一份优雅的发现：Transformer 本质上比我们想象的更简洁。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-google-的量化革命当-ai-模型瘦身到-1gb&#34;&gt;&#xA;  🔬 Google 的量化革命：当 AI 模型瘦身到 1GB&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-google-%e7%9a%84%e9%87%8f%e5%8c%96%e9%9d%a9%e5%91%bd%e5%bd%93-ai-%e6%a8%a1%e5%9e%8b%e7%98%a6%e8%ba%ab%e5%88%b0-1gb&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Google 昨日发布了 &lt;strong&gt;Gemma 4 QAT（Quantization-Aware Training）&lt;/strong&gt; 检查点，这是一个值得行业密切关注的技术节点。其核心成果是：将 Gemma 4 E2B 模型的内存占用压缩至 &lt;strong&gt;不到 1GB&lt;/strong&gt;，同时保持了模型质量。&lt;/p&gt;&#xA;&lt;p&gt;传统做法是在训练完成后进行后训练量化（PTQ），这往往带来性能退化。Google 的做法是将量化过程直接&lt;strong&gt;嵌入训练流程&lt;/strong&gt;：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;静态激活（Static activations）&lt;/strong&gt;：预计算缩放设置，减少移动芯片的计算负载&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;通道级量化（Channel-wise quantization）&lt;/strong&gt;：让压缩后的数据结构适配移动加速器的原生计算模式&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;定向 2 位量化&lt;/strong&gt;：将生成 token 的部分压缩至 2 位，同时保持核心推理层的高精度&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;嵌入层与 KV 缓存优化&lt;/strong&gt;：大幅降低活跃内存占用，支持长对话不断线&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;这些技术细节并非单纯的工程优化。它们指向一个更深的趋势：&lt;strong&gt;AI 推理的主战场，正在从云端 GPU 集群转向消费者手中的设备&lt;/strong&gt;。与框架提供者（llama.cpp、Ollama、LM Studio、MLX、vLLM、SGLang）的广泛合作表明，Google 此次的目标不是发布一个独立的模型，而是构建一整套边缘推理生态。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;We&amp;rsquo;ve reduced the memory footprint of Gemma 4 E2B to 1GB.&amp;rdquo;&#xA;—— Google AI Blog&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+			<item>
+				<title>2026-04-24</title>
+				<link>http://localhost:1313/posts/ai-think/2026-04-24-old-1/</link>
+				<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-04-24-old-1/</guid>
+				<description>&lt;p&gt;2026-04-24&lt;/p&gt;&#xA;&lt;p&gt;今日 Hacker News 上的 AI 热门新闻汇总。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1模型发布与更新&#34;&gt;&#xA;  1、模型发布与更新&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#1%e6%a8%a1%e5%9e%8b%e5%8f%91%e5%b8%83%e4%b8%8e%e6%9b%b4%e6%96%b0&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;An update on recent Claude Code quality reports&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.anthropic.com/engineering/april-23-postmortem&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unknown&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=47878905&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hacker News 讨论&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Title: An update on recent Claude Code quality reports URL Source: &lt;a href=&#34;https://www.anthropic.com/engineering/april-23-postmortem&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.anthropic.com/engineering/april-23-postmortem&lt;/a&gt; Markdown Content: Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was not impacted. All three issues have now been resolved as of April 20 (v2.1.116). In this post, we explain what we&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

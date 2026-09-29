@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>上下文压缩 on Notex</title>
+		<link>http://localhost:1313/tags/%E4%B8%8A%E4%B8%8B%E6%96%87%E5%8E%8B%E7%BC%A9/</link>
+		<description>Recent content in 上下文压缩 on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/%E4%B8%8A%E4%B8%8B%E6%96%87%E5%8E%8B%E7%BC%A9/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>当联盟重组、安全缺口与复古智能同日浮现</title>
+				<link>http://localhost:1313/posts/ai-think/2026-04-28/</link>
+				<pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-04-28/</guid>
+				<description>&lt;p&gt;当联盟重组、安全缺口与复古智能同日浮现&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-04-28&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;今日的 AI 新闻在表面上分散于交易重组、安全泄露、地缘政治和技术创新四个象限，但如果放在一起看，它们共同指向一个正在深层次重组的 AI 行业结构：曾经的依赖关系正在松动，曾经被忽视的风险正在兑现，曾经的技术路径正在分化。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一微软与-openai-重新定义边界ai-联盟正在去契约化&#34;&gt;&#xA;  一、微软与 OpenAI 重新定义边界：AI 联盟正在去契约化&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80%e5%be%ae%e8%bd%af%e4%b8%8e-openai-%e9%87%8d%e6%96%b0%e5%ae%9a%e4%b9%89%e8%be%b9%e7%95%8cai-%e8%81%94%e7%9b%9f%e6%ad%a3%e5%9c%a8%e5%8e%bb%e5%a5%91%e7%ba%a6%e5%8c%96&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;：&lt;a href=&#34;https://www.bloomberg.com/news/articles/2026-04-27/microsoft-to-stop-sharing-revenue-with-main-ai-partner-openai&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bloomberg: Microsoft and OpenAI End Exclusive Deal&lt;/a&gt; · &lt;a href=&#34;https://news.ycombinator.com/item?id=47921248&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hacker News 讨论&lt;/a&gt; · &lt;a href=&#34;https://openai.com/index/next-phase-of-microsoft-openai-partnership/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenAI 官方声明&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;微软和 OpenAI 今日联合宣布终止独家云转售协议和收入分成安排。这不是一次普通的关系修正，而是 AI 行业基础设施层权力结构的一次标志性松动。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;协议的实质是什么？&lt;/strong&gt; 微软此前通过该协议获得两项核心权益：其一，OpenAI 的模型只能通过 Azure 销售；其二，Azure 转售 OpenAI 产品时享有收入分成。这帮助微软在云市场获得了差异化 AI 能力，也帮助 OpenAI 获得了足够资金和算力支持。但这两个条件现在都不再必要——OpenAI 已经足够大，Azure 的 AI 差异化也不再依赖这一纸契约。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;真正重要的变化在于：&lt;/strong&gt; OpenAI 终于可以与其他云厂商合作，包括 AWS 和 Google Cloud。这意味着 AI 模型的分发将走向真正的多云化，客户不再被迫为 OpenAI 模型使用 Azure。这对整个企业 AI 市场有结构性影响——单一云绑定模式正在被打破。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;核心洞察：&lt;/strong&gt; 这则新闻的深层含义不是&amp;quot;微软失去独家权&amp;quot;，而是&amp;quot;AI 基础模型的分发控制权正在从云厂商博弈回归到模型本身&amp;quot;。当 OpenAI 不再需要 Azure 的分销保护，Azure 也需要重新思考自己在 AI 栈中的位置。云厂商在 AI 时代的价值，正在从&amp;quot;谁的模型在你的云上运行&amp;quot;变成&amp;quot;谁的推理成本最低、延迟最好、集成最顺&amp;quot;。&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+	</channel>
+</rss>
