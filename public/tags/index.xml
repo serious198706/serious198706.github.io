@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Tags on Notex</title>
-		<link>http://localhost:1313/tags/</link>
+		<link>https://notex.cc/tags/</link>
 		<description>Recent content in Tags on Notex</description>
 		<generator>Hugo</generator>
 		<language>zh-cn</language>
@@ -12,530 +12,530 @@
 		
 			<lastBuildDate>Wed, 23 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://notex.cc/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Ai</title>
-				<link>http://localhost:1313/tags/ai/</link>
+				<title>AI</title>
+				<link>https://notex.cc/tags/ai/</link>
 				<pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/ai/</guid>
+				<guid>https://notex.cc/tags/ai/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>AI-Safety</title>
-				<link>http://localhost:1313/tags/ai-safety/</link>
+				<link>https://notex.cc/tags/ai-safety/</link>
 				<pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/ai-safety/</guid>
+				<guid>https://notex.cc/tags/ai-safety/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Claude</title>
-				<link>http://localhost:1313/tags/claude/</link>
+				<link>https://notex.cc/tags/claude/</link>
 				<pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/claude/</guid>
+				<guid>https://notex.cc/tags/claude/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>GPT-6</title>
-				<link>http://localhost:1313/tags/gpt-6/</link>
+				<link>https://notex.cc/tags/gpt-6/</link>
 				<pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/gpt-6/</guid>
+				<guid>https://notex.cc/tags/gpt-6/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Navier-Stokes</title>
-				<link>http://localhost:1313/tags/navier-stokes/</link>
+				<link>https://notex.cc/tags/navier-stokes/</link>
 				<pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/navier-stokes/</guid>
+				<guid>https://notex.cc/tags/navier-stokes/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>OpenModels</title>
-				<link>http://localhost:1313/tags/openmodels/</link>
+				<link>https://notex.cc/tags/openmodels/</link>
 				<pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/openmodels/</guid>
+				<guid>https://notex.cc/tags/openmodels/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Digest</title>
-				<link>http://localhost:1313/tags/digest/</link>
+				<link>https://notex.cc/tags/digest/</link>
 				<pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/digest/</guid>
+				<guid>https://notex.cc/tags/digest/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Google</title>
-				<link>http://localhost:1313/tags/google/</link>
+				<link>https://notex.cc/tags/google/</link>
 				<pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/google/</guid>
+				<guid>https://notex.cc/tags/google/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Open Source</title>
-				<link>http://localhost:1313/tags/open-source/</link>
+				<link>https://notex.cc/tags/open-source/</link>
 				<pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/open-source/</guid>
+				<guid>https://notex.cc/tags/open-source/</guid>
 				<description></description>
 			</item>
 			<item>
-				<title>OpenAI</title>
-				<link>http://localhost:1313/tags/openai/</link>
+				<title>Openai</title>
+				<link>https://notex.cc/tags/openai/</link>
 				<pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/openai/</guid>
+				<guid>https://notex.cc/tags/openai/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Privacy</title>
-				<link>http://localhost:1313/tags/privacy/</link>
+				<link>https://notex.cc/tags/privacy/</link>
 				<pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/privacy/</guid>
+				<guid>https://notex.cc/tags/privacy/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>AI-Digest</title>
-				<link>http://localhost:1313/tags/ai-digest/</link>
+				<link>https://notex.cc/tags/ai-digest/</link>
 				<pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/ai-digest/</guid>
+				<guid>https://notex.cc/tags/ai-digest/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Anthropic</title>
-				<link>http://localhost:1313/tags/anthropic/</link>
+				<link>https://notex.cc/tags/anthropic/</link>
 				<pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/anthropic/</guid>
+				<guid>https://notex.cc/tags/anthropic/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Autonomous Agents</title>
-				<link>http://localhost:1313/tags/autonomous-agents/</link>
+				<link>https://notex.cc/tags/autonomous-agents/</link>
 				<pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/autonomous-agents/</guid>
+				<guid>https://notex.cc/tags/autonomous-agents/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Counterfeit Detection</title>
-				<link>http://localhost:1313/tags/counterfeit-detection/</link>
+				<link>https://notex.cc/tags/counterfeit-detection/</link>
 				<pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/counterfeit-detection/</guid>
+				<guid>https://notex.cc/tags/counterfeit-detection/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>DMCA</title>
-				<link>http://localhost:1313/tags/dmca/</link>
+				<link>https://notex.cc/tags/dmca/</link>
 				<pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/dmca/</guid>
+				<guid>https://notex.cc/tags/dmca/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Sanctions</title>
-				<link>http://localhost:1313/tags/sanctions/</link>
+				<link>https://notex.cc/tags/sanctions/</link>
 				<pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/sanctions/</guid>
+				<guid>https://notex.cc/tags/sanctions/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Agent-Plugins</title>
-				<link>http://localhost:1313/tags/agent-plugins/</link>
+				<link>https://notex.cc/tags/agent-plugins/</link>
 				<pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/agent-plugins/</guid>
+				<guid>https://notex.cc/tags/agent-plugins/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>AI-Daily-Digest</title>
-				<link>http://localhost:1313/tags/ai-daily-digest/</link>
+				<link>https://notex.cc/tags/ai-daily-digest/</link>
 				<pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/ai-daily-digest/</guid>
+				<guid>https://notex.cc/tags/ai-daily-digest/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>AMD</title>
-				<link>http://localhost:1313/tags/amd/</link>
+				<link>https://notex.cc/tags/amd/</link>
 				<pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/amd/</guid>
+				<guid>https://notex.cc/tags/amd/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>LLM-Inference</title>
-				<link>http://localhost:1313/tags/llm-inference/</link>
+				<link>https://notex.cc/tags/llm-inference/</link>
 				<pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/llm-inference/</guid>
+				<guid>https://notex.cc/tags/llm-inference/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Qwen</title>
-				<link>http://localhost:1313/tags/qwen/</link>
+				<link>https://notex.cc/tags/qwen/</link>
 				<pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/qwen/</guid>
+				<guid>https://notex.cc/tags/qwen/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Taalas</title>
-				<link>http://localhost:1313/tags/taalas/</link>
+				<link>https://notex.cc/tags/taalas/</link>
 				<pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/taalas/</guid>
+				<guid>https://notex.cc/tags/taalas/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Agent</title>
-				<link>http://localhost:1313/tags/agent/</link>
+				<link>https://notex.cc/tags/agent/</link>
 				<pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/agent/</guid>
+				<guid>https://notex.cc/tags/agent/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>AI Reasoning</title>
-				<link>http://localhost:1313/tags/ai-reasoning/</link>
+				<link>https://notex.cc/tags/ai-reasoning/</link>
 				<pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/ai-reasoning/</guid>
+				<guid>https://notex.cc/tags/ai-reasoning/</guid>
 				<description></description>
 			</item>
 			<item>
-				<title>LLM</title>
-				<link>http://localhost:1313/tags/llm/</link>
+				<title>Llm</title>
+				<link>https://notex.cc/tags/llm/</link>
 				<pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/llm/</guid>
+				<guid>https://notex.cc/tags/llm/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Security</title>
-				<link>http://localhost:1313/tags/security/</link>
+				<link>https://notex.cc/tags/security/</link>
 				<pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/security/</guid>
+				<guid>https://notex.cc/tags/security/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>SWE-Bench</title>
-				<link>http://localhost:1313/tags/swe-bench/</link>
+				<link>https://notex.cc/tags/swe-bench/</link>
 				<pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/swe-bench/</guid>
+				<guid>https://notex.cc/tags/swe-bench/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Censorship</title>
-				<link>http://localhost:1313/tags/censorship/</link>
+				<link>https://notex.cc/tags/censorship/</link>
 				<pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/censorship/</guid>
+				<guid>https://notex.cc/tags/censorship/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Distillation</title>
-				<link>http://localhost:1313/tags/distillation/</link>
+				<link>https://notex.cc/tags/distillation/</link>
 				<pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/distillation/</guid>
+				<guid>https://notex.cc/tags/distillation/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>GCC</title>
-				<link>http://localhost:1313/tags/gcc/</link>
+				<link>https://notex.cc/tags/gcc/</link>
 				<pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/gcc/</guid>
+				<guid>https://notex.cc/tags/gcc/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>GPT-5.6</title>
-				<link>http://localhost:1313/tags/gpt-5.6/</link>
+				<link>https://notex.cc/tags/gpt-5.6/</link>
 				<pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/gpt-5.6/</guid>
+				<guid>https://notex.cc/tags/gpt-5.6/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Gemma4</title>
-				<link>http://localhost:1313/tags/gemma4/</link>
+				<link>https://notex.cc/tags/gemma4/</link>
 				<pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/gemma4/</guid>
+				<guid>https://notex.cc/tags/gemma4/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Quantization</title>
-				<link>http://localhost:1313/tags/quantization/</link>
+				<link>https://notex.cc/tags/quantization/</link>
 				<pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/quantization/</guid>
+				<guid>https://notex.cc/tags/quantization/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Rsync</title>
-				<link>http://localhost:1313/tags/rsync/</link>
+				<link>https://notex.cc/tags/rsync/</link>
 				<pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/rsync/</guid>
+				<guid>https://notex.cc/tags/rsync/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Transformer</title>
-				<link>http://localhost:1313/tags/transformer/</link>
+				<link>https://notex.cc/tags/transformer/</link>
 				<pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/transformer/</guid>
+				<guid>https://notex.cc/tags/transformer/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>AF_ALG</title>
-				<link>http://localhost:1313/tags/af_alg/</link>
+				<link>https://notex.cc/tags/af_alg/</link>
 				<pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/af_alg/</guid>
+				<guid>https://notex.cc/tags/af_alg/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>AI代码审计</title>
-				<link>http://localhost:1313/tags/ai%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1/</link>
+				<link>https://notex.cc/tags/ai%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1/</link>
 				<pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/ai%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1/</guid>
+				<guid>https://notex.cc/tags/ai%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>CVE-2026-31431</title>
-				<link>http://localhost:1313/tags/cve-2026-31431/</link>
+				<link>https://notex.cc/tags/cve-2026-31431/</link>
 				<pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/cve-2026-31431/</guid>
+				<guid>https://notex.cc/tags/cve-2026-31431/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Token压缩</title>
-				<link>http://localhost:1313/tags/token%E5%8E%8B%E7%BC%A9/</link>
+				<link>https://notex.cc/tags/token%E5%8E%8B%E7%BC%A9/</link>
 				<pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/token%E5%8E%8B%E7%BC%A9/</guid>
+				<guid>https://notex.cc/tags/token%E5%8E%8B%E7%BC%A9/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Vintage LLM</title>
-				<link>http://localhost:1313/tags/vintage-llm/</link>
+				<link>https://notex.cc/tags/vintage-llm/</link>
 				<pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/vintage-llm/</guid>
+				<guid>https://notex.cc/tags/vintage-llm/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>数据泄露</title>
-				<link>http://localhost:1313/tags/%E6%95%B0%E6%8D%AE%E6%B3%84%E9%9C%B2/</link>
+				<link>https://notex.cc/tags/%E6%95%B0%E6%8D%AE%E6%B3%84%E9%9C%B2/</link>
 				<pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/%E6%95%B0%E6%8D%AE%E6%B3%84%E9%9C%B2/</guid>
+				<guid>https://notex.cc/tags/%E6%95%B0%E6%8D%AE%E6%B3%84%E9%9C%B2/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>结构化输出基准</title>
-				<link>http://localhost:1313/tags/%E7%BB%93%E6%9E%84%E5%8C%96%E8%BE%93%E5%87%BA%E5%9F%BA%E5%87%86/</link>
+				<link>https://notex.cc/tags/%E7%BB%93%E6%9E%84%E5%8C%96%E8%BE%93%E5%87%BA%E5%9F%BA%E5%87%86/</link>
 				<pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/%E7%BB%93%E6%9E%84%E5%8C%96%E8%BE%93%E5%87%BA%E5%9F%BA%E5%87%86/</guid>
+				<guid>https://notex.cc/tags/%E7%BB%93%E6%9E%84%E5%8C%96%E8%BE%93%E5%87%BA%E5%9F%BA%E5%87%86/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>间接Prompt注入</title>
-				<link>http://localhost:1313/tags/%E9%97%B4%E6%8E%A5prompt%E6%B3%A8%E5%85%A5/</link>
+				<link>https://notex.cc/tags/%E9%97%B4%E6%8E%A5prompt%E6%B3%A8%E5%85%A5/</link>
 				<pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/%E9%97%B4%E6%8E%A5prompt%E6%B3%A8%E5%85%A5/</guid>
+				<guid>https://notex.cc/tags/%E9%97%B4%E6%8E%A5prompt%E6%B3%A8%E5%85%A5/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>页面缓存</title>
-				<link>http://localhost:1313/tags/%E9%A1%B5%E9%9D%A2%E7%BC%93%E5%AD%98/</link>
+				<link>https://notex.cc/tags/%E9%A1%B5%E9%9D%A2%E7%BC%93%E5%AD%98/</link>
 				<pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/%E9%A1%B5%E9%9D%A2%E7%BC%93%E5%AD%98/</guid>
+				<guid>https://notex.cc/tags/%E9%A1%B5%E9%9D%A2%E7%BC%93%E5%AD%98/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>AI供应链安全</title>
-				<link>http://localhost:1313/tags/ai%E4%BE%9B%E5%BA%94%E9%93%BE%E5%AE%89%E5%85%A8/</link>
+				<link>https://notex.cc/tags/ai%E4%BE%9B%E5%BA%94%E9%93%BE%E5%AE%89%E5%85%A8/</link>
 				<pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/ai%E4%BE%9B%E5%BA%94%E9%93%BE%E5%AE%89%E5%85%A8/</guid>
+				<guid>https://notex.cc/tags/ai%E4%BE%9B%E5%BA%94%E9%93%BE%E5%AE%89%E5%85%A8/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Dirac编码Agent</title>
-				<link>http://localhost:1313/tags/dirac%E7%BC%96%E7%A0%81agent/</link>
+				<link>https://notex.cc/tags/dirac%E7%BC%96%E7%A0%81agent/</link>
 				<pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/dirac%E7%BC%96%E7%A0%81agent/</guid>
+				<guid>https://notex.cc/tags/dirac%E7%BC%96%E7%A0%81agent/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Manus收购被拒</title>
-				<link>http://localhost:1313/tags/manus%E6%94%B6%E8%B4%AD%E8%A2%AB%E6%8B%92/</link>
+				<link>https://notex.cc/tags/manus%E6%94%B6%E8%B4%AD%E8%A2%AB%E6%8B%92/</link>
 				<pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/manus%E6%94%B6%E8%B4%AD%E8%A2%AB%E6%8B%92/</guid>
+				<guid>https://notex.cc/tags/manus%E6%94%B6%E8%B4%AD%E8%A2%AB%E6%8B%92/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Mercor数据泄露</title>
-				<link>http://localhost:1313/tags/mercor%E6%95%B0%E6%8D%AE%E6%B3%84%E9%9C%B2/</link>
+				<link>https://notex.cc/tags/mercor%E6%95%B0%E6%8D%AE%E6%B3%84%E9%9C%B2/</link>
 				<pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/mercor%E6%95%B0%E6%8D%AE%E6%B3%84%E9%9C%B2/</guid>
+				<guid>https://notex.cc/tags/mercor%E6%95%B0%E6%8D%AE%E6%B3%84%E9%9C%B2/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>上下文压缩</title>
-				<link>http://localhost:1313/tags/%E4%B8%8A%E4%B8%8B%E6%96%87%E5%8E%8B%E7%BC%A9/</link>
+				<link>https://notex.cc/tags/%E4%B8%8A%E4%B8%8B%E6%96%87%E5%8E%8B%E7%BC%A9/</link>
 				<pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/%E4%B8%8A%E4%B8%8B%E6%96%87%E5%8E%8B%E7%BC%A9/</guid>
+				<guid>https://notex.cc/tags/%E4%B8%8A%E4%B8%8B%E6%96%87%E5%8E%8B%E7%BC%A9/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>地缘AI博弈</title>
-				<link>http://localhost:1313/tags/%E5%9C%B0%E7%BC%98ai%E5%8D%9A%E5%BC%88/</link>
+				<link>https://notex.cc/tags/%E5%9C%B0%E7%BC%98ai%E5%8D%9A%E5%BC%88/</link>
 				<pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/%E5%9C%B0%E7%BC%98ai%E5%8D%9A%E5%BC%88/</guid>
+				<guid>https://notex.cc/tags/%E5%9C%B0%E7%BC%98ai%E5%8D%9A%E5%BC%88/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>复古语言模型</title>
-				<link>http://localhost:1313/tags/%E5%A4%8D%E5%8F%A4%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/</link>
+				<link>https://notex.cc/tags/%E5%A4%8D%E5%8F%A4%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/</link>
 				<pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/%E5%A4%8D%E5%8F%A4%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/</guid>
+				<guid>https://notex.cc/tags/%E5%A4%8D%E5%8F%A4%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>多云分发</title>
-				<link>http://localhost:1313/tags/%E5%A4%9A%E4%BA%91%E5%88%86%E5%8F%91/</link>
+				<link>https://notex.cc/tags/%E5%A4%9A%E4%BA%91%E5%88%86%E5%8F%91/</link>
 				<pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/%E5%A4%9A%E4%BA%91%E5%88%86%E5%8F%91/</guid>
+				<guid>https://notex.cc/tags/%E5%A4%9A%E4%BA%91%E5%88%86%E5%8F%91/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>微软-OpenAI分家</title>
-				<link>http://localhost:1313/tags/%E5%BE%AE%E8%BD%AF-openai%E5%88%86%E5%AE%B6/</link>
+				<link>https://notex.cc/tags/%E5%BE%AE%E8%BD%AF-openai%E5%88%86%E5%AE%B6/</link>
 				<pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/%E5%BE%AE%E8%BD%AF-openai%E5%88%86%E5%AE%B6/</guid>
+				<guid>https://notex.cc/tags/%E5%BE%AE%E8%BD%AF-openai%E5%88%86%E5%AE%B6/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>语音生物特征安全</title>
-				<link>http://localhost:1313/tags/%E8%AF%AD%E9%9F%B3%E7%94%9F%E7%89%A9%E7%89%B9%E5%BE%81%E5%AE%89%E5%85%A8/</link>
+				<link>https://notex.cc/tags/%E8%AF%AD%E9%9F%B3%E7%94%9F%E7%89%A9%E7%89%B9%E5%BE%81%E5%AE%89%E5%85%A8/</link>
 				<pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/%E8%AF%AD%E9%9F%B3%E7%94%9F%E7%89%A9%E7%89%B9%E5%BE%81%E5%AE%89%E5%85%A8/</guid>
+				<guid>https://notex.cc/tags/%E8%AF%AD%E9%9F%B3%E7%94%9F%E7%89%A9%E7%89%B9%E5%BE%81%E5%AE%89%E5%85%A8/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>AI Agent</title>
-				<link>http://localhost:1313/tags/ai-agent/</link>
+				<link>https://notex.cc/tags/ai-agent/</link>
 				<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/ai-agent/</guid>
+				<guid>https://notex.cc/tags/ai-agent/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>AI 安全</title>
-				<link>http://localhost:1313/tags/ai-%E5%AE%89%E5%85%A8/</link>
+				<link>https://notex.cc/tags/ai-%E5%AE%89%E5%85%A8/</link>
 				<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/ai-%E5%AE%89%E5%85%A8/</guid>
+				<guid>https://notex.cc/tags/ai-%E5%AE%89%E5%85%A8/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>AI 新闻伦理</title>
-				<link>http://localhost:1313/tags/ai-%E6%96%B0%E9%97%BB%E4%BC%A6%E7%90%86/</link>
+				<link>https://notex.cc/tags/ai-%E6%96%B0%E9%97%BB%E4%BC%A6%E7%90%86/</link>
 				<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/ai-%E6%96%B0%E9%97%BB%E4%BC%A6%E7%90%86/</guid>
+				<guid>https://notex.cc/tags/ai-%E6%96%B0%E9%97%BB%E4%BC%A6%E7%90%86/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>AI 质量</title>
-				<link>http://localhost:1313/tags/ai-%E8%B4%A8%E9%87%8F/</link>
+				<link>https://notex.cc/tags/ai-%E8%B4%A8%E9%87%8F/</link>
 				<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/ai-%E8%B4%A8%E9%87%8F/</guid>
+				<guid>https://notex.cc/tags/ai-%E8%B4%A8%E9%87%8F/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>AI安全</title>
-				<link>http://localhost:1313/tags/ai%E5%AE%89%E5%85%A8/</link>
+				<link>https://notex.cc/tags/ai%E5%AE%89%E5%85%A8/</link>
 				<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/ai%E5%AE%89%E5%85%A8/</guid>
+				<guid>https://notex.cc/tags/ai%E5%AE%89%E5%85%A8/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Ars Technica</title>
-				<link>http://localhost:1313/tags/ars-technica/</link>
+				<link>https://notex.cc/tags/ars-technica/</link>
 				<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/ars-technica/</guid>
+				<guid>https://notex.cc/tags/ars-technica/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Claude Code</title>
-				<link>http://localhost:1313/tags/claude-code/</link>
+				<link>https://notex.cc/tags/claude-code/</link>
 				<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/claude-code/</guid>
+				<guid>https://notex.cc/tags/claude-code/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Deep Learning</title>
-				<link>http://localhost:1313/tags/deep-learning/</link>
+				<link>https://notex.cc/tags/deep-learning/</link>
 				<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/deep-learning/</guid>
+				<guid>https://notex.cc/tags/deep-learning/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Gemini</title>
-				<link>http://localhost:1313/tags/gemini/</link>
+				<link>https://notex.cc/tags/gemini/</link>
 				<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/gemini/</guid>
+				<guid>https://notex.cc/tags/gemini/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Gpt</title>
-				<link>http://localhost:1313/tags/gpt/</link>
+				<link>https://notex.cc/tags/gpt/</link>
 				<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/gpt/</guid>
+				<guid>https://notex.cc/tags/gpt/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>GPT-5.5</title>
-				<link>http://localhost:1313/tags/gpt-5.5/</link>
+				<link>https://notex.cc/tags/gpt-5.5/</link>
 				<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/gpt-5.5/</guid>
+				<guid>https://notex.cc/tags/gpt-5.5/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Machine Learning</title>
-				<link>http://localhost:1313/tags/machine-learning/</link>
+				<link>https://notex.cc/tags/machine-learning/</link>
 				<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/machine-learning/</guid>
+				<guid>https://notex.cc/tags/machine-learning/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>MeshCore</title>
-				<link>http://localhost:1313/tags/meshcore/</link>
+				<link>https://notex.cc/tags/meshcore/</link>
 				<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/meshcore/</guid>
+				<guid>https://notex.cc/tags/meshcore/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Neural</title>
-				<link>http://localhost:1313/tags/neural/</link>
+				<link>https://notex.cc/tags/neural/</link>
 				<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/neural/</guid>
+				<guid>https://notex.cc/tags/neural/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Vibe Coding</title>
-				<link>http://localhost:1313/tags/vibe-coding/</link>
+				<link>https://notex.cc/tags/vibe-coding/</link>
 				<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/vibe-coding/</guid>
+				<guid>https://notex.cc/tags/vibe-coding/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>代码生成</title>
-				<link>http://localhost:1313/tags/%E4%BB%A3%E7%A0%81%E7%94%9F%E6%88%90/</link>
+				<link>https://notex.cc/tags/%E4%BB%A3%E7%A0%81%E7%94%9F%E6%88%90/</link>
 				<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/%E4%BB%A3%E7%A0%81%E7%94%9F%E6%88%90/</guid>
+				<guid>https://notex.cc/tags/%E4%BB%A3%E7%A0%81%E7%94%9F%E6%88%90/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>企业 AI 失败率</title>
-				<link>http://localhost:1313/tags/%E4%BC%81%E4%B8%9A-ai-%E5%A4%B1%E8%B4%A5%E7%8E%87/</link>
+				<link>https://notex.cc/tags/%E4%BC%81%E4%B8%9A-ai-%E5%A4%B1%E8%B4%A5%E7%8E%87/</link>
 				<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/%E4%BC%81%E4%B8%9A-ai-%E5%A4%B1%E8%B4%A5%E7%8E%87/</guid>
+				<guid>https://notex.cc/tags/%E4%BC%81%E4%B8%9A-ai-%E5%A4%B1%E8%B4%A5%E7%8E%87/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>可观测性</title>
-				<link>http://localhost:1313/tags/%E5%8F%AF%E8%A7%82%E6%B5%8B%E6%80%A7/</link>
+				<link>https://notex.cc/tags/%E5%8F%AF%E8%A7%82%E6%B5%8B%E6%80%A7/</link>
 				<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/%E5%8F%AF%E8%A7%82%E6%B5%8B%E6%80%A7/</guid>
+				<guid>https://notex.cc/tags/%E5%8F%AF%E8%A7%82%E6%B5%8B%E6%80%A7/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>开源治理</title>
-				<link>http://localhost:1313/tags/%E5%BC%80%E6%BA%90%E6%B2%BB%E7%90%86/</link>
+				<link>https://notex.cc/tags/%E5%BC%80%E6%BA%90%E6%B2%BB%E7%90%86/</link>
 				<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/%E5%BC%80%E6%BA%90%E6%B2%BB%E7%90%86/</guid>
+				<guid>https://notex.cc/tags/%E5%BC%80%E6%BA%90%E6%B2%BB%E7%90%86/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>透明度</title>
-				<link>http://localhost:1313/tags/%E9%80%8F%E6%98%8E%E5%BA%A6/</link>
+				<link>https://notex.cc/tags/%E9%80%8F%E6%98%8E%E5%BA%A6/</link>
 				<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/%E9%80%8F%E6%98%8E%E5%BA%A6/</guid>
+				<guid>https://notex.cc/tags/%E9%80%8F%E6%98%8E%E5%BA%A6/</guid>
 				<description></description>
 			</item>
 	</channel>

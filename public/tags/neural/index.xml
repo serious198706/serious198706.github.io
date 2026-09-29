@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Neural on Notex</title>
-		<link>http://localhost:1313/tags/neural/</link>
+		<link>https://notex.cc/tags/neural/</link>
 		<description>Recent content in Neural on Notex</description>
 		<generator>Hugo</generator>
 		<language>zh-cn</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Fri, 24 Apr 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/neural/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://notex.cc/tags/neural/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>2026-04-24</title>
-				<link>http://localhost:1313/posts/ai-think/2026-04-24-old-1/</link>
+				<link>https://notex.cc/posts/ai-think/2026-04-24-old-1/</link>
 				<pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/posts/ai-think/2026-04-24-old-1/</guid>
+				<guid>https://notex.cc/posts/ai-think/2026-04-24-old-1/</guid>
 				<description>&lt;p&gt;2026-04-24&lt;/p&gt;&#xA;&lt;p&gt;今日 Hacker News 上的 AI 热门新闻汇总。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1模型发布与更新&#34;&gt;&#xA;  1、模型发布与更新&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#1%e6%a8%a1%e5%9e%8b%e5%8f%91%e5%b8%83%e4%b8%8e%e6%9b%b4%e6%96%b0&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;An update on recent Claude Code quality reports&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.anthropic.com/engineering/april-23-postmortem&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unknown&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=47878905&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hacker News 讨论&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Title: An update on recent Claude Code quality reports URL Source: &lt;a href=&#34;https://www.anthropic.com/engineering/april-23-postmortem&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.anthropic.com/engineering/april-23-postmortem&lt;/a&gt; Markdown Content: Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was not impacted. All three issues have now been resolved as of April 20 (v2.1.116). In this post, we explain what we&lt;/p&gt;</description>
 			</item>
 	</channel>

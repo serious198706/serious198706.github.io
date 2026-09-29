@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>OpenModels on Notex</title>
-		<link>http://localhost:1313/tags/openmodels/</link>
+		<link>https://notex.cc/tags/openmodels/</link>
 		<description>Recent content in OpenModels on Notex</description>
 		<generator>Hugo</generator>
 		<language>zh-cn</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Wed, 23 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/openmodels/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://notex.cc/tags/openmodels/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>模型战争白热化：GPT-6 Sol &amp; Luna 与 Claude Opus 5.5 同日发布</title>
-				<link>http://localhost:1313/posts/ai-think/2026-09-23/</link>
+				<link>https://notex.cc/posts/ai-think/2026-09-23/</link>
 				<pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/posts/ai-think/2026-09-23/</guid>
+				<guid>https://notex.cc/posts/ai-think/2026-09-23/</guid>
 				<description>&lt;p&gt;模型战争白热化：GPT-6 Sol &amp;amp; Luna 与 Claude Opus 5.5 同日发布&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-09-23&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日 AI 领域发生了核弹级的一天：OpenAI 和 Anthropic 几乎同时发布了各自的最新旗舰模型 —— GPT-6 Sol &amp;amp; Luna 与 Claude Opus 5.5。与此同时，关于 OpenAI Navier-Stokes 证明的争议进一步发酵，Nathan Lambert 向国会提交的开源模型格局报告揭示了美国在开放模型竞赛中的结构性劣势，而 Pentagon 将伊朗导弹袭击事件部分归因于 AI 的过度依赖 —— 这些事件共同勾勒出一幅 AI 行业加速分裂的图景。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一双雄对峙gpt-6-solluna-vs-claude-opus-55-同日炸场&#34;&gt;&#xA;  一、双雄对峙：GPT-6 Sol/Luna vs. Claude Opus 5.5 同日炸场&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80%e5%8f%8c%e9%9b%84%e5%af%b9%e5%b3%99gpt-6-solluna-vs-claude-opus-55-%e5%90%8c%e6%97%a5%e7%82%b8%e5%9c%ba&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;今天无疑是 2026 年模型发布史上最具火药味的一天。OpenAI 发布了 GPT-6 家族双子星 &lt;strong&gt;GPT-6 Sol 和 GPT-6 Luna&lt;/strong&gt;，而 Anthropic 则在同一时间窗口推出了 &lt;strong&gt;Claude Opus 5.5&lt;/strong&gt;。虽然两家的发布各有侧重，但其战略意图异常清晰：OpenAI 走的是多模型专业化路线（Sol 主攻推理与代码，Luna 侧重创造力与对话），Anthropic 则瞄准了性价比和安全性的平衡点。&lt;/p&gt;&#xA;&lt;p&gt;Anthropic 的官方博客提供了大量细节：Opus 5.5 在 Terminal-Bench 4.0 上达到 66.4%（xhigh effort），FrontierCode v1.1 达到 54.4%，GPT-6 Astra 在这两项上的成绩分别为 57.9% 和 53.3%。更有冲击力的是成本数据：Opus 5.5 缓存读取仅 $0.20/百万 token（比 Opus 5 低 60%），输入 $4/百万 token，输出 $20/百万 token，均比 Opus 5 降低约 20%。&lt;/p&gt;</description>
 			</item>
 	</channel>

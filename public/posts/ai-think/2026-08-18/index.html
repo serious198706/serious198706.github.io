@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <title>
    · Notex
 </title>
@@ -44,7 +44,7 @@ Wiz Research 的自主 AI 安全研究工具&quot;Red Agent&quot;在 Snowflake �
 原文：AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake’s Jira（Wiz Blog） HN 讨论：https://news.ycombinator.com/item?id=49331423（305 pts, 123 comments） Wiz Research 的自主 AI 安全研究工具&#34;Red Agent&#34;在 Snowflake 的一个公共仓库中发现了一个关键漏洞：一个 GitHub Actions workflow 存在脚本注入问题，攻击者只需创建一个带有恶意标题的 issue，就能在 GitHub Actions runner 中执行任意命令。
 漏洞的起源本身就值得细读。一个名为&#34;Copilot Autofix powered by AI&#34;的 commit（PR #1218，“SNOW-2069227: Update jira workflows”）删除了仓库原有的安全模式（通过 env: 变量传递 issue title，用 jq 构建 JSON payload），替换成了直接在 run: 块中内插 ${{ github.event.issue.title }}。结果单引号转义失败，创造了注入向量。换句话说，AI 的&#34;自动安全修复&#34;亲手拆掉了安全防线。">
 
-<meta property="og:url" content="http://localhost:1313/posts/ai-think/2026-08-18/">
+<meta property="og:url" content="https://notex.cc/posts/ai-think/2026-08-18/">
 	<meta property="og:site_name" content="Notex">
 	<meta property="og:title" content="Notex">
 	<meta property="og:description" content="当 AI 既制造漏洞又修补漏洞，既生成内容又玷污内容
@@ -60,7 +60,7 @@ Wiz Research 的自主 AI 安全研究工具&quot;Red Agent&quot;在 Snowflake �
 
 
 
-<link rel="canonical" href="http://localhost:1313/posts/ai-think/2026-08-18/">
+<link rel="canonical" href="https://notex.cc/posts/ai-think/2026-08-18/">
 
 
 <link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
@@ -70,7 +70,7 @@ Wiz Research 的自主 AI 安全研究工具&quot;Red Agent&quot;在 Snowflake �
 
   
   
-  <link rel="stylesheet" href="/css/coder.css" media="screen">
+  <link rel="stylesheet" href="/css/coder.min.5e94c1acf7aa2066035cf2764ae3e4fe39db101d68b870f919966100d51fb861.css" integrity="sha256-XpTBrPeqIGYDXPJ2SuPk/jnbEB1ouHD5GZZhANUfuGE=" crossorigin="anonymous" media="screen" />
 
 
 
@@ -80,7 +80,7 @@ Wiz Research 的自主 AI 安全研究工具&quot;Red Agent&quot;在 Snowflake �
   
     
     
-    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+    <link rel="stylesheet" href="/css/coder-dark.min.ad48f476275974885bdc03d5251e3cdbe1678c54a63ff772376b0ed2adc468dd.css" integrity="sha256-rUj0didZdIhb3APVJR482&#43;FnjFSmP/dyN2sO0q3EaN0=" crossorigin="anonymous" media="screen" />
   
 
 
@@ -129,7 +129,7 @@ Wiz Research 的自主 AI 安全研究工具&quot;Red Agent&quot;在 Snowflake �
     <nav class="navigation">
   <section class="container">
     
-    <a class="navigation-title" href="http://localhost:1313/">
+    <a class="navigation-title" href="https://notex.cc/">
       Notex
     </a>
     
@@ -164,7 +164,7 @@ Wiz Research 的自主 AI 安全研究工具&quot;Red Agent&quot;在 Snowflake �
       <header>
         <div class="post-title">
           <h1 class="title">
-            <a class="title-link" href="http://localhost:1313/posts/ai-think/2026-08-18/">
+            <a class="title-link" href="https://notex.cc/posts/ai-think/2026-08-18/">
               
             </a>
           </h1>
@@ -467,7 +467,7 @@ Wiz Research 的自主 AI 安全研究工具&quot;Red Agent&quot;在 Snowflake �
 
   
   
-  <script src="/js/coder.js"></script>
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
   
 
   
