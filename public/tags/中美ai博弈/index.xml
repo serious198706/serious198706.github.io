@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>中美AI博弈 on Notex</title>
+		<link>http://localhost:1313/tags/%E4%B8%AD%E7%BE%8Eai%E5%8D%9A%E5%BC%88/</link>
+		<description>Recent content in 中美AI博弈 on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 27 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/%E4%B8%AD%E7%BE%8Eai%E5%8D%9A%E5%BC%88/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>开源权重模型的 Kubernetes 时刻：生态之战与边缘突围</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-27/</link>
+				<pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-27/</guid>
+				<description>&lt;p&gt;开源权重模型的 Kubernetes 时刻：生态之战与边缘突围&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-27&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日 AI 领域呈现出一种罕见的张力：一边是开源权重模型生态的爆发式增长，从 K3 到 GLM-5.2 匹敌封闭前沿模型，到 Anthropic 发现过度约束反而损害模型性能；另一边是开发者社区对 AI 赋能本质的深层反思——从&amp;quot;用 AI 做更多事&amp;quot;到&amp;quot;用 AI 把重要的事做透&amp;quot;。两项核心议题浮出水面：开源模型能否撼动巨头垄断？以及，AI 的真正价值究竟在于规模扩张还是深度聚焦？&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;开源权重模型的kubernetes-时刻生态竞争取代模型竞赛&#34;&gt;&#xA;  开源权重模型的&amp;quot;Kubernetes 时刻&amp;quot;：生态竞争取代模型竞赛&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e5%bc%80%e6%ba%90%e6%9d%83%e9%87%8d%e6%a8%a1%e5%9e%8b%e7%9a%84kubernetes-%e6%97%b6%e5%88%bb%e7%94%9f%e6%80%81%e7%ab%9e%e4%ba%89%e5%8f%96%e4%bb%a3%e6%a8%a1%e5%9e%8b%e7%ab%9e%e8%b5%9b&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;本周最引人深思的论点来自 Mesosphere 联合创始人 Tobi Knaup 的文章。他预言，开源权重模型正在经历 Kubernetes 在 2015 年经历的那个转折点——从一个补充性选项变成行业创新中心。&lt;/p&gt;&#xA;&lt;p&gt;Knaup 的核心论点基于一个关键数据点：Z.ai 的 GLM-5.2 在 SWE-bench Pro 上达到 62.1%，超过了 GPT-5.5 的 58.6%；Moonshot 的 Kimi K3 在 Artificial Analysis 独立评估中与 Opus 4.8 和 GPT-5.5 并列。当开源模型在关键基准上逼近甚至超越封闭模型时，平台转换的临界点就到了。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;一旦一个人们可以自定义的开放平台成为行业中心，没有任何单一供应商能匹敌围绕它的联合创新速度。&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Open-weight AI is having its Kubernetes moment&lt;/a&gt; — Tobi Knaup&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=49048034&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HN Discussion&lt;/a&gt; — 398 分，312 条评论&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;深度分析&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

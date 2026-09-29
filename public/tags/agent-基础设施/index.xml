@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Agent 基础设施 on Notex</title>
+		<link>http://localhost:1313/tags/agent-%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/</link>
+		<description>Recent content in Agent 基础设施 on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 14 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/agent-%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>模型军备竞赛加速：从 Gemini 3.7 到 Cerebras 硬件加速</title>
+				<link>http://localhost:1313/posts/ai-think/2026-08-14/</link>
+				<pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-08-14/</guid>
+				<description>&lt;p&gt;模型军备竞赛加速：从 Gemini 3.7 到 Cerebras 硬件加速&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-08-14&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今天的 AI 新闻呈现出清晰的趋势：三大模型厂商（Google、OpenAI、Mistral）在同一天发布重磅更新，竞争已从单纯的模型能力转向&lt;strong&gt;工程效率&lt;/strong&gt;与&lt;strong&gt;硬件加速&lt;/strong&gt;的综合较量。与此同时，AI 文本水印的技术困境、开源编码代理的兴起，以及企业对 AI 实际使用模式的实证研究，共同描绘了一幅更成熟的 AI 生态图景。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-模型军备竞赛三巨头同日撞车&#34;&gt;&#xA;  🚀 模型军备竞赛：三巨头同日撞车&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-%e6%a8%a1%e5%9e%8b%e5%86%9b%e5%a4%87%e7%ab%9e%e8%b5%9b%e4%b8%89%e5%b7%a8%e5%a4%b4%e5%90%8c%e6%97%a5%e6%92%9e%e8%bd%a6&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;昨天（8月13日），Google、OpenAI/Mistral 几乎同时发布了重要的模型更新，这在 AI 行业历史上并不多见。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Google 推出了 Gemini 3.7 Flash&lt;/strong&gt;，号称&amp;quot;最智能的勤务模型&amp;quot;，专为&lt;strong&gt;编码和 Agent 任务&lt;/strong&gt;优化。作为 Flash 系列，它延续了 Google 在性价比路线上的深耕——在保持较低推理成本的同时，大幅提升 coding 和 agentic 能力。这一定位直接瞄准了开发者工作流中高频、低延迟的需求场景。考虑到当前 AI 编码代理（如 Cursor、Copilot、Codex）的爆发式增长，Gemini 3.7 Flash 可能成为 Google 在开发者生态中争夺心智的利器。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;OpenAI 与 Cerebras 联手推出了 GPT-5.6 Sol Ultrafast&lt;/strong&gt;——将 Cerebras 的晶圆级芯片（WSE-3）引入 OpenAI 的推理栈。这不是简单的 API 路由变化，而是底层硬件的根本性变革：Cerebras 的芯片架构在批量推理场景下能提供比传统 GPU 集群更低的延迟和更高的吞吐量。这种&amp;quot;模型+芯片&amp;quot;的深度合作模式，可能预示着 AI 行业从&amp;quot;堆 GPU 数量&amp;quot;向&amp;quot;优化硬件架构&amp;quot;的重要转折。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Mistral OCR 4.1&lt;/strong&gt; 则从另一个维度切入——文档 AI。OCR 4.1 带来了原生段落级边界框提取、结构块标签和块级置信度评分。这不是一个通用对话模型，而是 Mistral 在&lt;strong&gt;企业文档处理&lt;/strong&gt;这一垂直场景的深耕。当大模型厂商都在追逐通用智能时，Mistral 选择在文档理解这一刚需场景建立护城河，策略上颇为明智。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>开源模型首次在前沿编码基准上击败闭源旗舰</title>
+				<link>http://localhost:1313/posts/ai-think/2026-06-30/</link>
+				<pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-06-30/</guid>
+				<description>&lt;p&gt;开源模型首次在前沿编码基准上击败闭源旗舰&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-06-30&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日 AI 领域迎来一个历史性时刻：两款开源模型——Ornith-1.0 和 GLM 5.2——在各自的核心基准测试中首次系统性击败了 Claude Opus 系列。与此同时，Agent 基础设施正在快速成熟：vLLM 提出了&amp;quot;路由器即 Agent&amp;quot;的新范式，Herdr 将终端打造成多 Agent 控制台。而 HackerRank 开源 ATS 曝出的 LLM 简历评分随机性问题，则为 AI 在招聘中的滥用敲响了警钟。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-ornith-10自改进开源模型在编码基准上击败-claude-opus-47&#34;&gt;&#xA;  🦅 Ornith-1.0：自改进开源模型在编码基准上击败 Claude Opus 4.7&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-ornith-10%e8%87%aa%e6%94%b9%e8%bf%9b%e5%bc%80%e6%ba%90%e6%a8%a1%e5%9e%8b%e5%9c%a8%e7%bc%96%e7%a0%81%e5%9f%ba%e5%87%86%e4%b8%8a%e5%87%bb%e8%b4%a5-claude-opus-47&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;：&lt;a href=&#34;https://github.com/deepreinforce-ai/Ornith-1&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub: deepreinforce-ai/Ornith-1&lt;/a&gt; | &lt;a href=&#34;https://deep-reinforce.com/ornith_1_0.html&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;博客原文&lt;/a&gt; | &lt;a href=&#34;https://news.ycombinator.com/item?id=48722052&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HN 讨论&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;DeepReinforce 发布的 Ornith-1.0 系列是今天最大的新闻。这不是一个模型，而是一个从 9B Dense 到 397B MoE 的完整家族，基于 Gemma 4 和 Qwen 3.5 构建。&lt;/p&gt;&#xA;&lt;p&gt;最令人震惊的是基准测试结果：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Ornith-1.0-397B 在 Terminal-Bench 2.1 上达到 77.5，在 SWE-Bench Verified 上达到 82.4，双双超过 Claude Opus 4.7（70.3 和 80.8）。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+	</channel>
+</rss>

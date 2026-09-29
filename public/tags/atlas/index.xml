@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Atlas on Notex</title>
+		<link>http://localhost:1313/tags/atlas/</link>
+		<description>Recent content in Atlas on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 02 Sep 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/atlas/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Anthropic的双刃剑：新模型发布与安全漏洞同时浮现</title>
+				<link>http://localhost:1313/posts/ai-think/2026-09-02/</link>
+				<pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-09-02/</guid>
+				<description>&lt;p&gt;Anthropic的双刃剑：新模型发布与安全漏洞同时浮现&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-09-02&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日 AI 领域呈现出罕见的两极分化：一边是 Anthropic 发布 Claude Fable 5.1 和 Mythos 5.1 新模型，带来更强的能力；另一边则是其引以为傲的 Auto Mode 安全机制被研究人员用巧妙手法攻破，成功率高达 80%。与此同时，小型模型在 ARC-AGI 基准上以极低成本取得突破性进展，AI 行业泡沫争论也因 Dan Luu 对知名唱衰者 Ed Zitron 的系统性批判而再度升温。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-模型更新与安全漏洞anthropic-的冰火两重天&#34;&gt;&#xA;  🔥 模型更新与安全漏洞：Anthropic 的冰火两重天&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-%e6%a8%a1%e5%9e%8b%e6%9b%b4%e6%96%b0%e4%b8%8e%e5%ae%89%e5%85%a8%e6%bc%8f%e6%b4%9eanthropic-%e7%9a%84%e5%86%b0%e7%81%ab%e4%b8%a4%e9%87%8d%e5%a4%a9&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;claude-fable-51--mythos-51-发布&#34;&gt;&#xA;  Claude Fable 5.1 / Mythos 5.1 发布&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#claude-fable-51--mythos-51-%e5%8f%91%e5%b8%83&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Anthropic 发布了 Claude 系列的最新版本 Fable 5.1 和 Mythos 5.1。作为 Opus 5 发布后的重要迭代，这两个模型代表了 Anthropic 在安全与能力平衡上的持续追求。Fable 系列侧重创造性写作和复杂叙事，而 Mythos 则在大规模知识推理上更进一步。从 HN 社区的 852 分和 813 条评论的热度来看，开发者社区对 Claude 的进化方向保持了极高的关注度。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

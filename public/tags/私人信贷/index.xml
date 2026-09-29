@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>私人信贷 on Notex</title>
+		<link>http://localhost:1313/tags/%E7%A7%81%E4%BA%BA%E4%BF%A1%E8%B4%B7/</link>
+		<description>Recent content in 私人信贷 on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 04 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/%E7%A7%81%E4%BA%BA%E4%BF%A1%E8%B4%B7/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>专家红利、数学奇点与万亿债务暗流</title>
+				<link>http://localhost:1313/posts/ai-think/2026-08-04/</link>
+				<pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-08-04/</guid>
+				<description>&lt;p&gt;专家红利、数学奇点与万亿债务暗流&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-08-04&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;今日的 AI 领域呈现出一种深刻的张力：一线轰轰烈烈的学术突破正将 AI 推向数学推理的无人区，而另一面的金融暗流却揭示出整个行业正悬在 1.65 万亿美元&amp;quot;隐形债务&amp;quot;的悬崖边。在这些结构性叙事之间，个体开发者与专家们也在悄然重写人机协作的底层规则——从老式 6502 芯片上运行的 Mamba 模型，到&amp;quot;手动重打 AI 代码&amp;quot;的反直觉实践，一个更复杂、更真实的 AI 图景正在浮现。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一专家红利llm-时代的认知不对称&#34;&gt;&#xA;  一、专家红利：LLM 时代的认知不对称&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80%e4%b8%93%e5%ae%b6%e7%ba%a2%e5%88%a9llm-%e6%97%b6%e4%bb%a3%e7%9a%84%e8%ae%a4%e7%9f%a5%e4%b8%8d%e5%af%b9%e7%a7%b0&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;The most important skill in prompting is expertise in the domain you&amp;rsquo;re prompting for.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Sean Goedecke 在他的文章《LLMs Reward Expertise》中提出了一个被广泛忽视的核心观点：&lt;strong&gt;大语言模型并没有让专家失去价值，反而放大了他们的优势。&lt;/strong&gt; 他以数学家陶哲轩与 ChatGPT 的对话为例，展示了专家如何通过深度领域知识，将同样的模型推进到普通人无法企及的深度。&lt;/p&gt;&#xA;&lt;p&gt;陶哲轩的 Prompt 简短精炼，他不对模型逐点回应，而是把握要旨；他在模型输出显得可疑时予以推回，但不直接反驳，而是说&amp;quot;这比我预想的要复杂&amp;quot;；他几乎从不采纳模型关于下一步去哪里的建议，而是自己做出跳跃和推测。这些技巧看似可以模仿，但关键在于&lt;strong&gt;他真正理解数学&lt;/strong&gt;——能从模型的多段回复中提取出相关的想法，识别出&amp;quot;看起来不对劲&amp;quot;的部分。&lt;/p&gt;&#xA;&lt;p&gt;Goedecke 将其延伸至软件开发：如果你对代码库有深刻理解，你可以&amp;quot;比没有领域知识的人更用力地推动 LLM&amp;quot;。因为你知道什么是一个好的解决方案应该看起来的样子，你可以说&amp;quot;不，我觉得这里可以更简单&amp;quot;，或者&amp;quot;我们不是已经做过 X 了吗？&amp;quot;&lt;/p&gt;&#xA;&lt;p&gt;这篇文章的洞察与另一篇今日热门文章形成了意味深长的呼应——Ankur Sethi 的《Prevent Cognitive Debt by Manually Retyping LLM-Generated Code》。&lt;/p&gt;&#xA;&lt;p&gt;Sethi 提出了一个看似荒诞、实则深刻的工作流程：&lt;strong&gt;他让 AI 在聊天中生成代码，然后自己手动逐行键入到编辑器。&lt;/strong&gt; 理由很直接——他不愿意对自己不理解的东西负责。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;I fear the software industry is taking on a large amount of cognitive debt that we&amp;rsquo;ll have to pay back very soon. There will come a time when we no longer understand how large parts of our digital infrastructure are put together.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+			<item>
+				<title>本地智能的黎明：从口袋里的 27B 到永不掉线的数字分身</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-15/</link>
+				<pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-15/</guid>
+				<description>&lt;p&gt;本地智能的黎明：从口袋里的 27B 到永不掉线的数字分身&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-15&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今天的 AI 新闻呈现出一种耐人寻味的张力：一边是技术突破让前沿模型真正塞进口袋，另一边是宏观层面对 AI 投资泡沫的冷静审视。PrismML 的 Bonsai 27B 以 3.9GB 的体量在手机上跑出了接近全精度模型的推理能力，而 Gwern 的长文则勾勒出个人化 AI 在这一技术底座上的终极愿景。与此同时，BIS 的公告提醒我们：支撑这一轮 AI 基建的，已经从科技公司的自由现金流转向了债务融资。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一模型装进口袋bonsai-27b-与智能密度革命&#34;&gt;&#xA;  一、模型装进口袋：Bonsai 27B 与智能密度革命&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80%e6%a8%a1%e5%9e%8b%e8%a3%85%e8%bf%9b%e5%8f%a3%e8%a2%8bbonsai-27b-%e4%b8%8e%e6%99%ba%e8%83%bd%e5%af%86%e5%ba%a6%e9%9d%a9%e5%91%bd&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;原文：&lt;a href=&#34;https://prismml.com/news/bonsai-27b&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Announcing Bonsai 27B: The First 27B-Class Model to Run on a Phone&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;HN 讨论：&lt;a href=&#34;https://news.ycombinator.com/item?id=48910545&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://news.ycombinator.com/item?id=48910545&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;PrismML 今天发布了 Bonsai 27B，基于 Qwen3.6 27B 的极致压缩版本。这个模型有两个变体：&lt;strong&gt;Ternary 版本&lt;/strong&gt;（5.9GB，1.71 有效比特/权重）和 &lt;strong&gt;1-bit 版本&lt;/strong&gt;（3.9GB，1.125 有效比特/权重）。数字本身已经足够惊人——一个 27B 参数模型在 16-bit 精度下需要 54GB，即便是 4-bit 量化也要 18GB，而 1-bit Bonsai 27B 直接在 iPhone 17 Pro 上运行，给应用留出了约 2GB 的余量。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

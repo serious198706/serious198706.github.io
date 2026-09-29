@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Go Language on Notex</title>
+		<link>http://localhost:1313/tags/go-language/</link>
+		<description>Recent content in Go Language on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 13 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/go-language/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>加速与失速：AI 重塑软件工程的深层裂变</title>
+				<link>http://localhost:1313/posts/ai-think/2026-08-13/</link>
+				<pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-08-13/</guid>
+				<description>&lt;p&gt;加速与失速：AI 重塑软件工程的深层裂变&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-08-13&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日的 Hacker News 如同一面棱镜，将 AI 行业当前最尖锐的矛盾折射得无比清晰：一面是 &lt;strong&gt;AI 编码工具的资本狂欢&lt;/strong&gt;（Lovable 以 $400M Series C 估值 $13.3B 高歌猛进），另一面是 &lt;strong&gt;对 AI 编码后果的深切忧虑&lt;/strong&gt;（&amp;ldquo;AI is removing the middle class of software engineering&amp;rdquo; 以 675 分引发热议）。与此同时，前沿研究揭示了 AI 安全的新漏洞——从专有模型中窃取推理链，到 AI Agent 在科学发现中&amp;quot;作弊&amp;quot;与&amp;quot;精神崩溃&amp;quot;的诡异行为。这些新闻串联起来，描绘出一个正在经历&lt;strong&gt;结构性撕裂&lt;/strong&gt;的行业：工具在加速，人在失速，而安全边界在被重新定义。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-速度限制已取消当-ai-编码工具成为双刃剑&#34;&gt;&#xA;  🏗️ &amp;ldquo;速度限制已取消&amp;rdquo;——当 AI 编码工具成为双刃剑&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-%e9%80%9f%e5%ba%a6%e9%99%90%e5%88%b6%e5%b7%b2%e5%8f%96%e6%b6%88%e5%bd%93-ai-%e7%bc%96%e7%a0%81%e5%b7%a5%e5%85%b7%e6%88%90%e4%b8%ba%e5%8f%8c%e5%88%83%e5%89%91&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AI is removing the middle class of software engineering? (675 pts)&lt;/a&gt;&#xA;&lt;a href=&#34;https://news.ycombinator.com/item?id=49271994&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HN&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Go is an ideal language for AI-assisted software engineering (423 pts)&lt;/a&gt;&#xA;&lt;a href=&#34;https://news.ycombinator.com/item?id=49261133&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HN&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://lovable.dev/blog/series-c&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lovable raises $400M Series C (87 pts)&lt;/a&gt;&#xA;&lt;a href=&#34;https://news.ycombinator.com/item?id=49274858&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HN&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/DannyArends/DLLM&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DLLM: Minimal, clean coding agent built directly on llama.cpp (3 pts)&lt;/a&gt;&#xA;&lt;a href=&#34;https://news.ycombinator.com/item?id=49279500&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HN&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://usehax.dev/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hax – a minimalist, terminal-native coding agent written in C (82 pts)&lt;/a&gt;&#xA;&lt;a href=&#34;https://news.ycombinator.com/item?id=49273175&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HN&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=49279494&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask HN: Is AI code verification becoming your main bottleneck? (3 pts)&lt;/a&gt;&#xA;&lt;a href=&#34;https://news.ycombinator.com/item?id=49279494&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HN&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Florian Herrengt 的文章是今日最具洞察力的声音之一。他讲了一个每个资深工程师都感同身受的故事：2020 年，你休假回来发现代码库一团糟——有人加了 Kafka，有人搞了 Serverless，有人反范式化了数据库。但没事，你还能修。到了 2026 年，你甚至来不及休假——每个周一早上堆着 7 个 +24506/-3938 行的 PR，AI agent 生成的描述看起来头头是道，但你写代码的人自己都不知道代码在干什么。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

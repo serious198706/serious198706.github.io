@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>AI 教育 on Notex</title>
+		<link>http://localhost:1313/tags/ai-%E6%95%99%E8%82%B2/</link>
+		<description>Recent content in AI 教育 on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 25 Sep 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/ai-%E6%95%99%E8%82%B2/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>校准革命、安全审计与教育颠覆：AI 正从工具走向基础设施</title>
+				<link>http://localhost:1313/posts/ai-think/2026-09-25/</link>
+				<pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-09-25/</guid>
+				<description>&lt;p&gt;校准革命、安全审计与教育颠覆：AI 正从工具走向基础设施&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-09-25&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;本周的 AI 新闻呈现出一个清晰的模式：行业正从「更大更好的聊天模型」竞赛，转向更精细、更务实的基础设施层创新。TypeSafe AI 发布的非自回归 System One 模型 Jev 以校准能力而非原始准确率作为卖点；Trail of Bits 展示了 AI 代理如何构建此前不可能完成的安全审计工具链；Opus 5.5 的解说视频生成能力与一家澳洲补习班的关门，共同指向同一个结论——AI 正在从「辅助工具」变成「替代性基础设施」。而 AgentRun 这样的工作流 DSL 的出现，则标志着我们开始认真思考如何编排这些日益碎片化的 AI 能力。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一校准才是真正的护城河jev-与-system-one-模型的范式突破&#34;&gt;&#xA;  一、「校准」才是真正的护城河：Jev 与 System One 模型的范式突破&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80%e6%a0%a1%e5%87%86%e6%89%8d%e6%98%af%e7%9c%9f%e6%ad%a3%e7%9a%84%e6%8a%a4%e5%9f%8e%e6%b2%b3jev-%e4%b8%8e-system-one-%e6%a8%a1%e5%9e%8b%e7%9a%84%e8%8c%83%e5%bc%8f%e7%aa%81%e7%a0%b4&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;TypeSafe AI 上周发布了 Jev——被其称为首个「System One 模型」。这不是另一个更大的聊天机器人。Jev 不对话、不写作、不逐步推理。它接收结构化问题，在单次前向传播中输出完整答案，并为每个答案附带概率。&lt;/p&gt;&#xA;&lt;p&gt;机器学习工程师 Kartik Pansuriya 在深度分析中指出，Jev 最被忽视的价值点不是速度（虽然 70-500ms 的端到端延迟确实惊人），而是&lt;strong&gt;校准（calibration）&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Route this order to manual review if the model is less than 80% sure&amp;rdquo; only works if 80% means 80%. If the model says 0.95 on things that are right 70% of the time, every threshold you set is a lie.&lt;/p&gt;&#xA;&lt;p&gt;—— Kartik Pansuriya&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+			<item>
+				<title>中国开源模型崛起，Agent 经济学重构，以及 AI 写作的检测困境</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-21/</link>
+				<pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-21/</guid>
+				<description>&lt;p&gt;中国开源模型崛起，Agent 经济学重构，以及 AI 写作的检测困境&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-21&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日的 AI 新闻围绕一个核心张力展开：&lt;strong&gt;中国通过开源模型策略正在重塑全球 AI 格局，而美国 AI 产业在封闭优先与成本失控之间艰难抉择。&lt;/strong&gt; 与此同时，Agent 系统进入工程化深水区，Cursor 和 Stencil 分别从不同角度揭示了&amp;quot;模型经济学&amp;quot;的反直觉真相；arXiv 的 AI 写作检测实验则引发了一场关于学术诚实与工具的哲学讨论。这些故事共同指向一个结构性转变：AI 正在从&amp;quot;谁的模型更强&amp;quot;的竞赛，转向&amp;quot;谁能构建更持久的生态&amp;quot;的马拉松。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-中国开源模型一场精心设计的生态战&#34;&gt;&#xA;  🇨🇳 中国开源模型：一场精心设计的生态战&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-%e4%b8%ad%e5%9b%bd%e5%bc%80%e6%ba%90%e6%a8%a1%e5%9e%8b%e4%b8%80%e5%9c%ba%e7%b2%be%e5%bf%83%e8%ae%be%e8%ae%a1%e7%9a%84%e7%94%9f%e6%80%81%e6%88%98&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;China&amp;rsquo;s open-weights AI strategy is winning: its companies are taking the lead. America&amp;rsquo;s closed-first, locked-down strategy is doomed to failure.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Ben Werdmuller 在 &lt;a href=&#34;https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;American AI is locked down and proprietary. It&amp;rsquo;s losing&lt;/a&gt; 中抛出了一个尖锐的判断：&lt;strong&gt;AI 模型本身几乎没有护城河&lt;/strong&gt;。品牌忠诚度和转换成本是肤浅的，真正的护城河存在于企业级服务——合同、集成、数据流转。而开源模型恰恰绕过了这些。&lt;/p&gt;&#xA;&lt;p&gt;这一周，Moonshot 的 Kimi K3 和阿里巴巴的 Qwen3.8 Max（2.4 万亿参数）相继发布，号称与 Anthropic 的 Fable 5 和 OpenAI 的 Sol 处于同一梯队，且成本仅为几分之一。阿里巴巴宣布将恢复开源权重——此前其在年初暂停了前沿模型的开源，但上周习近平关于 AI 的讲话明确加倍押注开源路线，改变了这一决策。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>当 AI 遇上教育与基础设施：从课堂到代码库的变革</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-06/</link>
+				<pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-06/</guid>
+				<description>&lt;p&gt;当 AI 遇上教育与基础设施：从课堂到代码库的变革&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-06&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;今日的 AI 新闻呈现出两条清晰的脉络：一边是 AI 在教育领域从&amp;quot;噱头&amp;quot;走向&amp;quot;实证&amp;quot;的转折点，另一边是 AI 代理（Agent）的基础设施层正在快速成型。前者关乎我们如何设计真正有效的 AI 教学工具，后者则指向 AI 如何从对话式助手进化为能够自主决策、记忆和协作的系统。与此同时，微软的定价调整提醒我们，AI 的&amp;quot;税&amp;quot;已经正式进入企业的预算表。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一教育的-ai-时刻从拐杖到搭脚手架&#34;&gt;&#xA;  一、教育的 AI 时刻：从&amp;quot;拐杖&amp;quot;到&amp;quot;搭脚手架&amp;quot;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80%e6%95%99%e8%82%b2%e7%9a%84-ai-%e6%97%b6%e5%88%bb%e4%bb%8e%e6%8b%90%e6%9d%96%e5%88%b0%e6%90%ad%e8%84%9a%e6%89%8b%e6%9e%b6&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;这个星期一的 Hacker News 上，热度最高的 AI 故事来自 Dartmouth 学院的一篇研讨会论文：一个名为 Phosphor 的数字学习平台，在《统计入门》课程中实现了 &lt;strong&gt;0.71 至 1.30 个标准差的期末考试成绩提升&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;这个数字有多大意义？教育干预研究中，0.5 个标准差已经算得上&amp;quot;大型效应&amp;quot;。1.30 SD 放在任何教育干预的 meta 分析中都是异常值。即便经过最保守的调整（控制期中考试成绩），0.71 SD 依然是令人瞩目的。&lt;/p&gt;&#xA;&lt;p&gt;但真正值得细读的，不是这个数字本身，而是 &lt;strong&gt;Phosphor 的设计哲学&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;h3 id=&#34;从ai-替代思考到ai-嵌入思考&#34;&gt;&#xA;  从&amp;quot;AI 替代思考&amp;quot;到&amp;quot;AI 嵌入思考&amp;quot;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%bb%8eai-%e6%9b%bf%e4%bb%a3%e6%80%9d%e8%80%83%e5%88%b0ai-%e5%b5%8c%e5%85%a5%e6%80%9d%e8%80%83&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;论文引用了一项关键研究：Bastani 等人对近千名学生的随机对照试验发现，&lt;strong&gt;不加限制地使用 GPT-4 实际上损害了学生后续的独立表现（下降 17%）&lt;/strong&gt;——学生把它当成了拐杖而非学习工具。2026 年 HEPI 的调查更触目惊心：94% 的大学生报告在评估性作业中使用了生成式 AI，而两年前这一数字只有 53%。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;94% 的大学生使用 AI 做作业，但无限制的 AI 访问让学生成绩下降了 17%。这不是矛盾，而是同一个问题的两面——关键在于接入方式。&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+	</channel>
+</rss>

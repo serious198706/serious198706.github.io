@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Nativ on Notex</title>
+		<link>http://localhost:1313/tags/nativ/</link>
+		<description>Recent content in Nativ on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 21 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/nativ/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>中国开源模型崛起，Agent 经济学重构，以及 AI 写作的检测困境</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-21/</link>
+				<pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-21/</guid>
+				<description>&lt;p&gt;中国开源模型崛起，Agent 经济学重构，以及 AI 写作的检测困境&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-21&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日的 AI 新闻围绕一个核心张力展开：&lt;strong&gt;中国通过开源模型策略正在重塑全球 AI 格局，而美国 AI 产业在封闭优先与成本失控之间艰难抉择。&lt;/strong&gt; 与此同时，Agent 系统进入工程化深水区，Cursor 和 Stencil 分别从不同角度揭示了&amp;quot;模型经济学&amp;quot;的反直觉真相；arXiv 的 AI 写作检测实验则引发了一场关于学术诚实与工具的哲学讨论。这些故事共同指向一个结构性转变：AI 正在从&amp;quot;谁的模型更强&amp;quot;的竞赛，转向&amp;quot;谁能构建更持久的生态&amp;quot;的马拉松。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-中国开源模型一场精心设计的生态战&#34;&gt;&#xA;  🇨🇳 中国开源模型：一场精心设计的生态战&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-%e4%b8%ad%e5%9b%bd%e5%bc%80%e6%ba%90%e6%a8%a1%e5%9e%8b%e4%b8%80%e5%9c%ba%e7%b2%be%e5%bf%83%e8%ae%be%e8%ae%a1%e7%9a%84%e7%94%9f%e6%80%81%e6%88%98&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;China&amp;rsquo;s open-weights AI strategy is winning: its companies are taking the lead. America&amp;rsquo;s closed-first, locked-down strategy is doomed to failure.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Ben Werdmuller 在 &lt;a href=&#34;https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;American AI is locked down and proprietary. It&amp;rsquo;s losing&lt;/a&gt; 中抛出了一个尖锐的判断：&lt;strong&gt;AI 模型本身几乎没有护城河&lt;/strong&gt;。品牌忠诚度和转换成本是肤浅的，真正的护城河存在于企业级服务——合同、集成、数据流转。而开源模型恰恰绕过了这些。&lt;/p&gt;&#xA;&lt;p&gt;这一周，Moonshot 的 Kimi K3 和阿里巴巴的 Qwen3.8 Max（2.4 万亿参数）相继发布，号称与 Anthropic 的 Fable 5 和 OpenAI 的 Sol 处于同一梯队，且成本仅为几分之一。阿里巴巴宣布将恢复开源权重——此前其在年初暂停了前沿模型的开源，但上周习近平关于 AI 的讲话明确加倍押注开源路线，改变了这一决策。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

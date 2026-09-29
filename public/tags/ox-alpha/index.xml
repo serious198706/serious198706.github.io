@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Ox Alpha on Notex</title>
+		<link>http://localhost:1313/tags/ox-alpha/</link>
+		<description>Recent content in Ox Alpha on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 27 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/ox-alpha/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>模型井喷与安全裂痕：AI 进入&#34;湍流时代&#34;</title>
+				<link>http://localhost:1313/posts/ai-think/2026-08-27/</link>
+				<pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-08-27/</guid>
+				<description>&lt;p&gt;模型井喷与安全裂痕：AI 进入&amp;quot;湍流时代&amp;quot;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-08-27&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日 AI 领域迎来了一场罕见的&amp;quot;双响炮&amp;quot;：中国两大模型厂商同日亮剑——阿里 Qwen 发布 Qwen3.8-Flash-Next 预览 Qwen4 架构，智谱（Z.AI）以 Ox Alpha 悄然登顶 OpenRouter 排行榜。与此同时，比尔·盖茨发出&amp;quot;AI 湍流时代&amp;quot;警告，Trail of Bits 则用一次令人不安的实证打破了&amp;quot;虚拟机即安全边界&amp;quot;的幻想。从模型军备竞赛到安全信任危机，再到 AI 内容对互联网生态的侵蚀，今天的新闻共同指向一个核心命题：&lt;strong&gt;技术前进的速度，正在超过我们驾驭它的能力。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-双雄同日亮剑中国-ai-模型的加速度&#34;&gt;&#xA;  🔥 双雄同日亮剑：中国 AI 模型的&amp;quot;加速度&amp;quot;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-%e5%8f%8c%e9%9b%84%e5%90%8c%e6%97%a5%e4%ba%ae%e5%89%91%e4%b8%ad%e5%9b%bd-ai-%e6%a8%a1%e5%9e%8b%e7%9a%84%e5%8a%a0%e9%80%9f%e5%ba%a6&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;昨日（8 月 26 日）堪称中国 AI 界的高光时刻。阿里 Qwen 团队发布了 Qwen3.8-Flash-Next——一个定位为&amp;quot;Qwen4 架构预览&amp;quot;的多模态 MoE 模型。与此同时，智谱（Z.AI）以代号 Ox Alpha 的 GLM 系列新模型悄然登顶 OpenRouter 使用量排行榜，其使用量甚至超过 DeepSeek 两倍以上，并承诺开源权重。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Qwen3.8-Flash-Next：Qwen4 的&amp;quot;先行者&amp;quot;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Qwen3.8-Flash-Next 并非普通的模型迭代。它拥有约 1250 亿总参数、60 亿激活参数，核心创新在于 **GDN Hybrid（门控动态网络混合架构）**和全新的 &lt;strong&gt;QSA（Qwen Sparse Attention）机制&lt;/strong&gt;。它的发布时机意味深长——在 Qwen3.8-Max（2.4T 参数旗舰）和 Qwen3.8-27B（密集模型）刚刚发布数周之后，Flash-Next 的出现更像是一枚&amp;quot;架构信号弹&amp;quot;：阿里希望开源社区提前为 Qwen4 做准备，包括内核适配、量化方案和推理服务优化。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

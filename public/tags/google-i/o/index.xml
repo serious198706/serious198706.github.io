@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Google I/O on Notex</title>
+		<link>http://localhost:1313/tags/google-i/o/</link>
+		<description>Recent content in Google I/O on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/google-i/o/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>搜索终结与代理崛起</title>
+				<link>http://localhost:1313/posts/ai-think/2026-05-20/</link>
+				<pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-05-20/</guid>
+				<description>&lt;p&gt;搜索终结与代理崛起&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-05-20&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;今天是 AI 行业的分水岭时刻。Google I/O 2026 彻底重构了搜索的本质——搜索框不再是关键词输入的终点，而是 AI 代理的起点。与此同时，OpenAI 与 Google 跨越竞争鸿沟，共同构建 AI 内容溯源的基础设施。本地 AI 的可靠性突破让 8B 模型在代理任务上达到 99% 成功率，而 Mistral 收购 Emmi AI 标志着欧洲工业 AI 的崛起。这是一个搜索终结、代理崛起、可信 AI 初现的时代。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;搜索的终结当搜索框变成-ai-代理界面&#34;&gt;&#xA;  搜索的终结：当搜索框变成 AI 代理界面&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e6%90%9c%e7%b4%a2%e7%9a%84%e7%bb%88%e7%bb%93%e5%bd%93%e6%90%9c%e7%b4%a2%e6%a1%86%e5%8f%98%e6%88%90-ai-%e4%bb%a3%e7%90%86%e7%95%8c%e9%9d%a2&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Google 在 I/O 2026 上宣布了搜索 25 年来最大的升级——智能搜索框。这不仅仅是 UI 的改动，而是搜索哲学的根本转变。&lt;/p&gt;&#xA;&lt;h3 id=&#34;从关键词到意图理解&#34;&gt;&#xA;  从关键词到意图理解&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%bb%8e%e5%85%b3%e9%94%ae%e8%af%8d%e5%88%b0%e6%84%8f%e5%9b%be%e7%90%86%e8%a7%a3&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;新的智能搜索框能够动态扩展，用 AI 辅助用户表达需求，支持文本、图像、文件、视频甚至 Chrome 标签页作为输入。更重要的是，它不再返回链接列表，而是直接构建响应——生成式 UI、交互式可视化工具、甚至实时模拟。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;你的好奇心不总是能装进关键词里。&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;这意味着搜索的本质正在从&amp;quot;找到信息&amp;quot;转向&amp;quot;解决问题&amp;quot;。当用户询问&amp;quot;如何制作 Gyroid 图案&amp;quot;时，搜索不再返回教程链接，而是直接生成交互式 3D 可视化，让用户可以旋转、缩放、理解结构。&lt;/p&gt;&#xA;&lt;h3 id=&#34;search-agents247-的信息守护者&#34;&gt;&#xA;  Search Agents：24/7 的信息守护者&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#search-agents247-%e7%9a%84%e4%bf%a1%e6%81%af%e5%ae%88%e6%8a%a4%e8%80%85&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Google 引入了信息代理（Information Agents）——在后台运行的 AI 代理，持续监控网络、新闻、社交媒体和实时数据，当发现与用户特定需求匹配的内容时主动通知。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

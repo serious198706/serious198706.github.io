@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Jev on Notex</title>
+		<link>http://localhost:1313/tags/jev/</link>
+		<description>Recent content in Jev on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 25 Sep 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/jev/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>校准革命、安全审计与教育颠覆：AI 正从工具走向基础设施</title>
+				<link>http://localhost:1313/posts/ai-think/2026-09-25/</link>
+				<pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-09-25/</guid>
+				<description>&lt;p&gt;校准革命、安全审计与教育颠覆：AI 正从工具走向基础设施&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-09-25&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;本周的 AI 新闻呈现出一个清晰的模式：行业正从「更大更好的聊天模型」竞赛，转向更精细、更务实的基础设施层创新。TypeSafe AI 发布的非自回归 System One 模型 Jev 以校准能力而非原始准确率作为卖点；Trail of Bits 展示了 AI 代理如何构建此前不可能完成的安全审计工具链；Opus 5.5 的解说视频生成能力与一家澳洲补习班的关门，共同指向同一个结论——AI 正在从「辅助工具」变成「替代性基础设施」。而 AgentRun 这样的工作流 DSL 的出现，则标志着我们开始认真思考如何编排这些日益碎片化的 AI 能力。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一校准才是真正的护城河jev-与-system-one-模型的范式突破&#34;&gt;&#xA;  一、「校准」才是真正的护城河：Jev 与 System One 模型的范式突破&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80%e6%a0%a1%e5%87%86%e6%89%8d%e6%98%af%e7%9c%9f%e6%ad%a3%e7%9a%84%e6%8a%a4%e5%9f%8e%e6%b2%b3jev-%e4%b8%8e-system-one-%e6%a8%a1%e5%9e%8b%e7%9a%84%e8%8c%83%e5%bc%8f%e7%aa%81%e7%a0%b4&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;TypeSafe AI 上周发布了 Jev——被其称为首个「System One 模型」。这不是另一个更大的聊天机器人。Jev 不对话、不写作、不逐步推理。它接收结构化问题，在单次前向传播中输出完整答案，并为每个答案附带概率。&lt;/p&gt;&#xA;&lt;p&gt;机器学习工程师 Kartik Pansuriya 在深度分析中指出，Jev 最被忽视的价值点不是速度（虽然 70-500ms 的端到端延迟确实惊人），而是&lt;strong&gt;校准（calibration）&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Route this order to manual review if the model is less than 80% sure&amp;rdquo; only works if 80% means 80%. If the model says 0.95 on things that are right 70% of the time, every threshold you set is a lie.&lt;/p&gt;&#xA;&lt;p&gt;—— Kartik Pansuriya&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+			<item>
+				<title>Agent 越权、架构争议与数学家的反叛：当 AI 的边界问题从实验室走向法庭</title>
+				<link>http://localhost:1313/posts/ai-think/2026-09-16/</link>
+				<pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-09-16/</guid>
+				<description>&lt;p&gt;Agent 越权、架构争议与数学家的反叛：当 AI 的边界问题从实验室走向法庭&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-09-16&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今天的 AI 新闻呈现出罕见的三重冲突：一方面，TypeSafe 发布不生成字符串的「系统一模型」、Never Give Up 方法揭示 RL 训练中的马太效应，说明技术层正在深刻反思当前的架构瓶颈；另一方面，Irregular 公司与 OpenAI/Anthropic/Meta 的模型黑客丑闻持续发酵，前 FTC 主席 Lina Khan 呼吁用 1934 年的先例对 AI CEO 上手铐；与此同时，五千名数学家签署反 AI 声明、F-Droid 上的 LLM 生成软件泛滥、AI 代理之间开始用超现实诗歌方言交流。这三个方向指向同一个问题：AI 的能力边界——不是在基准测试上，而是在真实世界的结构化、问责和信任框架内。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;不给字符串的革命typesafe-的-system-one-模型重新定义-ai-为何物&#34;&gt;&#xA;  「不给字符串」的革命：TypeSafe 的 System One 模型重新定义 AI 为何物&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%8d%e7%bb%99%e5%ad%97%e7%ac%a6%e4%b8%b2%e7%9a%84%e9%9d%a9%e5%91%bdtypesafe-%e7%9a%84-system-one-%e6%a8%a1%e5%9e%8b%e9%87%8d%e6%96%b0%e5%ae%9a%e4%b9%89-ai-%e4%b8%ba%e4%bd%95%e7%89%a9&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://typesafe.ai/blog/introducing-system-one-models-and-jev&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introducing System One Models and Jev — TypeSafe AI&lt;/a&gt;（HN 讨论：636 分，207 条评论）&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=49713894&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HN: Show HN: Pizza Bot – An inbox for AI agents&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Diogo Almeida，前 OpenAI 研究员、ChatGPT 背后指令调优方法的共同缔造者，带领 TypeSafe AI 发布了他们的第一个 System One 模型 Jev。这篇博文的核心论点大胆而简洁：&lt;strong&gt;字符串生成是当前 AI 应用于自动化的根本瓶颈。&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

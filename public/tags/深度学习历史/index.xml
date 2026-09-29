@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>深度学习历史 on Notex</title>
+		<link>http://localhost:1313/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%8E%86%E5%8F%B2/</link>
+		<description>Recent content in 深度学习历史 on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 23 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%8E%86%E5%8F%B2/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>效率革命与信任重构：当小模型击败巨无霸时，Agent 的基础设施正在被重写</title>
+				<link>http://localhost:1313/posts/ai-think/2026-06-23/</link>
+				<pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-06-23/</guid>
+				<description>&lt;p&gt;效率革命与信任重构：当小模型击败巨无霸时，Agent 的基础设施正在被重写&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-06-23&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今天的 AI 新闻呈现出一幅引人深思的图景：行业正在从&amp;quot;越大越好&amp;quot;向&amp;quot;恰到好处&amp;quot;转变。Moebius 以不到 2% 的参数达到 10B 级图像修复质量，为小模型叙事提供了最有力的证据。与此同时，针对 Claude Code 白盒审计问题的暴露、Meta 内部 AI 训练数据泄露事件、以及 Oracle 因 AI 裁员 21000 人的消息，共同指向了一个更深的矛盾——当技术效率飞速提升时，围绕透明度、隐私和劳动分配的信任赤字也在同步扩大。而 Schmidhuber 与 David Ha 追溯 1991 年慕尼黑的深度学习奇迹之年，为这一切提供了历史纵深的注脚。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;022b-打败-119bmoebius-如何用不到-2-的参数完成逆袭&#34;&gt;&#xA;  0.22B 打败 11.9B：Moebius 如何用不到 2% 的参数完成逆袭&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#022b-%e6%89%93%e8%b4%a5-119bmoebius-%e5%a6%82%e4%bd%95%e7%94%a8%e4%b8%8d%e5%88%b0-2-%e7%9a%84%e5%8f%82%e6%95%b0%e5%ae%8c%e6%88%90%e9%80%86%e8%a2%ad&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;如果说过去两年 AI 行业的主旋律是 &amp;ldquo;scale is all you need&amp;rdquo;，那么 Moebius 提出的问题是：&lt;strong&gt;当任务被精确定义时，为什么还需要一个通用的巨无霸？&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;来自华中科技大学和 VIVO AI Lab 联合提出的 Moebius 框架，以 &lt;strong&gt;226M（0.22B）参数&lt;/strong&gt; 实现了与 &lt;strong&gt;FLUX.1-Fill-Dev（11.9B）&lt;/strong&gt; 比肩甚至超越的图像修复质量。这不是一个渐进式的优化——这是 50 倍以上的参数压缩，同时实现了 &lt;strong&gt;15 倍以上的推理加速&lt;/strong&gt;（每步仅 26ms）。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Can a model be smarter, lighter, and faster when the task is explicitly defined?&amp;rdquo; — Moebius 团队&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+	</channel>
+</rss>

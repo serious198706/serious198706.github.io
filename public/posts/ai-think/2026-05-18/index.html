@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  当 AI 遭遇「反噬」与「务实」 · Notex
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="哆啦 N 梦">
+<meta name="description" content="当 AI 遭遇「反噬」与「务实」
+2026-05-18
+今日 Hacker News 上的 AI 新闻呈现出一种有趣的分裂：一边是工具链的务实创新——Semble 以 98% 的 token 节省重新定义了 AI 代码搜索；另一边是公众情绪的剧烈反转——Axios 报道「AI 反噬浪潮」，超 70% 美国人认为 AI 发展过快。而一篇关于 Prolog 与宝可梦的教程，则在提醒我们：在 Transformer 统治一切的时代，逻辑编程的简洁之美依然值得被看见。
+
+
+  一、AI 代码搜索的「范式转移」：Semble 与 token 效率革命
+  
+    
+    链接到标题
+  
+
+来源：
+
+Semble – Code search for agents that uses 98% fewer tokens than grep | HN: 讨论
+
+MinishLab 发布的 Semble 是一个为 AI 代码搜索而生的工具，它的核心主张简单而有力：用自然语言搜索代码，返回的只是真正相关的代码片段，而非整份文件。在 AI 编码代理（Claude Code、Cursor、Codex 等）已成为日常工具的时代，这恰恰击中了当前工作流的最大痛点。
+
+当前 AI 代理的代码探索模式是「grep &#43; read」——先 grep 关键词找到匹配文件，再读取整个文件内容。这导致绝大部分 context window 被无关代码浪费。
+">
+<meta name="keywords" content="blog,developer,personal,AI">
+
+
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="当 AI 遭遇「反噬」与「务实」">
+	<meta name="twitter:description" content="当 AI 遭遇「反噬」与「务实」
+2026-05-18
+今日 Hacker News 上的 AI 新闻呈现出一种有趣的分裂：一边是工具链的务实创新——Semble 以 98% 的 token 节省重新定义了 AI 代码搜索；另一边是公众情绪的剧烈反转——Axios 报道「AI 反噬浪潮」，超 70% 美国人认为 AI 发展过快。而一篇关于 Prolog 与宝可梦的教程，则在提醒我们：在 Transformer 统治一切的时代，逻辑编程的简洁之美依然值得被看见。
+一、AI 代码搜索的「范式转移」：Semble 与 token 效率革命 链接到标题 来源：
+Semble – Code search for agents that uses 98% fewer tokens than grep | HN: 讨论 MinishLab 发布的 Semble 是一个为 AI 代码搜索而生的工具，它的核心主张简单而有力：用自然语言搜索代码，返回的只是真正相关的代码片段，而非整份文件。在 AI 编码代理（Claude Code、Cursor、Codex 等）已成为日常工具的时代，这恰恰击中了当前工作流的最大痛点。
+当前 AI 代理的代码探索模式是「grep &#43; read」——先 grep 关键词找到匹配文件，再读取整个文件内容。这导致绝大部分 context window 被无关代码浪费。">
+
+<meta property="og:url" content="http://localhost:1313/posts/ai-think/2026-05-18/">
+	<meta property="og:site_name" content="Notex">
+	<meta property="og:title" content="当 AI 遭遇「反噬」与「务实」">
+	<meta property="og:description" content="当 AI 遭遇「反噬」与「务实」
+2026-05-18
+今日 Hacker News 上的 AI 新闻呈现出一种有趣的分裂：一边是工具链的务实创新——Semble 以 98% 的 token 节省重新定义了 AI 代码搜索；另一边是公众情绪的剧烈反转——Axios 报道「AI 反噬浪潮」，超 70% 美国人认为 AI 发展过快。而一篇关于 Prolog 与宝可梦的教程，则在提醒我们：在 Transformer 统治一切的时代，逻辑编程的简洁之美依然值得被看见。
+一、AI 代码搜索的「范式转移」：Semble 与 token 效率革命 链接到标题 来源：
+Semble – Code search for agents that uses 98% fewer tokens than grep | HN: 讨论 MinishLab 发布的 Semble 是一个为 AI 代码搜索而生的工具，它的核心主张简单而有力：用自然语言搜索代码，返回的只是真正相关的代码片段，而非整份文件。在 AI 编码代理（Claude Code、Cursor、Codex 等）已成为日常工具的时代，这恰恰击中了当前工作流的最大痛点。
+当前 AI 代理的代码探索模式是「grep &#43; read」——先 grep 关键词找到匹配文件，再读取整个文件内容。这导致绝大部分 context window 被无关代码浪费。">
+	<meta property="og:locale" content="zh_cn">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-05-18T00:00:00+00:00">
+		<meta property="article:modified_time" content="2026-05-18T00:00:00+00:00">
+		<meta property="article:tag" content="AI代理">
+		<meta property="article:tag" content="代码搜索">
+		<meta property="article:tag" content="Token效率">
+		<meta property="article:tag" content="AI反噬">
+		<meta property="article:tag" content="公众情绪">
+		<meta property="article:tag" content="流程优化">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/ai-think/2026-05-18/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/favicon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Notex
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/ai-think/2026-05-18/">
+              当 AI 遭遇「反噬」与「务实」
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2026-05-18T00:00:00Z">
+                May 18, 2026
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              阅读时间：3 分钟
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa-solid fa-folder" aria-hidden="true"></i>
+    <a href="/categories/ai/">AI</a></div>
+
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/ai%E4%BB%A3%E7%90%86/">AI代理</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/%E4%BB%A3%E7%A0%81%E6%90%9C%E7%B4%A2/">代码搜索</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/token%E6%95%88%E7%8E%87/">Token效率</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/ai%E5%8F%8D%E5%99%AC/">AI反噬</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/%E5%85%AC%E4%BC%97%E6%83%85%E7%BB%AA/">公众情绪</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/%E6%B5%81%E7%A8%8B%E4%BC%98%E5%8C%96/">流程优化</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/%E9%80%BB%E8%BE%91%E7%BC%96%E7%A8%8B/">逻辑编程</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/prolog/">Prolog</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83/">数据中心</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/%E7%A4%BE%E4%BC%9A%E8%AE%B8%E5%8F%AF/">社会许可</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      
+
+
+      <div class="post-content">
+        
+        <p>当 AI 遭遇「反噬」与「务实」</p>
+<p><strong>2026-05-18</strong></p>
+<p>今日 Hacker News 上的 AI 新闻呈现出一种有趣的分裂：一边是工具链的务实创新——Semble 以 98% 的 token 节省重新定义了 AI 代码搜索；另一边是公众情绪的剧烈反转——Axios 报道「AI 反噬浪潮」，超 70% 美国人认为 AI 发展过快。而一篇关于 Prolog 与宝可梦的教程，则在提醒我们：在 Transformer 统治一切的时代，逻辑编程的简洁之美依然值得被看见。</p>
+<hr>
+<h2 id="一ai-代码搜索的范式转移semble-与-token-效率革命">
+  一、AI 代码搜索的「范式转移」：Semble 与 token 效率革命
+  <a class="heading-link" href="#%e4%b8%80ai-%e4%bb%a3%e7%a0%81%e6%90%9c%e7%b4%a2%e7%9a%84%e8%8c%83%e5%bc%8f%e8%bd%ac%e7%a7%bbsemble-%e4%b8%8e-token-%e6%95%88%e7%8e%87%e9%9d%a9%e5%91%bd">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p><strong>来源：</strong></p>
+<ul>
+<li><a href="https://github.com/MinishLab/semble"  class="external-link" target="_blank" rel="noopener">Semble – Code search for agents that uses 98% fewer tokens than grep</a> | HN: <a href="https://news.ycombinator.com/item?id=48169874"  class="external-link" target="_blank" rel="noopener">讨论</a></li>
+</ul>
+<p>MinishLab 发布的 Semble 是一个为 AI 代码搜索而生的工具，它的核心主张简单而有力：<strong>用自然语言搜索代码，返回的只是真正相关的代码片段，而非整份文件</strong>。在 AI 编码代理（Claude Code、Cursor、Codex 等）已成为日常工具的时代，这恰恰击中了当前工作流的最大痛点。</p>
+<blockquote>
+<p>当前 AI 代理的代码探索模式是「grep + read」——先 grep 关键词找到匹配文件，再读取整个文件内容。这导致绝大部分 context window 被无关代码浪费。</p>
+</blockquote>
+<p>Semble 的技术路径相当聪明：它结合了静态嵌入（Model2Vec 的 <code>potion-code-16M</code> 模型）和传统的 BM25 词法匹配，通过 RRF（Reciprocal Rank Fusion）融合两种检索结果，再叠加一系列代码感知的重排序信号——比如定义位置提升、标识符词干匹配、文件级相干性增强等。最关键的是，<strong>嵌入模型是静态的，查询时没有 transformer 前向传播</strong>，因此全部计算可在 CPU 上以毫秒级完成。</p>
+<p>数据说话：</p>
+<table>
+	<thead>
+			<tr>
+					<th>方法</th>
+					<th>NDCG@10</th>
+					<th>索引时间</th>
+					<th>查询 p50</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>CodeRankEmbed Hybrid</td>
+					<td>0.862</td>
+					<td>57s</td>
+					<td>16ms</td>
+			</tr>
+			<tr>
+					<td><strong>Semble</strong></td>
+					<td><strong>0.854</strong></td>
+					<td><strong>263ms</strong></td>
+					<td><strong>1.5ms</strong></td>
+			</tr>
+			<tr>
+					<td>BM25</td>
+					<td>0.673</td>
+					<td>263ms</td>
+					<td>0.02ms</td>
+			</tr>
+			<tr>
+					<td>ripgrep</td>
+					<td>0.126</td>
+					<td>—</td>
+					<td>12ms</td>
+			</tr>
+	</tbody>
+</table>
+<p>Semble 达到了 CodeRankEmbed Hybrid（1.37 亿参数）99% 的检索质量，但索引速度快了 218 倍，查询速度快了 11 倍。平均 token 使用量减少了 98%，在 2k token 预算下达到 94% 召回率，而 grep+read 需要 100k context 窗口才能达到 85%。</p>
+<p><strong>深度分析：</strong></p>
+<p>这件事的意义远超「又一个代码搜索工具」。它标志着 AI 编码代理工作流正在从「暴力枚举」走向「精准检索」。当 Claude Code 等工具每天消耗数千 token 在无关代码上时，Semble 所代表的方向——<strong>用更少的 token 做更准的检索</strong>——是 AI 工具链可持续化的关键。</p>
+<p>更值得关注的是 Semble 的部署方式：MCP 服务器 + Bash 工具双模式。这意味着它不是某个特定平台的封闭功能，而是一个可以被任何 MCP 兼容代理（Claude Code、Cursor、Codex、OpenCode）直接调用的基础设施。这种「代理无关」的定位，暗示着代码搜索正在从各平台的内置能力中剥离出来，成为一个独立的基础设施层。</p>
+<blockquote>
+<p>当 AI 代理的 token 成本从「可忽略」变成「需要精打细算」，高效检索就不再是锦上添花，而是生存必需。</p>
+</blockquote>
+<hr>
+<h2 id="二ai-反噬浪潮当公众情绪开始逆转">
+  二、AI 反噬浪潮：当公众情绪开始逆转
+  <a class="heading-link" href="#%e4%ba%8cai-%e5%8f%8d%e5%99%ac%e6%b5%aa%e6%bd%ae%e5%bd%93%e5%85%ac%e4%bc%97%e6%83%85%e7%bb%aa%e5%bc%80%e5%a7%8b%e9%80%86%e8%bd%ac">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p><strong>来源：</strong></p>
+<ul>
+<li><a href="https://www.axios.com/2026/05/17/ai-backlash-polling-sentiment"  class="external-link" target="_blank" rel="noopener">An AI Hate Wave Is Here</a> | HN: <a href="https://news.ycombinator.com/item?id=48173318"  class="external-link" target="_blank" rel="noopener">讨论</a></li>
+</ul>
+<p>Axios 今日报道了一个不容忽视的信号：<strong>AI 的公众支持率正在经历系统性下滑</strong>。Gallup 最新调查显示，14-29 岁年轻人中只有 18% 对 AI 感到乐观；Economist/YouGov 本周发布的民调显示，超过 70% 的美国人认为 AI 发展过快——68% 的共和党人和 77% 的民主党人持相同观点。负面看法从三年前的 34% 攀升至如今的 50% 以上。</p>
+<blockquote>
+<p>如果 AI 是一个竞选公职的候选人，它将遭遇惨败。</p>
+</blockquote>
+<p>佛罗里达房地产高管 Gloria Caulfield 在 UCF 毕业典礼上宣称「AI 是下一次工业革命」，结果遭到全场嘘声——这并非孤立事件，而是公众情绪的缩影。更值得警惕的是，这种情绪已经开始转化为实际的经济约束：2026 年第一季度，因社区反对而取消的数据中心数量创历史新高。Morgan Stanley 分析师明确指出：「公众抵制正成为绑定约束，特别是在数据中心建设方面。」Jefferies 的投资报告则称这些挫折正在「削弱投资者信心」。</p>
+<p><strong>深度分析：</strong></p>
+<p>AI 行业的 PR 危机比大多数人意识到的更严重。一个关键矛盾是：<strong>AI 高管们似乎对公众情绪严重脱节</strong>。Axios 采访的多家前沿 AI 实验室高管对负面民调感到惊讶，Superhuman Mail CEO Rahul Vohra 甚至表示「我们没看到这些（负面看法）」。这种认知偏差本身就是一个危险信号——当技术乐观主义与公众现实感知之间出现如此大的鸿沟时，政策反弹几乎是必然的。</p>
+<p>UC Santa Cruz 的 Dr. Avriel Epps 说得一针见血：「技术本身会留下来，但<strong>这些技术是否会被嵌入生活的方方面面、变得不可或缺、或取代人类——这些都不是必然的</strong>。」这句话点出了问题的核心：AI 行业的叙事一直是「技术必然性」，但公众真正关心的是「社会选择的必然性」。</p>
+<p>全球范围内情况稍好——斯坦福 AI Index 2026 显示，预计 AI 利大于弊的全球受访者比例从 2024 年的 55% 升至 2025 年的 59%。但美国作为 AI 产业的核心市场，其情绪逆转对行业的影响将远超其他地区。</p>
+<blockquote>
+<p>数据中心的取消不是技术问题，是政治问题。当算力基础设施遭遇社区抵制，AI 的增长故事就从「技术瓶颈」变成了「社会许可」。</p>
+</blockquote>
+<hr>
+<h2 id="三流程优化的幻觉ai-不会让你的流程变快">
+  三、流程优化的幻觉：AI 不会让你的流程变快
+  <a class="heading-link" href="#%e4%b8%89%e6%b5%81%e7%a8%8b%e4%bc%98%e5%8c%96%e7%9a%84%e5%b9%bb%e8%a7%89ai-%e4%b8%8d%e4%bc%9a%e8%ae%a9%e4%bd%a0%e7%9a%84%e6%b5%81%e7%a8%8b%e5%8f%98%e5%bf%ab">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p><strong>来源：</strong></p>
+<ul>
+<li><a href="https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/"  class="external-link" target="_blank" rel="noopener">I don&rsquo;t think AI will make your processes go faster</a> | HN: <a href="https://news.ycombinator.com/item?id=48168221"  class="external-link" target="_blank" rel="noopener">讨论</a></li>
+</ul>
+<p>Frederick van Brabant 的文章是对当前企业「AI + 流程优化」热潮的一剂清醒剂。他重读了《丰田之道》和《目标》两部经典，发现大多数组织的流程优化练习过于简化，且严重误解了应该关注什么。</p>
+<blockquote>
+<p>如果你认为 AI 能让软件开发变快，那你可能还没理解软件开发真正慢在哪里。</p>
+</blockquote>
+<p>文章的核心洞察是：<strong>软件开发的瓶颈从来不是编码速度，而是问题理解的清晰度</strong>。当 AI 生成代码被吹捧为「绕过开发阶段，让开发者变成项目经理」时，这种叙事忽略了一个事实——AI 生成正确代码的前提是输入足够精确的问题描述。</p>
+<p>作者用甘特图对比了两种模式：</p>
+<ul>
+<li><strong>传统模式</strong>：需求探索 10 天 → 开发 70 天 → 部署 5 天</li>
+<li><strong>AI 模式（理想化）</strong>：需求探索 10 天 → AI 开发 3 天 → 部署 5 天</li>
+<li><strong>AI 模式（现实）</strong>：需求探索 40 天 → AI 开发 40 天 → 部署 5 天</li>
+</ul>
+<p>现实中的 AI 开发需要领域专家和产品专家的深度参与，把每个功能和 bug 修复都细化到最微小的细节——而这恰恰是软件开发者多年来一直在请求的：<strong>收到问题的详细大纲和预期结果的清晰描述</strong>。如果你给人类开发者同样的需求文档，生产力也会飙升。</p>
+<p><strong>深度分析：</strong></p>
+<p>这篇文章的价值在于它戳破了一个被广泛传播的幻觉：<strong>AI 不是魔法，它只是把成本从「写代码」转移到了「描述代码」</strong>。对于已经拥有清晰需求文档的组织，AI 确实能加速；但对于大多数还在用模糊需求驱动开发的团队，AI 只是把瓶颈从编码阶段前移到了需求阶段。</p>
+<p>这与《目标》中的核心原则不谋而合：「瓶颈应该接收可预测的、高质量的输入。」AI 流程优化的第一步不应该是「把 AI 扔进去」，而是先确保输入的质量。</p>
+<hr>
+<h2 id="四逻辑编程的复兴当-prolog-遇上宝可梦">
+  四、逻辑编程的复兴：当 Prolog 遇上宝可梦
+  <a class="heading-link" href="#%e5%9b%9b%e9%80%bb%e8%be%91%e7%bc%96%e7%a8%8b%e7%9a%84%e5%a4%8d%e5%85%b4%e5%bd%93-prolog-%e9%81%87%e4%b8%8a%e5%ae%9d%e5%8f%af%e6%a2%a6">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p><strong>来源：</strong></p>
+<ul>
+<li><a href="https://unplannedobsolescence.com/blog/prolog-basics-pokemon/"  class="external-link" target="_blank" rel="noopener">Prolog Basics Explained with Pokémon</a> | HN: <a href="https://news.ycombinator.com/item?id=48147091"  class="external-link" target="_blank" rel="noopener">讨论</a></li>
+</ul>
+<p>在 Transformer 和神经网络统治 AI 的时代，一篇用宝可梦讲解 Prolog 的文章登上 HN，本身就是一个值得玩味的信号。作者 Alexander Petros 用宝可梦的复杂规则系统（1000+ 物种、属性克制、技能学习、能力值）展示了逻辑编程在处理关系型规则时的简洁与表达力。</p>
+<blockquote>
+<p>对于某些类型的关系，逻辑编程是我用过的最简洁、最具表达力的编程系统。</p>
+</blockquote>
+<p>文章的核心对比是 Prolog 与 SQL 的查询复杂度。要找出「特殊攻击 &gt; 120、会 Freeze-Dry 技能、且是冰属性的宝可梦」：</p>
+<p><strong>SQL：</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#ff7b72">SELECT</span><span style="color:#6e7681"> </span><span style="color:#ff7b72">DISTINCT</span><span style="color:#6e7681"> </span>pokemon,<span style="color:#6e7681"> </span>special_attack<span style="color:#6e7681">
+</span></span></span><span style="display:flex;"><span><span style="color:#ff7b72">FROM</span><span style="color:#6e7681"> </span>pokemon<span style="color:#6e7681"> </span><span style="color:#ff7b72">as</span><span style="color:#6e7681"> </span>p<span style="color:#6e7681">
+</span></span></span><span style="display:flex;"><span><span style="color:#ff7b72">WHERE</span><span style="color:#6e7681"> </span>p.special_attack<span style="color:#6e7681"> </span><span style="color:#ff7b72;font-weight:bold">&gt;</span><span style="color:#6e7681"> </span><span style="color:#a5d6ff">120</span><span style="color:#6e7681">
+</span></span></span><span style="display:flex;"><span><span style="color:#6e7681">  </span><span style="color:#ff7b72">AND</span><span style="color:#6e7681"> </span><span style="color:#ff7b72">EXISTS</span><span style="color:#6e7681"> </span>(<span style="color:#ff7b72">SELECT</span><span style="color:#6e7681"> </span><span style="color:#a5d6ff">1</span><span style="color:#6e7681"> </span><span style="color:#ff7b72">FROM</span><span style="color:#6e7681"> </span>pokemon_moves<span style="color:#6e7681"> </span><span style="color:#ff7b72">WHERE</span><span style="color:#6e7681"> </span>...)<span style="color:#6e7681">
+</span></span></span><span style="display:flex;"><span><span style="color:#6e7681">  </span><span style="color:#ff7b72">AND</span><span style="color:#6e7681"> </span><span style="color:#ff7b72">EXISTS</span><span style="color:#6e7681"> </span>(<span style="color:#ff7b72">SELECT</span><span style="color:#6e7681"> </span><span style="color:#a5d6ff">1</span><span style="color:#6e7681"> </span><span style="color:#ff7b72">FROM</span><span style="color:#6e7681"> </span>pokemon_types<span style="color:#6e7681"> </span><span style="color:#ff7b72">WHERE</span><span style="color:#6e7681"> </span>...);<span style="color:#6e7681">
+</span></span></span></code></pre></div><p><strong>Prolog：</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-prolog" data-lang="prolog"><span style="display:flex;"><span><span style="color:#a5d6ff">?-</span> <span style="color:#d2a8ff;font-weight:bold">pokemon_spa</span>(<span style="color:#79c0ff">Pokemon</span>, <span style="color:#79c0ff">SpA</span>), <span style="color:#79c0ff">SpA</span> <span style="color:#a5d6ff">#&gt;</span> <span style="color:#a5d6ff">120</span>, <span style="color:#d2a8ff;font-weight:bold">learns</span>(<span style="color:#79c0ff">Pokemon</span>, <span style="color:#a5d6ff">freezedry</span>), <span style="color:#d2a8ff;font-weight:bold">type</span>(<span style="color:#79c0ff">Pokemon</span>, <span style="color:#a5d6ff">ice</span>).
+</span></span></code></pre></div><p><strong>深度分析：</strong></p>
+<p>这篇文章的意义不在于推广 Prolog，而在于提醒我们：<strong>在深度学习的浪潮中，符号 AI 和逻辑编程的思维方式依然有其不可替代的价值</strong>。宝可梦的战斗系统本质上是一个复杂的规则引擎——属性克制、技能效果、能力值计算——这些用逻辑规则表达比用神经网络自然得多。</p>
+<p>在 AI Agent 时代，当我们需要构建可解释、可推理的系统时，逻辑编程的思维方式可能比纯神经方法更有优势。Prolog 的「声明式」哲学——描述「是什么」而非「怎么做」——与 AI Agent 需要理解和推理复杂规则的需求高度契合。</p>
+<hr>
+<h2 id="结语在狂热与怀疑之间寻找平衡">
+  结语：在狂热与怀疑之间寻找平衡
+  <a class="heading-link" href="#%e7%bb%93%e8%af%ad%e5%9c%a8%e7%8b%82%e7%83%ad%e4%b8%8e%e6%80%80%e7%96%91%e4%b9%8b%e9%97%b4%e5%af%bb%e6%89%be%e5%b9%b3%e8%a1%a1">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>今日的新闻图谱呈现出一幅 AI 行业的「双面画像」：</p>
+<ul>
+<li><strong>技术面</strong>：工具链正在务实进化。Semble 代表了 AI 基础设施的精炼方向——用更少的资源做更准的事。</li>
+<li><strong>社会面</strong>：公众情绪正在发生结构性逆转。AI 反噬不再是边缘声音，而是正在转化为数据中心取消、投资信心动摇的实际约束。</li>
+<li><strong>认知面</strong>：关于 AI 能做什么的叙事需要修正。AI 不是万能加速器，它只是改变了成本结构——从编码成本转移到描述成本。</li>
+<li><strong>思想面</strong>：在深度学习之外，符号 AI 和逻辑编程的思维方式依然有价值，尤其在需要可解释性和规则推理的场景。</li>
+</ul>
+<blockquote>
+<p>技术本身是必然的，但技术如何嵌入社会——这不是必然的，而是选择。</p>
+</blockquote>
+<hr>
+<p><code>AI代理</code> <code>代码搜索</code> <code>token效率</code> <code>AI反噬</code> <code>公众情绪</code> <code>流程优化</code> <code>逻辑编程</code> <code>Prolog</code> <code>数据中心</code> <code>社会许可</code></p>
+<hr>
+<p><em>本 digest 基于 2026 年 5 月 18 日 Hacker News 热门新闻生成。</em></p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script>
+  window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    
+    document.addEventListener('themeChanged', function (e) { 
+        if (document.readyState == 'complete') {
+          DISQUS.reset({ reload: true, config: disqus_config });
+        }
+    });
+</script>
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2026
+     哆啦 N 梦 
+    ·
+    
+    技术支持 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

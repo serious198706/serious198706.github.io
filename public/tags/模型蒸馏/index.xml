@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>模型蒸馏 on Notex</title>
+		<link>http://localhost:1313/tags/%E6%A8%A1%E5%9E%8B%E8%92%B8%E9%A6%8F/</link>
+		<description>Recent content in 模型蒸馏 on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 21 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/%E6%A8%A1%E5%9E%8B%E8%92%B8%E9%A6%8F/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>中国开源模型崛起，Agent 经济学重构，以及 AI 写作的检测困境</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-21/</link>
+				<pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-21/</guid>
+				<description>&lt;p&gt;中国开源模型崛起，Agent 经济学重构，以及 AI 写作的检测困境&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-21&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日的 AI 新闻围绕一个核心张力展开：&lt;strong&gt;中国通过开源模型策略正在重塑全球 AI 格局，而美国 AI 产业在封闭优先与成本失控之间艰难抉择。&lt;/strong&gt; 与此同时，Agent 系统进入工程化深水区，Cursor 和 Stencil 分别从不同角度揭示了&amp;quot;模型经济学&amp;quot;的反直觉真相；arXiv 的 AI 写作检测实验则引发了一场关于学术诚实与工具的哲学讨论。这些故事共同指向一个结构性转变：AI 正在从&amp;quot;谁的模型更强&amp;quot;的竞赛，转向&amp;quot;谁能构建更持久的生态&amp;quot;的马拉松。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-中国开源模型一场精心设计的生态战&#34;&gt;&#xA;  🇨🇳 中国开源模型：一场精心设计的生态战&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-%e4%b8%ad%e5%9b%bd%e5%bc%80%e6%ba%90%e6%a8%a1%e5%9e%8b%e4%b8%80%e5%9c%ba%e7%b2%be%e5%bf%83%e8%ae%be%e8%ae%a1%e7%9a%84%e7%94%9f%e6%80%81%e6%88%98&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;China&amp;rsquo;s open-weights AI strategy is winning: its companies are taking the lead. America&amp;rsquo;s closed-first, locked-down strategy is doomed to failure.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Ben Werdmuller 在 &lt;a href=&#34;https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;American AI is locked down and proprietary. It&amp;rsquo;s losing&lt;/a&gt; 中抛出了一个尖锐的判断：&lt;strong&gt;AI 模型本身几乎没有护城河&lt;/strong&gt;。品牌忠诚度和转换成本是肤浅的，真正的护城河存在于企业级服务——合同、集成、数据流转。而开源模型恰恰绕过了这些。&lt;/p&gt;&#xA;&lt;p&gt;这一周，Moonshot 的 Kimi K3 和阿里巴巴的 Qwen3.8 Max（2.4 万亿参数）相继发布，号称与 Anthropic 的 Fable 5 和 OpenAI 的 Sol 处于同一梯队，且成本仅为几分之一。阿里巴巴宣布将恢复开源权重——此前其在年初暂停了前沿模型的开源，但上周习近平关于 AI 的讲话明确加倍押注开源路线，改变了这一决策。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>模型蒸馏战争、AI 政治光谱与&#34;RAMageddon&#34;时代</title>
+				<link>http://localhost:1313/posts/ai-think/2026-06-26/</link>
+				<pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-06-26/</guid>
+				<description>&lt;p&gt;模型蒸馏战争、AI 政治光谱与&amp;quot;RAMageddon&amp;quot;时代&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-06-26&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日 AI 行业迎来了三个结构性的震荡信号：Anthropic 公开指控阿里巴巴大规模窃取其 Claude 模型能力，将中美 AI 知识产权冲突推向新高；AI 数据中心建设引发的内存价格暴涨（&amp;ldquo;RAMageddon&amp;rdquo;）迫使 Apple 全面涨价，AI 的硬件成本正在传导至每一个消费者；同时，一项系统性研究揭示了主流 AI 模型的政治偏见图谱，而 OpenAI 选择推迟 IPO，预示着行业正在从狂热扩张期进入战略调整期。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一模型蒸馏战争升级anthropic-指控阿里巴巴窃取-claude&#34;&gt;&#xA;  一、模型蒸馏战争升级：Anthropic 指控阿里巴巴窃取 Claude&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80%e6%a8%a1%e5%9e%8b%e8%92%b8%e9%a6%8f%e6%88%98%e4%ba%89%e5%8d%87%e7%ba%a7anthropic-%e6%8c%87%e6%8e%a7%e9%98%bf%e9%87%8c%e5%b7%b4%e5%b7%b4%e7%aa%83%e5%8f%96-claude&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Anthropic says Alibaba illicitly extracted Claude AI model capabilities&lt;/a&gt; (Reuters)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=48664814&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HN Discussion&lt;/a&gt; — 745 points, 1201 comments&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Anthropic 正式指控中国科技巨头阿里巴巴非法提取其 Claude AI 模型的核心能力，称这是&amp;quot;已知规模最大的一次此类攻击&amp;quot;。该事件在 HN 上引发了超过 1200 条评论的激烈讨论，成为今日无可争议的焦点话题。&lt;/p&gt;&#xA;&lt;p&gt;这件事的本质远超传统意义上的知识产权纠纷。&lt;strong&gt;模型蒸馏（Model Distillation）&lt;/strong&gt; 本身并不是非法行为——事实上，它是 AI 行业普遍采用的技术，用于将大型模型的能力压缩到更小、更高效的模型中。问题的关键在于：使用对手方服务条款明确禁止的 API 进行系统性提取，并将提取出的能力用于构建竞争性产品。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;这是 AI 行业第一次真正意义上的&amp;rsquo;热战&amp;rsquo;。过去的知识产权摩擦更多集中在训练数据的版权问题上，而这一次，战场直接转移到了模型权重和推理能力本身。&amp;rdquo; — HN 评论区&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;深度分析来看，这场冲突揭示了三层结构性变化：&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;第一，模型即知识产权的时代已经到来。&lt;/strong&gt; 与软件代码受版权保护、算法受专利保护不同，模型蒸馏介于法律灰色地带。Anthropic 的选择不是在法庭上起诉（至少目前不是），而是通过媒体公开施压，这本身就说明了现行法律框架对模型权重的保护存在空白。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

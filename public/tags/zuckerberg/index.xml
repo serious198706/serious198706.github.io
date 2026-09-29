@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Zuckerberg on Notex</title>
+		<link>http://localhost:1313/tags/zuckerberg/</link>
+		<description>Recent content in Zuckerberg on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 07 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/zuckerberg/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>泡沫、玄铁与智能的暗流</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-07/</link>
+				<pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-07/</guid>
+				<description>&lt;p&gt;泡沫、玄铁与智能的暗流&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-07&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日的 AI 新闻图景清晰揭示了一个分野：一面是资本市场对 AI 泡沫的恐慌情绪达到新高度，另一面是技术本身在静默中完成着深刻的自我进化。从 Anthropic 揭示大模型内部涌现的&amp;quot;全局工作空间&amp;quot;，到 AMD 以 4000 美元将旗舰级 AI 推理塞进开发者桌面，再到 Ramp 用 2.1 万家企业数据证明 AI 采纳者实际上在扩招——喧嚣与深度并存的一天，值得逐层拆解。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一泡沫叙事狼真的来了还只是狼的影子&#34;&gt;&#xA;  一、泡沫叙事：狼真的来了，还只是狼的影子？&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80%e6%b3%a1%e6%b2%ab%e5%8f%99%e4%ba%8b%e7%8b%bc%e7%9c%9f%e7%9a%84%e6%9d%a5%e4%ba%86%e8%bf%98%e5%8f%aa%e6%98%af%e7%8b%bc%e7%9a%84%e5%bd%b1%e5%ad%90&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Oracle 本月已跌超 40%，国际清算银行（BIS）认为 AI 可能摧毁经济，而我们的水壶正煮着这一切的闲话。&amp;rdquo;&#xA;— The Register&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;今天最具话题性的几篇文章共享同一个母题：&lt;strong&gt;AI 泡沫何时破裂？&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;The Register&lt;/strong&gt; 以标志性的英式讽刺勾勒出此刻市场情绪的转折点：Oracle 这家被认为对 AI 泡沫敞口最大的超大规模云商，一个月内市值蒸发超过 40%。国际清算银行在 6 月底发布的报告罕见地发出警告，认为 AI 泡沫可能已濒临破裂边缘，并有拖垮全球经济的风险。Apollo 首席经济学家 Torsten Slok 也在 Fortune 上表示，AI 市场的&amp;quot;痛苦重定价&amp;quot;完全有可能发生。&lt;/p&gt;&#xA;&lt;p&gt;然而，最引人深思的分析来自 Martin Alderson 的 &lt;strong&gt;《GLM 5.2 and the Coming AI Margin Collapse》&lt;/strong&gt;。他提出了一个被主流叙事严重低估的经济学论点：&lt;strong&gt;训练成本只是固定的一次性支出，真正的结构性挑战在推理侧。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;当 Anthropic/OpenAI 对推理收取 25 美元/百万 token 时，我的餐巾纸计算表明，这相比机架成本大概有 90% 的毛利率。前沿实验室的整个商业模式是：花大笔钱训练模型，然后用利润率极高的推理服务摊薄成本。&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+			<item>
+				<title>单层 Transformer 的逆袭、Agent 理想与现实的裂缝、以及 AI 治理的边界</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-03/</link>
+				<pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-03/</guid>
+				<description>&lt;p&gt;单层 Transformer 的逆袭、Agent 理想与现实的裂缝、以及 AI 治理的边界&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-03&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;今天是 2026 年 7 月 3 日，AI 行业的节奏正在微妙地变换。一方面，学术界传来反直觉的突破——单层 Transformer 的强化学习训练竟然能与全参数训练匹敌；另一方面，Zuckerberg 罕见地承认 Agent 开发比预期更慢，而日本最高法裁定 AI 不能作为专利发明人。这几条线索串起了今天的核心叙事：&lt;strong&gt;AI 的能力边界正在被更精确地测绘&lt;/strong&gt;——不是被无限的乐观推高，而是被实验、法律和现实反馈一一校准。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-反直觉的学术突破当单层-transformer-媲美全参数-rl-训练&#34;&gt;&#xA;  🔬 反直觉的学术突破：当单层 Transformer 媲美全参数 RL 训练&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-%e5%8f%8d%e7%9b%b4%e8%a7%89%e7%9a%84%e5%ad%a6%e6%9c%af%e7%aa%81%e7%a0%b4%e5%bd%93%e5%8d%95%e5%b1%82-transformer-%e5%aa%b2%e7%be%8e%e5%85%a8%e5%8f%82%e6%95%b0-rl-%e8%ae%ad%e7%bb%83&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;arXiv 上的一篇新论文（136 分，编号 2607.01232）提出了一个令人惊讶的发现：&lt;strong&gt;训练单个 Transformer 层的强化学习可以匹配全参数 RL 训练的最终性能&lt;/strong&gt;。标题直接发问——&amp;ldquo;Is One Layer Enough?&amp;quot;——而答案是：在某些条件下，是的。&lt;/p&gt;&#xA;&lt;p&gt;论文作者来自中国研究团队（Zijian Zhang, Rizhen Hu, Athanasios G&amp;hellip;），核心发现是：LLM 后训练阶段的 RL 适配并非均匀分布在各层之间。通过对各层的梯度分析，研究者发现上层和下层的更新模式存在显著差异，并且 &lt;strong&gt;仅训练单一层足以捕捉绝大部分 RL 优化信号&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Reinforcement learning has become a central component of post-training large language models yet little is understood about how RL adaptation is distributed across transformer layers.&amp;rdquo; — arXiv 论文摘要&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+	</channel>
+</rss>

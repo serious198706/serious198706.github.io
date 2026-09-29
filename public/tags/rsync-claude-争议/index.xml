@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Rsync Claude 争议 on Notex</title>
+		<link>http://localhost:1313/tags/rsync-claude-%E4%BA%89%E8%AE%AE/</link>
+		<description>Recent content in Rsync Claude 争议 on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/rsync-claude-%E4%BA%89%E8%AE%AE/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>量化革命、代码争议与文化反思</title>
+				<link>http://localhost:1313/posts/ai-think/2026-06-06/</link>
+				<pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-06-06/</guid>
+				<description>&lt;p&gt;量化革命、代码争议与文化反思&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-06-06&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日 AI 领域呈现出三条清晰的脉络：Google 发布 Gemma 4 QAT 模型，将边缘设备推理推向新高度；一场围绕 Claude 是否破坏了 rsync 代码库的激烈争论，在严谨的数据分析下被证伪；而 Anthropic 开源了自动化漏洞发现框架，与 Microsoft Scout 的&amp;quot;成瘾性设计&amp;quot;争议一道，引发了关于 AI 信任与依赖的深层讨论。学术界则贡献了一份优雅的发现：Transformer 本质上比我们想象的更简洁。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-google-的量化革命当-ai-模型瘦身到-1gb&#34;&gt;&#xA;  🔬 Google 的量化革命：当 AI 模型瘦身到 1GB&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-google-%e7%9a%84%e9%87%8f%e5%8c%96%e9%9d%a9%e5%91%bd%e5%bd%93-ai-%e6%a8%a1%e5%9e%8b%e7%98%a6%e8%ba%ab%e5%88%b0-1gb&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Google 昨日发布了 &lt;strong&gt;Gemma 4 QAT（Quantization-Aware Training）&lt;/strong&gt; 检查点，这是一个值得行业密切关注的技术节点。其核心成果是：将 Gemma 4 E2B 模型的内存占用压缩至 &lt;strong&gt;不到 1GB&lt;/strong&gt;，同时保持了模型质量。&lt;/p&gt;&#xA;&lt;p&gt;传统做法是在训练完成后进行后训练量化（PTQ），这往往带来性能退化。Google 的做法是将量化过程直接&lt;strong&gt;嵌入训练流程&lt;/strong&gt;：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;静态激活（Static activations）&lt;/strong&gt;：预计算缩放设置，减少移动芯片的计算负载&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;通道级量化（Channel-wise quantization）&lt;/strong&gt;：让压缩后的数据结构适配移动加速器的原生计算模式&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;定向 2 位量化&lt;/strong&gt;：将生成 token 的部分压缩至 2 位，同时保持核心推理层的高精度&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;嵌入层与 KV 缓存优化&lt;/strong&gt;：大幅降低活跃内存占用，支持长对话不断线&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;这些技术细节并非单纯的工程优化。它们指向一个更深的趋势：&lt;strong&gt;AI 推理的主战场，正在从云端 GPU 集群转向消费者手中的设备&lt;/strong&gt;。与框架提供者（llama.cpp、Ollama、LM Studio、MLX、vLLM、SGLang）的广泛合作表明，Google 此次的目标不是发布一个独立的模型，而是构建一整套边缘推理生态。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;We&amp;rsquo;ve reduced the memory footprint of Gemma 4 E2B to 1GB.&amp;rdquo;&#xA;—— Google AI Blog&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+	</channel>
+</rss>

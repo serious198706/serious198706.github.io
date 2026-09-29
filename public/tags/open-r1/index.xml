@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Open-R1 on Notex</title>
+		<link>http://localhost:1313/tags/open-r1/</link>
+		<description>Recent content in Open-R1 on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/open-r1/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>From Pokémon Go to Military Drones: When Civilian AI Data Finds Its Way to War</title>
+				<link>http://localhost:1313/posts/ai-think/2026-06-12/</link>
+				<pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-06-12/</guid>
+				<description>&lt;p&gt;From Pokémon Go to Military Drones: When Civilian AI Data Finds Its Way to War&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-06-12&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-今日焦点&#34;&gt;&#xA;  🎯 今日焦点&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-%e4%bb%8a%e6%97%a5%e7%84%a6%e7%82%b9&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;今日最重磅的新闻——Pokémon Go 玩家的 AR 扫描数据最终被用于训练军用无人机导航系统——将 AI 行业的一个核心矛盾推到了聚光灯下：&lt;strong&gt;当数亿人的娱乐行为所贡献的数据，在无人知晓的情况下成为战争机器的一部分，谁该为此负责？&lt;/strong&gt; 与此同时，Anthropic 为 Fable 隐藏 guardrails 道歉的余波持续发酵——Endor Labs 的独立评测显示 Fable 5 在真实编程任务中表现平平，而网络安全研究者的愤怒仍未平息。OpenAI 则同时在价格战和战略转型两个方向上行动：一边考虑大幅降价以对抗 Anthropic，一边悄然为 on-premise 产品铺路。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-pokémon-go-到军用无人机当全民游戏训练战争之眼&#34;&gt;&#xA;  🗺️ Pokémon Go 到军用无人机：当&amp;quot;全民游戏&amp;quot;训练&amp;quot;战争之眼&amp;quot;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-pok%c3%a9mon-go-%e5%88%b0%e5%86%9b%e7%94%a8%e6%97%a0%e4%ba%ba%e6%9c%ba%e5%bd%93%e5%85%a8%e6%b0%91%e6%b8%b8%e6%88%8f%e8%ae%ad%e7%bb%83%e6%88%98%e4%ba%89%e4%b9%8b%e7%9c%bc&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;今天 HN 上得分最高（678 分，304 条评论）的新闻来自 dronexl.co 的一则调查报道：Niantic（Pokémon Go 的开发商）通过其 AR 扫描平台收集的数亿玩家数据，最终被用于训练军用无人机的导航系统。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;这背后有一条令人不安的数据链条：&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Pokémon Go 玩家为了抓宝可梦，拍摄了无数真实世界地点的 AR 扫描数据&lt;/li&gt;&#xA;&lt;li&gt;Niantic 将这些数据用于构建其&amp;quot;视觉定位系统&amp;quot;（VPS）——一个能通过手机摄像头识别精确地理位置的技术&lt;/li&gt;&#xA;&lt;li&gt;VPS 技术被 Vantor（一家军事技术公司）授权使用&lt;/li&gt;&#xA;&lt;li&gt;Vantor 将其整合到军用无人机导航系统中，用于在 GPS 被干扰的环境下导航&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;你抓宝可梦时拍的那张照片，可能最后训练了一个能在城市中自主导航的军用无人机。&amp;rdquo; — HN 一条高赞评论&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+	</channel>
+</rss>

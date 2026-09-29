@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>BCI on Notex</title>
+		<link>http://localhost:1313/tags/bci/</link>
+		<description>Recent content in BCI on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 01 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/bci/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Claude 三响炮：Sonnet 5、Science 与隐写风波</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-01/</link>
+				<pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-01/</guid>
+				<description>&lt;p&gt;Claude 三响炮：Sonnet 5、Science 与隐写风波&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-01&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日 AI 圈格局被 Anthropic 三连击彻底定义：Claude Sonnet 5 发布让代理能力下放至新价格段，Claude Science 将 AI 带入可复现的科研工作流，而 Claude Code 隐写标记事件则以 1322 分登顶 HN，引发对 AI 工具信任边界的广泛反思。与此同时，中国 LongCat-2.0 以国产芯片训出 1.6T 参数 MoE 模型，Meta Brain2Qwerty v2 以非侵入方式逼近手术级脑机接口精度，Google TabFM 则以零样本方式重塑表格数据预测范式。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-claude-sonnet-5代理能力民主化的拐点&#34;&gt;&#xA;  🚀 Claude Sonnet 5：代理能力民主化的拐点&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-claude-sonnet-5%e4%bb%a3%e7%90%86%e8%83%bd%e5%8a%9b%e6%b0%91%e4%b8%bb%e5%8c%96%e7%9a%84%e6%8b%90%e7%82%b9&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Anthropic 于昨日发布 Claude Sonnet 5，官方称其为&amp;quot;最具代理能力的 Sonnet 模型&amp;quot;。核心数据令人瞩目：性能接近 Opus 4.8，但定价仅为 $3/$15 每百万 token（首发优惠 $2/$10，持续至 8 月 31 日），而 Opus 4.8 定价为 $5/$25。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;深度分析：&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;这不仅是模型迭代，更是市场策略的关键转向。Sonnet 5 的意义在于它重新定义了&amp;quot;代理能力&amp;quot;的价格门槛。早期的代理 AI 竞赛集中在 Opus 级大模型上——高性能但高成本，仅大厂和资金充裕的创业公司能负担。Sonnet 5 将这种能力压缩到 Sonnet 价位，意味着&lt;strong&gt;代理 AI 正从奢侈品变为日用品&lt;/strong&gt;。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

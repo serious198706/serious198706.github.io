@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>AI安全治理 on Notex</title>
+		<link>http://localhost:1313/tags/ai%E5%AE%89%E5%85%A8%E6%B2%BB%E7%90%86/</link>
+		<description>Recent content in AI安全治理 on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 08 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/ai%E5%AE%89%E5%85%A8%E6%B2%BB%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>硬件军备竞赛加速，Agent 平台进入&#34;OS 化&#34;阶段</title>
+				<link>http://localhost:1313/posts/ai-think/2026-08-08/</link>
+				<pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-08-08/</guid>
+				<description>&lt;p&gt;硬件军备竞赛加速，Agent 平台进入&amp;quot;OS 化&amp;quot;阶段&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-08-08&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日 AI 行业的叙事集中在一个核心矛盾上：基础模型的能力持续逼近前沿，但真正撬动价值的瓶颈正在向硬件架构、成本治理和系统安全快速转移。AMD 收购 Taalas 标志着&amp;quot;模型即芯片&amp;quot;的推理时代拉开帷幕；Cloudflare 同时开源 Agent OS 和发布 Agent 专用浏览器——两件事放在一起看，Agent 基础设施正在经历一场从工具到操作系统的跃迁。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一芯片即模型amd-收购-taalas-与推理硬件的范式转换&#34;&gt;&#xA;  一、芯片即模型：AMD 收购 Taalas 与推理硬件的范式转换&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80%e8%8a%af%e7%89%87%e5%8d%b3%e6%a8%a1%e5%9e%8bamd-%e6%94%b6%e8%b4%ad-taalas-%e4%b8%8e%e6%8e%a8%e7%90%86%e7%a1%ac%e4%bb%b6%e7%9a%84%e8%8c%83%e5%bc%8f%e8%bd%ac%e6%8d%a2&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;AMD 宣布收购 AI 芯片初创公司 Taalas——这家将模型权重直接蚀刻进硅片的企业，其 HC1 测试芯片在 TSMC 6nm 工艺上以 &lt;strong&gt;16,960 tokens/秒&lt;/strong&gt; 的速度运行 Llama 3.1 8B，是当时 Nvidia GPU 的 48 倍、Cerebras 的 8.5 倍。第二代 HC2 将支持 200 亿参数每芯片，50 颗即可支撑万亿参数模型。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;AMD is building a full-stack AI platform that gives customers the flexibility to deploy the right compute solutions for every AI workload.&amp;rdquo; — Vamsi Boppana, AMD SVP of AI&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+	</channel>
+</rss>

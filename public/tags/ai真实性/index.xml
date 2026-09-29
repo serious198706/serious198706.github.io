@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>AI真实性 on Notex</title>
+		<link>http://localhost:1313/tags/ai%E7%9C%9F%E5%AE%9E%E6%80%A7/</link>
+		<description>Recent content in AI真实性 on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 08 Sep 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/ai%E7%9C%9F%E5%AE%9E%E6%80%A7/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>当 LLM 的&#34;智力拉链&#34;没拉上：真实性危机与基础设施军备竞赛</title>
+				<link>http://localhost:1313/posts/ai-think/2026-09-08/</link>
+				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-09-08/</guid>
+				<description>&lt;p&gt;当 LLM 的&amp;quot;智力拉链&amp;quot;没拉上：真实性危机与基础设施军备竞赛&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-09-08&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日的 Hacker News 呈现出 AI 行业罕见的&amp;quot;双重叙事&amp;quot;：一面是对 LLM 内容泛滥的深刻文化反思，Bryan Cantrill 关于&amp;quot;你的智力拉链没拉上&amp;quot;的檄文以 705 分登顶，一石激起千层浪；另一面则是 AI 基础设施层的火热建设——vLLM 在 AMD GPU 上的投机解码达到生产级就绪，Trail of Bits 与初创团队争相为 AI Agent 打造隔离沙箱，内存引擎 Engrim 试图解决多 Agent 协作的&amp;quot;上下文失忆症&amp;quot;。在今天，AI 社区同时面对两个终极问题：&lt;strong&gt;我们创造的工具到底在帮我们表达，还是在替我们撒谎？&lt;/strong&gt; 以及，&lt;strong&gt;当 Agent 成为新的计算范式，什么才是支撑它的根？&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一你的智力拉链没拉上llm-代笔引发的真实性危机&#34;&gt;&#xA;  一、&amp;ldquo;你的智力拉链没拉上&amp;rdquo;——LLM 代笔引发的真实性危机&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80%e4%bd%a0%e7%9a%84%e6%99%ba%e5%8a%9b%e6%8b%89%e9%93%be%e6%b2%a1%e6%8b%89%e4%b8%8allm-%e4%bb%a3%e7%ac%94%e5%bc%95%e5%8f%91%e7%9a%84%e7%9c%9f%e5%ae%9e%e6%80%a7%e5%8d%b1%e6%9c%ba&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;When you use an LLM to author a post, you may think you are generating plausible writing, but you aren&amp;rsquo;t: to anyone who has seen even a modicum of LLM-generated content, the LLM tells are impossible to ignore.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+	</channel>
+</rss>

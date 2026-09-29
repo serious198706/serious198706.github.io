@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Agent-Ready on Notex</title>
+		<link>http://localhost:1313/tags/agent-ready/</link>
+		<description>Recent content in Agent-Ready on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/agent-ready/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Bigger Models, Bigger Hallucinations: The Scale Trap</title>
+				<link>http://localhost:1313/posts/ai-think/2026-06-21/</link>
+				<pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-06-21/</guid>
+				<description>&lt;p&gt;Bigger Models, Bigger Hallucinations: The Scale Trap&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-06-21&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;本周的 AI 新闻揭示了一个日益显著的结构性矛盾：模型规模竞赛正在产生回报递减，而基础设施层正在重新设计以适应 agent 时代的到来。从 GPT-5.5 令人震惊的幻觉率到 Cloudflare 专为 AI agent 打造的临时账户，行业正在从&amp;quot;更大即更好&amp;quot;走向&amp;quot;更聪明即更好&amp;quot;，同时基础设施必须为无人值守的自主工作流重新架构。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;更大的诅咒当万亿参数模型不会说不知道&#34;&gt;&#xA;  &amp;ldquo;更大&amp;quot;的诅咒：当万亿参数模型不会说&amp;quot;不知道&amp;rdquo;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e6%9b%b4%e5%a4%a7%e7%9a%84%e8%af%85%e5%92%92%e5%bd%93%e4%b8%87%e4%ba%bf%e5%8f%82%e6%95%b0%e6%a8%a1%e5%9e%8b%e4%b8%8d%e4%bc%9a%e8%af%b4%e4%b8%8d%e7%9f%a5%e9%81%93&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;GPT-5.5 在 Artificial Analysis Omniscience 基准测试上的幻觉率高达 86%——&lt;strong&gt;比 MIT 开源许可的 GLM-5.2（28%）高出三倍&lt;/strong&gt;，甚至远不如 Anthropic 的 Claude Fable 5（48%）和 Opus 4.8（36%）。这个数据出自 Oliver Shrimpton 的深度评测文章，它不仅令人震撼，更指向了一个深层次问题。&lt;/p&gt;&#xA;&lt;p&gt;文章的核心洞察是&lt;strong&gt;现代 LLM 面临的&amp;quot;不可能三角&amp;quot;（trilemma）&lt;/strong&gt;：原始能力、不确定性校准（幻觉率）和计算效率三者之间，目前没有任何模型能同时做到最优。DeepSeek V4 Pro（1.6T 参数）花了 3 分 26 秒的推理时间，生成了一个结构优美但完全错误的 Python 代码解决方案；而一个一半大小的模型（GLM-5.2，753B 参数）仅用 12 秒就识别出了技术上的不可能性。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Moving forward, the industry cannot continue to train bigger and bigger models since their intelligence not only plateaus but often will get worse.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+	</channel>
+</rss>

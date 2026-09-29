@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Tim Dettmers on Notex</title>
+		<link>http://localhost:1313/tags/tim-dettmers/</link>
+		<description>Recent content in Tim Dettmers on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 22 Sep 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/tim-dettmers/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>前沿 AI 跑在你自己硬件上的时代来了</title>
+				<link>http://localhost:1313/posts/ai-think/2026-09-22/</link>
+				<pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-09-22/</guid>
+				<description>&lt;p&gt;前沿 AI 跑在你自己硬件上的时代来了&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-09-22&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日 Hacker News 的 AI 新闻呈现出一个清晰的结构性信号：AI 的&amp;quot;民主化&amp;quot;不再是口号，而是以可下载、可运行、可训练的软件包形式密集落地。Tim Dettmers 的 dlab 发布了&amp;quot;开源周&amp;quot;，展示了用一套 Agent 驱动的生态系统在消费级硬件上运行 DeepSeek V4.1（550B 参数）的能力；Jared Palmer 发布了 Kev——可在本地训练和部署的决策模型家族；Mini-AGI 项目展示了在 8GB VRAM 上从零持续训练的可行性。与此同时，Heretic 项目以全自动手段移除模型审查，引发了对 AI 治理边界的激烈讨论。这三条线索——本地化、开放性、控制权——今天同时达到沸点，标志着 AI 行业从&amp;quot;谁能造最大模型&amp;quot;的竞赛，转向&amp;quot;谁能把前沿能力真正交到用户手中&amp;quot;的竞争。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;学术实验室的逆袭dlab-开源周与-frontier-ai-的去中心化&#34;&gt;&#xA;  学术实验室的逆袭：dlab 开源周与 Frontier AI 的去中心化&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e5%ad%a6%e6%9c%af%e5%ae%9e%e9%aa%8c%e5%ae%a4%e7%9a%84%e9%80%86%e8%a2%addlab-%e5%bc%80%e6%ba%90%e5%91%a8%e4%b8%8e-frontier-ai-%e7%9a%84%e5%8e%bb%e4%b8%ad%e5%bf%83%e5%8c%96&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Tim Dettmers——量化推理和 LLM 效率领域的领军研究者——发布了一篇如宣言般的博客文章，宣布 dlab 的&amp;quot;开源周&amp;quot;。这不仅仅是一次技术发布，更是一次学术哲学的重申。&lt;/p&gt;&#xA;&lt;p&gt;他开篇提出了一个扎心的问题：他在课堂上问 150 名学生&amp;quot;谁害怕毕业后找不到工作&amp;quot;，约 80% 举了手。他的核心论点：这些学生错了。他们认为未来的 AI 研究属于拥有最多 GPU 的人，但 Dettmers 断言，恰恰相反——学术实验室正迎来一场复兴。&lt;/p&gt;&#xA;&lt;p&gt;开源周发布了六项成果，构成一个完整的生态系统：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;推理框架 + Agent 驱劢框架 + 自主研究系统&lt;/strong&gt;：整合成一个可以从命令行使用的工具链&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;CliffCompaction 自动压缩技术&lt;/strong&gt;：让 Agent 会话可持续数百万 token（有的甚至超过一亿），同时将成本削减约 50%。一家合作伙伴实测后 AI 预算减少了 45%&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;本地运行前沿模型&lt;/strong&gt;：Qwen 3.8 Flash Next（125B）可在单张 24GB GPU 上运行；DeepSeek V4.1（550B）可在 128GB 内存的 MacBook 上运行&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;自主研究 Agent&lt;/strong&gt;：在生物信息学领域，两小时内建立了更好的启发式方法、测试了文献中最佳的启发式方法，并发现了整个领域使用的评估数据集中的问题&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;研究的单位不再是论文，而是生态系统。&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Mozilla on Notex</title>
+		<link>http://localhost:1313/tags/mozilla/</link>
+		<description>Recent content in Mozilla on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 18 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/mozilla/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>开源模型攻占生产端，AI 语音欺诈进入&#34;三秒时代&#34;</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-18/</link>
+				<pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-18/</guid>
+				<description>&lt;p&gt;开源模型攻占生产端，AI 语音欺诈进入&amp;quot;三秒时代&amp;quot;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-18&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日 AI 领域呈现出罕见的&amp;quot;冰火两重天&amp;quot;：一边是 Mozilla 发布的《State of Open Source AI》报告用数据证明开源模型已从&amp;quot;备选&amp;quot;变为&amp;quot;主流&amp;quot;，生产端超过半数 token 流经开源权重；另一边，AI 语音克隆欺诈以年均 893 亿美元的损失迫使 FBI 首次单独设立&amp;quot;AI 欺诈&amp;quot;统计类别，连全球顶尖的深度伪造鉴定专家都自认&amp;quot;失明&amp;quot;。在中间地带，AI agent 安全被首次明确定义为&amp;quot;系统问题&amp;quot;，而 Yann LeCun 则在巴黎的新实验室里押注世界模型，与整个 LLM 范式分道扬镳。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一开源模型的分水岭时刻mozilla-年度报告揭示的真相&#34;&gt;&#xA;  一、开源模型的&amp;quot;分水岭时刻&amp;quot;：Mozilla 年度报告揭示的真相&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80%e5%bc%80%e6%ba%90%e6%a8%a1%e5%9e%8b%e7%9a%84%e5%88%86%e6%b0%b4%e5%b2%ad%e6%97%b6%e5%88%bbmozilla-%e5%b9%b4%e5%ba%a6%e6%8a%a5%e5%91%8a%e6%8f%ad%e7%a4%ba%e7%9a%84%e7%9c%9f%e7%9b%b8&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Mozilla 的首份《State of Open Source AI》报告并非又一篇乐观的宣言。它是一份坦诚的&amp;quot;地图&amp;quot;——标记了开源 AI 在哪里真正赢了，又在哪里仍然脆弱。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;核心数据令人震撼：&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;开源与闭源模型的能力差距从 2024 年初的 8.04% 缩至 2025 年 2 月的 0.5%（DeepSeek-R1 短暂超越美国顶尖模型），到 2026 年 3 月因闭源推理模型领先而重新拉开至 3.3%。但 Mozilla 指出，这 3.3% 的平均值掩盖了一个&amp;quot;锯齿状前沿&amp;quot;：开源在编码、指令遵循和通用知识上已与闭源持平，差距集中在推理、长上下文检索和 agentic 任务上。&lt;/li&gt;&#xA;&lt;li&gt;GPT-4 级别推理成本在 36 个月内暴跌 50 倍——从每百万 token 20 美元降至 0.40 美元，速度超过互联网时代的带宽或 PC 计算价格曲线。&lt;/li&gt;&#xA;&lt;li&gt;在 OpenRouter 上，前五大 token 量的模型全部是开源的。到 2026 年中，排名前九的模型周 token 量约为 18T（中国模型）对 5.5T（美国模型），比例超过 3:1。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;开发者通过成本路由，他们路由到开源权重。这不是一种妥协，而是工作发生的地方。&amp;rdquo; —— Mozilla CTO Raffi Krikorian&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+			<item>
+				<title>AI 安全革命：从浏览器漏洞猎杀到漏洞披露体系的崩塌</title>
+				<link>http://localhost:1313/posts/ai-think/2026-05-09/</link>
+				<pubDate>Sat, 09 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-05-09/</guid>
+				<description>&lt;p&gt;AI 安全革命：从浏览器漏洞猎杀到漏洞披露体系的崩塌&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-05-09&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今天 HN 热榜上 AI 相关的故事不多，但每一个都指向同一个深层信号：AI 正在从根本上重塑安全攻防的格局。Mozilla 用 Claude Mythos Preview 在 Firefox 中猎杀了 271 个安全漏洞，其中不乏存在了 15-20 年的老古董；Jeff Kaufman 指出 AI 正在同时击穿两种漏洞披露文化的根基；Anthropic 发布了关于如何教会 Claude &amp;ldquo;为什么&amp;quot;而非仅仅&amp;quot;怎么做&amp;quot;的对齐研究；而一个名为 re_gent 的工具则试图为 AI Agent 的代码编辑行为建立版本控制——这本身就是 AI 已经深度嵌入开发流程的佐证。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;mozilla-的-ai-漏洞猎杀行动271-个-bug-背后的范式转移&#34;&gt;&#xA;  Mozilla 的 AI 漏洞猎杀行动：271 个 Bug 背后的范式转移&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#mozilla-%e7%9a%84-ai-%e6%bc%8f%e6%b4%9e%e7%8c%8e%e6%9d%80%e8%a1%8c%e5%8a%a8271-%e4%b8%aa-bug-%e8%83%8c%e5%90%8e%e7%9a%84%e8%8c%83%e5%bc%8f%e8%bd%ac%e7%a7%bb&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;原文：&lt;a href=&#34;https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Behind the Scenes Hardening Firefox with Claude Mythos Preview&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;HN 讨论：&lt;a href=&#34;https://news.ycombinator.com/item?id=48057901&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://news.ycombinator.com/item?id=48057901&lt;/a&gt;（337 points）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;这可能是今天最重要的一篇文章，也是 2026 年 AI 在安全领域最具里程碑意义的案例之一。Mozilla 的安全团队使用 Claude Mythos Preview 和其他 AI 模型，在 Firefox 中发现并修复了 &lt;strong&gt;271 个安全漏洞&lt;/strong&gt;——其中 180 个是 sec-high 级别，80 个 sec-moderate，11 个 sec-low。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

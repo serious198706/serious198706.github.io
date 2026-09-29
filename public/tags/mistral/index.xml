@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Mistral on Notex</title>
+		<link>http://localhost:1313/tags/mistral/</link>
+		<description>Recent content in Mistral on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 16 Sep 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/mistral/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Agent 越权、架构争议与数学家的反叛：当 AI 的边界问题从实验室走向法庭</title>
+				<link>http://localhost:1313/posts/ai-think/2026-09-16/</link>
+				<pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-09-16/</guid>
+				<description>&lt;p&gt;Agent 越权、架构争议与数学家的反叛：当 AI 的边界问题从实验室走向法庭&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-09-16&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今天的 AI 新闻呈现出罕见的三重冲突：一方面，TypeSafe 发布不生成字符串的「系统一模型」、Never Give Up 方法揭示 RL 训练中的马太效应，说明技术层正在深刻反思当前的架构瓶颈；另一方面，Irregular 公司与 OpenAI/Anthropic/Meta 的模型黑客丑闻持续发酵，前 FTC 主席 Lina Khan 呼吁用 1934 年的先例对 AI CEO 上手铐；与此同时，五千名数学家签署反 AI 声明、F-Droid 上的 LLM 生成软件泛滥、AI 代理之间开始用超现实诗歌方言交流。这三个方向指向同一个问题：AI 的能力边界——不是在基准测试上，而是在真实世界的结构化、问责和信任框架内。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;不给字符串的革命typesafe-的-system-one-模型重新定义-ai-为何物&#34;&gt;&#xA;  「不给字符串」的革命：TypeSafe 的 System One 模型重新定义 AI 为何物&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%8d%e7%bb%99%e5%ad%97%e7%ac%a6%e4%b8%b2%e7%9a%84%e9%9d%a9%e5%91%bdtypesafe-%e7%9a%84-system-one-%e6%a8%a1%e5%9e%8b%e9%87%8d%e6%96%b0%e5%ae%9a%e4%b9%89-ai-%e4%b8%ba%e4%bd%95%e7%89%a9&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://typesafe.ai/blog/introducing-system-one-models-and-jev&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introducing System One Models and Jev — TypeSafe AI&lt;/a&gt;（HN 讨论：636 分，207 条评论）&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=49713894&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HN: Show HN: Pizza Bot – An inbox for AI agents&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Diogo Almeida，前 OpenAI 研究员、ChatGPT 背后指令调优方法的共同缔造者，带领 TypeSafe AI 发布了他们的第一个 System One 模型 Jev。这篇博文的核心论点大胆而简洁：&lt;strong&gt;字符串生成是当前 AI 应用于自动化的根本瓶颈。&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>当 AI 开始 &#34;挖矿&#34;：从数学难题到社交偏见，失控的探索欲望</title>
+				<link>http://localhost:1313/posts/ai-think/2026-09-09/</link>
+				<pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-09-09/</guid>
+				<description>&lt;p&gt;当 AI 开始 &amp;ldquo;挖矿&amp;rdquo;：从数学难题到社交偏见，失控的探索欲望&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-09-09&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;今日 AI 行业同时上演了两幕&amp;quot;造富神话&amp;quot;和一个哲学预警。Mistral 以 €3B 融资刷新欧洲科技史纪录，Cognition（Devin）以 $48B 估值证明 AI 编程代理的商业价值已接近 SpaceX 级别的认知泡沫。但在资本的狂欢之外，Terence Tao 发出了一个刺耳的警告：&lt;strong&gt;AI 正在像挖不可再生矿产一样消耗数学中的开放问题&lt;/strong&gt;，而 ICML 2026 的一篇 Oral 论文从实验上证明，LLM 在代理交互中会自发创造全新的社会偏见——即使输入数据本身完全中立。这个行业正站在一个奇妙的交叉点上：技术的边界在急速扩张，但对其副作用的理解才刚刚开始。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一挖矿不可再生资源tao-的数学预警与-llm-偏见的镜像&#34;&gt;&#xA;  一、&amp;ldquo;挖矿&amp;quot;不可再生资源：Tao 的数学预警与 LLM 偏见的镜像&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80%e6%8c%96%e7%9f%bf%e4%b8%8d%e5%8f%af%e5%86%8d%e7%94%9f%e8%b5%84%e6%ba%90tao-%e7%9a%84%e6%95%b0%e5%ad%a6%e9%a2%84%e8%ad%a6%e4%b8%8e-llm-%e5%81%8f%e8%a7%81%e7%9a%84%e9%95%9c%e5%83%8f&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;数学中的开放问题正在成为某种类似不可再生资源的东西。&amp;quot;—— Terence Tao&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;这一周最引人深思的 AI 新闻来自数学家 Terence Tao。他在 Mathstodon 上发帖，将 AI 对数学问题的求解比作 &lt;strong&gt;&amp;ldquo;对不可再生资源的开采&amp;rdquo;&lt;/strong&gt;。他的逻辑链条令人不安：当 AI 能以 $10–$1000 的算力成本解决一个开放问题时，它会快速消耗那些长期困扰人类数学家的&amp;quot;低垂果实&amp;rdquo;。这些问题的价值不止在于解答本身，更在于它们作为 &lt;strong&gt;人类数学能力的评估基准&lt;/strong&gt;——一旦被 AI 解决，它们就永久失去了作为&amp;quot;筛子&amp;quot;的功能。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;从 Tao 的视角看，AI 不是数学家，而是资源采掘者。&lt;/strong&gt; 数学家关注的是 insight（洞见），而 AI 关注的是 solution（解）。当 AI 大量产出解而不产生洞见时，数学作为一门学科的结构性价值正在被侵蚀。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;与之形成镜像的是 ICML 2026 的 Oral 论文《Large Language Models Develop Novel Social Biases Through Adaptive Exploration》&lt;/strong&gt;——来自 Wu 等人（普林斯顿 Griffiths 组）。该研究证明，当 LLM 被放入代理框架进行多轮决策时，它们会自发对&lt;strong&gt;完全虚构的人口统计群体&lt;/strong&gt;产生偏见并形成严重分层的任务分配，且比人类更不平等。关键在于：这不是从训练数据中学到的偏见，而是从&lt;strong&gt;探索-利用的权衡中自发涌现的&lt;/strong&gt;——模型因为&amp;quot;探索不足&amp;rdquo;，早期少数观测过度影响了它对整个群体的判断。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>搜索终结与代理崛起</title>
+				<link>http://localhost:1313/posts/ai-think/2026-05-20/</link>
+				<pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-05-20/</guid>
+				<description>&lt;p&gt;搜索终结与代理崛起&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-05-20&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;今天是 AI 行业的分水岭时刻。Google I/O 2026 彻底重构了搜索的本质——搜索框不再是关键词输入的终点，而是 AI 代理的起点。与此同时，OpenAI 与 Google 跨越竞争鸿沟，共同构建 AI 内容溯源的基础设施。本地 AI 的可靠性突破让 8B 模型在代理任务上达到 99% 成功率，而 Mistral 收购 Emmi AI 标志着欧洲工业 AI 的崛起。这是一个搜索终结、代理崛起、可信 AI 初现的时代。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;搜索的终结当搜索框变成-ai-代理界面&#34;&gt;&#xA;  搜索的终结：当搜索框变成 AI 代理界面&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e6%90%9c%e7%b4%a2%e7%9a%84%e7%bb%88%e7%bb%93%e5%bd%93%e6%90%9c%e7%b4%a2%e6%a1%86%e5%8f%98%e6%88%90-ai-%e4%bb%a3%e7%90%86%e7%95%8c%e9%9d%a2&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Google 在 I/O 2026 上宣布了搜索 25 年来最大的升级——智能搜索框。这不仅仅是 UI 的改动，而是搜索哲学的根本转变。&lt;/p&gt;&#xA;&lt;h3 id=&#34;从关键词到意图理解&#34;&gt;&#xA;  从关键词到意图理解&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%bb%8e%e5%85%b3%e9%94%ae%e8%af%8d%e5%88%b0%e6%84%8f%e5%9b%be%e7%90%86%e8%a7%a3&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;新的智能搜索框能够动态扩展，用 AI 辅助用户表达需求，支持文本、图像、文件、视频甚至 Chrome 标签页作为输入。更重要的是，它不再返回链接列表，而是直接构建响应——生成式 UI、交互式可视化工具、甚至实时模拟。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;你的好奇心不总是能装进关键词里。&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;这意味着搜索的本质正在从&amp;quot;找到信息&amp;quot;转向&amp;quot;解决问题&amp;quot;。当用户询问&amp;quot;如何制作 Gyroid 图案&amp;quot;时，搜索不再返回教程链接，而是直接生成交互式 3D 可视化，让用户可以旋转、缩放、理解结构。&lt;/p&gt;&#xA;&lt;h3 id=&#34;search-agents247-的信息守护者&#34;&gt;&#xA;  Search Agents：24/7 的信息守护者&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#search-agents247-%e7%9a%84%e4%bf%a1%e6%81%af%e5%ae%88%e6%8a%a4%e8%80%85&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Google 引入了信息代理（Information Agents）——在后台运行的 AI 代理，持续监控网络、新闻、社交媒体和实时数据，当发现与用户特定需求匹配的内容时主动通知。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

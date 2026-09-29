@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Human Connection on Notex</title>
+		<link>http://localhost:1313/tags/human-connection/</link>
+		<description>Recent content in Human Connection on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 18 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/human-connection/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Open Weights Surge, Local Models Deliver, and the Discipline Question Comes Home</title>
+				<link>http://localhost:1313/posts/ai-think/2026-06-18/</link>
+				<pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-06-18/</guid>
+				<description>&lt;p&gt;Open Weights Surge, Local Models Deliver, and the Discipline Question Comes Home&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-06-18&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日的 AI 新闻呈现出两条清晰的脉络：一端是开放模型的性能正在逼近甚至追平闭源旗舰，另一端是围绕 AI 的经济账和工程方法论正在经历剧烈的重塑。GLM-5.2 以 744B 总参数/40B 激活参数的 MoE 架构登顶开源排行榜，而 Vicki Boykis 宣布&amp;quot;本地模型终于好用了&amp;quot;——这两条消息共同宣告了一个转折点：前沿级推理能力不再是 API 调用的特权。与此同时，Charity Majors 发出了&amp;quot;AI 需要更多工程纪律&amp;quot;的清醒呼吁，而 OpenAI 的财务泄露则让我们看到了万亿估值背后的真实烧钱速度。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-开源模型的猎户座时刻当开放权重追上闭源旗舰&#34;&gt;&#xA;  🔓 开源模型的猎户座时刻：当开放权重追上闭源旗舰&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-%e5%bc%80%e6%ba%90%e6%a8%a1%e5%9e%8b%e7%9a%84%e7%8c%8e%e6%88%b7%e5%ba%a7%e6%97%b6%e5%88%bb%e5%bd%93%e5%bc%80%e6%94%be%e6%9d%83%e9%87%8d%e8%bf%bd%e4%b8%8a%e9%97%ad%e6%ba%90%e6%97%97%e8%88%b0&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;GLM-5.2 在 Artificial Analysis Intelligence Index 上取得了 51 分的成绩，不仅超越了 MiniMax-M3（44）和 DeepSeek V4 Pro（44），还在 agent 能力基准 GDPval-AA v2 上与 GPT-5.5 打平——1524 分对 1514 分。对于一个开源项目来说，这是一个里程碑性质的结果。&lt;/p&gt;&#xA;&lt;p&gt;更令人深思的是这些分数背后的细节。GLM-5.2 在科学推理上取得了最大幅度的提升：CritPt 提升 16 个百分点，HLE 提升 12 个百分点，TerminalBench v2.1 提升 16 个百分点。这不是简单的增量改进——这是一次能力层的跃迁。而它的 1M token 上下文窗口（从之前的 200K 大幅扩展）和 MIT 许可协议，意味着任何人都可以自由地在其基础上构建完整的应用链路，而不受闭源 API 的定价和策略变动影响。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

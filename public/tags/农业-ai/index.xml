@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>农业 AI on Notex</title>
+		<link>http://localhost:1313/tags/%E5%86%9C%E4%B8%9A-ai/</link>
+		<description>Recent content in 农业 AI on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 23 Apr 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/%E5%86%9C%E4%B8%9A-ai/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>AI Watcher 2026-04-23 生态战、融资局与安全暗流</title>
+				<link>http://localhost:1313/posts/ai-think/2026-04-23/</link>
+				<pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-04-23/</guid>
+				<description>&lt;p&gt;今天 AI 圈的核心信号是：&lt;strong&gt;Agentic AI 正式从&amp;quot;概念验证&amp;quot;进入&amp;quot;基础设施军备竞赛&amp;quot;阶段&lt;/strong&gt;。Google Cloud 砸 7.5 亿美元押注 Agent 生态，ServiceNow 联手 Google 推出跨平台自主运维，VAST Data 估值飙到 300 亿美元——这不是单点突破，而是整个产业链在&amp;quot;谁能率先跑通 Agent 商业化闭环&amp;quot;这个赌局上 all-in。与此同时，中国 AI 的局面更具张力：DeepSeek 首次引入外部资本（阿里、腾讯入局），北京收紧对 AI 初创企业和人才外流的控制，而农村无人机+AI 农业已悄然规模化——两条叙事线，一个指向&amp;quot;自主可控&amp;quot;的硬投入，一个指向&amp;quot;产业下沉&amp;quot;的务实落地。&lt;/p&gt;&#xA;&lt;h3 id=&#34;话题一agentic-ai-的安卓时刻google-75-亿美元背后的生态战争&#34;&gt;&#xA;  话题一：Agentic AI 的&amp;quot;安卓时刻&amp;quot;——Google 7.5 亿美元背后的生态战争&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e8%af%9d%e9%a2%98%e4%b8%80agentic-ai-%e7%9a%84%e5%ae%89%e5%8d%93%e6%97%b6%e5%88%bbgoogle-75-%e4%ba%bf%e7%be%8e%e5%85%83%e8%83%8c%e5%90%8e%e7%9a%84%e7%94%9f%e6%80%81%e6%88%98%e4%ba%89&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Google Cloud 在 Cloud Next &amp;lsquo;26 上扔下的这颗炸弹，表面是 7.5 亿美元基金，本质是&lt;strong&gt;在 Agentic AI 时代重新定义&amp;quot;平台&amp;quot;的边界&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;这笔钱怎么花？不是砸广告，而是砸向 12 万家合作伙伴的&amp;quot;能力建设&amp;quot;：AI 价值评估、Gemini POC、Agent 原型开发与部署、Wiz 安全评估、使用激励。更关键的是，Google 将派遣&amp;quot;前沿部署工程师&amp;quot;（FDEs）进驻埃森哲、凯捷、高知特等头部 SI，和它们一起啃客户场景。这是当年 Android 用免费开源换生态的翻版，只是这次换成了 Agent 运行时。&lt;/p&gt;&#xA;&lt;p&gt;数字不会说谎：Google 称其 SI 生态已有 33 万经过认证的 AI 实施专家，95% 的 Top 20 SaaS 公司、80% 的 Top 100 SaaS 公司都在用 Gemini 模型。ServiceNow 与 Google Cloud 同日宣布的深度合作，更是把&amp;quot;跨平台 Agent 互操作&amp;quot;从白皮书变成了可运行的产品——基于 MCP（Model Context Protocol）、A2A（Agent-to-Agent）、A2UI 协议，ServiceNow 的 AI Specialist 和 Gemini Enterprise 的 AI Agent 可以实时交换上下文、协同决策、自动修复 5G 网络故障或零售设备故障。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

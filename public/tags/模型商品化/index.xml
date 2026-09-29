@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>模型商品化 on Notex</title>
+		<link>http://localhost:1313/tags/%E6%A8%A1%E5%9E%8B%E5%95%86%E5%93%81%E5%8C%96/</link>
+		<description>Recent content in 模型商品化 on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 10 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/%E6%A8%A1%E5%9E%8B%E5%95%86%E5%93%81%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>GPT-5.6 发布、DeepSeek 自研芯片、AI 的能源瓶颈与内容泛滥</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-10/</link>
+				<pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-10/</guid>
+				<description>&lt;p&gt;GPT-5.6 发布、DeepSeek 自研芯片、AI 的能源瓶颈与内容泛滥&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-10&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日 AI 行业迎来两条结构性新闻：OpenAI 正式发布 GPT-5.6 系列模型，首次推出 Sol/Terra/Luna 三层架构，并同步上线 ChatGPT Work 企业级代理产品；DeepSeek 确认自研推理芯片，试图在硬件层面复制其在软件层面的成功。与此同时，能源瓶颈、定价模型与 AI 内容泛滥三个议题也在今日激起广泛讨论——这些看似分散的事件，实则指向同一个方向：AI 正在从&amp;quot;模型竞赛&amp;quot;进入&amp;quot;基础设施战争&amp;quot;阶段。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一gpt-56从单模型到模型家族的范式转变&#34;&gt;&#xA;  一、GPT-5.6：从单模型到模型家族的范式转变&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80gpt-56%e4%bb%8e%e5%8d%95%e6%a8%a1%e5%9e%8b%e5%88%b0%e6%a8%a1%e5%9e%8b%e5%ae%b6%e6%97%8f%e7%9a%84%e8%8c%83%e5%bc%8f%e8%bd%ac%e5%8f%98&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;OpenAI 今日正式发布 GPT‑5.6 系列，包含三个能力层级：&lt;strong&gt;Sol&lt;/strong&gt;（旗舰）、&lt;strong&gt;Terra&lt;/strong&gt;（平衡型）、&lt;strong&gt;Luna&lt;/strong&gt;（经济型）。这不仅仅是又一代模型升级——命名方式的改变本身就意味着战略转向。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;原文：&lt;a href=&#34;https://openai.com/index/gpt-5-6/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GPT-5.6: Frontier intelligence that scales with your ambition&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;HN 讨论：&lt;a href=&#34;https://news.ycombinator.com/item?id=48849066&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://news.ycombinator.com/item?id=48849066&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;GPT-5.6 Sol 在 Agents&amp;rsquo; Last Exam 上达到 53.6%，领先 Claude Fable 5（自适应推理模式）13.1 个百分点；即使在中度推理模式下，也以 Fable 5 约四分之一的成本超越其 11.4 个百分点。在 AI Analysis Coding Agent Index 上，Sol 达到 80 分，超越 Fable 5 的 77.2，同时输出 token 减少一半以上、耗时减少一半、成本降低约三分之一。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

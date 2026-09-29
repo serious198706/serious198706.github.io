@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>自指性 on Notex</title>
+		<link>http://localhost:1313/tags/%E8%87%AA%E6%8C%87%E6%80%A7/</link>
+		<description>Recent content in 自指性 on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 04 Sep 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/%E8%87%AA%E6%8C%87%E6%80%A7/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>模型三国杀、千亿美元整合与自指之谜</title>
+				<link>http://localhost:1313/posts/ai-think/2026-09-04/</link>
+				<pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-09-04/</guid>
+				<description>&lt;p&gt;今天 AI 圈迎来 &amp;ldquo;模型三国杀&amp;rdquo;：Anthropic 发布 Claude Fable 5.1 与 Mythos 5.1，OpenAI 披露 GPT-6 Astra，Google 推出 Gemini 3.8 Flash 与 Flash Cyber——三大巨头在同一条时间线上同时亮剑。Nvidia 宣布以约 129 亿美元收购 Hugging Face，标志着 AI 基础设施的纵深整合进入新阶段。与此同时，Scott Aaronson 的一篇哲学追问《LLMs and self-referentiality》提供了一个难得的冷静视角，让我们在 hype 之外重新思考这场革命的精神谱系。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;1三国杀当-anthropicopenai-和-google-同时按下扳机&#34;&gt;&#xA;  1·三国杀：当 Anthropic、OpenAI 和 Google 同时按下扳机&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#1%e4%b8%89%e5%9b%bd%e6%9d%80%e5%bd%93-anthropicopenai-%e5%92%8c-google-%e5%90%8c%e6%97%b6%e6%8c%89%e4%b8%8b%e6%89%b3%e6%9c%ba&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;如果说昨天 AI 圈的竞争还是 &amp;ldquo;三足鼎立&amp;rdquo;，那今天就是三方同时扣下扳机的 &amp;ldquo;三强对决日&amp;rdquo;。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Anthropic&lt;/strong&gt; 打出的牌是 Claude Fable 5.1 和 Claude Mythos 5.1。这不仅是版本号后缀的更新——Fable 5.1 在 Terminal-Bench 4.0 上得分 55.8%（Mythos 5.1 达到 60.9%），CursorBench 3.2 上达到 73.4%。但比数据更震撼的是那些来自合作伙伴的真实评价：Millennium 的资深 PM 说 Fable 5.1 找到了他们团队数年未能解释的百万分之一概率崩溃的根因（&amp;ldquo;It disassembled an external vendor library, matched it against the core dump, and traced the crash to a bug in that library&amp;rdquo;）。Jane Street 量化研究主管称它 &amp;ldquo;在交易直觉上达到 SOTA&amp;rdquo;。Ramp 的 ML 工程师让它独自跑了 38 小时完成了一个机器学习问题的全流程诊断。这些不是基准数据——这是真实世界里的 &amp;ldquo;用 AI 做事&amp;rdquo; 的范式迁移。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

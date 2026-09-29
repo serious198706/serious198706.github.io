@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Agent Tooling on Notex</title>
+		<link>http://localhost:1313/tags/agent-tooling/</link>
+		<description>Recent content in Agent Tooling on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 03 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/agent-tooling/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>单层 Transformer 的逆袭、Agent 理想与现实的裂缝、以及 AI 治理的边界</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-03/</link>
+				<pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-03/</guid>
+				<description>&lt;p&gt;单层 Transformer 的逆袭、Agent 理想与现实的裂缝、以及 AI 治理的边界&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-03&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;今天是 2026 年 7 月 3 日，AI 行业的节奏正在微妙地变换。一方面，学术界传来反直觉的突破——单层 Transformer 的强化学习训练竟然能与全参数训练匹敌；另一方面，Zuckerberg 罕见地承认 Agent 开发比预期更慢，而日本最高法裁定 AI 不能作为专利发明人。这几条线索串起了今天的核心叙事：&lt;strong&gt;AI 的能力边界正在被更精确地测绘&lt;/strong&gt;——不是被无限的乐观推高，而是被实验、法律和现实反馈一一校准。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-反直觉的学术突破当单层-transformer-媲美全参数-rl-训练&#34;&gt;&#xA;  🔬 反直觉的学术突破：当单层 Transformer 媲美全参数 RL 训练&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-%e5%8f%8d%e7%9b%b4%e8%a7%89%e7%9a%84%e5%ad%a6%e6%9c%af%e7%aa%81%e7%a0%b4%e5%bd%93%e5%8d%95%e5%b1%82-transformer-%e5%aa%b2%e7%be%8e%e5%85%a8%e5%8f%82%e6%95%b0-rl-%e8%ae%ad%e7%bb%83&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;arXiv 上的一篇新论文（136 分，编号 2607.01232）提出了一个令人惊讶的发现：&lt;strong&gt;训练单个 Transformer 层的强化学习可以匹配全参数 RL 训练的最终性能&lt;/strong&gt;。标题直接发问——&amp;ldquo;Is One Layer Enough?&amp;quot;——而答案是：在某些条件下，是的。&lt;/p&gt;&#xA;&lt;p&gt;论文作者来自中国研究团队（Zijian Zhang, Rizhen Hu, Athanasios G&amp;hellip;），核心发现是：LLM 后训练阶段的 RL 适配并非均匀分布在各层之间。通过对各层的梯度分析，研究者发现上层和下层的更新模式存在显著差异，并且 &lt;strong&gt;仅训练单一层足以捕捉绝大部分 RL 优化信号&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Reinforcement learning has become a central component of post-training large language models yet little is understood about how RL adaptation is distributed across transformer layers.&amp;rdquo; — arXiv 论文摘要&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+	</channel>
+</rss>

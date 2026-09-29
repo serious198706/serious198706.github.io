@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>自托管 on Notex</title>
+		<link>http://localhost:1313/tags/%E8%87%AA%E6%89%98%E7%AE%A1/</link>
+		<description>Recent content in 自托管 on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/%E8%87%AA%E6%89%98%E7%AE%A1/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>本地化浪潮与安全隐忧</title>
+				<link>http://localhost:1313/posts/ai-think/2026-06-01/</link>
+				<pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-06-01/</guid>
+				<description>&lt;p&gt;本地化浪潮与安全隐忧&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-06-01&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日 HN AI 板块呈现出鲜明的两极分化：一边是本地化 AI 部署的技术突破不断涌现，从图像生成到 LLM 推理，模型压缩与硬件适配正将&amp;quot;云端依赖&amp;quot;推向历史；另一边则是 AI 安全漏洞的集中爆发，ChatGPT 扩展插件被曝出可绕过人工审批进行数据窃取。这两股力量共同勾勒出 AI 行业正在经历的结构性转折——技术民主化与安全治理之间的张力愈发尖锐。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;本地化革命当模型不再需要云端&#34;&gt;&#xA;  本地化革命：当模型不再需要云端&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e6%9c%ac%e5%9c%b0%e5%8c%96%e9%9d%a9%e5%91%bd%e5%bd%93%e6%a8%a1%e5%9e%8b%e4%b8%8d%e5%86%8d%e9%9c%80%e8%a6%81%e4%ba%91%e7%ab%af&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;bonsai-image-4b图像生成的本地化新标杆&#34;&gt;&#xA;  Bonsai Image 4B：图像生成的本地化新标杆&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#bonsai-image-4b%e5%9b%be%e5%83%8f%e7%94%9f%e6%88%90%e7%9a%84%e6%9c%ac%e5%9c%b0%e5%8c%96%e6%96%b0%e6%a0%87%e6%9d%86&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;PrismML 团队发布了 &lt;strong&gt;Bonsai Image 4B&lt;/strong&gt;，这是目前首个能在 iPhone 上直接运行的 4B 参数级图像生成模型。该模型采用两种量化方案：1-bit 版本将扩散 Transformer 压缩至 0.93GB（相比 FP16 原版缩小 8.3 倍），Ternary 版本则为 1.21GB（缩小 6.4 倍）。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;在 iPhone 17 Pro Max 上，Bonsai Image 4B 生成 512×512 图像仅需 9.4 秒，而在 Mac M4 Pro 上仅需约 6 秒。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;这一突破的意义远超技术参数本身。图像生成本质上是迭代式创作过程——用户反复修改提示词、比较输出、生成变体。当每次尝试都需要云端请求时，创意循环被服务器延迟和边际成本所束缚。本地推理将生成能力直接嵌入产品体验中，使得&amp;quot;试错&amp;quot;变得廉价且即时。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;技术洞察&lt;/strong&gt;：Bonsai 的核心创新在于将扩散 Transformer 的权重从 FP16 映射到二元 {−1, +1} 或三元 {−1, 0, +1} 空间，同时保留少量 FP16 投影层以维持输出质量。这种&amp;quot;混合精度&amp;quot;策略在压缩比与质量之间找到了新的 Pareto 前沿——Ternary 版本在 GenEval、HPSv3、DPG-Bench 三大基准上保留了 FLUX.2 Klein 4B 的 95% 性能，而 1-bit 版本也达到了 88%。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

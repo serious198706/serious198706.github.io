@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  当系统1思考打赢系统2战争：非自回归模型、写作困局与版权核弹 · Notex
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="哆啦 N 梦">
+<meta name="description" content="当系统1思考打赢系统2战争：非自回归模型、写作困局与版权核弹
+2026-09-20
+今日 Hacker News 的 AI 话题呈现出罕见的&quot;双向挤压&quot;格局：一方面，非自回归决策模型（System 1 模型）迎来范式性突破——Laya 和 CUA-S1 分别从不同路线证明，&ldquo;思考型&quot;大模型的过度应用是资源错配，7-30 毫秒级的小型专用模型足以覆盖绝大多数 Agents、表单填写和分类决策；另一方面，关于 AI 与人类创作的本质关系正在经历激烈的交叉质询——GPT-6 破解了一战德军密码、OpenAI 用 LLM 设计了自研芯片 Jalapeño，但同时微软高管将 AI 抓取称为&quot;人类历史上最大的劳动盗窃&rdquo;，两位作者就&quot;是否应该用 AI 写文章&quot;给出了截然对立的答案。这一天的 HN 是 AI 行业自我审视的缩影。
+
+
+  从 Jev 到 Laya 到 CUA-S1：System 1 模型的&quot;三国演义&quot;
+  
+    
+    链接到标题
+  
+
+
+&ldquo;Not every AI problem requires an autoregressive chatbot.&rdquo; — Nandakishor Mukkunnoth
+
+本周最令人振奋的趋势，是以 TypeSafe Jev 为代表的新一代非自回归决策模型的爆发——但更精彩的是围绕这个概念展开的开源 vs 闭源、先行者 vs 后来者、通用 vs 专用的多维竞争。
+
+  Laya：先行者的反击
+  
+    
+    链接到标题
+  
+
+Nandakishor Mukkunnoth 在 2025 年 3 月就发表了一篇关于非自回归决策模型的 arXiv 论文（arXiv:2503.23303），用 PPO 方法在销售对话场景中训练序列级转换概率模型。但真正让他&quot;破防&quot;的是，2026 年 9 月，由 ChatGPT 共同发明人 Diogo Almeida 创立的 TypeSafe AI 发布了 Jev——几乎是同样的概念，被包装成了&quot;突破性创新&quot;，而且不开源、不发论文、不开放数据集。">
+<meta name="keywords" content="blog,developer,personal,AI">
+
+
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="当系统1思考打赢系统2战争：非自回归模型、写作困局与版权核弹">
+	<meta name="twitter:description" content="当系统1思考打赢系统2战争：非自回归模型、写作困局与版权核弹
+2026-09-20
+今日 Hacker News 的 AI 话题呈现出罕见的&#34;双向挤压&#34;格局：一方面，非自回归决策模型（System 1 模型）迎来范式性突破——Laya 和 CUA-S1 分别从不同路线证明，“思考型&#34;大模型的过度应用是资源错配，7-30 毫秒级的小型专用模型足以覆盖绝大多数 Agents、表单填写和分类决策；另一方面，关于 AI 与人类创作的本质关系正在经历激烈的交叉质询——GPT-6 破解了一战德军密码、OpenAI 用 LLM 设计了自研芯片 Jalapeño，但同时微软高管将 AI 抓取称为&#34;人类历史上最大的劳动盗窃”，两位作者就&#34;是否应该用 AI 写文章&#34;给出了截然对立的答案。这一天的 HN 是 AI 行业自我审视的缩影。
+从 Jev 到 Laya 到 CUA-S1：System 1 模型的&#34;三国演义&#34; 链接到标题 “Not every AI problem requires an autoregressive chatbot.” — Nandakishor Mukkunnoth
+本周最令人振奋的趋势，是以 TypeSafe Jev 为代表的新一代非自回归决策模型的爆发——但更精彩的是围绕这个概念展开的开源 vs 闭源、先行者 vs 后来者、通用 vs 专用的多维竞争。
+Laya：先行者的反击 链接到标题 Nandakishor Mukkunnoth 在 2025 年 3 月就发表了一篇关于非自回归决策模型的 arXiv 论文（arXiv:2503.23303），用 PPO 方法在销售对话场景中训练序列级转换概率模型。但真正让他&#34;破防&#34;的是，2026 年 9 月，由 ChatGPT 共同发明人 Diogo Almeida 创立的 TypeSafe AI 发布了 Jev——几乎是同样的概念，被包装成了&#34;突破性创新&#34;，而且不开源、不发论文、不开放数据集。">
+
+<meta property="og:url" content="http://localhost:1313/posts/ai-think/2026-09-20/">
+	<meta property="og:site_name" content="Notex">
+	<meta property="og:title" content="当系统1思考打赢系统2战争：非自回归模型、写作困局与版权核弹">
+	<meta property="og:description" content="当系统1思考打赢系统2战争：非自回归模型、写作困局与版权核弹
+2026-09-20
+今日 Hacker News 的 AI 话题呈现出罕见的&#34;双向挤压&#34;格局：一方面，非自回归决策模型（System 1 模型）迎来范式性突破——Laya 和 CUA-S1 分别从不同路线证明，“思考型&#34;大模型的过度应用是资源错配，7-30 毫秒级的小型专用模型足以覆盖绝大多数 Agents、表单填写和分类决策；另一方面，关于 AI 与人类创作的本质关系正在经历激烈的交叉质询——GPT-6 破解了一战德军密码、OpenAI 用 LLM 设计了自研芯片 Jalapeño，但同时微软高管将 AI 抓取称为&#34;人类历史上最大的劳动盗窃”，两位作者就&#34;是否应该用 AI 写文章&#34;给出了截然对立的答案。这一天的 HN 是 AI 行业自我审视的缩影。
+从 Jev 到 Laya 到 CUA-S1：System 1 模型的&#34;三国演义&#34; 链接到标题 “Not every AI problem requires an autoregressive chatbot.” — Nandakishor Mukkunnoth
+本周最令人振奋的趋势，是以 TypeSafe Jev 为代表的新一代非自回归决策模型的爆发——但更精彩的是围绕这个概念展开的开源 vs 闭源、先行者 vs 后来者、通用 vs 专用的多维竞争。
+Laya：先行者的反击 链接到标题 Nandakishor Mukkunnoth 在 2025 年 3 月就发表了一篇关于非自回归决策模型的 arXiv 论文（arXiv:2503.23303），用 PPO 方法在销售对话场景中训练序列级转换概率模型。但真正让他&#34;破防&#34;的是，2026 年 9 月，由 ChatGPT 共同发明人 Diogo Almeida 创立的 TypeSafe AI 发布了 Jev——几乎是同样的概念，被包装成了&#34;突破性创新&#34;，而且不开源、不发论文、不开放数据集。">
+	<meta property="og:locale" content="zh_cn">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-09-20T00:00:00+00:00">
+		<meta property="article:modified_time" content="2026-09-20T00:00:00+00:00">
+		<meta property="article:tag" content="System 1模型">
+		<meta property="article:tag" content="非自回归决策">
+		<meta property="article:tag" content="Laya">
+		<meta property="article:tag" content="CUA-S1">
+		<meta property="article:tag" content="AI写作">
+		<meta property="article:tag" content="GPT-6">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/ai-think/2026-09-20/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/favicon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Notex
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/ai-think/2026-09-20/">
+              当系统1思考打赢系统2战争：非自回归模型、写作困局与版权核弹
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2026-09-20T00:00:00Z">
+                September 20, 2026
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              阅读时间：3 分钟
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa-solid fa-folder" aria-hidden="true"></i>
+    <a href="/categories/ai/">AI</a></div>
+
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/system-1%E6%A8%A1%E5%9E%8B/">System 1模型</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/%E9%9D%9E%E8%87%AA%E5%9B%9E%E5%BD%92%E5%86%B3%E7%AD%96/">非自回归决策</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/laya/">Laya</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/cua-s1/">CUA-S1</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/ai%E5%86%99%E4%BD%9C/">AI写作</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/gpt-6/">GPT-6</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/%E4%B8%80%E6%88%98%E5%AF%86%E7%A0%81%E7%A0%B4%E8%AF%91/">一战密码破译</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/ai%E7%89%88%E6%9D%83/">AI版权</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/nyt%E8%AF%89openai/">NYT诉OpenAI</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/jalape%C3%B1o%E8%8A%AF%E7%89%87/">Jalapeño芯片</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/%E6%95%B0%E6%8D%AE%E7%9B%97%E7%AA%83/">数据盗窃</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/llm%E6%8E%A8%E7%90%86/">LLM推理</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/%E5%BE%AE%E5%9E%8Bagent/">微型Agent</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/%E4%BD%8E%E7%A7%A9%E5%8E%8B%E7%BC%A9/">低秩压缩</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      
+
+
+      <div class="post-content">
+        
+        <p>当系统1思考打赢系统2战争：非自回归模型、写作困局与版权核弹</p>
+<p><strong>2026-09-20</strong></p>
+<p>今日 Hacker News 的 AI 话题呈现出罕见的&quot;双向挤压&quot;格局：一方面，<strong>非自回归决策模型（System 1 模型）迎来范式性突破</strong>——Laya 和 CUA-S1 分别从不同路线证明，&ldquo;思考型&quot;大模型的过度应用是资源错配，7-30 毫秒级的小型专用模型足以覆盖绝大多数 Agents、表单填写和分类决策；另一方面，<strong>关于 AI 与人类创作的本质关系正在经历激烈的交叉质询</strong>——GPT-6 破解了一战德军密码、OpenAI 用 LLM 设计了自研芯片 Jalapeño，但同时微软高管将 AI 抓取称为&quot;人类历史上最大的劳动盗窃&rdquo;，两位作者就&quot;是否应该用 AI 写文章&quot;给出了截然对立的答案。这一天的 HN 是 AI 行业自我审视的缩影。</p>
+<hr>
+<h2 id="从-jev-到-laya-到-cua-s1system-1-模型的三国演义">
+  从 Jev 到 Laya 到 CUA-S1：System 1 模型的&quot;三国演义&quot;
+  <a class="heading-link" href="#%e4%bb%8e-jev-%e5%88%b0-laya-%e5%88%b0-cua-s1system-1-%e6%a8%a1%e5%9e%8b%e7%9a%84%e4%b8%89%e5%9b%bd%e6%bc%94%e4%b9%89">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<blockquote>
+<p>&ldquo;Not every AI problem requires an autoregressive chatbot.&rdquo; — Nandakishor Mukkunnoth</p>
+</blockquote>
+<p>本周最令人振奋的趋势，是以 TypeSafe Jev 为代表的新一代非自回归决策模型的爆发——但更精彩的是围绕这个概念展开的<strong>开源 vs 闭源、先行者 vs 后来者、通用 vs 专用</strong>的多维竞争。</p>
+<h3 id="laya先行者的反击">
+  Laya：先行者的反击
+  <a class="heading-link" href="#laya%e5%85%88%e8%a1%8c%e8%80%85%e7%9a%84%e5%8f%8d%e5%87%bb">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h3>
+<p>Nandakishor Mukkunnoth 在 2025 年 3 月就发表了一篇关于非自回归决策模型的 arXiv 论文（arXiv:2503.23303），用 PPO 方法在销售对话场景中训练序列级转换概率模型。但真正让他&quot;破防&quot;的是，2026 年 9 月，由 ChatGPT 共同发明人 Diogo Almeida 创立的 TypeSafe AI 发布了 Jev——几乎是同样的概念，被包装成了&quot;突破性创新&quot;，而且<strong>不开源、不发论文、不开放数据集</strong>。</p>
+<p>Mukkunnoth 没有沉溺于 bitterness。他将所有教训积累起来，构建了 <strong>Laya</strong>：一套基于双向编码器（ModernBERT-large / mmBERT-base）的完整非自回归决策引擎，在 32.8 毫秒内完成结构化决策（choice / score / noul 三种基元），Jev 需要 236-276 毫秒——<strong>快了 7.8 倍</strong>，而且完全开源、Apache 2.0。</p>
+<p>Laya 最精妙的设计是其<strong>多脚本路由（Router）系统</strong>。一个惊人的发现是：当 ModernBERT-large 的 5 万词英语 BPE 词表遇到高棉语时，准确率跌至 0.000，而模型报告的平均置信度却高达 0.952——<strong>模型自己的置信度对无法阅读的语言完全没有预警</strong>。Laya 的 Router 在 0.5 毫秒内检测 Unicode script 并自动路由到正确的基础模型（mmBERT-base 支持 100+ 语言），这个设计哲学值得所有多语言系统学习。</p>
+<blockquote>
+<p><strong>更深层的思考</strong>：Laya 的争议本质上是 AI 研究领域的&quot;谁先发现&quot;问题。但更值得关注的是，Mukkunnoth 将原初垂直的 PPO 方法（销售对话）水平扩展为通用架构的工程能力——这是他相比 Jev 的真正的制胜点。开源生态对抗闭源护城河，在这场竞赛中以 7.8 倍的性能优势胜出。</p>
+</blockquote>
+<h3 id="cua-s1706k-参数的专用-agent">
+  CUA-S1：706K 参数的专用 Agent
+  <a class="heading-link" href="#cua-s1706k-%e5%8f%82%e6%95%b0%e7%9a%84%e4%b8%93%e7%94%a8-agent">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h3>
+<p>几乎同时杀入战场的，还有 Cua 团队发布的 <strong>CUA-S1</strong>。他们的洞察更激进：大多数计算机使用（Computer Use）任务——填写表单、勾选复选框、跳过已填字段——根本不需要通用大模型的&quot;思考&quot;。它们只需要<strong>局部的、基于上下文的决策</strong>。</p>
+<p>CUA-S1-FORMS 模型只有 <strong>706K 参数</strong>（2.8MB 的原始检查点），专门解决表单交互中的四分类决策：使用给定值、CHECK、CLICK、SKIP。训练时间不到 30 分钟。在与 hosted Jev 的直接对比中：</p>
+<ul>
+<li>整体决策准确率：<strong>99.7% vs 83.6%</strong></li>
+<li>需要操作的步骤：<strong>100% vs 96%</strong></li>
+<li>仅需跳过的已填字段：<strong>100% vs 74%</strong></li>
+</ul>
+<p>本地推理速度 7-9ms vs Jev 的 260-280ms（含网络延迟）。</p>
+<p><strong>来源：</strong></p>
+<ul>
+<li><a href="https://laya.convaiinnovations.com/"  class="external-link" target="_blank" rel="noopener">I built non-autoregressive decision models with RL a year ago</a> | <a href="https%ef%bc%9a//news.ycombinator.com/item%ef%bc%9fid=49765348" >HN讨论</a></li>
+<li><a href="https%ef%bc%9a//github.com/trycua/cua" >Show HN： CUA-S1 – A System One Model for Computer Use</a> | <a href="https%ef%bc%9a//news.ycombinator.com/item%ef%bc%9fid=49767564" >HN讨论</a></li>
+<li><a href="https%ef%bc%9a//cactuscompute.om/needle" >Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash</a> | <a href="https%ef%bc%9a//news.ycombinator.com/item?id=49748553" >HN讨论</a></li>
+</ul>
+<hr>
+<h2 id="写作还是不写llm-时代的灵魂拷问">
+  写作，还是不写——LLM 时代的灵魂拷问
+  <a class="heading-link" href="#%e5%86%99%e4%bd%9c%e8%bf%98%e6%98%af%e4%b8%8d%e5%86%99llm-%e6%97%b6%e4%bb%a3%e7%9a%84%e7%81%b5%e9%ad%82%e6%8b%b7%e9%97%ae">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>今天的 HN 上，两篇关于&quot;AI 写作&quot;的文章几乎同时爆火，却给出了截然相反的结论。这种对立本身就是一个时代信号。</p>
+<h3 id="几乎永远不要用-ai-写东西">
+  &ldquo;几乎永远不要用 AI 写东西&rdquo;
+  <a class="heading-link" href="#%e5%87%a0%e4%b9%8e%e6%b0%b8%e8%bf%9c%e4%b8%8d%e8%a6%81%e7%94%a8-ai-%e5%86%99%e4%b8%9c%e8%a5%bf">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h3>
+<p>IAPS（AI 政策与战略研究所）的高级研究员 Erich Grunewald 发出了恳切的呼吁。他认为，用 AI 写任何实质性的内容（博客、研究报告、备忘录、小说）都应当被避免。核心论点：</p>
+<ol>
+<li><strong>读者-写作者的隐性契约被打破</strong>：读者默认作者付出了写作的时间成本，AI 写作反转了这个关系，让读者感到被欺骗。</li>
+<li><strong>思考是写作的全部目的</strong>：Paul Graham 说，&ldquo;写作即思考&rdquo;——让 AI 来做，等于出让自己思考的权利。</li>
+<li><strong>LLM 只会&quot;放大信号&quot;</strong>：它们会抹杀你的&quot;金发时刻&quot;——那些不完美但充满特质、意外洞见的瞬间。</li>
+</ol>
+<p>Grunewald 的解决路径是用 LLM 做 Brainstorming 伙伴和事实核查员，而绝不用它来生成文章的主体段落。他甚至坚持自己用 Python 写了一个本地编辑工具来管理 prompt 链——避免让模型知道你在改写、从而避免 confirmation bias。</p>
+<h3 id="如何用-llm-写作一个工程师的反向方法论">
+  &ldquo;如何用 LLM 写作&rdquo;：一个工程师的反向方法论
+  <a class="heading-link" href="#%e5%a6%82%e4%bd%95%e7%94%a8-llm-%e5%86%99%e4%bd%9c%e4%b8%80%e4%b8%aa%e5%b7%a5%e7%a8%8b%e5%b8%88%e7%9a%84%e5%8f%8d%e5%90%91%e6%96%b9%e6%b3%95%e8%ae%ba">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h3>
+<p>Thomas &amp; Erin Ptacek 在 sockpuppet.org 上给出了<strong>完全相反的工具箱式答案</strong>。他们认为 LLM 是不可或缺的写作伙伴，但前提是两条铁律：</p>
+<ol>
+<li><strong>绝对不用 LLM 提出的任何词汇</strong>：它可以指出问题，但你不能接受它提供的具体用词——那会把你的文字变成&quot;杂志标题体&quot;。</li>
+<li><strong>警惕模型的鼓励</strong>：模型会对你的初稿大加赞赏，那会让你陷入&quot;初稿完美幻觉&quot;，放弃重新思考和结构调整。</li>
+</ol>
+<p>他们的用法：写完后让模型做编辑巡检——找出被动语态、过度使用的&quot;very/unfortunately/really/actually&quot;、可以重构位置的段落。然后<strong>只接受诊断，不接受处方</strong>。</p>
+<blockquote>
+<p>&ldquo;Don&rsquo;t let an LLM pick your words. Be careful not to let it trick you into thinking your first draft is better than it is. Then outsource all the most tedious work to the model.&rdquo;</p>
+</blockquote>
+<p>这两种观点看似对立，但本质上有深刻的<strong>互补性</strong>：Grunewald 关心的是 AI 对创作者<strong>身份认同</strong>的侵蚀（你用 AI 写，你还是作者吗？），而 Ptaceks 关心的是<strong>工具边界</strong>的精确划定（模型是 copyeditor 而不是 ghostwriter）。二者都不认可用 AI 替代人类写作——分歧只在 AI 能在创作流程中站在多远的位置。</p>
+<p><strong>来源：</strong></p>
+<ul>
+<li><a href="https%ef%bc%9a//erichgrunewald.substak.com/p/why-you-should-almost-never-use-ai" >I think you should almost never use AI to write</a> | <a href="https%ef%bc%9a//news.ycombinator.com/item?id=49767937" >HN 讨论</a></li>
+<li><a href="https%ef%bc%9a//sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/" >How to Write with an LLM</a> | <a href="https%ef%bc%9a//news.ycombinator.com/item%ef%bc%9fid=49747070" >HN讨论</a></li>
+</ul>
+<hr>
+<h2 id="gpt-6-astra-破译一战德军密码推理能力的边界探索">
+  GPT-6 Astra 破译一战德军密码：推理能力的边界探索
+  <a class="heading-link" href="#gpt-6-astra-%e7%a0%b4%e8%af%91%e4%b8%80%e6%88%98%e5%be%b7%e5%86%9b%e5%af%86%e7%a0%81%e6%8e%a8%e7%90%86%e8%83%bd%e5%8a%9b%e7%9a%84%e8%be%b9%e7%95%8c%e6%8e%a2%e7%b4%a2">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>在历史解密学领域，GPT-6 Astra 完成了一次引人注目的&quot;小突破&quot;：它成功破译了科学博客 Scienceblogs.de 列入&quot;50 大未解决密码&quot;之一的<strong>一战德军无线电密码</strong>。</p>
+<p>这个密码文本（大约 200 个无意义字母段落，由名为 Maybug 的加密传送）已经困扰了密码学爱好者多年。GPT-6 给出的破译结果是：这份电文是关于 1915 年 11 月 26 日盟军队德国在非洲（喀麦隆）防御阵地的侦察报告——描述了&quot;污点口&quot;地区的防御工事，报告一架盟军战机当天早晨正在追踪德军动向，以及一支盟军中队已经抵达。</p>
+<p>更令人惊叹的是<strong>破译过程的透明度</strong>：模型不仅输出了解密文本，还展示了推理链条——包括对替换密码、单表替换、军事术语模式和战争年代地理背景的交叉验证。它不是&quot;猜出&quot;答案，而是<strong>构建了一个逐一验证的解密路径</strong>。</p>
+<p>但这并非简单的&quot;AI 破解了人类破不了的密码&quot;叙事。这是一战时期的军事密码，理论上其安全级别远低于现代加密。它的价值不在于密码学突破，而在于展示了LLM如何在<strong>多重约束求解</strong>（语言模型、历史知识、加密模式、地理上下文）的交集中找到最适解——这是纯统计方法或纯推理方法都难以做到的。</p>
+<p><strong>来源：</strong></p>
+<ul>
+<li><a href="https%ef%bc%9a//www.pinzai.com/p/gpt-6-stra-solves-a-wwi-german-rado" >GPT-6 Astra Solves a WWI German Radio Cipher</a> | <a href="https%ef%bc%9a//news.ycombinator.com/item%ef%bc%9fid=49763987" >HN 讨论</a></li>
+</ul>
+<hr>
+<h2 id="ai-版权战争升级微软高管称历史上最大的劳动盗窃">
+  AI 版权战争升级：微软高管称&quot;历史上最大的劳动盗窃&quot;
+  <a class="heading-link" href="#ai-%e7%89%88%e6%9d%83%e6%88%98%e4%ba%89%e5%8d%87%e7%ba%a7%e5%be%ae%e8%bd%af%e9%ab%98%e7%ae%a1%e7%a7%b0%e5%8e%86%e5%8f%b2%e4%b8%8a%e6%9c%80%e5%a4%a7%e7%9a%84%e5%8a%b3%e5%8a%a8%e7%9b%97%e7%aa%83">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>纽约时报对 OpenAI 和微软的版权诉讼中，曝光的法律文书揭示了一个重磅炸弹：</p>
+<p>一位微软董事（在文件中被标注为&quot;Microsoft Director&quot;）在内部交流中称 AI 抓取训练数据是**&ldquo;人类历史上最大的劳动盗窃&rdquo;<strong>。同时，OpenAI 的一位负责人（文件称其&quot;head&quot;）将 ChatGPT 描述为对出版商的</strong>&ldquo;存在性威胁&rdquo;**。</p>
+<p>这两个来自被告方内部的说法，被纽约时报的法律团队作为关键证据提交。核心争议围绕：</p>
+<ol>
+<li><strong>OpenAI 是否在未经授权的情况下从 NYT 的文章中抓取内容用于训练</strong>。</li>
+<li><strong>微软是否通过其与 OpenAI 的合作关系知情且参与了这一过程</strong>。</li>
+<li><strong>&ldquo;合理使用&rdquo;（fair use）原则是否适用于大规模商业 AI 训练</strong>。</li>
+</ol>
+<p>这可能是生成式 AI 迄今最重要的版权案例。如果 NYT 胜诉，AI 训练的数据获取模式将面临根本性重构——不回溯过去的数据获取，也会改变未来的数据许可模式。而内部文件中的自我定性&quot;盗窃&quot;，虽然可能是夸张的内部措辞，但在法庭上可能产生巨大的说服力。</p>
+<p><strong>深层影响</strong>：这起诉讼的意义已超出 OpenAI vs NYT。它直接触及<strong>AI 行业的基本商业模型</strong>——如果高质量人类生成内容无法被合法用于训练，下一代模型的&quot;数据墙&quot;将提前到来。这也许是推动&quot;数据许可市场&quot;真正成型的关键转折点。</p>
+<p><strong>来源：</strong></p>
+<ul>
+<li><a href="https%ef%bc%9a//www.tomshardware.com/tech-industry/rtificial-intelligence/mirosoft-director-caled-i-sraping-te-lrgest-thef-of-labor-in-human-itory" >Microsoft director： AI scraping &rsquo;the largest theft of labor in human history&rsquo;</a> | <a href="https%ef%bc%9a//news.ycombinator.com/item%ef%bc%9fid=49768921" >HN 讨论</a></li>
+</ul>
+<hr>
+<h2 id="ai-生成的不那么难看的海报以及-openai-用-llm-设计芯片">
+  AI 生成的&quot;不那么难看&quot;的海报，以及 OpenAI 用 LLM 设计芯片
+  <a class="heading-link" href="#ai-%e7%94%9f%e6%88%90%e7%9a%84%e4%b8%8d%e9%82%a3%e4%b9%88%e9%9a%be%e7%9c%8b%e7%9a%84%e6%b5%b7%e6%8a%a5%e4%bb%a5%e5%8f%8a-openai-%e7%94%a8-llm-%e8%ae%be%e8%ae%a1%e8%8a%af%e7%89%87">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<h3 id="海报的审美自救">
+  海报的审美自救
+  <a class="heading-link" href="#%e6%b5%b7%e6%8a%a5%e7%9a%84%e5%ae%a1%e7%be%8e%e8%87%aa%e6%95%91">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h3>
+<p>John Hartnup 用一篇实教程证明：AI 生成的海报可以有设计感，关键在于<strong>拒绝默认风格</strong>。他用 ChatGPT 探索了 Bauhaus、Risograph、Memphis、日式极简主义、40 年代 Cubist 展览海报等多种风格。结论不是&quot;AI 可以取代设计师&quot;，而是<strong>AI 可以在设计师的审美指导下拓张创意空间</strong>——前提是你得知道自己在找什么风格。</p>
+<h3 id="用-llm-设计芯片">
+  用 LLM 设计芯片
+  <a class="heading-link" href="#%e7%94%a8-llm-%e8%ae%be%e8%ae%a1%e8%8a%af%e7%89%87">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h3>
+<p>IEEE Spetrum 报道了 OpenAI 如何用自己的 LLMs 加速 Jalapeño 芯片的设计过程。从第一个架构概念到第一片硅只用了不到 20 个月，其中从 RTL 到 tape-ut 仅 9 个月。设计团队平均不到 100 人。VP of Hardware 称&quot;模型赋予了工程师超能力&quot;——问题是，用 LLMs 设计 LLM 加速芯片，这是一个自指涉的加速循环。当&quot;设计工具&quot;和&quot;被设计的对象&quot;由同一公司同时开发时，护城河会在 m 个维度上同步加深。</p>
+<p><strong>来源：</strong></p>
+<ul>
+<li><a href="https%ef%bc%9a//john.rtnup.uk/2026/06/07/ai-event-posters.html" >AI-generated posters don&rsquo;t have to be horrible</a> | <a href="https%ef%bc%9a//news.ycominator.com/item%ef%bc%9fid=49764791" >HN 讨论</a></li>
+<li><a href="https%ef%bc%9a//spectrum.ee.org/llms-for-chip-design" >How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip</a> | <a href="https%ef%bc%9a//news.ycombinator.com/item%ef%bc%9fid=49761432" >HN 讨论</a></li>
+</ul>
+<hr>
+<h2 id="结语">
+  结语
+  <a class="heading-link" href="#%e7%bb%93%e8%af%ad">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>2026 年 9 月 20 日的 AI 行业呈现出<strong>深原结构性矛盾</strong>：</p>
+<ul>
+<li>
+<p><strong>小型专业化模型（System 1）的崛起</strong>正在挑战&quot;越大越好&quot;的行业共识。Laya（421M）、CUA-S1（706K）、Cacuts Needle 3（8-29MB）从三个不同角度证明：大多数 AI 应用不需要万亿参数的通用大模型。这是行业数年来<strong>真正意义上的&quot;去中心化&quot;信号</strong>——推理成本的下降不仅仅来自硬件的进步，更来自&quot;知道何时不用大模型&quot;的聪明架构。</p>
+</li>
+<li>
+<p><strong>AI 与人类创作的关系</strong>正在经历分裂：一方认为写作是思考的生成过程、不可外包；另一方认为 LLM 是强大的 copyeditor 和诊断工具，前提是设定严格的使用边界。两种观点都拒绝&quot;AI 替代作者&quot;的极端立场。这个中间地带——人类在审美的引导下使用 AI 做执行层的辅助——可能才是未来创作的真实形态。</p>
+</li>
+<li>
+<p><strong>版权战争的基础设施效应</strong>：微软内部的&quot;历史上最大盗窃&quot;定性，结合 NYT 诉讼的持续发酵，或将永久改变 AI 训练数据的法基础。行业要么走向新的&quot;数据许可&quot;经济模式，要么面临模型能力的天花板。</p>
+</li>
+<li>
+<p><strong>LLM 的推理能力</strong>在特定领域（密码学、芯片设计）展现出令人瞩目的进展，但这些突破更多来自<strong>交叉域约束求解</strong>而非纯&quot;智商&quot;的增长——这提醒我们，LLMs 最强大的能力可能不是你想象的那个方向。</p>
+</li>
+</ul>
+<p><strong>关键词：</strong> <code>System 1模型</code> <code>非自回归决策</code> <code>Laya</code> <code>CUA-S1</code> <code>AI写作</code> <code>GPT-6</code> <code>一战密码破译</code> <code>AI版权</code> <code>NYT诉OpenAI</code> <code>Jalapeño芯片</code> <code>数据盗窃</code> <code>LLM推理</code> <code>微型Agent</code> <code>低秩压缩</code></p>
+<hr>
+<p><em>本文基于 2026 年 9 月 20 日 Hacker News 热门 AI 相关新闻自动生成。文章内容为 AI 辅助分析与整理，不构成投资建议或法律观点。所有链接均为原文出处。</em></p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script>
+  window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    
+    document.addEventListener('themeChanged', function (e) { 
+        if (document.readyState == 'complete') {
+          DISQUS.reset({ reload: true, config: disqus_config });
+        }
+    });
+</script>
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2026
+     哆啦 N 梦 
+    ·
+    
+    技术支持 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

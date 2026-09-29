@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>George Hotz on Notex</title>
+		<link>http://localhost:1313/tags/george-hotz/</link>
+		<description>Recent content in George Hotz on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 13 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/george-hotz/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Coding Agents, Token Economics, and the Shape of Things to Come</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-13/</link>
+				<pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-13/</guid>
+				<description>&lt;p&gt;Coding Agents, Token Economics, and the Shape of Things to Come&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-13&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日的 AI 新闻呈现出一种罕见的张力：一边是前沿技术正在快速走向务实落地——GPT-5.6 在生产环境中实现了 2.2 倍加速和 27% 成本下降，Fields 奖得主 Terence Tao 用 AI agent 在几小时内复活了尘封二十年的 Java applet；另一边，行业思想者们却在尖锐地反思效率崇拜和 hype 文化。George Hotz 说&amp;quot;我爱 LLM，我恨炒作&amp;quot;，Oana Olteanu 则在布鲁克林的仓库里看到了纸片上的计算机——一个刻意&amp;quot;反有用&amp;quot;的计算未来。当技术足够成熟到可以被严肃地质疑时，它才真正走进了成年期。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;vibe-coding走进数学圣殿terence-tao-的-ai-agent-实验&#34;&gt;&#xA;  「vibe coding」走进数学圣殿：Terence Tao 的 AI agent 实验&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#vibe-coding%e8%b5%b0%e8%bf%9b%e6%95%b0%e5%ad%a6%e5%9c%a3%e6%ae%bfterence-tao-%e7%9a%84-ai-agent-%e5%ae%9e%e9%aa%8c&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;原文：&lt;a href=&#34;https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Old and new apps, via modern coding agents&lt;/a&gt; — Terence Tao&lt;/li&gt;&#xA;&lt;li&gt;HN 讨论：https://news.ycombinator.com/item?id=48880170&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;当世界上最受尊敬的数学家之一开始用 AI coding agent 复活旧代码，这件事本身就值得停下来认真看。&lt;/p&gt;&#xA;&lt;p&gt;Terence Tao 从 1999 年开始用 Java 1.0 编写教学 applet——复变函数可视化、线性代数演示、Besicovitch 集、与 Allen Knutson 合作的 honeycomb applet。这些 applet 随着 Java 在浏览器中的消亡而失效。但在 2026 年 7 月，他花了一下午时间让 AI agent 将它们全部移植到 JavaScript，结果令人震惊：&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>反半人马、CPU 推理与 AI 拜物教：当行业开始反思&#34;智能至上&#34;</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-12/</link>
+				<pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-12/</guid>
+				<description>&lt;p&gt;反半人马、CPU 推理与 AI 拜物教：当行业开始反思&amp;quot;智能至上&amp;quot;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-12&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日的 HN 头条呈现出一幅罕见的景象：不是模型发布，不是融资新闻，而是一组深刻反思 AI 局限性的文章密集涌现。George Hotz 直言&amp;quot;智能不是万能的&amp;quot;，Cory Doctorow 用&amp;quot;反半人马&amp;quot;框架揭示 AI 的真正受益者，Yael 痛陈&amp;quot;别再让我问 LLM&amp;quot;，而两个独立项目（Mesh LLM 与 Reame）则从工程层面证明了去中心化、CPU 优先的推理路径正在成为真实选项。如果说上周是 GPT-5.6 层面的&amp;quot;基础设施战争&amp;quot;，那么今天则是**&amp;ldquo;智能至上主义&amp;quot;的祛魅之日**——行业正在从&amp;quot;AI 能做什么&amp;quot;转向&amp;quot;AI 对谁有利、对谁无用&amp;rdquo;。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一反半人马与智能拜物教ai-批判的两个维度&#34;&gt;&#xA;  一、反半人马与智能拜物教：AI 批判的两个维度&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80%e5%8f%8d%e5%8d%8a%e4%ba%ba%e9%a9%ac%e4%b8%8e%e6%99%ba%e8%83%bd%e6%8b%9c%e7%89%a9%e6%95%99ai-%e6%89%b9%e5%88%a4%e7%9a%84%e4%b8%a4%e4%b8%aa%e7%bb%b4%e5%ba%a6&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;两篇截然不同的文章在同一天指向了同一个问题：AI 的叙事正在脱离现实。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;原文：&lt;a href=&#34;https://pluralistic.net/2025/09/11/vulgar-thatcherism/#there-is-an-alternative&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Reverse centaurs are the answer to the AI paradox&lt;/a&gt;（Cory Doctorow）&lt;/li&gt;&#xA;&lt;li&gt;HN 讨论：&lt;a href=&#34;https://news.ycombinator.com/item?id=48873855&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://news.ycombinator.com/item?id=48873855&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;原文：&lt;a href=&#34;https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AI 2040 and the cult of intelligence&lt;/a&gt;（George Hotz）&lt;/li&gt;&#xA;&lt;li&gt;HN 讨论：&lt;a href=&#34;https://news.ycombinator.com/item?id=48874200&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://news.ycombinator.com/item?id=48874200&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Doctorow 的核心洞见在于**&amp;ldquo;半人马&amp;quot;与&amp;quot;反半人马&amp;quot;的区分**：一个人类使用 AI 作为工具（半人马，人头马身）与一个 AI 使用人类作为责任吸收器（反半人马，马头人身）是截然不同的体验。他以 Hearst 夏季阅读指南丑闻为例——那个迫于工作量不得不靠 AI 生成书单、却署上自己名字的自由撰稿人，不是 AI 的用户，而是 AI 的&amp;quot;问责海绵&amp;rdquo;。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

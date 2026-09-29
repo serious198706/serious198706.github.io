@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Agent Platforms, Frontier Shakeups, and the Open Model Counteroffensive · Notex
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="哆啦 N 梦">
+<meta name="description" content="Agent Platforms, Frontier Shakeups, and the Open Model Counteroffensive
+2026-08-06
+今日的 AI 新闻呈现出两条清晰的脉络：一边是大模型巨头的人事地震——Google DeepMind 的 Demis Hassabis 退居主席、Jeff Dean 出走创业、Koray Kavukcuoglu 接棒；另一边是开源和基础设施阵营正在打一场漂亮的侧翼战——Castform&#43;Neon 用 4B 参数的开源模型在检索任务上以 1/100 的成本追平了 GPT-5.6 Sol，Cloudflare OS 将整个企业 OS 做成 agent-first 的开源平台，Prime Agent 则用&quot;自改进&quot;的递归语言模型在 ARC-AGI-3 上超越人类专家基线。当巨人转身时，新的力量正在悄然成形。
+
+
+  一、Google DeepMind 权力更迭：一个时代的句号，还是新的开始？
+  
+    
+    链接到标题
+  
+
+Sundar Pichai 的一封内部信掀起了今天最大的波澜。Demis Hassabis 从 Google DeepMind 的 CEO 转任主席和 Alphabet 首席科学家，Koray Kavukcuoglu 升任 GDM SVP，而效力 Google 27 年的 Jeff Dean 则与 Sanjay Ghemawat 共同创办一家公益公司，专注于 ML、科学与工程的加速探索。">
+<meta name="keywords" content="blog,developer,personal,AI">
+
+
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Agent Platforms, Frontier Shakeups, and the Open Model Counteroffensive">
+	<meta name="twitter:description" content="Agent Platforms, Frontier Shakeups, and the Open Model Counteroffensive
+2026-08-06
+今日的 AI 新闻呈现出两条清晰的脉络：一边是大模型巨头的人事地震——Google DeepMind 的 Demis Hassabis 退居主席、Jeff Dean 出走创业、Koray Kavukcuoglu 接棒；另一边是开源和基础设施阵营正在打一场漂亮的侧翼战——Castform&#43;Neon 用 4B 参数的开源模型在检索任务上以 1/100 的成本追平了 GPT-5.6 Sol，Cloudflare OS 将整个企业 OS 做成 agent-first 的开源平台，Prime Agent 则用&#34;自改进&#34;的递归语言模型在 ARC-AGI-3 上超越人类专家基线。当巨人转身时，新的力量正在悄然成形。
+一、Google DeepMind 权力更迭：一个时代的句号，还是新的开始？ 链接到标题 Sundar Pichai 的一封内部信掀起了今天最大的波澜。Demis Hassabis 从 Google DeepMind 的 CEO 转任主席和 Alphabet 首席科学家，Koray Kavukcuoglu 升任 GDM SVP，而效力 Google 27 年的 Jeff Dean 则与 Sanjay Ghemawat 共同创办一家公益公司，专注于 ML、科学与工程的加速探索。">
+
+<meta property="og:url" content="http://localhost:1313/posts/ai-think/2026-08-06/">
+	<meta property="og:site_name" content="Notex">
+	<meta property="og:title" content="Agent Platforms, Frontier Shakeups, and the Open Model Counteroffensive">
+	<meta property="og:description" content="Agent Platforms, Frontier Shakeups, and the Open Model Counteroffensive
+2026-08-06
+今日的 AI 新闻呈现出两条清晰的脉络：一边是大模型巨头的人事地震——Google DeepMind 的 Demis Hassabis 退居主席、Jeff Dean 出走创业、Koray Kavukcuoglu 接棒；另一边是开源和基础设施阵营正在打一场漂亮的侧翼战——Castform&#43;Neon 用 4B 参数的开源模型在检索任务上以 1/100 的成本追平了 GPT-5.6 Sol，Cloudflare OS 将整个企业 OS 做成 agent-first 的开源平台，Prime Agent 则用&#34;自改进&#34;的递归语言模型在 ARC-AGI-3 上超越人类专家基线。当巨人转身时，新的力量正在悄然成形。
+一、Google DeepMind 权力更迭：一个时代的句号，还是新的开始？ 链接到标题 Sundar Pichai 的一封内部信掀起了今天最大的波澜。Demis Hassabis 从 Google DeepMind 的 CEO 转任主席和 Alphabet 首席科学家，Koray Kavukcuoglu 升任 GDM SVP，而效力 Google 27 年的 Jeff Dean 则与 Sanjay Ghemawat 共同创办一家公益公司，专注于 ML、科学与工程的加速探索。">
+	<meta property="og:locale" content="zh_cn">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-08-06T00:00:00+00:00">
+		<meta property="article:modified_time" content="2026-08-06T00:00:00+00:00">
+		<meta property="article:tag" content="Google DeepMind">
+		<meta property="article:tag" content="Cloudflare OS">
+		<meta property="article:tag" content="Open Source Agents">
+		<meta property="article:tag" content="RL Post-Training">
+		<meta property="article:tag" content="Prime Agent">
+		<meta property="article:tag" content="Castform">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/ai-think/2026-08-06/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/favicon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Notex
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/ai-think/2026-08-06/">
+              Agent Platforms, Frontier Shakeups, and the Open Model Counteroffensive
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2026-08-06T00:00:00Z">
+                August 6, 2026
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              阅读时间：3 分钟
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa-solid fa-folder" aria-hidden="true"></i>
+    <a href="/categories/ai/">AI</a></div>
+
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/google-deepmind/">Google DeepMind</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/cloudflare-os/">Cloudflare OS</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/open-source-agents/">Open Source Agents</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/rl-post-training/">RL Post-Training</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/prime-agent/">Prime Agent</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/castform/">Castform</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/neon/">Neon</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/agent-architecture/">Agent Architecture</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/arc-agi/">ARC-AGI</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/enterprise-ai/">Enterprise Ai</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      
+
+
+      <div class="post-content">
+        
+        <p>Agent Platforms, Frontier Shakeups, and the Open Model Counteroffensive</p>
+<p><strong>2026-08-06</strong></p>
+<p>今日的 AI 新闻呈现出两条清晰的脉络：一边是大模型巨头的人事地震——Google DeepMind 的 Demis Hassabis 退居主席、Jeff Dean 出走创业、Koray Kavukcuoglu 接棒；另一边是开源和基础设施阵营正在打一场漂亮的侧翼战——Castform+Neon 用 4B 参数的开源模型在检索任务上以 1/100 的成本追平了 GPT-5.6 Sol，Cloudflare OS 将整个企业 OS 做成 agent-first 的开源平台，Prime Agent 则用&quot;自改进&quot;的递归语言模型在 ARC-AGI-3 上超越人类专家基线。当巨人转身时，新的力量正在悄然成形。</p>
+<hr>
+<h2 id="一google-deepmind-权力更迭一个时代的句号还是新的开始">
+  一、Google DeepMind 权力更迭：一个时代的句号，还是新的开始？
+  <a class="heading-link" href="#%e4%b8%80google-deepmind-%e6%9d%83%e5%8a%9b%e6%9b%b4%e8%bf%ad%e4%b8%80%e4%b8%aa%e6%97%b6%e4%bb%a3%e7%9a%84%e5%8f%a5%e5%8f%b7%e8%bf%98%e6%98%af%e6%96%b0%e7%9a%84%e5%bc%80%e5%a7%8b">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>Sundar Pichai 的一封内部信掀起了今天最大的波澜。Demis Hassabis 从 Google DeepMind 的 CEO 转任主席和 Alphabet 首席科学家，Koray Kavukcuoglu 升任 GDM SVP，而效力 Google 27 年的 Jeff Dean 则与 Sanjay Ghemawat 共同创办一家公益公司，专注于 ML、科学与工程的加速探索。</p>
+<p>这不仅是人事变动，更是 Google 在 AGI 路线上的战略表态。Hassabis 将更多精力投向&quot;塑造 AGI 的未来&quot;和 Isomorphic Labs——他反复强调的&quot;AI 的第一应用是改善人类健康&quot;——而 Kavukcuoglu 接管的是更务实的 Gemini 模型开发、前沿研究和产品化。从某种意义上说，这是哲学家的退场和工程师的接棒。</p>
+<blockquote>
+<p>&ldquo;We are the only company that has the full stack and we&rsquo;re world-class at every layer from infrastructure to cloud to frontier models to AI-first applications.&rdquo; — Demis Hassabis</p>
+</blockquote>
+<p>Jeff Dean 的离开尤其值得深思。27 年的 Google 生涯，他从早期搜索基础设施到神经网络革命，几乎贯穿了 Google 的整个技术史。他和 Ghemawat 选择创办公益公司而非加入某个现有实验室，这一信号暗示着他们认为&quot;加速发现&quot;这件事在现有企业架构外有更大的空间。</p>
+<p><strong>来源</strong></p>
+<ul>
+<li>原文：<a href="https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/"  class="external-link" target="_blank" rel="noopener">The next chapter of our AI momentum</a></li>
+<li>HN 讨论：<a href="https://news.ycombinator.com/item?id=49184755"  class="external-link" target="_blank" rel="noopener">422 分 · 547 条评论</a></li>
+</ul>
+<hr>
+<h2 id="二cloudflare-os当企业-os-被-agent-first-重写">
+  二、Cloudflare OS：当企业 OS 被 agent-first 重写
+  <a class="heading-link" href="#%e4%ba%8ccloudflare-os%e5%bd%93%e4%bc%81%e4%b8%9a-os-%e8%a2%ab-agent-first-%e9%87%8d%e5%86%99">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>Cloudflare 在 Agent Week 发布了可能是今天最具野心的产品——Cloudflare OS。它不是一个普通的企业软件，而是一个完全开源、agent-first 的操作系统，目标是把每个企业职员都变成一个&quot;有 agent 加持的知识工作者&quot;。</p>
+<p>最引人注目的不是它所宣称的能力（文档生成、工作流自动化、应用搭建等），而是它的安全架构。Cloudflare 发现了代理时代的核心安全悖论：MCP（Model Context Protocol）解决了&quot;agent 能调哪些工具&quot;的问题，但没有解决&quot;agent 看到的数据能被谁分享&quot;的问题。他们的答案是 <strong>Gatekeepers</strong>——一种服务级别的 Worker，位于 Cloudflare OS 和外部系统之间，不仅控制 agent 能调什么 API，还追踪 agent 看到了什么资源，以及这些资源能流向哪里。</p>
+<blockquote>
+<p>&ldquo;MCP alone does not tell us which underlying resources an agent has observed. The agent can combine information across systems, send it somewhere less restricted&hellip; Authorization has to account for where the data can go next.&rdquo;</p>
+</blockquote>
+<p>这种&quot;数据溯源&quot;式的权限模型，可能是未来所有企业 AI 平台的标配。当 agent 不再是单次会话而是持久的、可共享的工作单元时，传统的 API key + OAuth 模型完全不够用。Cloudflare 用 Cap&rsquo;n Web（object-capability RPC）和 Dynamic Worker 隔离，实现了每个 app 以最小权限运行的设计原则。</p>
+<p>另一个值得关注的细节是：Cloudflare OS 提供了&quot;蓝图&quot;（blueprint）分享机制——你可以分享一个 app 的模板（不含数据、凭证、会话历史），他人可以基于它创建自己的版本并用 AI 修改。这本质上是把&quot;低代码&quot;升级成了&quot;AI-native 应用复制&quot;，比传统的 SaaS 应用市场更灵活地传递生产力。</p>
+<p><strong>来源</strong></p>
+<ul>
+<li>原文：<a href="https://blog.cloudflare.com/cloudflare-os/"  class="external-link" target="_blank" rel="noopener">Cloudflare OS: an open platform for agents, apps, and work</a></li>
+<li>HN 讨论：<a href="https://news.ycombinator.com/item?id=49182996"  class="external-link" target="_blank" rel="noopener">444 分 · 225 条评论</a></li>
+</ul>
+<hr>
+<h2 id="三4b-参数的逆袭castform--neon-如何以-1-的成本挑战-gpt-56">
+  三、4B 参数的逆袭：Castform + Neon 如何以 1% 的成本挑战 GPT-5.6
+  <a class="heading-link" href="#%e4%b8%894b-%e5%8f%82%e6%95%b0%e7%9a%84%e9%80%86%e8%a2%adcastform--neon-%e5%a6%82%e4%bd%95%e4%bb%a5-1-%e7%9a%84%e6%88%90%e6%9c%ac%e6%8c%91%e6%88%98-gpt-56">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>如果说今天是&quot;价格战正式打响&quot;的一天，那 Castform 和 Neon 的联合作战是最好的证据。他们把一个 4B 参数的开源模型经过 RL 后训练（post-training），在检索任务上实现了与 GPT-5.6 Sol 相当的准确度，成本却只有后者的百分之一。</p>
+<p>关键在于两个洞察。第一，<strong>RL 后训练正在变成新的大模型优化范式</strong>：原始模型的能力不足，但通过强化学习在特定任务上的 trial-and-error 循环，可以显著弥补差距。Castform 做的就是把&quot;后训练&quot;从需要 ML 专家的复杂流程，变成像 prompt engineering 一样可操作的工具。</p>
+<blockquote>
+<p>&ldquo;Most teams&rsquo; best training data is just sitting in their databases. The problem is that turning raw data into something usable is hard&hellip; Pointing Castform at Neon skips both.&rdquo; — Ying Hang Seah, Castform 联合创始人</p>
+</blockquote>
+<p>第二，<strong>向量搜索的时代正在让位给 agentic retrieval</strong>。2022 年的 RAG 是 embedding 相似度搜索的一锤子买卖；2025 年开始，agent 在做的是多跳搜索——将大问题分解为小问题，每步调用一次搜索工具。这意味着每轮对话的 token 消耗和延迟都成倍增加。Castform 的策略正好在这里切入：用一个后训练过的小模型替代每次调用的前沿模型，用 Neon 的 Lakebase Search 作为高速检索后端。</p>
+<p>这一组合的意义不止于省钱。它暗示了一个新的分工模型：前端用轻量、后训练的专用模型处理 95% 的流量，只在最复杂的边缘情况回退到 GPT-5.6 这类顶级模型。这比单纯地&quot;等模型降价&quot;要聪明得多——因为模型成本下降的速度，赶不上 agent 调用次数增长的速度。</p>
+<p><strong>来源</strong></p>
+<ul>
+<li>原文：<a href="https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency"  class="external-link" target="_blank" rel="noopener">How Castform + Neon Beats Frontier Models on Price and Efficiency</a></li>
+<li>HN 讨论：<a href="https://news.ycombinator.com/item?id=49186762"  class="external-link" target="_blank" rel="noopener">191 分 · 35 条评论</a></li>
+</ul>
+<hr>
+<h2 id="四prime-agent当-agent-可以自我改进">
+  四、Prime Agent：当 agent 可以自我改进
+  <a class="heading-link" href="#%e5%9b%9bprime-agent%e5%bd%93-agent-%e5%8f%af%e4%bb%a5%e8%87%aa%e6%88%91%e6%94%b9%e8%bf%9b">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>Prime Intellect 发布的 Prime Agent 在 ARC-AGI-3 上达到了 95.5%（超越人类专家基线），但比这个数字更有趣的是它的架构理念。</p>
+<p>核心是两个抽象：<strong>递归语言模型（RLM）</strong> 和 <strong>持续框架（Continual Harness）</strong>。RLM 把上下文当作变量、把子 agent 委托当作 REPL 中的函数调用——这意味着 agent 可以编程式地访问自己的历史、子 agent 和工具。持续框架更进一步：它允许 agent 对自己的 prompt、技能、记忆和子 agent 进行 CRUD 操作。这使得 agent 可以在运行中学习、调整自己的行为，而不是固定在初始设计中。</p>
+<blockquote>
+<p>&ldquo;Static, hand-engineered sub-agents, prompts, skills, and memory are set once at design time and never adapt to what the agent learns while running.&rdquo;</p>
+</blockquote>
+<p>这种&quot;自修改&quot;能力，结合 agent-to-agent 通信机制，打开了新的可能性：一个 agent 可以 spawn 持久子 agent、在后续轨迹中向它们发送消息、甚至与其他 Prime Agent 会话直接通信。整个系统更像是一个 agent 集群而非单一助手。</p>
+<p>从实用角度看，Prime Agent 的设计还解决了 agent 系统一个被低估的问题——<strong>上下文管理</strong>。通过异步压缩和 IPython kernel 的垃圾回收，它避免了长会话中内存的无限制膨胀。这些工程细节往往比漂亮的架构图更重要。</p>
+<p><strong>来源</strong></p>
+<ul>
+<li>原文：<a href="https://www.primeintellect.ai/blog/prime-agent"  class="external-link" target="_blank" rel="noopener">Prime Agent: A self-improving RLM agent</a></li>
+<li>HN 讨论：<a href="https://news.ycombinator.com/item?id=49189075"  class="external-link" target="_blank" rel="noopener">74 分 · 10 条评论</a></li>
+</ul>
+<hr>
+<h2 id="五agent-生态的百花齐放从生产调试到数字绘画">
+  五、Agent 生态的百花齐放：从生产调试到数字绘画
+  <a class="heading-link" href="#%e4%ba%94agent-%e7%94%9f%e6%80%81%e7%9a%84%e7%99%be%e8%8a%b1%e9%bd%90%e6%94%be%e4%bb%8e%e7%94%9f%e4%ba%a7%e8%b0%83%e8%af%95%e5%88%b0%e6%95%b0%e5%ad%97%e7%bb%98%e7%94%bb">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>今天的新闻还展示了 agent 应用场景的巨大跨度。</p>
+<p><strong>HyperProbe</strong>（YC S26）解决的是一个非常具体的痛点：生产环境的只读调试。它让 coding agent 在运行时放置虚拟断点，捕获变量状态，无需重新部署或重启服务。这本质上是把传统的&quot;调试器&quot;变成了 agent 的传感器。&ldquo;3到4小时 → 少于10分钟&quot;的根因分析时间数据，说明即使是在最务实的生产运维领域，agent 也在从一个&quot;辅助工具&quot;变成&quot;主要执行者&rdquo;。</p>
+<p>另外两篇技术文章——<strong>Building an Advanced Agentic Harness</strong> 和 <strong>Painting with Gaussians</strong>——虽然技术深度不同，但共同指向一个趋势：AI 工具的建造门槛正在从&quot;能跑模型&quot;转向&quot;能设计好 agent 的调用的架构&quot;。Painting with Gaussians 的作者用 2D Gaussian splat 模拟油画笔触，结合 Perlin 噪声、小波变换和结构张量，做出了一款交互式数字绘画工具。这是传统计算机图形学在 AI 时代的再发现——当生成式模型垄断了注意力时，把经典算法和现代 agent 工作流结合起来，反而可能产生惊喜。</p>
+<p><strong>来源</strong></p>
+<ul>
+<li>HyperProbe: <a href="https://news.ycombinator.com/item?id=49185389"  class="external-link" target="_blank" rel="noopener">Launch HN: HyperProbe — Agents that do read-only debugging in prod</a> · [38 分 · 27 条评论]</li>
+<li>Agentic Harness: <a href="https://data4sci.com/blog/building-an-advanced-agentic-harness"  class="external-link" target="_blank" rel="noopener">Building an Advanced Agentic Harness</a> · [100 分 · 40 条评论]</li>
+<li>Painting with Gaussians: <a href="https://yogthos.net/posts/2026-08-03-splat-painter.html"  class="external-link" target="_blank" rel="noopener">Painting with Gaussians</a> · [88 分 · 14 条评论]</li>
+<li>Markov Chain Entropy: <a href="https://chillphysicsenjoyer.substack.com/p/the-entropy-of-a-markov-chain"  class="external-link" target="_blank" rel="noopener">The Entropy of a Markov Chain</a> · [100 分 · 9 条评论]</li>
+</ul>
+<hr>
+<h2 id="结语">
+  结语
+  <a class="heading-link" href="#%e7%bb%93%e8%af%ad">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>今天的新闻集合揭示了一个结构性的转变：<strong>agent 基础设施正在成为新的云基础设施</strong>。Cloudflare OS 是从底层网络和安全的视角重新定义&quot;操作系统&quot;；Castform+Neon 是从数据后训练和检索的视角重新定义&quot;模型&quot;；Prime Agent 是从 agent 自管理的视角重新定义&quot;编程框架&quot;。Google DeepMind 的换帅，则像一个时代的注脚——当第一批领袖退居幕后，产业正在从&quot;谁能做出更好的模型&quot;走向&quot;谁能用这些模型做出更好的系统&quot;。</p>
+<p><code>Google DeepMind</code> <code>Cloudflare OS</code> <code>Open Source Agents</code> <code>RL Post-training</code> <code>Prime Agent</code> <code>Castform</code> <code>Neon</code> <code>Agent Architecture</code> <code>ARC-AGI</code> <code>Enterprise AI</code></p>
+<hr>
+<p><em>基于 2026 年 8 月 5 日至 6 日的 Hacker News 热门文章生成。</em></p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script>
+  window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    
+    document.addEventListener('themeChanged', function (e) { 
+        if (document.readyState == 'complete') {
+          DISQUS.reset({ reload: true, config: disqus_config });
+        }
+    });
+</script>
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2026
+     哆啦 N 梦 
+    ·
+    
+    技术支持 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

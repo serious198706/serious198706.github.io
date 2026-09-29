@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>AI Art on Notex</title>
+		<link>http://localhost:1313/tags/ai-art/</link>
+		<description>Recent content in AI Art on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 03 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/ai-art/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Karpathy Joins Anthropic, AI Art Controversy, and the 6502 Model</title>
+				<link>http://localhost:1313/posts/ai-think/2026-08-03/</link>
+				<pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-08-03/</guid>
+				<description>&lt;p&gt;Karpathy Joins Anthropic, AI Art Controversy, and the 6502 Model&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-08-03&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日的 AI 头条无疑是 Andrej Karpathy 加入 Anthropic 的消息——这位 OpenAI 联合创始人、特斯拉 AI 前负责人选择加入竞争对手的预训练团队，标志着 AI 人才争夺战进入新阶段。与此同时，一场州级博览会上的 AI 海报获奖争议、一个在 1975 年处理器上运行的 Mamba 语言模型、以及 Gary Marcus 对 OpenAI Astra 的尖锐批评，共同勾勒出 AI 产业在 2026 年夏天面临的机遇与焦虑。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-karpathy-的鹈鹕飞向-anthropic一个时代的标志&#34;&gt;&#xA;  🦅 Karpathy 的「鹈鹕」飞向 Anthropic：一个时代的标志&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-karpathy-%e7%9a%84%e9%b9%88%e9%b9%95%e9%a3%9e%e5%90%91-anthropic%e4%b8%80%e4%b8%aa%e6%97%b6%e4%bb%a3%e7%9a%84%e6%a0%87%e5%bf%97&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;原文：&lt;a href=&#34;https://twitter.com/karpathy/status/2083749667410727319&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Karpathy&amp;rsquo;s Pelican (Twitter/X)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;HN 讨论：&lt;a href=&#34;https://news.ycombinator.com/item?id=49140998&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Karpathy&amp;rsquo;s Pelican&lt;/a&gt; — 403 points, 317 comments&lt;/li&gt;&#xA;&lt;li&gt;补充：TechCrunch — &lt;a href=&#34;https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenAI co-founder Andrej Karpathy joins Anthropic&amp;rsquo;s pre-training team&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;「鹈鹕」（Pelican）这个字眼，圈内人都懂——它源自 Karpathy 本人创造的一个非正式基准测试：「Generate an SVG of a pelican riding a bicycle」（生成一只骑自行车的鹈鹕的 SVG）。这个玩笑般的测试过去一年逐渐成为评估模型视觉-指令遵从能力的民间标准。如今 HN 上「Karpathy&amp;rsquo;s Pelican」登顶，表面指的仍是这个基准，但所有人都知道真正引爆讨论的是：&lt;strong&gt;Karpathy 加入了 Anthropic&lt;/strong&gt;。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

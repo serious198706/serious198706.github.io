@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>AI 治理 on Notex</title>
+		<link>http://localhost:1313/tags/ai-%E6%B2%BB%E7%90%86/</link>
+		<description>Recent content in AI 治理 on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 19 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/ai-%E6%B2%BB%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>当 GPT 攻克数学难题，当 AI 监控侵蚀护理伦理</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-19/</link>
+				<pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-19/</guid>
+				<description>&lt;p&gt;当 GPT 攻克数学难题，当 AI 监控侵蚀护理伦理&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-19&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日 AI 领域的叙事出现了两条清晰而矛盾的主线：一方面，LLM 正在以前所未有的方式突破人类知识的边界——GPT-5.6 仅靠一个提示就攻克了凸优化领域 30 年未解的猜想，Claude Fable 5 在 NP-Hard 问题上展现出惊人的推理一致性；另一方面，AI 的社会代价正在加速显现——Kaiser 护士的证词揭露了 AI 监控如何异化护理工作，Stack Overflow 的流量崩塌图无声诉说着知识共享生态的衰落，而 Apple 对 OpenAI 员工的密集法律行动则预示着 AI 人才战争的白热化。这是一个能力与责任同时膨胀的时代。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-数学的-ai-时刻从凸优化到-np-hard模型不只是更大&#34;&gt;&#xA;  1. 数学的 AI 时刻：从凸优化到 NP-Hard，模型不只是&amp;quot;更大&amp;quot;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#1-%e6%95%b0%e5%ad%a6%e7%9a%84-ai-%e6%97%b6%e5%88%bb%e4%bb%8e%e5%87%b8%e4%bc%98%e5%8c%96%e5%88%b0-np-hard%e6%a8%a1%e5%9e%8b%e4%b8%8d%e5%8f%aa%e6%98%af%e6%9b%b4%e5%a4%a7&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;本周最震撼的新闻无疑是 GPT-5.6 用一段提示词（prompt）解决了凸优化领域一个悬而未决 30 年的猜想。虽然深入挖掘后发现，作者实际上为此付出了长达一年的努力——之前用 GPT-5.4 和 5.5 反复尝试，最终将整个探索过程浓缩进提示词喂给 GPT-5.6 Sol Pro，才在 148 分钟内得到了突破性的结果。但无论如何，这标志着 LLM 从&amp;quot;语言工具&amp;quot;向&amp;quot;数学研究伙伴&amp;quot;的角色跃迁。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;So if you dig down a bit it turns out the author had been trying to solve that problem for a year with GPT 5.4 and 5.5&amp;hellip; So the claimed &amp;lsquo;148 minutes&amp;rsquo; was really &amp;lsquo;a year plus 148 minutes&amp;rsquo;.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+			<item>
+				<title>Anthropic 的「社会契约」实验：从 Claude Corps 到 AI 治理框架</title>
+				<link>http://localhost:1313/posts/ai-think/2026-06-16/</link>
+				<pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-06-16/</guid>
+				<description>&lt;p&gt;Anthropic 的「社会契约」实验：从 Claude Corps 到 AI 治理框架&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-06-16&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;今日 AI 领域最引人注目的信号来自 Anthropic——这家公司同时发布了两个看似方向迥异、实则互为表里的重磅动作：一个面向基层的全国性公益 fellowship 项目 Claude Corps，和一个面向华盛顿的 AI 治理政策框架。前者承诺投入 1.5 亿美元、培训 1000 名青年在 400 家非营利组织中使用 Claude；后者则呼吁政府获得「阻止危险 AI 部署」的法律权力。与此同时，社区中关于本地模型替代闭源 API 的讨论日趋成熟，欧洲主权 AI 的可行性分析也给出了令人意外的乐观结论。这些事件共同勾勒出 AI 行业从「模型竞赛」向「社会嵌入」转型的轮廓。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一claude-corpsai-公司的和平队实验&#34;&gt;&#xA;  一、Claude Corps：AI 公司的「和平队」实验&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80claude-corpsai-%e5%85%ac%e5%8f%b8%e7%9a%84%e5%92%8c%e5%b9%b3%e9%98%9f%e5%ae%9e%e9%aa%8c&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Anthropic 宣布启动 &lt;a href=&#34;https://www.anthropic.com/news/claude-corps&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Claude Corps&lt;/a&gt;，一个为期 12 个月的全职 fellowship 项目。入选者将获得 8.5 万美元年薪 + 福利，接受 Anthropic 和 CodePath 的培训后，被派往全美 400 多家非营利组织，帮助它们用 Claude 推进使命。首批 100 人将于 2026 年 10 月启动，项目总投入 1.5 亿美元。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;The benefits of transformative AI systems could come at the cost of significant disruption. The companies building this technology have a responsibility to make sure the benefits are fully realized and widely shared.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+	</channel>
+</rss>

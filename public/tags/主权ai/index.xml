@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>主权AI on Notex</title>
+		<link>http://localhost:1313/tags/%E4%B8%BB%E6%9D%83ai/</link>
+		<description>Recent content in 主权AI on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 17 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/%E4%B8%BB%E6%9D%83ai/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>本地模型崛起、主权 LLM 与 AI 对内容生态的深层震荡</title>
+				<link>http://localhost:1313/posts/ai-think/2026-06-17/</link>
+				<pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-06-17/</guid>
+				<description>&lt;p&gt;本地模型崛起、主权 LLM 与 AI 对内容生态的深层震荡&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-06-17&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;今日的 AI 新闻呈现出三条清晰的结构性主线：&lt;strong&gt;本地模型终于跨过了「可用」的门槛&lt;/strong&gt;，从玩具变成真正的生产力工具；&lt;strong&gt;主权 AI 运动在欧洲加速&lt;/strong&gt;，小国开始用有限的预算构建属于自己语言和价值观的大模型；而&lt;strong&gt;AI 对传统内容产业的冲击已经从「威胁论」变成了可见的财务数据&lt;/strong&gt;——Tim Ferriss 用自己畅销书 80% 的销量崩塌，敲响了「指令型非虚构内容」的丧钟。与此同时，美国政府针对 Anthropic 先进模型的出口管制引发了安全界的强烈反弹，一场关于「谁有权使用最强 AI」的博弈正在上演。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;本地模型终于够好了-一个里程碑时刻&#34;&gt;&#xA;  「本地模型终于够好了」—— 一个里程碑时刻&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e6%9c%ac%e5%9c%b0%e6%a8%a1%e5%9e%8b%e7%bb%88%e4%ba%8e%e5%a4%9f%e5%a5%bd%e4%ba%86-%e4%b8%80%e4%b8%aa%e9%87%8c%e7%a8%8b%e7%a2%91%e6%97%b6%e5%88%bb&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Vicki Boykis 在她的博客中宣布了一个许多人等待已久的结论：&lt;strong&gt;本地模型已经足够好&lt;/strong&gt;。她以一名资深本地模型用户（从 Mistral 7B 到 Qwen 3 MOE）的视角，细致地记录了这个转变的临界点。&lt;/p&gt;&#xA;&lt;p&gt;转折的标志是 OpenAI 的 GPT-OSS 和 Google 的 Gemma 4 系列。她描述了一个客观的衡量标准：「我不再需要反复对照 API 模型的输出来验证本地模型是否正确。」在 Gemma-4-26B-A4B 上，她实现了&lt;strong&gt;约 75% 的前沿模型精度/速度&lt;/strong&gt;——考虑到模型完全运行在她 2022 年的 M2 MacBook 上，这个数字令人震惊。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been working with local models since they came out, and finally, they&amp;rsquo;re surprisingly good now.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+	</channel>
+</rss>

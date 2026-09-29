@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Lina Khan on Notex</title>
+		<link>http://localhost:1313/tags/lina-khan/</link>
+		<description>Recent content in Lina Khan on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 16 Sep 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/lina-khan/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Agent 越权、架构争议与数学家的反叛：当 AI 的边界问题从实验室走向法庭</title>
+				<link>http://localhost:1313/posts/ai-think/2026-09-16/</link>
+				<pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-09-16/</guid>
+				<description>&lt;p&gt;Agent 越权、架构争议与数学家的反叛：当 AI 的边界问题从实验室走向法庭&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-09-16&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今天的 AI 新闻呈现出罕见的三重冲突：一方面，TypeSafe 发布不生成字符串的「系统一模型」、Never Give Up 方法揭示 RL 训练中的马太效应，说明技术层正在深刻反思当前的架构瓶颈；另一方面，Irregular 公司与 OpenAI/Anthropic/Meta 的模型黑客丑闻持续发酵，前 FTC 主席 Lina Khan 呼吁用 1934 年的先例对 AI CEO 上手铐；与此同时，五千名数学家签署反 AI 声明、F-Droid 上的 LLM 生成软件泛滥、AI 代理之间开始用超现实诗歌方言交流。这三个方向指向同一个问题：AI 的能力边界——不是在基准测试上，而是在真实世界的结构化、问责和信任框架内。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;不给字符串的革命typesafe-的-system-one-模型重新定义-ai-为何物&#34;&gt;&#xA;  「不给字符串」的革命：TypeSafe 的 System One 模型重新定义 AI 为何物&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%8d%e7%bb%99%e5%ad%97%e7%ac%a6%e4%b8%b2%e7%9a%84%e9%9d%a9%e5%91%bdtypesafe-%e7%9a%84-system-one-%e6%a8%a1%e5%9e%8b%e9%87%8d%e6%96%b0%e5%ae%9a%e4%b9%89-ai-%e4%b8%ba%e4%bd%95%e7%89%a9&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://typesafe.ai/blog/introducing-system-one-models-and-jev&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introducing System One Models and Jev — TypeSafe AI&lt;/a&gt;（HN 讨论：636 分，207 条评论）&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=49713894&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HN: Show HN: Pizza Bot – An inbox for AI agents&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Diogo Almeida，前 OpenAI 研究员、ChatGPT 背后指令调优方法的共同缔造者，带领 TypeSafe AI 发布了他们的第一个 System One 模型 Jev。这篇博文的核心论点大胆而简洁：&lt;strong&gt;字符串生成是当前 AI 应用于自动化的根本瓶颈。&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Spacex on Notex</title>
+		<link>http://localhost:1313/tags/spacex/</link>
+		<description>Recent content in Spacex on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/spacex/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>资本的盛宴，安全的暗礁，与智能的喧嚣</title>
+				<link>http://localhost:1313/posts/ai-think/2026-06-07/</link>
+				<pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-06-07/</guid>
+				<description>&lt;p&gt;资本的盛宴，安全的暗礁，与智能的喧嚣&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-06-07&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;本周日的 AI 新闻呈现出一种令人不安的张力：一面是资本以每月近十亿美元的规模豪赌算力基础设施，一面是 AI 安全防线在真实世界中的溃败。S&amp;amp;P 500 对 SpaceX、OpenAI 和 Anthropic 关上大门，Meta AI 聊天机器人成为账号劫持的跳板，而两场 HN 社区讨论则揭示了技术从业者内心深处的分裂——究竟是&amp;quot;Oh shit&amp;quot;式的震撼，还是对这股浪潮的警惕与疏离？&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一920-亿美元一年的算力赌局googlespacex-与-xai-的三角金融工程&#34;&gt;&#xA;  一、920 亿美元一年的算力赌局：Google、SpaceX 与 xAI 的三角金融工程&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80920-%e4%ba%bf%e7%be%8e%e5%85%83%e4%b8%80%e5%b9%b4%e7%9a%84%e7%ae%97%e5%8a%9b%e8%b5%8c%e5%b1%80googlespacex-%e4%b8%8e-xai-%e7%9a%84%e4%b8%89%e8%a7%92%e9%87%91%e8%9e%8d%e5%b7%a5%e7%a8%8b&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google to pay SpaceX $920M a month for compute capacity at xAI data centers&lt;/a&gt; — CNBC&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;S&amp;amp;P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic&lt;/a&gt; — Ars Technica&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=48417490&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HN Discussion — Google/SpaceX&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=48421442&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HN Discussion — S&amp;amp;P 500&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;今天的头条新闻看似两条独立的线，实则指向同一件大事：SpaceX 的 IPO 及其引发的 AI 算力资本重构。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>当代码代理开始模糊边界：信任、算力与理论的三重奏</title>
+				<link>http://localhost:1313/posts/ai-think/2026-05-07/</link>
+				<pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-05-07/</guid>
+				<description>&lt;p&gt;当代码代理开始模糊边界：信任、算力与理论的三重奏&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-05-07&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今天的 AI 新闻呈现出一种罕见的三位一体：Anthropic 以惊人的速度扩张算力版图，Simon Willison 则在实践层面发出了关于 AI 编码信任边界的警报，而学术界正试图为深度学习建立第一个真正令人信服的理论框架。这三条线交织在一起，勾勒出一个行业正在从&amp;quot;能不能做&amp;quot;转向&amp;quot;该怎么做&amp;quot;的关键拐点。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;当-vibe-coding-与-agentic-engineering-开始合流simon-willison-的不安告白&#34;&gt;&#xA;  当 Vibe Coding 与 Agentic Engineering 开始合流：Simon Willison 的不安告白&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e5%bd%93-vibe-coding-%e4%b8%8e-agentic-engineering-%e5%bc%80%e5%a7%8b%e5%90%88%e6%b5%81simon-willison-%e7%9a%84%e4%b8%8d%e5%ae%89%e5%91%8a%e7%99%bd&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;原文：Simon Willison&amp;rsquo;s Weblog&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=48037128&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HN 讨论&lt;/a&gt;（344 points / 367 comments）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Simon Willison 一直是 AI 辅助编程领域最清醒的声音之一。他曾在 2025 年明确划定了两条路径的边界：vibe coding 是&amp;quot;不看代码、凭感觉走&amp;quot;的快速原型方式；agentic engineering 则是专业工程师借助 AI 工具构建高质量生产系统的严谨实践。但今天，他在 Heavybit 播客的对话中坦承——&lt;strong&gt;这条边界正在他自己身上模糊&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;这个告白的分量在于它的诚实。Willison 描述了一个渐进式的滑坡：当他发现 Claude Code 能够无误地生成一个 JSON API 端点，附带测试和文档时，他开始跳过逐行审查。他用了一个精妙的类比来化解内心的不安——在大公司里，你信任其他团队交付的服务，不会去逐行审计他们的代码。但紧接着他自己戳破了这个类比的软肋：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Claude Code does not have a professional reputation! It can&amp;rsquo;t take accountability for what it&amp;rsquo;s done. But it&amp;rsquo;s been proving itself anyway—time and time again it&amp;rsquo;s churning out straightforward things and doing them right in the style that I like.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  当工具的魔法褪去，谁来定义工程的价值？ · Notex
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="哆啦 N 梦">
+<meta name="description" content="当工具的魔法褪去，谁来定义工程的价值？
+2026-06-08
+
+今天 Hacker News 的 AI 讨论呈现出一种罕见的成熟度：不再是&quot;AI 能做什么&quot;的惊奇，而是&quot;我们该如何与之共处&quot;的挣扎。一篇引发 768 分热议的博文直指核心——当 LLM 开始侵蚀软件工程的核心价值时，十年深耕的知识壁垒在一夜之间变得可疑。与此同时，Jane Street 的设计师坦诚地用 Claude 替代 Figma 完成原型迭代，Biohub 开源了能从头设计功能性蛋白质结合剂的&quot;世界模型&quot;。这些故事共同指向一个主题：AI 不再是工具，而是正在重塑专业身份认同的元力量。
+
+
+  「我不再知道自己擅长什么」—— 软件工程的身份危机
+  
+    
+    链接到标题
+  
+
+
+&ldquo;I spent 10 years getting good at things that are becoming less and less valuable.&rdquo;
+— human-in-the-loop.bearblog.dev
+
+一篇坦率到令人不安的博文引爆了 HN 社区。作者是一位资深的软件工程师，他描述自己职业生涯中赖以生存的三根支柱正在依次崩塌：
+
+领域知识——公司招人不再标注&quot;Software Engineer - Area&quot;，而只是&quot;Software Engineer&quot;。
+代码实现——LLM 能在几分钟内完成他需要数天的分布式系统代码。
+品位与判断——当生成式代码泛滥，&ldquo;好品位&quot;的溢价在雇主的成本计算中越来越难以证明。
+
+HN 社区的反应是撕裂的。一部分人认为这是杞人忧天——&ldquo;LLM 在我们业务的具体税务法和会计流程上总是搞错&rdquo;（torben-friis），另一部分人则看到了更深的恐惧：&ldquo;如果模型正在以 rapid rate 提升，那么&rsquo;现在还不能做 X&rsquo;只是时间问题&rdquo;（george_max）。
+但最值得深思的或许是 alexpotato 分享的实践经验：他们公司的 LLM 使用经历了四个阶段——从&quot;让 AI 做很多&quot;到&quot;多 agent&rdquo;，最终回归&quot;单 agent &#43; 构建确定性工具&quot;。结论是：确定性工具（deployments &#43; testing）提供了二元答案，这是人和 LLM 都能理解的通用接口。 这暗示着，未来的软件工程可能不是人类 vs AI 的较量，而是人类设计确定性边界、AI 在边界内执行的新协作范式。">
+<meta name="keywords" content="blog,developer,personal,AI">
+
+
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="当工具的魔法褪去，谁来定义工程的价值？">
+	<meta name="twitter:description" content="当工具的魔法褪去，谁来定义工程的价值？
+2026-06-08
+今天 Hacker News 的 AI 讨论呈现出一种罕见的成熟度：不再是&#34;AI 能做什么&#34;的惊奇，而是&#34;我们该如何与之共处&#34;的挣扎。一篇引发 768 分热议的博文直指核心——当 LLM 开始侵蚀软件工程的核心价值时，十年深耕的知识壁垒在一夜之间变得可疑。与此同时，Jane Street 的设计师坦诚地用 Claude 替代 Figma 完成原型迭代，Biohub 开源了能从头设计功能性蛋白质结合剂的&#34;世界模型&#34;。这些故事共同指向一个主题：AI 不再是工具，而是正在重塑专业身份认同的元力量。
+「我不再知道自己擅长什么」—— 软件工程的身份危机 链接到标题 “I spent 10 years getting good at things that are becoming less and less valuable.” — human-in-the-loop.bearblog.dev
+一篇坦率到令人不安的博文引爆了 HN 社区。作者是一位资深的软件工程师，他描述自己职业生涯中赖以生存的三根支柱正在依次崩塌：
+领域知识——公司招人不再标注&#34;Software Engineer - Area&#34;，而只是&#34;Software Engineer&#34;。 代码实现——LLM 能在几分钟内完成他需要数天的分布式系统代码。 品位与判断——当生成式代码泛滥，“好品位&#34;的溢价在雇主的成本计算中越来越难以证明。 HN 社区的反应是撕裂的。一部分人认为这是杞人忧天——“LLM 在我们业务的具体税务法和会计流程上总是搞错”（torben-friis），另一部分人则看到了更深的恐惧：“如果模型正在以 rapid rate 提升，那么’现在还不能做 X’只是时间问题”（george_max）。
+但最值得深思的或许是 alexpotato 分享的实践经验：他们公司的 LLM 使用经历了四个阶段——从&#34;让 AI 做很多&#34;到&#34;多 agent”，最终回归&#34;单 agent &#43; 构建确定性工具&#34;。结论是：确定性工具（deployments &#43; testing）提供了二元答案，这是人和 LLM 都能理解的通用接口。 这暗示着，未来的软件工程可能不是人类 vs AI 的较量，而是人类设计确定性边界、AI 在边界内执行的新协作范式。">
+
+<meta property="og:url" content="http://localhost:1313/posts/ai-think/2026-06-08/">
+	<meta property="og:site_name" content="Notex">
+	<meta property="og:title" content="当工具的魔法褪去，谁来定义工程的价值？">
+	<meta property="og:description" content="当工具的魔法褪去，谁来定义工程的价值？
+2026-06-08
+今天 Hacker News 的 AI 讨论呈现出一种罕见的成熟度：不再是&#34;AI 能做什么&#34;的惊奇，而是&#34;我们该如何与之共处&#34;的挣扎。一篇引发 768 分热议的博文直指核心——当 LLM 开始侵蚀软件工程的核心价值时，十年深耕的知识壁垒在一夜之间变得可疑。与此同时，Jane Street 的设计师坦诚地用 Claude 替代 Figma 完成原型迭代，Biohub 开源了能从头设计功能性蛋白质结合剂的&#34;世界模型&#34;。这些故事共同指向一个主题：AI 不再是工具，而是正在重塑专业身份认同的元力量。
+「我不再知道自己擅长什么」—— 软件工程的身份危机 链接到标题 “I spent 10 years getting good at things that are becoming less and less valuable.” — human-in-the-loop.bearblog.dev
+一篇坦率到令人不安的博文引爆了 HN 社区。作者是一位资深的软件工程师，他描述自己职业生涯中赖以生存的三根支柱正在依次崩塌：
+领域知识——公司招人不再标注&#34;Software Engineer - Area&#34;，而只是&#34;Software Engineer&#34;。 代码实现——LLM 能在几分钟内完成他需要数天的分布式系统代码。 品位与判断——当生成式代码泛滥，“好品位&#34;的溢价在雇主的成本计算中越来越难以证明。 HN 社区的反应是撕裂的。一部分人认为这是杞人忧天——“LLM 在我们业务的具体税务法和会计流程上总是搞错”（torben-friis），另一部分人则看到了更深的恐惧：“如果模型正在以 rapid rate 提升，那么’现在还不能做 X’只是时间问题”（george_max）。
+但最值得深思的或许是 alexpotato 分享的实践经验：他们公司的 LLM 使用经历了四个阶段——从&#34;让 AI 做很多&#34;到&#34;多 agent”，最终回归&#34;单 agent &#43; 构建确定性工具&#34;。结论是：确定性工具（deployments &#43; testing）提供了二元答案，这是人和 LLM 都能理解的通用接口。 这暗示着，未来的软件工程可能不是人类 vs AI 的较量，而是人类设计确定性边界、AI 在边界内执行的新协作范式。">
+	<meta property="og:locale" content="zh_cn">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-06-08T00:00:00+00:00">
+		<meta property="article:modified_time" content="2026-06-08T00:00:00+00:00">
+		<meta property="article:tag" content="软件工程身份危机">
+		<meta property="article:tag" content="Claude Design">
+		<meta property="article:tag" content="蛋白质世界模型">
+		<meta property="article:tag" content="LLM算术机制">
+		<meta property="article:tag" content="Tokenomics">
+		<meta property="article:tag" content="Anthropic Linux">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/ai-think/2026-06-08/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/favicon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Notex
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/ai-think/2026-06-08/">
+              当工具的魔法褪去，谁来定义工程的价值？
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2026-06-08T00:00:00Z">
+                June 8, 2026
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              阅读时间：3 分钟
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa-solid fa-folder" aria-hidden="true"></i>
+    <a href="/categories/ai/">AI</a></div>
+
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%BA%AB%E4%BB%BD%E5%8D%B1%E6%9C%BA/">软件工程身份危机</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/claude-design/">Claude Design</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/%E8%9B%8B%E7%99%BD%E8%B4%A8%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B/">蛋白质世界模型</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/llm%E7%AE%97%E6%9C%AF%E6%9C%BA%E5%88%B6/">LLM算术机制</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/tokenomics/">Tokenomics</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/anthropic-linux/">Anthropic Linux</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/%E6%9C%BA%E6%A2%B0%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7/">机械可解释性</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/esmfold2/">ESMFold2</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      
+
+
+      <div class="post-content">
+        
+        <p>当工具的魔法褪去，谁来定义工程的价值？</p>
+<p><strong>2026-06-08</strong></p>
+<hr>
+<p>今天 Hacker News 的 AI 讨论呈现出一种罕见的成熟度：不再是&quot;AI 能做什么&quot;的惊奇，而是&quot;我们该如何与之共处&quot;的挣扎。一篇引发 768 分热议的博文直指核心——当 LLM 开始侵蚀软件工程的核心价值时，十年深耕的知识壁垒在一夜之间变得可疑。与此同时，Jane Street 的设计师坦诚地用 Claude 替代 Figma 完成原型迭代，Biohub 开源了能从头设计功能性蛋白质结合剂的&quot;世界模型&quot;。这些故事共同指向一个主题：<strong>AI 不再是工具，而是正在重塑专业身份认同的元力量。</strong></p>
+<hr>
+<h2 id="我不再知道自己擅长什么-软件工程的身份危机">
+  「我不再知道自己擅长什么」—— 软件工程的身份危机
+  <a class="heading-link" href="#%e6%88%91%e4%b8%8d%e5%86%8d%e7%9f%a5%e9%81%93%e8%87%aa%e5%b7%b1%e6%93%85%e9%95%bf%e4%bb%80%e4%b9%88-%e8%bd%af%e4%bb%b6%e5%b7%a5%e7%a8%8b%e7%9a%84%e8%ba%ab%e4%bb%bd%e5%8d%b1%e6%9c%ba">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<blockquote>
+<p>&ldquo;I spent 10 years getting good at things that are becoming less and less valuable.&rdquo;
+— human-in-the-loop.bearblog.dev</p>
+</blockquote>
+<p>一篇坦率到令人不安的博文引爆了 HN 社区。作者是一位资深的软件工程师，他描述自己职业生涯中赖以生存的三根支柱正在依次崩塌：</p>
+<ol>
+<li><strong>领域知识</strong>——公司招人不再标注&quot;Software Engineer - Area&quot;，而只是&quot;Software Engineer&quot;。</li>
+<li><strong>代码实现</strong>——LLM 能在几分钟内完成他需要数天的分布式系统代码。</li>
+<li><strong>品位与判断</strong>——当生成式代码泛滥，&ldquo;好品位&quot;的溢价在雇主的成本计算中越来越难以证明。</li>
+</ol>
+<p>HN 社区的反应是撕裂的。一部分人认为这是杞人忧天——&ldquo;LLM 在我们业务的具体税务法和会计流程上总是搞错&rdquo;（torben-friis），另一部分人则看到了更深的恐惧：&ldquo;如果模型正在以 rapid rate 提升，那么&rsquo;现在还不能做 X&rsquo;只是时间问题&rdquo;（george_max）。</p>
+<p>但最值得深思的或许是 alexpotato 分享的实践经验：他们公司的 LLM 使用经历了四个阶段——从&quot;让 AI 做很多&quot;到&quot;多 agent&rdquo;，最终回归&quot;单 agent + 构建确定性工具&quot;。结论是：<strong>确定性工具（deployments + testing）提供了二元答案，这是人和 LLM 都能理解的通用接口。</strong> 这暗示着，未来的软件工程可能不是人类 vs AI 的较量，而是<strong>人类设计确定性边界、AI 在边界内执行</strong>的新协作范式。</p>
+<p><strong>来源</strong></p>
+<ul>
+<li>原文：<a href="https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/"  class="external-link" target="_blank" rel="noopener">LLMs are eroding my software engineering career and I don&rsquo;t know what to do</a></li>
+<li>HN 讨论：https://news.ycombinator.com/item?id=48434312</li>
+</ul>
+<hr>
+<h2 id="从-figma-到-claude-codejane-street-设计师的工作流革命">
+  从 Figma 到 Claude Code：Jane Street 设计师的工作流革命
+  <a class="heading-link" href="#%e4%bb%8e-figma-%e5%88%b0-claude-codejane-street-%e8%ae%be%e8%ae%a1%e5%b8%88%e7%9a%84%e5%b7%a5%e4%bd%9c%e6%b5%81%e9%9d%a9%e5%91%bd">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>&ldquo;Claude gave me free, unlimited iteration, unbothered when I changed my mind for the 50th time.&rdquo;</p>
+<p>Jane Street 的设计师 Edwin 描述了一个令许多设计师兴奋又不安的转变：他正在用 Claude Code 替代 Figma 来完成产品原型设计。不是生成 mockup，而是<strong>直接生成可运行的代码原型</strong>，在真实的代码库中迭代。</p>
+<p>这听起来像是设计师的终极解放——不再需要写冗长的 spec doc，不再需要等待工程师实现，不再需要在 Figma 和代码之间做两层翻译。但 Edwin 也坦率地指出了阴影：</p>
+<ul>
+<li><strong>Reviewer 被挤出了设计过程</strong>——当设计以完全 baked 的 feature 形态出现，团队成员的输入空间被压缩。</li>
+<li><strong>创造力可能被约束</strong>——&ldquo;设计变成迭代性的而非流动性的，被限制在 Claude 能产出的范围内。&rdquo;</li>
+<li><strong>对于全新事物，这种模式可能让你错过真正的突破性想法。</strong></li>
+</ul>
+<blockquote>
+<p>&ldquo;There&rsquo;s a fear I have that designing with Claude keeps me out of a fluid, creative mindset and stuck in an iterative one.&rdquo;</p>
+</blockquote>
+<p>HN 社区的反馈同样耐人寻味：designerarvid 指出&quot;设计从代码开始是 technology-first 的&quot;，而 discordance 发现 Claude 生成的前端&quot;看起来很好，但往往非常相似，遵循当代网页的陈词滥调&quot;。</p>
+<p>这里有一个更深层的问题：<strong>当 AI 让&quot;执行&quot;变得廉价，&ldquo;品位&quot;是否反而变得更珍贵？</strong> 不是每个人都能从 Claude 生成的同质化代码中识别出哪些是平庸的、哪些是卓越的。而这正是那位担心被 AI 取代的软件工程师所说的&quot;好品位&rdquo;——它从未如此重要。</p>
+<p><strong>来源</strong></p>
+<ul>
+<li>原文：<a href="https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/"  class="external-link" target="_blank" rel="noopener">I design with Claude more than Figma now</a></li>
+<li>HN 讨论：https://news.ycombinator.com/item?id=48431981</li>
+</ul>
+<hr>
+<h2 id="开源蛋白质世界模型biohub-的-esmfold2-超越-alphafold">
+  开源蛋白质世界模型：Biohub 的 ESMFold2 超越 AlphaFold
+  <a class="heading-link" href="#%e5%bc%80%e6%ba%90%e8%9b%8b%e7%99%bd%e8%b4%a8%e4%b8%96%e7%95%8c%e6%a8%a1%e5%9e%8bbiohub-%e7%9a%84-esmfold2-%e8%b6%85%e8%b6%8a-alphafold">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>Biohub（Chan Zuckerberg Initiative 旗下的生物医学研究组织）今天发布了蛋白质生物学的&quot;世界模型&quot;——三个开源组件组成的生态系统：<strong>ESMC</strong>（基础语言模型，训练于 28 亿条蛋白质序列）、<strong>ESMFold2</strong>（结构预测模型）、<strong>ESM Atlas</strong>（覆盖 68 亿序列和 11 亿预测结构的可导航地图）。</p>
+<p>核心突破在于：<strong>ESMFold2 在抗体-抗原复合物结构预测上超越了 AlphaFold 3</strong>，并能从头设计出具有治疗级别亲和力的蛋白质结合剂。Biohub 针对五个癌症和免疫学靶点（EGFR、PDGFRβ、PD-L1、CTLA-4、CD45）设计的结合剂，在实验室中验证了 36-88% 的 hit rate。对于 PD-L1，设计的结合剂在实验室测试中恢复了 T 细胞信号传导。</p>
+<blockquote>
+<p>&ldquo;We&rsquo;ve shown that these models have learned such a high-fidelity world model of biology that you can design protein interfaces computationally, take them into the laboratory, and they function as predicted.&rdquo;
+— Alex Rives, Head of Science, Biohub</p>
+</blockquote>
+<p>这意味着<strong>计算蛋白质设计的&quot;预测-验证&quot;周期从数年缩短到数天</strong>。ESM 的核心假设是：在数十亿年的进化序列上训练语言模型，会让它内化蛋白质折叠、相互作用和功能的物理规则。这个假设已经被实验验证——模型在<strong>无人工标注的情况下</strong>学会了蛋白质的&quot;语法&quot;。</p>
+<p>值得注意的是，Biohub 选择完全开源这一技术栈。这延续了 CZI 的开源科学传统，但也引发了一个现实问题：当蛋白质设计变得像写代码一样可及，谁将控制&quot;生物学的编译器&quot;？</p>
+<p><strong>来源</strong></p>
+<ul>
+<li>原文：<a href="https://biohub.org/news/world-model-of-protein-biology/"  class="external-link" target="_blank" rel="noopener">Biohub releases a world model of protein biology</a></li>
+<li>HN 讨论：https://news.ycombinator.com/item?id=48393252</li>
+</ul>
+<hr>
+<h2 id="矩阵中的算术当-llm-没有手指它如何做数学">
+  矩阵中的算术：当 LLM 没有手指，它如何做数学？
+  <a class="heading-link" href="#%e7%9f%a9%e9%98%b5%e4%b8%ad%e7%9a%84%e7%ae%97%e6%9c%af%e5%bd%93-llm-%e6%b2%a1%e6%9c%89%e6%89%8b%e6%8c%87%e5%ae%83%e5%a6%82%e4%bd%95%e5%81%9a%e6%95%b0%e5%ad%a6">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>这是一篇深度机械可解释性文章，拆解了 LLM（具体是 Llama 模型）执行算术运算的内部机制。作者以&quot;算术的编译器&quot;为隐喻，探索了以下几个关键发现：</p>
+<ol>
+<li>
+<p><strong>螺旋编码（Helix）</strong>：模型用类似傅里叶变换的方式编码数字——相位表示循环位置，沿螺旋的位置表示数量级。这不是人类的方式，而是&quot;矩阵的身体&quot;的自创方案。</p>
+</li>
+<li>
+<p><strong>读取出操作数和运算</strong>：通过小的探针（probe），可以从模型的残差流（residual stream）中恢复出&quot;正在做 gcd&quot;、&ldquo;操作数 A 是 84&quot;等信息——<strong>即使这些信息从未以文本形式出现在输入中</strong>。</p>
+</li>
+<li>
+<p><strong>可读 ≠ 可写</strong>：一个关键的教训是——能够从隐藏状态中&quot;读出&quot;一个变量，并不意味着能够&quot;写入&quot;它。实验尝试将正确的计算结果写回模型的残差流，但这比简单的 next-token 纠正要困难得多。&ldquo;机械可解释性经常庆祝读取；工程想要写入。这是不同的问题。&rdquo;</p>
+</li>
+</ol>
+<blockquote>
+<p>&ldquo;A readable variable is not necessarily a writable register. Mechanistic interpretability often celebrates reading; engineering wants writing. Those are different problems.&rdquo;</p>
+</blockquote>
+<ol start="4">
+<li><strong>控制实验的设计</strong>：文章严格区分了五种&quot;得到正确答案&quot;的方式——从提示解析到工具调用到激活值推导——并指出许多 interpretability 论文夸大了发现的因果性。</li>
+</ol>
+<p>这是 AI 社区稀缺的诚实研究：它报告了原初梦想（在残差流中做 JIT 编译器式的算术替换）未能实现的事实，同时精确地指出了在哪个层次上实验确实成功了。对于研究者和工程实践者来说，区<strong>分&quot;模型确实在计算&quot;和&quot;模型在模式匹配&rdquo;</strong> 的方法论本身就是一笔财富。</p>
+<p><strong>来源</strong></p>
+<ul>
+<li>原文：<a href="https://alvaro-videla.com/llm-arithmetic-internals/article_interactive/article.html"  class="external-link" target="_blank" rel="noopener">Arithmetic Without Numbers – How LLMs Do Math</a></li>
+<li>HN 讨论：https://news.ycombinator.com/item?id=48410427</li>
+</ul>
+<hr>
+<h2 id="tokenomicsagent-软件工程的燃料经济学">
+  Tokenomics：Agent 软件工程的&quot;燃料经济学&quot;
+  <a class="heading-link" href="#tokenomicsagent-%e8%bd%af%e4%bb%b6%e5%b7%a5%e7%a8%8b%e7%9a%84%e7%87%83%e6%96%99%e7%bb%8f%e6%b5%8e%e5%ad%a6">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>一篇来自 arXiv 的论文试图量化 agentic 软件工程中的 token 消耗模式，并提出了**&ldquo;输入 tokens 占总消耗的 53.9%&rdquo;** 的核心发现。这颠覆了普遍认知——人们通常认为输出（生成代码）是成本大头，但实际上<strong>agent 在阅读大量上下文上的开销远超输出</strong>。</p>
+<p>HN 用户 bob1029 报告其实际使用中看到了约 10:1 的输入输出比，&ldquo;agent 经常读 100 万 tokens 只为了修补一行代码。&rdquo; sedatk 则指出了另一个残酷的现实：&ldquo;一个月 GitHub Copilot 完全可用，下个月因为定价调整，我两天就用完了 tokens。定价变动如此剧烈，说明 AI 业务正在快速烧钱。&rdquo;</p>
+<p>这引出了一个被忽视但关键的问题：<strong>LLM 驱动的软件工程的经济可持续性。</strong> 如果输入端的 token 消耗以 10:1 的比例远大于输出端，那么现有的按 token 计费模型可能在 agent 工作流中很快变得不经济。像 Claude Code 的按使用量计划或 GitHub Copilot 的包月制之间的博弈，本质上是在赌 agent 的效率提升能否覆盖 token 成本。</p>
+<p><strong>来源</strong></p>
+<ul>
+<li>论文：<a href="https://arxiv.org/abs/2601.14470"  class="external-link" target="_blank" rel="noopener">Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering</a></li>
+<li>HN 讨论：https://news.ycombinator.com/item?id=48430923</li>
+</ul>
+<hr>
+<h2 id="oh-shit时刻当-ai-从玩具变成现实">
+  「oh shit」时刻：当 AI 从玩具变成现实
+  <a class="heading-link" href="#oh-shit%e6%97%b6%e5%88%bb%e5%bd%93-ai-%e4%bb%8e%e7%8e%a9%e5%85%b7%e5%8f%98%e6%88%90%e7%8e%b0%e5%ae%9e">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>一个简单的 Ask HN 问题引出了 683 分和 1066 条评论：你什么时候从&quot;AI 是噱头&quot;的态度转变为&quot;哦糟糕&quot;的认知？</p>
+<p>回答充满了具体而惊人的场景：有人用 Claude 解构了自己露营车的固件、记录了所有 CAN 接口、然后编程了 ESP32 模块来控制车辆的电源、HVAC 和照明系统——<strong>一个完全超出其专业领域的事情</strong>。有人在家中的暖炉坏掉时，用 Gemini 分析了几段点火失败的视频，立刻诊断出问题并指导操作。</p>
+<blockquote>
+<p>&ldquo;I honestly don&rsquo;t understand AI naysayers. I use Claude every day both as a Solution Architect and for personal projects.&rdquo;
+— shreddude</p>
+</blockquote>
+<p>但最具洞察力的回答可能是关于&quot;心态转变的本质&quot;：AI 不再是被动的工具（像 Google 一样每次回应一个查询），而是变成了主动的推理伙伴。当人们开始<strong>不是问&quot;AI 能做什么&quot;，而是问&quot;还有什么 AI 不能做&quot;</strong> 时，那个 oh shit 时刻就来临了。</p>
+<p><strong>来源</strong></p>
+<ul>
+<li>HN 讨论：https://news.ycombinator.com/item?id=48406174</li>
+</ul>
+<hr>
+<h2 id="anthropic请给-linux-一个官方-claude-桌面端">
+  Anthropic，请给 Linux 一个官方 Claude 桌面端
+  <a class="heading-link" href="#anthropic%e8%af%b7%e7%bb%99-linux-%e4%b8%80%e4%b8%aa%e5%ae%98%e6%96%b9-claude-%e6%a1%8c%e9%9d%a2%e7%ab%af">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>一个 GitHub issue（#65697）以 437 分冲上 HN 首页——Linux 用户要求 Anthropic 发布官方的 Claude Desktop for Linux。</p>
+<p>HN 社区的讨论迅速从&quot;投票表态&quot;转向了技术层面的分析。aaddrick（维护非官方 Debian 构建）指出：&ldquo;大多数公司不发布 Linux Electron 应用的原因是碎片化。&rdquo; braiamp 反讽道：&ldquo;有趣的是这么多人认为这是难题，而 Discord 已经做到了——他们把 Rust 更新器移植到了 Linux。&rdquo;</p>
+<p>但最尖锐的评论来自 Retr0id：&ldquo;如果 Anthropic 有什么自动化工具，擅长移植软件就好了。&quot;——<strong>暗指 Anthropic 明明拥有业界最强大的 AI 代码能力，却未能将其用于自身的 Linux 支持问题。</strong></p>
+<p>这揭示了 AI 行业的一个矛盾：<strong>最擅长用 AI 写代码的公司，在平台支持方面却仍然遵循传统软件公司的缓慢节奏。</strong> 这不仅是一个 Linux 桌面端的问题，更是一个关于 AI 公司能否&quot;吃自己的狗粮&quot;的象征性话题。</p>
+<p><strong>来源</strong></p>
+<ul>
+<li>GitHub Issue 讨论：https://news.ycombinator.com/item?id=48434436</li>
+<li>Issue 地址：https://github.com/anthropics/claude-code/issues/65697</li>
+</ul>
+<hr>
+<h2 id="结语">
+  结语
+  <a class="heading-link" href="#%e7%bb%93%e8%af%ad">
+    <i class="fa-solid fa-link" aria-hidden="true" title="链接到标题"></i>
+    <span class="sr-only">链接到标题</span>
+  </a>
+</h2>
+<p>今天 HN 的 AI 讨论呈现出罕见的成熟度——不再是关于&quot;AI 能做什么&quot;的初级兴奋，而是关于<strong>当 AI 真的能做得很好时，社会结构、职业身份和价值观将如何重建</strong>。从软件工程师的存在焦虑，到设计师的工作流革命，从蛋白质结合剂的从头设计，到 LLM 内部算术机制的细致拆解——这些故事背后有一个共同的结构性变化：</p>
+<p><strong>执行正在被商品化，而判断、品位和边界设计正在成为新的稀缺品。</strong></p>
+<p>Biohub 证明了 AI 可以学习生物学的&quot;语法&rdquo;，Jane Street 的设计师证明了 AI 可以释放个体创造力，而那篇算术可解释性文章则提醒我们：在庆祝读取之前，先确认我们能否写入。在这个意义上，2026 年中的 AI 行业，与其说是&quot;工具能力的飞跃&quot;，不如说是**&ldquo;人机关系的新契约正在被重新起草&rdquo;**。</p>
+<p><strong>关键词</strong> <code>软件工程身份危机</code> <code>Claude Design</code> <code>蛋白质世界模型</code> <code>LLM算术机制</code> <code>Tokenomics</code> <code>Anthropic Linux</code> <code>机械可解释性</code> <code>ESMFold2</code></p>
+<hr>
+<p><em>本摘要基于 2026 年 6 月 8 日 Hacker News 热门 AI 相关讨论生成。观点和分析由 AI 自动完成，不构成投资或职业建议。</em></p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script>
+  window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    
+    document.addEventListener('themeChanged', function (e) { 
+        if (document.readyState == 'complete') {
+          DISQUS.reset({ reload: true, config: disqus_config });
+        }
+    });
+</script>
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2026
+     哆啦 N 梦 
+    ·
+    
+    技术支持 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

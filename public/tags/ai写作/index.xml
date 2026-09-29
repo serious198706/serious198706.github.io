@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>AI写作 on Notex</title>
+		<link>http://localhost:1313/tags/ai%E5%86%99%E4%BD%9C/</link>
+		<description>Recent content in AI写作 on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 20 Sep 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/ai%E5%86%99%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>当系统1思考打赢系统2战争：非自回归模型、写作困局与版权核弹</title>
+				<link>http://localhost:1313/posts/ai-think/2026-09-20/</link>
+				<pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-09-20/</guid>
+				<description>&lt;p&gt;当系统1思考打赢系统2战争：非自回归模型、写作困局与版权核弹&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-09-20&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日 Hacker News 的 AI 话题呈现出罕见的&amp;quot;双向挤压&amp;quot;格局：一方面，&lt;strong&gt;非自回归决策模型（System 1 模型）迎来范式性突破&lt;/strong&gt;——Laya 和 CUA-S1 分别从不同路线证明，&amp;ldquo;思考型&amp;quot;大模型的过度应用是资源错配，7-30 毫秒级的小型专用模型足以覆盖绝大多数 Agents、表单填写和分类决策；另一方面，&lt;strong&gt;关于 AI 与人类创作的本质关系正在经历激烈的交叉质询&lt;/strong&gt;——GPT-6 破解了一战德军密码、OpenAI 用 LLM 设计了自研芯片 Jalapeño，但同时微软高管将 AI 抓取称为&amp;quot;人类历史上最大的劳动盗窃&amp;rdquo;，两位作者就&amp;quot;是否应该用 AI 写文章&amp;quot;给出了截然对立的答案。这一天的 HN 是 AI 行业自我审视的缩影。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;从-jev-到-laya-到-cua-s1system-1-模型的三国演义&#34;&gt;&#xA;  从 Jev 到 Laya 到 CUA-S1：System 1 模型的&amp;quot;三国演义&amp;quot;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%bb%8e-jev-%e5%88%b0-laya-%e5%88%b0-cua-s1system-1-%e6%a8%a1%e5%9e%8b%e7%9a%84%e4%b8%89%e5%9b%bd%e6%bc%94%e4%b9%89&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Not every AI problem requires an autoregressive chatbot.&amp;rdquo; — Nandakishor Mukkunnoth&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;本周最令人振奋的趋势，是以 TypeSafe Jev 为代表的新一代非自回归决策模型的爆发——但更精彩的是围绕这个概念展开的&lt;strong&gt;开源 vs 闭源、先行者 vs 后来者、通用 vs 专用&lt;/strong&gt;的多维竞争。&lt;/p&gt;&#xA;&lt;h3 id=&#34;laya先行者的反击&#34;&gt;&#xA;  Laya：先行者的反击&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#laya%e5%85%88%e8%a1%8c%e8%80%85%e7%9a%84%e5%8f%8d%e5%87%bb&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Nandakishor Mukkunnoth 在 2025 年 3 月就发表了一篇关于非自回归决策模型的 arXiv 论文（arXiv:2503.23303），用 PPO 方法在销售对话场景中训练序列级转换概率模型。但真正让他&amp;quot;破防&amp;quot;的是，2026 年 9 月，由 ChatGPT 共同发明人 Diogo Almeida 创立的 TypeSafe AI 发布了 Jev——几乎是同样的概念，被包装成了&amp;quot;突破性创新&amp;quot;，而且&lt;strong&gt;不开源、不发论文、不开放数据集&lt;/strong&gt;。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

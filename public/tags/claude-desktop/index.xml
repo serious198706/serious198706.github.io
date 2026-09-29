@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Claude Desktop on Notex</title>
+		<link>http://localhost:1313/tags/claude-desktop/</link>
+		<description>Recent content in Claude Desktop on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 11 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/claude-desktop/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Anthropic&#39;s Safety Tightrope: Fable&#39;s Guardrails, Mythos&#39;s Data Demands, and the Quiet Infrastructure Boom</title>
+				<link>http://localhost:1313/posts/ai-think/2026-06-11/</link>
+				<pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-06-11/</guid>
+				<description>&lt;p&gt;Anthropic&amp;rsquo;s Safety Tightrope: Fable&amp;rsquo;s Guardrails, Mythos&amp;rsquo;s Data Demands, and the Quiet Infrastructure Boom&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-06-11&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日的 AI 新闻几乎被 Anthropic 承包：Fable 的 guardrails 激怒了网络安全研究者，Mythos 的 30 天数据留存政策让企业客户皱眉，而 Claude Desktop 被曝每次启动都无端吃掉 1.8 GB 内存——三件事串联起来，勾勒出一家前沿 AI 公司在&amp;quot;安全 vs. 可用性&amp;quot;之间艰难平衡的剪影。与此同时，Apache Burr 正式以孵化项目身份亮相、HelixDB 发布 graph-vector 数据库，标志 AI agent 基础设施正在从实验室原型走向工业化标准。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-fable-的矫枉过正当安全-guardrails-误伤友军&#34;&gt;&#xA;  🔥 Fable 的&amp;quot;矫枉过正&amp;quot;：当安全 Guardrails 误伤友军&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-fable-%e7%9a%84%e7%9f%ab%e6%9e%89%e8%bf%87%e6%ad%a3%e5%bd%93%e5%ae%89%e5%85%a8-guardrails-%e8%af%af%e4%bc%a4%e5%8f%8b%e5%86%9b&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Anthropic 本周发布的 Fable（Mythos 的公开受限版本）本意是让更多人体验前沿模型能力，却在安全边界上启动了&amp;quot;地毯式轰炸&amp;quot;。多位知名安全研究员在 X 和 Reddit 上抱怨：Fable 不仅拒绝渗透测试请求，甚至连&amp;quot;阅读一篇博客文章&amp;quot;或&amp;quot;进行代码审查&amp;quot;这种无害操作也会触发 guardrails。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;它似乎基于关键词——任何在&amp;rsquo;网络安全&amp;rsquo;词汇场内的东西都会触发 guardrails。&amp;rdquo; — Matt Suiche，Tolmo 安全研究员&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;问题的核心在于 Anthropic 的 guardrails 实现方式。Valentina &amp;ldquo;Chompie&amp;rdquo; Palmiotti（IBM X-Force）测试发现，Fable 会自动降级为 Opus 4.8 响应触碰 guardrails 的请求。这意味着不仅安全相关的合法工作被阻塞，连软件工程的最佳实践（如安全编码）也被误判为高风险活动。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

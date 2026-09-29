@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>AI Agents on Notex</title>
+		<link>http://localhost:1313/tags/ai-agents/</link>
+		<description>Recent content in AI Agents on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 03 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/ai-agents/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>单层 Transformer 的逆袭、Agent 理想与现实的裂缝、以及 AI 治理的边界</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-03/</link>
+				<pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-03/</guid>
+				<description>&lt;p&gt;单层 Transformer 的逆袭、Agent 理想与现实的裂缝、以及 AI 治理的边界&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-03&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;今天是 2026 年 7 月 3 日，AI 行业的节奏正在微妙地变换。一方面，学术界传来反直觉的突破——单层 Transformer 的强化学习训练竟然能与全参数训练匹敌；另一方面，Zuckerberg 罕见地承认 Agent 开发比预期更慢，而日本最高法裁定 AI 不能作为专利发明人。这几条线索串起了今天的核心叙事：&lt;strong&gt;AI 的能力边界正在被更精确地测绘&lt;/strong&gt;——不是被无限的乐观推高，而是被实验、法律和现实反馈一一校准。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-反直觉的学术突破当单层-transformer-媲美全参数-rl-训练&#34;&gt;&#xA;  🔬 反直觉的学术突破：当单层 Transformer 媲美全参数 RL 训练&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-%e5%8f%8d%e7%9b%b4%e8%a7%89%e7%9a%84%e5%ad%a6%e6%9c%af%e7%aa%81%e7%a0%b4%e5%bd%93%e5%8d%95%e5%b1%82-transformer-%e5%aa%b2%e7%be%8e%e5%85%a8%e5%8f%82%e6%95%b0-rl-%e8%ae%ad%e7%bb%83&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;arXiv 上的一篇新论文（136 分，编号 2607.01232）提出了一个令人惊讶的发现：&lt;strong&gt;训练单个 Transformer 层的强化学习可以匹配全参数 RL 训练的最终性能&lt;/strong&gt;。标题直接发问——&amp;ldquo;Is One Layer Enough?&amp;quot;——而答案是：在某些条件下，是的。&lt;/p&gt;&#xA;&lt;p&gt;论文作者来自中国研究团队（Zijian Zhang, Rizhen Hu, Athanasios G&amp;hellip;），核心发现是：LLM 后训练阶段的 RL 适配并非均匀分布在各层之间。通过对各层的梯度分析，研究者发现上层和下层的更新模式存在显著差异，并且 &lt;strong&gt;仅训练单一层足以捕捉绝大部分 RL 优化信号&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Reinforcement learning has become a central component of post-training large language models yet little is understood about how RL adaptation is distributed across transformer layers.&amp;rdquo; — arXiv 论文摘要&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+			<item>
+				<title>Anthropic&#39;s Two-Punch Day: Sonnet 5 Arrives as Export Controls Lift on Frontier Models</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-02/</link>
+				<pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-02/</guid>
+				<description>&lt;p&gt;Anthropic&amp;rsquo;s Two-Punch Day: Sonnet 5 Arrives as Export Controls Lift on Frontier Models&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-02&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;七月的第一个工作日，AI 行业迎来了一场罕见的&amp;quot;双重冲击&amp;quot;——Anthropic 在同一天发布了 Claude Sonnet 5 并获得了美国商务部对 Fable 5 和 Mythos 5 出口管控的解除。与此同时，中国智谱发布 GLM-5.2 的 ZCode 编程平台、Meta 的非侵入式脑机接口 Brain2Qwerty v2 达到新里程碑、Weave Robotics 正式推出 7999 美元的居家机器人 Isaac 1——这一天的新闻密度之高，几乎涵盖了从前沿研究到地缘政治、从消费级硬件到基础设施治理的每一个维度。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-the-anthropic-supercycle-sonnet-5-与出口解禁的同日共振&#34;&gt;&#xA;  🧠 The Anthropic Supercycle: Sonnet 5 与出口解禁的同日共振&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-the-anthropic-supercycle-sonnet-5-%e4%b8%8e%e5%87%ba%e5%8f%a3%e8%a7%a3%e7%a6%81%e7%9a%84%e5%90%8c%e6%97%a5%e5%85%b1%e6%8c%af&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;如果说今天有一条贯穿性的主线，那就是 Anthropic 完成了从&amp;quot;模型发布&amp;quot;到&amp;quot;政策解禁&amp;quot;的完整闭环。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Claude Sonnet 5&lt;/strong&gt; 是 Anthropic 迄今为止最具&amp;quot;代理性（agentic）&amp;ldquo;的 Sonnet 模型。它在推理、工具使用、编程和知识工作方面比上一代 Sonnet 4.6 有显著提升，在某些任务上甚至接近 Opus 4.8 的水平，而价格仅为 Opus 的约 60%。早期测试者的反馈异常一致：Sonnet 5 会主动完成复杂任务、会自主检查自己的输出、会在不需要提示的情况下进行自我修正——这些在之前的 Sonnet 模型上往往需要人工推动。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

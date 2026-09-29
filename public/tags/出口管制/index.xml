@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>出口管制 on Notex</title>
+		<link>http://localhost:1313/tags/%E5%87%BA%E5%8F%A3%E7%AE%A1%E5%88%B6/</link>
+		<description>Recent content in 出口管制 on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 27 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/%E5%87%BA%E5%8F%A3%E7%AE%A1%E5%88%B6/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>The Government Gate: Frontier AI Enters the Age of Export Control</title>
+				<link>http://localhost:1313/posts/ai-think/2026-06-27/</link>
+				<pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-06-27/</guid>
+				<description>&lt;p&gt;The Government Gate: Frontier AI Enters the Age of Export Control&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-06-27&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;今日的 AI 新闻被一个主题牢牢统治：&lt;strong&gt;政府对前沿模型的控制全面升级&lt;/strong&gt;。OpenAI 发布了 GPT-5.6 Sol 的技术预览，却旋即宣布推迟公开发布，由美国政府决定谁能使用；Anthropic 的 Mythos 5 被禁两周后获准向&amp;quot;受信任合作伙伴&amp;quot;开放，而 Fable 5 仍被封锁。与此同时，开源社区与开发者工具正悄然改变力量格局——开源 LLM 与闭源的差距持续缩小，智能路由工具让中小企业也能以更低成本驾驭多元模型。这不仅仅是新闻，这是 AI 行业权力结构的转折点。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-铁幕落下美国政府正式成为前沿-ai-的守门人&#34;&gt;&#xA;  🔐 铁幕落下：美国政府正式成为前沿 AI 的守门人&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-%e9%93%81%e5%b9%95%e8%90%bd%e4%b8%8b%e7%be%8e%e5%9b%bd%e6%94%bf%e5%ba%9c%e6%ad%a3%e5%bc%8f%e6%88%90%e4%b8%ba%e5%89%8d%e6%b2%bf-ai-%e7%9a%84%e5%ae%88%e9%97%a8%e4%ba%ba&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;两则独立但深度交织的新闻，共同标记了 AI 历史上一个决定性的分水岭。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;OpenAI 公开了 GPT-5.6 Sol 的技术预览&lt;/strong&gt;，但根据路透社和华盛顿邮报的报道，&lt;strong&gt;其公开部署已被推迟&lt;/strong&gt;，因为美国政府坚持要求获得对前沿 AI 模型的&amp;quot;早期准入&amp;quot;审查权。华盛顿邮报的标题直击要害：&amp;ldquo;美国政府将决定谁可以使用最新 ChatGPT&amp;rdquo;。特朗普政府上台时标榜对 AI 采取&amp;quot;自由放任&amp;quot;（laissez-faire）政策，但近几个月来对行业的监管力度急剧加强。&lt;/p&gt;&#xA;&lt;p&gt;同一天，&lt;strong&gt;Anthropic 的 Claude Mythos 5 模型被允许向约 100 家&amp;quot;受信任合作伙伴&amp;quot;（包括大量 Fortune 500 企业）开放&lt;/strong&gt;，这是在政府两周前因国家安全担忧——担心模型被中国、俄罗斯等国军事用户部署——而勒令暂停后的解禁。美国商务部长 Howard Lutnick 在致 Anthropic 的信中表示，Anthropic 已与政府合作&amp;quot;显著降低了相关风险&amp;quot;。但 Fable 5 的状态仍不明朗。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>本地模型崛起、主权 LLM 与 AI 对内容生态的深层震荡</title>
+				<link>http://localhost:1313/posts/ai-think/2026-06-17/</link>
+				<pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-06-17/</guid>
+				<description>&lt;p&gt;本地模型崛起、主权 LLM 与 AI 对内容生态的深层震荡&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-06-17&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;今日的 AI 新闻呈现出三条清晰的结构性主线：&lt;strong&gt;本地模型终于跨过了「可用」的门槛&lt;/strong&gt;，从玩具变成真正的生产力工具；&lt;strong&gt;主权 AI 运动在欧洲加速&lt;/strong&gt;，小国开始用有限的预算构建属于自己语言和价值观的大模型；而&lt;strong&gt;AI 对传统内容产业的冲击已经从「威胁论」变成了可见的财务数据&lt;/strong&gt;——Tim Ferriss 用自己畅销书 80% 的销量崩塌，敲响了「指令型非虚构内容」的丧钟。与此同时，美国政府针对 Anthropic 先进模型的出口管制引发了安全界的强烈反弹，一场关于「谁有权使用最强 AI」的博弈正在上演。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;本地模型终于够好了-一个里程碑时刻&#34;&gt;&#xA;  「本地模型终于够好了」—— 一个里程碑时刻&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e6%9c%ac%e5%9c%b0%e6%a8%a1%e5%9e%8b%e7%bb%88%e4%ba%8e%e5%a4%9f%e5%a5%bd%e4%ba%86-%e4%b8%80%e4%b8%aa%e9%87%8c%e7%a8%8b%e7%a2%91%e6%97%b6%e5%88%bb&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Vicki Boykis 在她的博客中宣布了一个许多人等待已久的结论：&lt;strong&gt;本地模型已经足够好&lt;/strong&gt;。她以一名资深本地模型用户（从 Mistral 7B 到 Qwen 3 MOE）的视角，细致地记录了这个转变的临界点。&lt;/p&gt;&#xA;&lt;p&gt;转折的标志是 OpenAI 的 GPT-OSS 和 Google 的 Gemma 4 系列。她描述了一个客观的衡量标准：「我不再需要反复对照 API 模型的输出来验证本地模型是否正确。」在 Gemma-4-26B-A4B 上，她实现了&lt;strong&gt;约 75% 的前沿模型精度/速度&lt;/strong&gt;——考虑到模型完全运行在她 2022 年的 M2 MacBook 上，这个数字令人震惊。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been working with local models since they came out, and finally, they&amp;rsquo;re surprisingly good now.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+	</channel>
+</rss>

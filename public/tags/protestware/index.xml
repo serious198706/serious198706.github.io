@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Protestware on Notex</title>
+		<link>http://localhost:1313/tags/protestware/</link>
+		<description>Recent content in Protestware on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 29 May 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/protestware/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>当一千亿遇见「AI疲劳」</title>
+				<link>http://localhost:1313/posts/ai-think/2026-05-29/</link>
+				<pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-05-29/</guid>
+				<description>&lt;p&gt;当一千亿遇见「AI疲劳」&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-05-29&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;昨日凌晨，Hacker News 头版的叙事出现了一个罕见的分裂：一边是 Anthropic 宣布完成 650 亿美元 H 轮融资、估值 9650 亿美元的史诗级消息；另一边是多个社区帖子开始系统性地反思 AI 辅助写作的同质化、AI agent 权限的持续叠加、以及一个测试框架作者在 stdout 里写入「Disregard previous instructions」的抗议行动。行业在高歌猛进的同时，某种结构性疲惫感正在浮出水面。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一anthropic-完成-650-亿美元-h-轮估值-9650-亿美元的含义&#34;&gt;&#xA;  一、Anthropic 完成 650 亿美元 H 轮：估值 9650 亿美元的含义&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80anthropic-%e5%ae%8c%e6%88%90-650-%e4%ba%bf%e7%be%8e%e5%85%83-h-%e8%bd%ae%e4%bc%b0%e5%80%bc-9650-%e4%ba%bf%e7%be%8e%e5%85%83%e7%9a%84%e5%90%ab%e4%b9%89&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;：&lt;a href=&#34;https://www.anthropic.com/news/series-h&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Anthropic 官方公告&lt;/a&gt; · &lt;a href=&#34;https://news.ycombinator.com/item?id=48313048&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HN 讨论&lt;/a&gt;（221 讨论，233 分）&lt;/p&gt;&#xA;&lt;p&gt;这是人类历史上最大规模的私募融资之一。Anthropic 的估值在不到两年内从约 180 亿美元膨胀至近万亿，而其 run-rate revenue 已突破 470 亿美元——这个数字已经接近 Salesforce 的企业软件年收入。投资方名单几乎涵盖了你所能想到的所有顶级机构：Sequoia、Altimeter、Dragoneer、Greenoaks，以及来自亚马逊、谷歌、SpaceX 的 150 亿美元承诺算力投资。&lt;/p&gt;&#xA;&lt;h3 id=&#34;这笔融资真正重要的信号&#34;&gt;&#xA;  这笔融资真正重要的信号&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e8%bf%99%e7%ac%94%e8%9e%8d%e8%b5%84%e7%9c%9f%e6%ad%a3%e9%87%8d%e8%a6%81%e7%9a%84%e4%bf%a1%e5%8f%b7&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;1. 算力主权成为新的地缘筹码。&lt;/strong&gt; 本轮的投资结构里，最值得关注的是 Micron、Samsung、SK hynix 三个存储芯片厂商作为战略投资者加入。这不是财务投资——三家加在一起控制着全球 HBM 内存市场约 90% 的份额。Anthropic 同时宣布与亚马逊签署 5GW、与 Google/Broadcom 签署 5GW、与 SpaceX 签署 GPU 集群（Colossus 1 &amp;amp; 2）的算力协议。&lt;strong&gt;算力绑定芯片，芯片绑定地缘&lt;/strong&gt;——这已经是国家级别的基础设施叙事。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

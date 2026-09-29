@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>RTK on Notex</title>
+		<link>http://localhost:1313/tags/rtk/</link>
+		<description>Recent content in RTK on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 19 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/rtk/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>人才争夺、地缘博弈与标准之争</title>
+				<link>http://localhost:1313/posts/ai-think/2026-06-19/</link>
+				<pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-06-19/</guid>
+				<description>&lt;p&gt;人才争夺、地缘博弈与标准之争&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-06-19&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日 AI 行业消息密集而多元：从 Transformer 论文合著者 Noam Shazeer 转投 OpenAI 引发的人才地震，到 Anthropic 因 Mythos 模型卷入韩国电信巨头与白宫之间的地缘角力；从开源社区对 RTK 压缩工具泡沫的集体质疑，到 Midjourney 出乎所有人意料地跨界医疗成像。表面纷杂，底层却贯穿着一条清晰的线索：AI 行业正在从&amp;quot;模型能力竞赛&amp;quot;转向&amp;quot;基础设施、地缘与信任的全方位博弈&amp;quot;。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-noam-shazeer-加入-openaitransformer-之父的阵营转换&#34;&gt;&#xA;  🏛️ Noam Shazeer 加入 OpenAI：Transformer 之父的&amp;quot;阵营转换&amp;quot;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-noam-shazeer-%e5%8a%a0%e5%85%a5-openaitransformer-%e4%b9%8b%e7%88%b6%e7%9a%84%e9%98%b5%e8%90%a5%e8%bd%ac%e6%8d%a2&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;原文（Twitter/X）：&lt;a href=&#34;https://twitter.com/NoamShazeer/status/2067400851438932297&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Noam Shazeer 宣布加入 OpenAI&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;HN 讨论：&lt;a href=&#34;https://news.ycombinator.com/item?id=48578913&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;news.ycombinator.com/item?id=48578913&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&amp;ldquo;Attention Is All You Need&amp;rdquo; 的八位合著者之一、Google 历史上最具影响力的研究科学家之一 Noam Shazeer 在 X 上宣布，他将离开 Google 加入 OpenAI。这是继今年早些时候多篇报道称 OpenAI 正在积极挖角 Google 顶尖 AI 人才之后，最重磅的一笔人事变动。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;It was a difficult decision to move on. I&amp;rsquo;m incredibly proud of the amazing team at Google and everything we&amp;rsquo;ve built together.&amp;rdquo; — Noam Shazeer&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+	</channel>
+</rss>

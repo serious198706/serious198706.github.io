@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>MLSTM on Notex</title>
+		<link>http://localhost:1313/tags/mlstm/</link>
+		<description>Recent content in MLSTM on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 02 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/mlstm/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Anthropic&#39;s Two-Punch Day: Sonnet 5 Arrives as Export Controls Lift on Frontier Models</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-02/</link>
+				<pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-02/</guid>
+				<description>&lt;p&gt;Anthropic&amp;rsquo;s Two-Punch Day: Sonnet 5 Arrives as Export Controls Lift on Frontier Models&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-02&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;七月的第一个工作日，AI 行业迎来了一场罕见的&amp;quot;双重冲击&amp;quot;——Anthropic 在同一天发布了 Claude Sonnet 5 并获得了美国商务部对 Fable 5 和 Mythos 5 出口管控的解除。与此同时，中国智谱发布 GLM-5.2 的 ZCode 编程平台、Meta 的非侵入式脑机接口 Brain2Qwerty v2 达到新里程碑、Weave Robotics 正式推出 7999 美元的居家机器人 Isaac 1——这一天的新闻密度之高，几乎涵盖了从前沿研究到地缘政治、从消费级硬件到基础设施治理的每一个维度。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-the-anthropic-supercycle-sonnet-5-与出口解禁的同日共振&#34;&gt;&#xA;  🧠 The Anthropic Supercycle: Sonnet 5 与出口解禁的同日共振&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-the-anthropic-supercycle-sonnet-5-%e4%b8%8e%e5%87%ba%e5%8f%a3%e8%a7%a3%e7%a6%81%e7%9a%84%e5%90%8c%e6%97%a5%e5%85%b1%e6%8c%af&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;如果说今天有一条贯穿性的主线，那就是 Anthropic 完成了从&amp;quot;模型发布&amp;quot;到&amp;quot;政策解禁&amp;quot;的完整闭环。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Claude Sonnet 5&lt;/strong&gt; 是 Anthropic 迄今为止最具&amp;quot;代理性（agentic）&amp;ldquo;的 Sonnet 模型。它在推理、工具使用、编程和知识工作方面比上一代 Sonnet 4.6 有显著提升，在某些任务上甚至接近 Opus 4.8 的水平，而价格仅为 Opus 的约 60%。早期测试者的反馈异常一致：Sonnet 5 会主动完成复杂任务、会自主检查自己的输出、会在不需要提示的情况下进行自我修正——这些在之前的 Sonnet 模型上往往需要人工推动。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Yann LeCun on Notex</title>
+		<link>http://localhost:1313/tags/yann-lecun/</link>
+		<description>Recent content in Yann LeCun on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 18 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/yann-lecun/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>开源模型攻占生产端，AI 语音欺诈进入&#34;三秒时代&#34;</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-18/</link>
+				<pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-18/</guid>
+				<description>&lt;p&gt;开源模型攻占生产端，AI 语音欺诈进入&amp;quot;三秒时代&amp;quot;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-18&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日 AI 领域呈现出罕见的&amp;quot;冰火两重天&amp;quot;：一边是 Mozilla 发布的《State of Open Source AI》报告用数据证明开源模型已从&amp;quot;备选&amp;quot;变为&amp;quot;主流&amp;quot;，生产端超过半数 token 流经开源权重；另一边，AI 语音克隆欺诈以年均 893 亿美元的损失迫使 FBI 首次单独设立&amp;quot;AI 欺诈&amp;quot;统计类别，连全球顶尖的深度伪造鉴定专家都自认&amp;quot;失明&amp;quot;。在中间地带，AI agent 安全被首次明确定义为&amp;quot;系统问题&amp;quot;，而 Yann LeCun 则在巴黎的新实验室里押注世界模型，与整个 LLM 范式分道扬镳。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一开源模型的分水岭时刻mozilla-年度报告揭示的真相&#34;&gt;&#xA;  一、开源模型的&amp;quot;分水岭时刻&amp;quot;：Mozilla 年度报告揭示的真相&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80%e5%bc%80%e6%ba%90%e6%a8%a1%e5%9e%8b%e7%9a%84%e5%88%86%e6%b0%b4%e5%b2%ad%e6%97%b6%e5%88%bbmozilla-%e5%b9%b4%e5%ba%a6%e6%8a%a5%e5%91%8a%e6%8f%ad%e7%a4%ba%e7%9a%84%e7%9c%9f%e7%9b%b8&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Mozilla 的首份《State of Open Source AI》报告并非又一篇乐观的宣言。它是一份坦诚的&amp;quot;地图&amp;quot;——标记了开源 AI 在哪里真正赢了，又在哪里仍然脆弱。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;核心数据令人震撼：&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;开源与闭源模型的能力差距从 2024 年初的 8.04% 缩至 2025 年 2 月的 0.5%（DeepSeek-R1 短暂超越美国顶尖模型），到 2026 年 3 月因闭源推理模型领先而重新拉开至 3.3%。但 Mozilla 指出，这 3.3% 的平均值掩盖了一个&amp;quot;锯齿状前沿&amp;quot;：开源在编码、指令遵循和通用知识上已与闭源持平，差距集中在推理、长上下文检索和 agentic 任务上。&lt;/li&gt;&#xA;&lt;li&gt;GPT-4 级别推理成本在 36 个月内暴跌 50 倍——从每百万 token 20 美元降至 0.40 美元，速度超过互联网时代的带宽或 PC 计算价格曲线。&lt;/li&gt;&#xA;&lt;li&gt;在 OpenRouter 上，前五大 token 量的模型全部是开源的。到 2026 年中，排名前九的模型周 token 量约为 18T（中国模型）对 5.5T（美国模型），比例超过 3:1。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;开发者通过成本路由，他们路由到开源权重。这不是一种妥协，而是工作发生的地方。&amp;rdquo; —— Mozilla CTO Raffi Krikorian&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+			<item>
+				<title>芯片、开源与安全的三岔口</title>
+				<link>http://localhost:1313/posts/ai-think/2026-06-25/</link>
+				<pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-06-25/</guid>
+				<description>&lt;p&gt;芯片、开源与安全的三岔口&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-06-25&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日 AI 领域呈现出前所未有的结构性张力：OpenAI 发布了自研推理芯片，开启了 AI 巨头的硅层垂直整合；GLM-5.2 以开源模型的姿态逼近甚至追平了封闭前沿模型的能力，却在出口管制与安全隐患的夹缝中引发新的地缘博弈；而 NSA 因与 Anthropic 的政治争端失去对大模型 Mythos 的访问权，暴露出 AI 安全政策与国家安全之间的深层矛盾。这三条线索交汇于同一个问题：我们是否正在见证 AI 产业从&amp;quot;能力竞赛&amp;quot;转向&amp;quot;基础设施主权竞赛&amp;quot;？&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;openai-的-jalapeño-芯片垂直整合进入硅时代&#34;&gt;&#xA;  OpenAI 的 Jalapeño 芯片：垂直整合进入硅时代&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#openai-%e7%9a%84-jalape%c3%b1o-%e8%8a%af%e7%89%87%e5%9e%82%e7%9b%b4%e6%95%b4%e5%90%88%e8%bf%9b%e5%85%a5%e7%a1%85%e6%97%b6%e4%bb%a3&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;OpenAI 与 Broadcom 合作推出了自研推理芯片 &lt;strong&gt;Jalapeño&lt;/strong&gt;，标志着 AI 公司从模型层向硅层的彻底渗透。这是自 Google 的 TPU 和 Amazon 的 Trainium 之后，最引人注目的 AI 专用芯片入局。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;核心分析：全栈经济学的胜利&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Jalapeño 专为推理（inference）设计，而非训练。这一选择本身就是深刻的经济学信号——OpenAI 已经意识到，随着 AI 使用规模爆发，推理成本将成为商业模式的核心瓶颈。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;OpenAI 不仅仅在开发前沿模型或构建其上的产品；它正在设计它们之下的整个基础设施：芯片架构、内核、内存系统、网络、调度、部署系统和产品体验。因为 OpenAI 跨全栈运作，每一层都可以围绕同一个目标优化：让模型更快、更可靠、更实惠。&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;这段来自 OpenAI 公告的自述，实际上定义了下一代 AI 公司的竞争范式——不再是模型性能的单点竞赛，而是从芯片到用户体验的七层闭环优化。每减少一点推理成本，都能在亿级调用量上转化为数亿美元的竞争力改善。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Nvidia 的噩梦与 Broadcom 的机遇&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Jalapeño 对 Nvidia 的威胁比对 Google TPU 的更直接——OpenAI 是 Nvidia 最大的推理客户之一。但更值得注意的是 Broadcom 的角色：这家公司正在成为 AI 定制芯片的&amp;quot;台积电模式&amp;quot;——帮助各家公司设计自己的芯片而不自行运营云服务。与 Google 的&amp;quot;自己做自己用&amp;quot;或 Amazon 的&amp;quot;做给自己也卖给外人&amp;quot;不同，Broadcom 在制造 ASIC 的同时不碰模型，这使其成为 AI 公司实现芯片自制的最便捷路径。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

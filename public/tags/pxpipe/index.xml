@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Pxpipe on Notex</title>
+		<link>http://localhost:1313/tags/pxpipe/</link>
+		<description>Recent content in Pxpipe on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 04 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/pxpipe/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>嵌入坍缩、成本博弈与 AI 安全的新战场</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-04/</link>
+				<pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-04/</guid>
+				<description>&lt;p&gt;嵌入坍缩、成本博弈与 AI 安全的新战场&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-04&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;今天是 2026 年 7 月 4 日。今天的新闻勾勒出 AI 行业一个深刻的悖论：&lt;strong&gt;我们同时在为 AI 太贵和太便宜寻找解决方案&lt;/strong&gt;。一方面，pxpipe 用&amp;quot;文本转图像&amp;quot;的奇招把 Claude Fable 调用成本砍掉 60%；另一方面，Jamesob 正在花费 $40k 搭建本地 SOTA 集群以彻底摆脱 API 计价。与此同时，学术界的 ICML 2026 论文揭示了小语言模型性能差距的几何学根源——嵌入坍缩（embedding condensation），而 Anthropic 的 Claude Mythos Preview 引发的 CVE 数量暴增 3.5 倍，正式宣告了&amp;quot;AI 发现漏洞&amp;quot;从预告片变成了实况转播。AI 的成本、架构与安全，正在同一天汇聚成三个不同的前线。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-成本的奇点从-api-降本到完全独立两个世界的故事&#34;&gt;&#xA;  💸 成本的奇点：从 API 降本到完全独立——两个世界的故事&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-%e6%88%90%e6%9c%ac%e7%9a%84%e5%a5%87%e7%82%b9%e4%bb%8e-api-%e9%99%8d%e6%9c%ac%e5%88%b0%e5%ae%8c%e5%85%a8%e7%8b%ac%e7%ab%8b%e4%b8%a4%e4%b8%aa%e4%b8%96%e7%95%8c%e7%9a%84%e6%95%85%e4%ba%8b&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;今天的 HN 上出现了两条关于成本的帖子，它们的分差之大本身就是一条新闻。&lt;/p&gt;&#xA;&lt;h3 id=&#34;方法一pxpipe用图像压缩欺骗计价器&#34;&gt;&#xA;  方法一：pxpipe——用图像压缩&amp;quot;欺骗&amp;quot;计价器&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e6%96%b9%e6%b3%95%e4%b8%80pxpipe%e7%94%a8%e5%9b%be%e5%83%8f%e5%8e%8b%e7%bc%a9%e6%ac%ba%e9%aa%97%e8%ae%a1%e4%bb%b7%e5%99%a8&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;pxpipe（HN 225 分）的故事堪称 2026 年最符合黑客精神的 AI 降本方案。它的核心洞察简洁到令人震惊：&lt;strong&gt;模型对图像中文字的读取成本远低于对原始文本的处理成本&lt;/strong&gt;。具体来说，Claude Fable 对图像的收费取决于像素尺寸而非文字密度——一张 1928×1928 像素的 PNG 图片大约消耗 4,761 个 vision token，却能容纳约 92,000 个字符。而同样的文本作为原生 text token 处理时，需要大约 48,000 个 token。这意味着&lt;strong&gt;图像编码的&amp;quot;压缩比&amp;quot;约为 10:1&lt;/strong&gt;。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

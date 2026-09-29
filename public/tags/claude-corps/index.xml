@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Claude Corps on Notex</title>
+		<link>http://localhost:1313/tags/claude-corps/</link>
+		<description>Recent content in Claude Corps on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 16 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/claude-corps/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Anthropic 的「社会契约」实验：从 Claude Corps 到 AI 治理框架</title>
+				<link>http://localhost:1313/posts/ai-think/2026-06-16/</link>
+				<pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-06-16/</guid>
+				<description>&lt;p&gt;Anthropic 的「社会契约」实验：从 Claude Corps 到 AI 治理框架&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-06-16&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;今日 AI 领域最引人注目的信号来自 Anthropic——这家公司同时发布了两个看似方向迥异、实则互为表里的重磅动作：一个面向基层的全国性公益 fellowship 项目 Claude Corps，和一个面向华盛顿的 AI 治理政策框架。前者承诺投入 1.5 亿美元、培训 1000 名青年在 400 家非营利组织中使用 Claude；后者则呼吁政府获得「阻止危险 AI 部署」的法律权力。与此同时，社区中关于本地模型替代闭源 API 的讨论日趋成熟，欧洲主权 AI 的可行性分析也给出了令人意外的乐观结论。这些事件共同勾勒出 AI 行业从「模型竞赛」向「社会嵌入」转型的轮廓。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一claude-corpsai-公司的和平队实验&#34;&gt;&#xA;  一、Claude Corps：AI 公司的「和平队」实验&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80claude-corpsai-%e5%85%ac%e5%8f%b8%e7%9a%84%e5%92%8c%e5%b9%b3%e9%98%9f%e5%ae%9e%e9%aa%8c&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Anthropic 宣布启动 &lt;a href=&#34;https://www.anthropic.com/news/claude-corps&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Claude Corps&lt;/a&gt;，一个为期 12 个月的全职 fellowship 项目。入选者将获得 8.5 万美元年薪 + 福利，接受 Anthropic 和 CodePath 的培训后，被派往全美 400 多家非营利组织，帮助它们用 Claude 推进使命。首批 100 人将于 2026 年 10 月启动，项目总投入 1.5 亿美元。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;The benefits of transformative AI systems could come at the cost of significant disruption. The companies building this technology have a responsibility to make sure the benefits are fully realized and widely shared.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+	</channel>
+</rss>

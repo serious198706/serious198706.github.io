@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>能源-AI on Notex</title>
+		<link>http://localhost:1313/tags/%E8%83%BD%E6%BA%90-ai/</link>
+		<description>Recent content in 能源-AI on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 11 May 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/%E8%83%BD%E6%BA%90-ai/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>边缘智能的普及化与基础设施的重塑</title>
+				<link>http://localhost:1313/posts/ai-think/2026-05-11/</link>
+				<pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-05-11/</guid>
+				<description>&lt;h1 id=&#34;边缘智能的普及化与基础设施的重塑&#34;&gt;&#xA;  边缘智能的普及化与基础设施的重塑&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e8%be%b9%e7%bc%98%e6%99%ba%e8%83%bd%e7%9a%84%e6%99%ae%e5%8f%8a%e5%8c%96%e4%b8%8e%e5%9f%ba%e7%a1%80%e8%ae%be%e6%96%bd%e7%9a%84%e9%87%8d%e5%a1%91&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-05-11&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;本周的AI生态正在经历一场从云端中心化模型向边缘设备本地化部署（Local AI）的重大趋势转移。从个人电脑到智能电网，AI不再是遥不可及的云端服务，而是深入到日常基础设施和个人终端的“新常态”。与此同时，AI的发展高度依赖巨额的算力投入，使得能源、政策和物理基础设施（如电网）的战略地位被空前抬高。本期分析侧重于探讨这种“本地化-能源化”的结构性变局。&lt;/p&gt;&#xA;&lt;h3 id=&#34;-本地化ai从概念走向终端实践&#34;&gt;&#xA;  🚀 &lt;strong&gt;本地化AI：从概念走向终端实践&lt;/strong&gt;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-%e6%9c%ac%e5%9c%b0%e5%8c%96ai%e4%bb%8e%e6%a6%82%e5%bf%b5%e8%b5%b0%e5%90%91%e7%bb%88%e7%ab%af%e5%ae%9e%e8%b7%b5&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;文章：《Local AI needs to be the norm》和《Running local models on an M4 with 24GB memory》共同指向了一个核心趋势：AI能力的民主化和个人化。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;核心洞察：&lt;/strong&gt; 过去AI模型部署的瓶颈不在于算法本身，而在于数据传输延迟和隐私泄露风险。M4芯片等专业级本地硬件平台的崛起，使得运行复杂模型成为可以量化的、日常可接受的性能指标。这种“On-Device Intelligence”正在重塑人机交互的底层逻辑。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;深入思考：&lt;/strong&gt; 本地化不仅仅是性能的提升，更是一场用户体验和数据主权的革命。它意味着用户从“租用AI能力”转变为“拥有AI算力”，将数据的控制权牢牢抓回自己手中。厂商的竞争焦点正从“模型参数量”转向“本地优化包”和“生态粘性”，形成了一个更深层次的平台竞争。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;“AI的未来，是用最少的算力，解决用户眼前最实际的痛点。”&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-能源-算力三角电网升级与ai的数据权博弈&#34;&gt;&#xA;  💡 &lt;strong&gt;能源-算力三角：电网升级与AI的数据权博弈&lt;/strong&gt;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-%e8%83%bd%e6%ba%90-%e7%ae%97%e5%8a%9b%e4%b8%89%e8%a7%92%e7%94%b5%e7%bd%91%e5%8d%87%e7%ba%a7%e4%b8%8eai%e7%9a%84%e6%95%b0%e6%8d%ae%e6%9d%83%e5%8d%9a%e5%bc%88&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;文章：《Maryland citizens hit with $2B power grid upgrade for out-of-state AI》直接将AI的发展推到了国家基础设施的层面。这不仅仅是一个技术报道，更是一个经济和政策博弈的缩影。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;核心洞察：&lt;/strong&gt; AI巨头的AI模型训练和数据中心集群带来的算力渴求，已经成为无法忽视的“能源负荷”。电网升级必须为AI数据中心留出足够的“算力腹地”。在地方治理层面，成本分摊机制（ratepayer protection）和数据源地的认定成为最激烈的矛盾点。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;深度分析：&lt;/strong&gt; AI产业的资本化进程，正在成为一次对现有公共基础设施的“强制增值服务”。其影响是多维度的：它迫使政府、电网公司、AI企业重构传统的运营模式，甚至可能催生出“算力配额制”作为新的公用事业管理体系。政策的滞后性和成本的内部消化是目前最大的风险点。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;“AI的飞轮效应，正在成为电网的物理负荷，迫使我们重新定义‘公共资源’的边界。”&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-ai与创意工作流工具的普及与行业流程的重塑&#34;&gt;&#xA;  🎨 &lt;strong&gt;AI与创意工作流：工具的普及与行业流程的重塑&lt;/strong&gt;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-ai%e4%b8%8e%e5%88%9b%e6%84%8f%e5%b7%a5%e4%bd%9c%e6%b5%81%e5%b7%a5%e5%85%b7%e7%9a%84%e6%99%ae%e5%8f%8a%e4%b8%8e%e8%a1%8c%e4%b8%9a%e6%b5%81%e7%a8%8b%e7%9a%84%e9%87%8d%e5%a1%91&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;文章：《PS3 Emulator Devs Politely Ask That People Stop Flooding It with AI PRs》侧面描绘了AI在创作和开发生态中的困境与兴奋。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

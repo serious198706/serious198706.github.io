@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>AI编程 on Notex</title>
+		<link>http://localhost:1313/tags/ai%E7%BC%96%E7%A8%8B/</link>
+		<description>Recent content in AI编程 on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 14 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/ai%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Apple 的语音模型超越 Whisper，AI 编程进入量化时代</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-14/</link>
+				<pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-14/</guid>
+				<description>&lt;p&gt;Apple 的语音模型超越 Whisper，AI 编程进入量化时代&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-14&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日 AI 领域呈现出三条清晰的主线：苹果以第一方硬件的绝对优势，在端侧语音识别上超越了 OpenAI 的 Whisper 模型；AI 编程工具从&amp;quot;能用&amp;quot;走向&amp;quot;可量化&amp;quot;——微软的实证研究证明了 CLI 智能体提升 24% 的合并 PR 率，而 Jacquard 语言则从语言层面重构了人机协作代码的信任模型；与此同时，Samsung Health 的&amp;quot;数据换 AI&amp;quot;条款引发了关于用户数据主权的激烈讨论，提醒我们 AI 的每一点进步都在重塑数字权利的边界。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-苹果的沉默杀手speechanalyzer-如何用-212-wer-碾压-whisper&#34;&gt;&#xA;  🎤 苹果的沉默杀手：SpeechAnalyzer 如何用 2.12% WER 碾压 Whisper&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-%e8%8b%b9%e6%9e%9c%e7%9a%84%e6%b2%89%e9%bb%98%e6%9d%80%e6%89%8bspeechanalyzer-%e5%a6%82%e4%bd%95%e7%94%a8-212-wer-%e7%a2%be%e5%8e%8b-whisper&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Apple 在 iOS 26 / macOS 26 中悄然推出了新的语音 API——&lt;code&gt;SpeechAnalyzer&lt;/code&gt; 和 &lt;code&gt;SpeechTranscriber&lt;/code&gt;，取代了旧有的 &lt;code&gt;SFSpeechRecognizer&lt;/code&gt;。但直到今天，第三方应用 Inscribe 才发布了第一篇真正意义上的独立基准测试，结果令人震惊。&lt;/p&gt;&#xA;&lt;p&gt;在 5,559 条 LibriSpeech 标准测试集上，苹果的新引擎在 &lt;strong&gt;test-clean 上达到 2.12% 的词错误率&lt;/strong&gt;，远低于 Whisper Small 的 3.74%，同时速度快了约 3 倍。更惊人的是与上一代 SFSpeechRecognizer 对比：新旧之间的差距不是渐进式的——&lt;strong&gt;错误率降低了 3.5 到 4 倍&lt;/strong&gt;，从 9.02% 直降到 2.12%。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

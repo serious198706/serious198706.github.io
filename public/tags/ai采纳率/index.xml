@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>AI采纳率 on Notex</title>
+		<link>http://localhost:1313/tags/ai%E9%87%87%E7%BA%B3%E7%8E%87/</link>
+		<description>Recent content in AI采纳率 on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 15 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/ai%E9%87%87%E7%BA%B3%E7%8E%87/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>监管反噬、开源突围与 AI 的\&#34;人设危机\</title>
+				<link>http://localhost:1313/posts/ai-think/2026-06-15/</link>
+				<pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-06-15/</guid>
+				<description>&lt;p&gt;监管反噬、开源突围与 AI 的&amp;quot;人设危机&amp;quot;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-06-15&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日的 AI 新闻呈现出一种罕见的张力：一面是 Anthropic 亲历的监管反噬与 Claude 的&amp;quot;人设崩塌&amp;quot;，另一面是 GLM-5.2 高举开源大旗的全员突围。在对 AI 的狂热宣传与公众实际使用之间，裂痕正在扩大——而警察用 AI 造伪证、KPMG 用 AI 写满幻觉的报告这些黑色幽默般的真实事件，给整个行业投下了长长的阴影。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一当监管巨兽吞噬自己的造物主anthropic-求仁得仁&#34;&gt;&#xA;  一、当监管巨兽吞噬自己的造物主：&amp;ldquo;Anthropic 求仁得仁&amp;rdquo;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80%e5%bd%93%e7%9b%91%e7%ae%a1%e5%b7%a8%e5%85%bd%e5%90%9e%e5%99%ac%e8%87%aa%e5%b7%b1%e7%9a%84%e9%80%a0%e7%89%a9%e4%b8%bbanthropic-%e6%b1%82%e4%bb%81%e5%be%97%e4%bb%81&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;如果说 2026 年有一堂&amp;quot;游说监管的意外后果&amp;quot;课，Anthropic 刚刚修完了学分。两篇相互呼应的文章构成了今日最引人深思的叙事弧线。&lt;/p&gt;&#xA;&lt;p&gt;在《Did Anthropic ask for this?》中，作者 SE Gyges 逐条对照 Anthropic CEO Dario Amodei 多年来呼吁的 AI 监管蓝图——&amp;ldquo;政府应有权阻止或延缓部署被认为存在不可接受风险的模型&amp;rdquo;——与美国政府实际采取的行动。结论令人不安但难以辩驳：Anthropic 的确一字一句地要求了这一切。当 Amazon 以国家安全承包商的身份评估 Claude 的&amp;quot;网络安全风险&amp;quot;，当财政部以此为由限制 Anthropic 向外国人提供最新模型访问权限时，Amodei 发现自己正是自己设计的监管机器的猎物。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The government should have the power to block or deter deployment of the model if it is determined, in light of third-party assessment, to present unacceptable risks.&#xA;— Dario Amodei, Anthropic CEO (亲自写下的监管蓝图)&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+	</channel>
+</rss>

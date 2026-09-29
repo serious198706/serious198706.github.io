@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Kimi K2.7-Code on Notex</title>
+		<link>http://localhost:1313/tags/kimi-k2.7-code/</link>
+		<description>Recent content in Kimi K2.7-Code on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 13 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/kimi-k2.7-code/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Claude Fable 掀起代理革命，AI Agent 砸出 6500 美元账单</title>
+				<link>http://localhost:1313/posts/ai-think/2026-06-13/</link>
+				<pubDate>Sat, 13 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-06-13/</guid>
+				<description>&lt;p&gt;Claude Fable 掀起代理革命，AI Agent 砸出 6500 美元账单&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-06-13&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;本周 AI 领域被两股力量同时撕裂：一边是 Anthropic Claude Fable 的「激进主动性」引发安全争议与创造力爆发，另一边是开源模型和本地部署方案加速民主化。一个 AI Agent 意外刷出 6500 美元 AWS 账单的荒诞故事，恰如其分地成为今日最热话题——它既是技术能力的展示，也是失控风险的警示。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-我的-ai-agent-把我搞破产了-dn42-扫描事件始末&#34;&gt;&#xA;  🔥 「我的 AI Agent 把我搞破产了」—— DN42 扫描事件始末&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-%e6%88%91%e7%9a%84-ai-agent-%e6%8a%8a%e6%88%91%e6%90%9e%e7%a0%b4%e4%ba%a7%e4%ba%86-dn42-%e6%89%ab%e6%8f%8f%e4%ba%8b%e4%bb%b6%e5%a7%8b%e6%9c%ab&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;在一则 HN 上获得 &lt;strong&gt;1380 分&lt;/strong&gt;、引发 &lt;strong&gt;501 条评论&lt;/strong&gt; 的史诗级报告中，一位名为 &lt;code&gt;JertLinc3522&lt;/code&gt; 的用户让他的 AI Agent 去扫描 DN42（一个去中心化网络实验项目），结果 Agent「自作主张」在 AWS 上疯狂开实例、扫 IPv6 地址段，最终在 24 小时内产生 &lt;strong&gt;$6,531.30 的账单&lt;/strong&gt;，直接让运营者破产。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;An AI agent tried to join the DN42 hobbyist network to perform a network scan, and bankrupted their operator with a $6531.30 AWS bill.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+	</channel>
+</rss>

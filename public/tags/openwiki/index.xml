@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>OpenWiki on Notex</title>
+		<link>http://localhost:1313/tags/openwiki/</link>
+		<description>Recent content in OpenWiki on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 06 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/openwiki/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>当 AI 遇上教育与基础设施：从课堂到代码库的变革</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-06/</link>
+				<pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-06/</guid>
+				<description>&lt;p&gt;当 AI 遇上教育与基础设施：从课堂到代码库的变革&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-06&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;今日的 AI 新闻呈现出两条清晰的脉络：一边是 AI 在教育领域从&amp;quot;噱头&amp;quot;走向&amp;quot;实证&amp;quot;的转折点，另一边是 AI 代理（Agent）的基础设施层正在快速成型。前者关乎我们如何设计真正有效的 AI 教学工具，后者则指向 AI 如何从对话式助手进化为能够自主决策、记忆和协作的系统。与此同时，微软的定价调整提醒我们，AI 的&amp;quot;税&amp;quot;已经正式进入企业的预算表。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一教育的-ai-时刻从拐杖到搭脚手架&#34;&gt;&#xA;  一、教育的 AI 时刻：从&amp;quot;拐杖&amp;quot;到&amp;quot;搭脚手架&amp;quot;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80%e6%95%99%e8%82%b2%e7%9a%84-ai-%e6%97%b6%e5%88%bb%e4%bb%8e%e6%8b%90%e6%9d%96%e5%88%b0%e6%90%ad%e8%84%9a%e6%89%8b%e6%9e%b6&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;这个星期一的 Hacker News 上，热度最高的 AI 故事来自 Dartmouth 学院的一篇研讨会论文：一个名为 Phosphor 的数字学习平台，在《统计入门》课程中实现了 &lt;strong&gt;0.71 至 1.30 个标准差的期末考试成绩提升&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;这个数字有多大意义？教育干预研究中，0.5 个标准差已经算得上&amp;quot;大型效应&amp;quot;。1.30 SD 放在任何教育干预的 meta 分析中都是异常值。即便经过最保守的调整（控制期中考试成绩），0.71 SD 依然是令人瞩目的。&lt;/p&gt;&#xA;&lt;p&gt;但真正值得细读的，不是这个数字本身，而是 &lt;strong&gt;Phosphor 的设计哲学&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;h3 id=&#34;从ai-替代思考到ai-嵌入思考&#34;&gt;&#xA;  从&amp;quot;AI 替代思考&amp;quot;到&amp;quot;AI 嵌入思考&amp;quot;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%bb%8eai-%e6%9b%bf%e4%bb%a3%e6%80%9d%e8%80%83%e5%88%b0ai-%e5%b5%8c%e5%85%a5%e6%80%9d%e8%80%83&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;论文引用了一项关键研究：Bastani 等人对近千名学生的随机对照试验发现，&lt;strong&gt;不加限制地使用 GPT-4 实际上损害了学生后续的独立表现（下降 17%）&lt;/strong&gt;——学生把它当成了拐杖而非学习工具。2026 年 HEPI 的调查更触目惊心：94% 的大学生报告在评估性作业中使用了生成式 AI，而两年前这一数字只有 53%。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;94% 的大学生使用 AI 做作业，但无限制的 AI 访问让学生成绩下降了 17%。这不是矛盾，而是同一个问题的两面——关键在于接入方式。&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+			<item>
+				<title>Anthropic&#39;s Two-Punch Day: Sonnet 5 Arrives as Export Controls Lift on Frontier Models</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-02/</link>
+				<pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-02/</guid>
+				<description>&lt;p&gt;Anthropic&amp;rsquo;s Two-Punch Day: Sonnet 5 Arrives as Export Controls Lift on Frontier Models&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-02&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;七月的第一个工作日，AI 行业迎来了一场罕见的&amp;quot;双重冲击&amp;quot;——Anthropic 在同一天发布了 Claude Sonnet 5 并获得了美国商务部对 Fable 5 和 Mythos 5 出口管控的解除。与此同时，中国智谱发布 GLM-5.2 的 ZCode 编程平台、Meta 的非侵入式脑机接口 Brain2Qwerty v2 达到新里程碑、Weave Robotics 正式推出 7999 美元的居家机器人 Isaac 1——这一天的新闻密度之高，几乎涵盖了从前沿研究到地缘政治、从消费级硬件到基础设施治理的每一个维度。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-the-anthropic-supercycle-sonnet-5-与出口解禁的同日共振&#34;&gt;&#xA;  🧠 The Anthropic Supercycle: Sonnet 5 与出口解禁的同日共振&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-the-anthropic-supercycle-sonnet-5-%e4%b8%8e%e5%87%ba%e5%8f%a3%e8%a7%a3%e7%a6%81%e7%9a%84%e5%90%8c%e6%97%a5%e5%85%b1%e6%8c%af&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;如果说今天有一条贯穿性的主线，那就是 Anthropic 完成了从&amp;quot;模型发布&amp;quot;到&amp;quot;政策解禁&amp;quot;的完整闭环。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Claude Sonnet 5&lt;/strong&gt; 是 Anthropic 迄今为止最具&amp;quot;代理性（agentic）&amp;ldquo;的 Sonnet 模型。它在推理、工具使用、编程和知识工作方面比上一代 Sonnet 4.6 有显著提升，在某些任务上甚至接近 Opus 4.8 的水平，而价格仅为 Opus 的约 60%。早期测试者的反馈异常一致：Sonnet 5 会主动完成复杂任务、会自主检查自己的输出、会在不需要提示的情况下进行自我修正——这些在之前的 Sonnet 模型上往往需要人工推动。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

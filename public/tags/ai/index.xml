@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>AI on Notex</title>
+		<link>http://localhost:1313/tags/ai/</link>
+		<description>Recent content in AI on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 22 Apr 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>1. AI 时代浪潮下，人类怎样才不会被取代？</title>
+				<link>http://localhost:1313/posts/ai-think/2026-04-22/</link>
+				<pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-04-22/</guid>
+				<description>&lt;p&gt;知道 AI 可怕之处的人，恐怕都在思索这个问题。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

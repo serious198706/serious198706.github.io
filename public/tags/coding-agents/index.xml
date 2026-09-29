@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Coding Agents on Notex</title>
+		<link>http://localhost:1313/tags/coding-agents/</link>
+		<description>Recent content in Coding Agents on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 19 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/coding-agents/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Claude Code 的经济奇迹与 AI 治理的分水岭时刻</title>
+				<link>http://localhost:1313/posts/ai-think/2026-08-19/</link>
+				<pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-08-19/</guid>
+				<description>&lt;p&gt;Claude Code 的经济奇迹与 AI 治理的分水岭时刻&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-08-19&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日 Hacker News 上的 AI 讨论呈现出一幅耐人寻味的双面图景：一面是 Claude Code 生态的井喷式增长——使用量飙升、限额促销持续延长、用户已用 2000 亿 token 让 AI Agent 反编译《现代战争 2》；另一面则是 OpenAI 因安全事件暂停前沿模型训练、挪威买下 OpenAI 的激进提案引发 200+ 条讨论。这两条线索共同指向同一个核心问题：当 AI 能力以指数级加速时，我们的治理框架、商业模式乃至整个行业的节奏感，都正在被重新定义。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一claude-code-生态从编码助手到虚拟劳动力的跃迁&#34;&gt;&#xA;  一、Claude Code 生态：从编码助手到&amp;quot;虚拟劳动力&amp;quot;的跃迁&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80claude-code-%e7%94%9f%e6%80%81%e4%bb%8e%e7%bc%96%e7%a0%81%e5%8a%a9%e6%89%8b%e5%88%b0%e8%99%9a%e6%8b%9f%e5%8a%b3%e5%8a%a8%e5%8a%9b%e7%9a%84%e8%b7%83%e8%bf%81&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;今日 HN 上 Claude Code 相关的内容占据了 AI 讨论的半壁江山，而这绝非偶然。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Anthropic 将 50% 额度提升促销延至 8 月 19 日&lt;/strong&gt;（251 pts, 219 评论），这已是第三次延期。从 5 月 13 日推出以来，这个本应于 7 月结束的促销被不断拉长，背后反映的是用户需求的爆炸式增长。与此同时，Anthropic 在 5 月 6 日永久性地将 Pro/Max/Team 用户的 5 小时限制翻倍，并移除了高峰时段限流。用一句话概括：&lt;strong&gt;Claude Code 的使用量增长超出了 Anthropic 自己最乐观的预期。&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Open Weight Battleground: Geopolitics, Efficiency, and the Limits of the &#34;Lights-Off&#34; Factory</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-24/</link>
+				<pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-24/</guid>
+				<description>&lt;p&gt;Open Weight Battleground: Geopolitics, Efficiency, and the Limits of the &amp;ldquo;Lights-Off&amp;rdquo; Factory&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-24&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;今日 AI 领域的三条叙事线交织在一起，构成了 2026 年 7 月 24 日最值得关注的图景：&lt;strong&gt;开源权重模型的地缘政治角力&lt;/strong&gt;、&lt;strong&gt;模型路由与集成系统对专有模型经济学的挑战&lt;/strong&gt;，以及 &lt;strong&gt;AI 编码代理在生产中暴露出的结构性局限&lt;/strong&gt;。这些故事共同指向一个信号：AI 行业的&amp;quot;easy wins&amp;quot;正在被消耗殆尽，真正的结构性矛盾——从地缘裂痕到模型能力的边界——开始浮出水面。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一中国开源权重封杀还是拥抱&#34;&gt;&#xA;  一、中国开源权重：封杀还是拥抱？&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80%e4%b8%ad%e5%9b%bd%e5%bc%80%e6%ba%90%e6%9d%83%e9%87%8d%e5%b0%81%e6%9d%80%e8%bf%98%e6%98%af%e6%8b%a5%e6%8a%b1&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Startup founders urge U.S. government not to shut off Chinese open weight AI&lt;/a&gt; — POLITICO（684 points, 613 comments）&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The arguments against open source AI are bad&lt;/a&gt; — tombedor.dev（185 points, 133 comments）&lt;/li&gt;&#xA;&lt;li&gt;HN 讨论：&lt;a href=&#34;https://news.ycombinator.com/item?id=49023016&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;49023016&lt;/a&gt; | &lt;a href=&#34;https://news.ycombinator.com/item?id=49024643&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;49024643&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;POLITICO 今日报道称，随着 Trump 政府加大对中国 AI 企业的审查力度，一大批初创公司创始人正在联合呼吁政府不要切断对&lt;strong&gt;中国开源权重模型&lt;/strong&gt;的访问。这些模型（如 GLM-5.2、Kimi K2.7、DeepSeek 系列等）已经成为许多美国小型 AI 公司技术栈中不可或缺的一部分。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Coding Agents, Token Economics, and the Shape of Things to Come</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-13/</link>
+				<pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-13/</guid>
+				<description>&lt;p&gt;Coding Agents, Token Economics, and the Shape of Things to Come&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-13&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日的 AI 新闻呈现出一种罕见的张力：一边是前沿技术正在快速走向务实落地——GPT-5.6 在生产环境中实现了 2.2 倍加速和 27% 成本下降，Fields 奖得主 Terence Tao 用 AI agent 在几小时内复活了尘封二十年的 Java applet；另一边，行业思想者们却在尖锐地反思效率崇拜和 hype 文化。George Hotz 说&amp;quot;我爱 LLM，我恨炒作&amp;quot;，Oana Olteanu 则在布鲁克林的仓库里看到了纸片上的计算机——一个刻意&amp;quot;反有用&amp;quot;的计算未来。当技术足够成熟到可以被严肃地质疑时，它才真正走进了成年期。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;vibe-coding走进数学圣殿terence-tao-的-ai-agent-实验&#34;&gt;&#xA;  「vibe coding」走进数学圣殿：Terence Tao 的 AI agent 实验&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#vibe-coding%e8%b5%b0%e8%bf%9b%e6%95%b0%e5%ad%a6%e5%9c%a3%e6%ae%bfterence-tao-%e7%9a%84-ai-agent-%e5%ae%9e%e9%aa%8c&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;原文：&lt;a href=&#34;https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Old and new apps, via modern coding agents&lt;/a&gt; — Terence Tao&lt;/li&gt;&#xA;&lt;li&gt;HN 讨论：https://news.ycombinator.com/item?id=48880170&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;当世界上最受尊敬的数学家之一开始用 AI coding agent 复活旧代码，这件事本身就值得停下来认真看。&lt;/p&gt;&#xA;&lt;p&gt;Terence Tao 从 1999 年开始用 Java 1.0 编写教学 applet——复变函数可视化、线性代数演示、Besicovitch 集、与 Allen Knutson 合作的 honeycomb applet。这些 applet 随着 Java 在浏览器中的消亡而失效。但在 2026 年 7 月，他花了一下午时间让 AI agent 将它们全部移植到 JavaScript，结果令人震惊：&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

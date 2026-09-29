@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>AI就业 on Notex</title>
+		<link>http://localhost:1313/tags/ai%E5%B0%B1%E4%B8%9A/</link>
+		<description>Recent content in AI就业 on Notex</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 27 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/ai%E5%B0%B1%E4%B8%9A/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>开源权重模型的 Kubernetes 时刻：生态之战与边缘突围</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-27/</link>
+				<pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-27/</guid>
+				<description>&lt;p&gt;开源权重模型的 Kubernetes 时刻：生态之战与边缘突围&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-27&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日 AI 领域呈现出一种罕见的张力：一边是开源权重模型生态的爆发式增长，从 K3 到 GLM-5.2 匹敌封闭前沿模型，到 Anthropic 发现过度约束反而损害模型性能；另一边是开发者社区对 AI 赋能本质的深层反思——从&amp;quot;用 AI 做更多事&amp;quot;到&amp;quot;用 AI 把重要的事做透&amp;quot;。两项核心议题浮出水面：开源模型能否撼动巨头垄断？以及，AI 的真正价值究竟在于规模扩张还是深度聚焦？&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;开源权重模型的kubernetes-时刻生态竞争取代模型竞赛&#34;&gt;&#xA;  开源权重模型的&amp;quot;Kubernetes 时刻&amp;quot;：生态竞争取代模型竞赛&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e5%bc%80%e6%ba%90%e6%9d%83%e9%87%8d%e6%a8%a1%e5%9e%8b%e7%9a%84kubernetes-%e6%97%b6%e5%88%bb%e7%94%9f%e6%80%81%e7%ab%9e%e4%ba%89%e5%8f%96%e4%bb%a3%e6%a8%a1%e5%9e%8b%e7%ab%9e%e8%b5%9b&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;本周最引人深思的论点来自 Mesosphere 联合创始人 Tobi Knaup 的文章。他预言，开源权重模型正在经历 Kubernetes 在 2015 年经历的那个转折点——从一个补充性选项变成行业创新中心。&lt;/p&gt;&#xA;&lt;p&gt;Knaup 的核心论点基于一个关键数据点：Z.ai 的 GLM-5.2 在 SWE-bench Pro 上达到 62.1%，超过了 GPT-5.5 的 58.6%；Moonshot 的 Kimi K3 在 Artificial Analysis 独立评估中与 Opus 4.8 和 GPT-5.5 并列。当开源模型在关键基准上逼近甚至超越封闭模型时，平台转换的临界点就到了。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;一旦一个人们可以自定义的开放平台成为行业中心，没有任何单一供应商能匹敌围绕它的联合创新速度。&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;来源&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Open-weight AI is having its Kubernetes moment&lt;/a&gt; — Tobi Knaup&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=49048034&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HN Discussion&lt;/a&gt; — 398 分，312 条评论&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;深度分析&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>泡沫、玄铁与智能的暗流</title>
+				<link>http://localhost:1313/posts/ai-think/2026-07-07/</link>
+				<pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-07-07/</guid>
+				<description>&lt;p&gt;泡沫、玄铁与智能的暗流&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-07-07&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今日的 AI 新闻图景清晰揭示了一个分野：一面是资本市场对 AI 泡沫的恐慌情绪达到新高度，另一面是技术本身在静默中完成着深刻的自我进化。从 Anthropic 揭示大模型内部涌现的&amp;quot;全局工作空间&amp;quot;，到 AMD 以 4000 美元将旗舰级 AI 推理塞进开发者桌面，再到 Ramp 用 2.1 万家企业数据证明 AI 采纳者实际上在扩招——喧嚣与深度并存的一天，值得逐层拆解。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一泡沫叙事狼真的来了还只是狼的影子&#34;&gt;&#xA;  一、泡沫叙事：狼真的来了，还只是狼的影子？&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%80%e6%b3%a1%e6%b2%ab%e5%8f%99%e4%ba%8b%e7%8b%bc%e7%9c%9f%e7%9a%84%e6%9d%a5%e4%ba%86%e8%bf%98%e5%8f%aa%e6%98%af%e7%8b%bc%e7%9a%84%e5%bd%b1%e5%ad%90&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Oracle 本月已跌超 40%，国际清算银行（BIS）认为 AI 可能摧毁经济，而我们的水壶正煮着这一切的闲话。&amp;rdquo;&#xA;— The Register&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;今天最具话题性的几篇文章共享同一个母题：&lt;strong&gt;AI 泡沫何时破裂？&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;The Register&lt;/strong&gt; 以标志性的英式讽刺勾勒出此刻市场情绪的转折点：Oracle 这家被认为对 AI 泡沫敞口最大的超大规模云商，一个月内市值蒸发超过 40%。国际清算银行在 6 月底发布的报告罕见地发出警告，认为 AI 泡沫可能已濒临破裂边缘，并有拖垮全球经济的风险。Apollo 首席经济学家 Torsten Slok 也在 Fortune 上表示，AI 市场的&amp;quot;痛苦重定价&amp;quot;完全有可能发生。&lt;/p&gt;&#xA;&lt;p&gt;然而，最引人深思的分析来自 Martin Alderson 的 &lt;strong&gt;《GLM 5.2 and the Coming AI Margin Collapse》&lt;/strong&gt;。他提出了一个被主流叙事严重低估的经济学论点：&lt;strong&gt;训练成本只是固定的一次性支出，真正的结构性挑战在推理侧。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;当 Anthropic/OpenAI 对推理收取 25 美元/百万 token 时，我的餐巾纸计算表明，这相比机架成本大概有 90% 的毛利率。前沿实验室的整个商业模式是：花大笔钱训练模型，然后用利润率极高的推理服务摊薄成本。&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+			<item>
+				<title>效率革命与信任重构：当小模型击败巨无霸时，Agent 的基础设施正在被重写</title>
+				<link>http://localhost:1313/posts/ai-think/2026-06-23/</link>
+				<pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/ai-think/2026-06-23/</guid>
+				<description>&lt;p&gt;效率革命与信任重构：当小模型击败巨无霸时，Agent 的基础设施正在被重写&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;2026-06-23&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;今天的 AI 新闻呈现出一幅引人深思的图景：行业正在从&amp;quot;越大越好&amp;quot;向&amp;quot;恰到好处&amp;quot;转变。Moebius 以不到 2% 的参数达到 10B 级图像修复质量，为小模型叙事提供了最有力的证据。与此同时，针对 Claude Code 白盒审计问题的暴露、Meta 内部 AI 训练数据泄露事件、以及 Oracle 因 AI 裁员 21000 人的消息，共同指向了一个更深的矛盾——当技术效率飞速提升时，围绕透明度、隐私和劳动分配的信任赤字也在同步扩大。而 Schmidhuber 与 David Ha 追溯 1991 年慕尼黑的深度学习奇迹之年，为这一切提供了历史纵深的注脚。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;022b-打败-119bmoebius-如何用不到-2-的参数完成逆袭&#34;&gt;&#xA;  0.22B 打败 11.9B：Moebius 如何用不到 2% 的参数完成逆袭&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#022b-%e6%89%93%e8%b4%a5-119bmoebius-%e5%a6%82%e4%bd%95%e7%94%a8%e4%b8%8d%e5%88%b0-2-%e7%9a%84%e5%8f%82%e6%95%b0%e5%ae%8c%e6%88%90%e9%80%86%e8%a2%ad&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;链接到标题&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;链接到标题&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;如果说过去两年 AI 行业的主旋律是 &amp;ldquo;scale is all you need&amp;rdquo;，那么 Moebius 提出的问题是：&lt;strong&gt;当任务被精确定义时，为什么还需要一个通用的巨无霸？&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;来自华中科技大学和 VIVO AI Lab 联合提出的 Moebius 框架，以 &lt;strong&gt;226M（0.22B）参数&lt;/strong&gt; 实现了与 &lt;strong&gt;FLUX.1-Fill-Dev（11.9B）&lt;/strong&gt; 比肩甚至超越的图像修复质量。这不是一个渐进式的优化——这是 50 倍以上的参数压缩，同时实现了 &lt;strong&gt;15 倍以上的推理加速&lt;/strong&gt;（每步仅 26ms）。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Can a model be smarter, lighter, and faster when the task is explicitly defined?&amp;rdquo; — Moebius 团队&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+			</item>
+	</channel>
+</rss>
